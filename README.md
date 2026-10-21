@@ -25,9 +25,17 @@ Gli asset della home e dei fornitori provengono dal repository esistente
 `lekadaniel58-dotcom/digi-house`, commit `296b40847fd9f705665d61b13aebc9b4a0f80ea7`.
 I dati e il sito di quei repository non sono stati modificati.
 
-La foto ad alta risoluzione `00360.jpg` ricevuta in precedenza raffigurava un altro
-utensile: per le spatole rigide 00360–00368 resta la foto originale. Non tutte le
-foto del catalogo dispongono di una versione ad alta risoluzione.
+Le versioni migliori disponibili nel sito originale sono collegate tramite
+`src/data/imageOverrides.json`, senza cambiare codici, nomi, prezzi, descrizioni
+né categorie nel CSV. Il registro di provenienza e dimensioni è in
+`docs/high-resolution-images.csv`. Sono state migliorate 177 fotografie, usate
+da 212 voci prodotto. Per le spatole rigide è stata trovata la foto corretta
+`zangrillo-ordine/img-009.jpg` (200×200), diversa dal frattone errato del vecchio ZIP.
+
+Home e catalogo permettono di aprire le immagini con un clic; la finestra si chiude
+con il pulsante o Escape. Il logo usa l'originale disponibile a 1131×426.
+Le foto principali della home erano già identiche alle migliori versioni del sito
+originale: non sono state ingrandite artificialmente.
 
 ## Contatti
 

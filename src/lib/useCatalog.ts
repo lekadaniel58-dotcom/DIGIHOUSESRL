@@ -1,3 +1,4 @@
+import imageOverrides from '../data/imageOverrides.json';
 import { useEffect, useState } from 'react';
 import type { Department, Product } from './types';
 
@@ -47,7 +48,7 @@ export function useCatalog() {
           description: r.description || null,
           department_id: slugify(r.department || ''),
           price: r.price && Number.isFinite(Number(r.price.replace(',', '.'))) ? Number(r.price.replace(',', '.')) : null,
-          images: r.image ? [`${import.meta.env.BASE_URL}data/immagini/${encodeURIComponent(r.image)}`] : [],
+          images: r.image ? [`${import.meta.env.BASE_URL}data/immagini/${encodeURIComponent((imageOverrides as Record<string, string>)[r.image] ?? r.image)}`] : [],
           is_featured: i < 8,
         }));
         return { departments, products, loading: false, error: null };
