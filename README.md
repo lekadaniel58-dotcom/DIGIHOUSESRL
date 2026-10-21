@@ -66,3 +66,7 @@ scorrono quando la sezione è visibile. Lo scorrimento si ferma al passaggio del
 e gli effetti rispettano la preferenza di movimento ridotto. Il catalogo mantiene
 le ottimizzazioni e le immagini della home restano non apribili.
 Il confronto tecnico è documentato in [docs/performance.md](docs/performance.md).
+
+L'ultimo archivio di foto fornito contiene ingrandimenti 2×: applicati ai riferimenti
+ancora piccoli, conservando gli originali migliori. Dettagli e limiti in
+[docs/catalog-zip-photo-update.md](docs/catalog-zip-photo-update.md).
