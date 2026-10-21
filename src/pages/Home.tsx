@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowUpRight, Bug, Hammer, Layers, MessageCircle, Paintbrush, Ruler, Shield, ShieldCheck, Sparkles, Sun, Wrench, Zap, DoorClosed, Square, AlignJustify, Package, Droplets, type LucideIcon } from 'lucide-react';
 import { useCatalog } from '../lib/useCatalog';
 import { waLink } from '../lib/supabase';
-import { partners } from '../data/promos';
+import PartnerMarquee from '../components/PartnerMarquee';
 import FxButton from '../components/FxButton';
 import Tilt from '../components/Tilt';
 import SafeImg from '../components/SafeImg';
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
           <div className="relative">
             <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-gold/10 to-transparent" aria-hidden />
-            <Tilt className="relative overflow-hidden rounded-3xl shadow-2xl ring-1 ring-white/20">
+            <Tilt interactive className="relative overflow-hidden rounded-3xl shadow-2xl ring-1 ring-white/20">
               <SafeImg src="/assets/hero-house.jpg" alt="Casa contemporanea con ampie finestre e serramenti scuri" className="aspect-[4/3] w-full object-cover" fallback="DIGI HOUSE" />
             </Tilt>
             <div className="absolute -bottom-5 -left-3 rounded-2xl bg-gold px-5 py-3 text-navy shadow-xl">
@@ -132,7 +132,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <Tilt className="overflow-hidden rounded-3xl shadow-xl"><SafeImg src="/assets/roller-screen.jpg" alt="Sistema avvolgibile e schermatura per finestra" className="aspect-[4/3] w-full object-cover" fallback="Avvolgibili e zanzariere" /></Tilt>
+            <Tilt interactive className="overflow-hidden rounded-3xl shadow-xl"><SafeImg src="/assets/roller-screen.jpg" alt="Sistema avvolgibile e schermatura per finestra" className="aspect-[4/3] w-full object-cover" fallback="Avvolgibili e zanzariere" /></Tilt>
             <div className="mt-4 grid gap-4 sm:grid-cols-2">{comfort.map((c, i) => <DeptCard key={c.title} c={c} i={i} />)}</div>
           </div>
         </div>
@@ -169,12 +169,7 @@ export default function Home() {
 
       <section className="overflow-hidden bg-white py-14">
         <div className="mx-auto max-w-7xl px-4"><Head eyebrow="Collaborazioni selezionate" title="I nostri partner." text="Soluzioni e materiali scelti da aziende specializzate nei rispettivi settori." /></div>
-        <div className="mx-auto mt-8 flex max-w-7xl flex-wrap justify-center gap-6 px-4">
-          {partners.map((p, i) => (
-            <div key={i} className="flex h-24 w-52 items-center justify-center rounded-2xl bg-navy-50 px-4 text-center text-sm font-semibold text-navy/70 grayscale transition hover:grayscale-0">
-              {p.logo ? <SafeImg src={p.logo} alt={p.name} className="max-h-14 object-contain" fallback={p.name} /> : p.name}
-            </div>))}
-        </div>
+        <PartnerMarquee />
       </section>
 
       <section className="px-4 pb-16"><div className="mx-auto max-w-7xl overflow-hidden rounded-3xl bg-gradient-to-br from-navy via-navy-700 to-navy p-10 text-white md:p-14">

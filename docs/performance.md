@@ -37,3 +37,17 @@ decodifica di tutte le 271 immagini referenziate, ricerca, filtri dei 12 reparti
 ordinamento, ricaricamento, menu mobile, collegamenti ai reparti, modulo contatti,
 carosello offerte e ingrandimento delle sole immagini prodotto. Layout verificato
 a 320, 375, 768 e 1440 px.
+
+## Ripristino selettivo delle interazioni della home
+
+Su richiesta, ripristinato il movimento 3D delle sole due foto della home:
+aggiornamenti limitati a un frame con requestAnimationFrame, nessun aggiornamento
+di stato React a ogni movimento, disattivato su touch e con movimento ridotto.
+Ripristinato lo scorrimento continuo dei partner con una sola animazione CSS su
+transform, sospesa quando la sezione non è visibile, la pagina è in background
+o il puntatore si trova sui loghi. La seconda copia è nascosta agli screen reader.
+Con movimento ridotto, i loghi tornano a una griglia statica senza duplicati.
+Le foto della home e i partner non aprono finestre di ingrandimento.
+Il catalogo mantiene 24 schede iniziali e tutte le ottimizzazioni precedenti.
+La tabella sopra documenta la prova precedente a questo ripristino selettivo.
+Build corrente: JavaScript 220,77 kB (gzip 69,67 kB).

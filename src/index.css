@@ -17,3 +17,15 @@ body { font-family: Inter, system-ui, sans-serif; @apply bg-navy-50 text-navy; }
 article { min-width: 0; overflow-wrap: anywhere; }
 select { max-width: 100%; }
 @media(max-width:479px) { main .grid.grid-cols-2 { grid-template-columns: minmax(0,1fr); } }
+
+.photo-tilt { transition: transform 120ms ease-out; }
+.partner-track { animation: partner-scroll 40s linear infinite; }
+.partner-marquee:hover .partner-track,
+.partner-marquee:focus-within .partner-track { animation-play-state: paused; }
+@keyframes partner-scroll { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) {
+  .photo-tilt { transform: none !important; transition: none; }
+  .partner-track { animation: none; width: 100%; }
+  .partner-group { width: 100%; flex-wrap: wrap; justify-content: center; padding: 0 1rem; }
+  .partner-group[aria-hidden="true"] { display: none; }
+}

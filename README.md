@@ -61,6 +61,8 @@ su `main`: verificare l'esito del workflow nella scheda Actions.
 ## Fluidità
 
 Il catalogo carica 24 schede alla volta: usare **Mostra altri prodotti** per vedere
-le successive. Ricerca e filtri includono sempre l'intero catalogo. Home e schede
-usano interazioni leggere, senza animazioni continue durante lo scorrimento.
+le successive. Ricerca e filtri includono sempre l'intero catalogo. Le foto della home reagiscono al movimento del puntatore e i loghi dei partner
+scorrono quando la sezione è visibile. Lo scorrimento si ferma al passaggio del mouse
+e gli effetti rispettano la preferenza di movimento ridotto. Il catalogo mantiene
+le ottimizzazioni e le immagini della home restano non apribili.
 Il confronto tecnico è documentato in [docs/performance.md](docs/performance.md).
