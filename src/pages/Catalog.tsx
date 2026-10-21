@@ -3,34 +3,35 @@ import { useSearchParams } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import { useCatalog } from '../lib/useCatalog';
 import ProductCard from '../components/ProductCard';
+import { createSearchIndex, searchCatalog } from '../lib/catalogSearch';
 
-type Sort = 'name' | 'price-asc' | 'price-desc';
-// Canonicalize the same product term in both the query and catalog text.
-const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\bsilicon[ei]\b/g, 'silicone');
+type Sort = 'relevance' | 'name' | 'price-asc' | 'price-desc';
 
 export default function Catalog() {
   const { departments, products, loading, error } = useCatalog();
   const [params, setParams] = useSearchParams();
   const [q, setQ] = useState(params.get('q') ?? '');
-  const [sort, setSort] = useState<Sort>('name');
+  const [sort, setSort] = useState<Sort>('relevance');
   const [onlyPriced, setOnlyPriced] = useState(false);
   const [visibleCount, setVisibleCount] = useState(24);
   const dep = params.get('reparto') ?? '';
   useEffect(() => { setVisibleCount(24); }, [q, dep, sort, onlyPriced]);
   const depId = departments.find(d => d.slug === dep)?.id;
 
+  const searchIndex = useMemo(() => products.map(p => createSearchIndex(p,
+    departments.find(d => d.id === p.department_id)?.name ?? '')), [products, departments]);
   const list = useMemo(() => {
-    const t = norm(q.trim());
-    const r = products.filter(p =>
-      (!depId || p.department_id === depId) && (!onlyPriced || p.price !== null) &&
-      (!t || norm(`${p.name} ${p.subtitle ?? ''} ${p.sku} ${p.description ?? ''} ${p.search_terms ?? ''}`).includes(t)));
+    const r = searchCatalog(searchIndex, q).map(result => result.product).filter(p =>
+      (!depId || p.department_id === depId) && (!onlyPriced || p.price !== null));
+    if (sort === 'relevance' && q.trim()) return r;
     const cmp: Record<Sort, (a: typeof r[0], b: typeof r[0]) => number> = {
+      relevance: (a, b) => a.name.localeCompare(b.name, 'it'),
       name: (a, b) => a.name.localeCompare(b.name, 'it'),
       'price-asc': (a, b) => (a.price ?? Infinity) - (b.price ?? Infinity),
       'price-desc': (a, b) => (b.price ?? -1) - (a.price ?? -1),
     };
     return [...r].sort(cmp[sort]);
-  }, [products, q, depId, sort, onlyPriced]);
+  }, [searchIndex, q, depId, sort, onlyPriced]);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">
@@ -39,19 +40,19 @@ export default function Catalog() {
         <label className="relative w-full flex-none sm:w-auto sm:flex-1 min-w-0 sm:min-w-[220px]">
           <span className="sr-only">Cerca prodotto</span>
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-navy/40" size={18} />
-          <input value={q} onChange={e => setQ(e.target.value)} placeholder="Cerca per nome, codice o descrizione"
+          <input value={q} onChange={e => setQ(e.target.value)} placeholder="Cosa ti serve? Es. pittura contro la muffa"
             className="w-full rounded-full bg-white py-3 pl-10 pr-4 ring-1 ring-navy/10 focus:ring-gold" />
         </label>
         <select aria-label="Reparto" value={dep} onChange={e => setParams(e.target.value ? { reparto: e.target.value } : {})} className="rounded-full bg-white px-4 py-3 ring-1 ring-navy/10">
           <option value="">Tutti i reparti</option>{departments.map(d => <option key={d.id} value={d.slug}>{d.name}</option>)}
         </select>
         <select aria-label="Ordina" value={sort} onChange={e => setSort(e.target.value as Sort)} className="rounded-full bg-white px-4 py-3 ring-1 ring-navy/10">
-          <option value="name">Nome A-Z</option><option value="price-asc">Prezzo crescente</option><option value="price-desc">Prezzo decrescente</option>
+          <option value="relevance">Più pertinenti</option><option value="name">Nome A-Z</option><option value="price-asc">Prezzo crescente</option><option value="price-desc">Prezzo decrescente</option>
         </select>
         <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={onlyPriced} onChange={e => setOnlyPriced(e.target.checked)} />Solo con prezzo</label>
       </div>
       {loading ? <p>Caricamento…</p> : error ? <p role="alert" className="text-red-700">Errore: {error}</p> :
-        list.length === 0 ? <p>Nessun prodotto trovato.</p> :
+        list.length === 0 ? <p>Nessun prodotto trovato. Prova a descrivere l’uso o il materiale, oppure seleziona tutti i reparti.</p> :
         <>
           <p role="status" className="mb-4 text-sm text-navy/60">{list.length} {list.length === 1 ? 'prodotto' : 'prodotti'} · {Math.min(visibleCount, list.length)} visualizzati</p>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">{list.slice(0, visibleCount).map(p => <ProductCard key={p.id} p={p} />)}</div>

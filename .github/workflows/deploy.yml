@@ -21,6 +21,7 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
+      - run: npm run check:search
       - run: npm run check:catalog
       - run: npm run check:bucket-formats
       - run: npm run build
