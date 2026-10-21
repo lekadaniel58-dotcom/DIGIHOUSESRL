@@ -116,3 +116,11 @@ Verificato anche che il controllo fallisca per una riga omessa, Invisible rimess
 in Protezione e preparazione e una modifica accidentale del prezzo. Questi
 controlli automatici preservano la revisione umana documentata; non sostituiscono
 la valutazione funzionale di un nuovo prodotto.
+
+### Vista successiva con confezioni in secchio accorpate
+
+Dopo questa verifica completa è stata applicata la visualizzazione richiesta
+per i secchi: la sorgente mantiene 357 righe e il registro resta valido; il sito
+mostra 349 schede, perché 8 confezioni piccole sono elencate sotto i quattro
+formati grandi. I nuovi controlli della vista hanno confrontato tutte le 349
+schede nei 12 reparti. Dettagli in `bucket-formats.md`.

@@ -16,6 +16,7 @@ export default function ProductCard({ p }: { p: Product }) {
       </div>
       <div className="flex flex-1 flex-col gap-1 p-4">
         <h3 className="font-semibold leading-tight">{p.name}</h3>
+        {p.smaller_formats?.length ? <p className="text-xs leading-relaxed text-navy/70">Disponibile anche nei formati più piccoli: {p.smaller_formats.join(' · ')}.</p> : null}
         {p.subtitle && <p className="text-xs text-navy/60">{p.subtitle}</p>}
         {code && <p className="text-xs text-navy/50">{code}</p>}
         <p className="mt-auto pt-3 text-lg font-bold text-gold-600">

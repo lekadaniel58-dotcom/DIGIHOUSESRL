@@ -1,3 +1,4 @@
+import { groupBucketFormats } from './groupBucketFormats';
 import responsiveImages from '../data/responsiveImages.json';
 import imageOverrides from '../data/imageOverrides.json';
 import { useEffect, useState } from 'react';
@@ -58,7 +59,7 @@ export function useCatalog() {
           thumbnail: r.image ? imageUrl(r.image, 'thumbnail') : undefined,
           is_featured: i < 8,
         }));
-        return { departments, products, loading: false, error: null };
+        return { departments, products: groupBucketFormats(products), loading: false, error: null };
       })
       .then(result => { if (alive) setState(result); })
       .catch(e => { if (alive) setState(s => ({ ...s, loading: false, error: String(e.message ?? e) })); });

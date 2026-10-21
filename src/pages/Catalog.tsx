@@ -23,7 +23,7 @@ export default function Catalog() {
     const t = norm(q.trim());
     const r = products.filter(p =>
       (!depId || p.department_id === depId) && (!onlyPriced || p.price !== null) &&
-      (!t || norm(`${p.name} ${p.subtitle ?? ''} ${p.sku} ${p.description ?? ''}`).includes(t)));
+      (!t || norm(`${p.name} ${p.subtitle ?? ''} ${p.sku} ${p.description ?? ''} ${p.search_terms ?? ''}`).includes(t)));
     const cmp: Record<Sort, (a: typeof r[0], b: typeof r[0]) => number> = {
       name: (a, b) => a.name.localeCompare(b.name, 'it'),
       'price-asc': (a, b) => (a.price ?? Infinity) - (b.price ?? Infinity),

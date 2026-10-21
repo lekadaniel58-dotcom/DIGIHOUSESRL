@@ -89,3 +89,12 @@ Criteri, nove correzioni e conteggi per reparto sono documentati in
 `npm run check:catalog` controlla la copertura e le assegnazioni prima della
 pubblicazione: aggiornare intenzionalmente il registro dopo la revisione di
 nuovi prodotti o modifiche ai dati.
+
+## Formati dei secchi
+
+Per TRX, X-ONE, THERMORIFLEX IR e THERMOPAINT il catalogo mostra soltanto il
+secchio più grande, con una nota dei formati più piccoli disponibili. Restano
+ricercabili anche i codici delle confezioni piccole. Le 357 righe sorgenti sono
+conservate; le schede visibili sono 349. Vedere
+[docs/bucket-formats.md](docs/bucket-formats.md) ed eseguire
+`npm run check:bucket-formats` per verificare gli accorpamenti.
