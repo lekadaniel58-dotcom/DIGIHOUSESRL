@@ -11,7 +11,7 @@ export default function ProductCard({ p }: { p: Product }) {
     <article
       className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-navy/5 transition hover:shadow-xl">
       <div className="aspect-square bg-navy-50 overflow-hidden">
-        {p.images[0] ? <ZoomImage containerClassName="block h-full w-full" src={p.images[0]} alt={p.name} loading="lazy" className="h-full w-full object-contain p-3 transition duration-150 group-hover:scale-105" />
+        {p.images[0] ? <ZoomImage containerClassName="block h-full w-full" src={p.images[0]} previewSrc={p.thumbnail} alt={p.name} loading="lazy" className="h-full w-full object-contain p-3 transition duration-150 group-hover:scale-105" />
           : <div className="h-full grid place-items-center text-navy/30 text-sm">Foto non disponibile</div>}
       </div>
       <div className="flex flex-1 flex-col gap-1 p-4">

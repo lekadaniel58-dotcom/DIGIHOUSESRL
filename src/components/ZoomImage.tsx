@@ -2,9 +2,9 @@ import { useEffect, useRef, useState, type ImgHTMLAttributes } from 'react';
 import { createPortal } from 'react-dom';
 import { Expand, X } from 'lucide-react';
 
-type Props = ImgHTMLAttributes<HTMLImageElement> & { src: string; alt: string; containerClassName?: string };
+type Props = ImgHTMLAttributes<HTMLImageElement> & { src: string; alt: string; containerClassName?: string; previewSrc?: string };
 
-export default function ZoomImage({ src, alt, containerClassName = 'block w-full', ...props }: Props) {
+export default function ZoomImage({ src, alt, previewSrc = src, containerClassName = 'block w-full', ...props }: Props) {
   const [open, setOpen] = useState(false);
   const trigger = useRef<HTMLButtonElement>(null);
   useEffect(() => {
@@ -16,7 +16,7 @@ export default function ZoomImage({ src, alt, containerClassName = 'block w-full
   return <>
     <button ref={trigger} type="button" aria-label={`Ingrandisci: ${alt}`} aria-haspopup="dialog"
       onClick={() => setOpen(true)} className={`relative cursor-zoom-in ${containerClassName}`}>
-      <img decoding="async" {...props} src={src} alt={alt} />
+      <img decoding="async" {...props} src={previewSrc} alt={alt} />
       <span className="absolute bottom-3 right-3 rounded-full bg-white/90 p-2 text-navy shadow" aria-hidden><Expand size={16} /></span>
     </button>
     {open && createPortal(

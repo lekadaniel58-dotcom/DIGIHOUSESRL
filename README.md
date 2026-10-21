@@ -70,3 +70,12 @@ Il confronto tecnico è documentato in [docs/performance.md](docs/performance.md
 L'ultimo archivio di foto fornito contiene ingrandimenti 2×: applicati ai riferimenti
 ancora piccoli, conservando gli originali migliori. Dettagli e limiti in
 [docs/catalog-zip-photo-update.md](docs/catalog-zip-photo-update.md).
+
+## Foto da Drive e immagini leggere
+
+Il catalogo usa ora anteprime WebP fino a 600 px, separate dalle foto fino a
+2000 px scaricate soltanto aprendo l'ingrandimento. La mappa è
+`src/data/responsiveImages.json`. Le foto di Drive hanno aggiornato 102 riferimenti
+(158 voci prodotto); le sorgenti già migliori sono conservate. Lo ZIP da 3,65 GB
+e i PNG originali non vengono pubblicati. Tracciabilità, dimensioni e controlli in
+[docs/drive-photo-update.md](docs/drive-photo-update.md).

@@ -1,3 +1,4 @@
+import responsiveImages from '../data/responsiveImages.json';
 import imageOverrides from '../data/imageOverrides.json';
 import { useEffect, useState } from 'react';
 import type { Department, Product } from './types';
@@ -28,6 +29,11 @@ function parseCSV(text: string): Row[] {
   const headers = (records.shift() ?? []).map(h => h.replace(/^\uFEFF/, '').trim());
   return records.map(values => Object.fromEntries(headers.map((h, i) => [h, (values[i] ?? '').trim()])));
 }
+const imageUrl = (filename: string, variant: 'thumbnail' | 'full') => {
+  const responsive = (responsiveImages as Record<string, { thumbnail: string; full: string }>)[filename];
+  const asset = responsive?.[variant] ?? (imageOverrides as Record<string, string>)[filename] ?? filename;
+  return `${import.meta.env.BASE_URL}data/immagini/${encodeURIComponent(asset)}`;
+};
 const slugify = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export function useCatalog() {
   const [state, setState] = useState<CatalogState>({ departments: [], products: [], loading: true, error: null });
@@ -48,7 +54,8 @@ export function useCatalog() {
           description: r.description || null,
           department_id: slugify(r.department || ''),
           price: r.price && Number.isFinite(Number(r.price.replace(',', '.'))) ? Number(r.price.replace(',', '.')) : null,
-          images: r.image ? [`${import.meta.env.BASE_URL}data/immagini/${encodeURIComponent((imageOverrides as Record<string, string>)[r.image] ?? r.image)}`] : [],
+          images: r.image ? [imageUrl(r.image, 'full')] : [],
+          thumbnail: r.image ? imageUrl(r.image, 'thumbnail') : undefined,
           is_featured: i < 8,
         }));
         return { departments, products, loading: false, error: null };
