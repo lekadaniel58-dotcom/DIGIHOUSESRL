@@ -1,0 +1,3 @@
+Copia qui il contenuto della cartella "assets" del vecchio sito (repository digi-house su GitHub):
+hero-house.jpg, interior-doors.jpg, roller-screen.jpg, promo-*.jpg/png, logo-digihouse-symbol.svg e la cartella fornitori/.
+Se un file manca, il sito mostra un riquadro sostitutivo senza rompersi.
