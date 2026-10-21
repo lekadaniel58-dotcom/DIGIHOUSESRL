@@ -46,5 +46,5 @@ su `main`, oppure con avvio manuale. Le rotte hash supportano il ricaricamento
 su GitHub Pages. URL previsto dopo la pubblicazione:
 `https://lekadaniel58-dotcom.github.io/DIGIHOUSESRL/`.
 
-La creazione del repository tramite l'API GitHub è stata bloccata con `Forbidden`.
-La preparazione locale e la compilazione non equivalgono alla pubblicazione.
+Il repository è disponibile su GitHub. La pubblicazione è automatica dopo ogni push
+su `main`: verificare l'esito del workflow nella scheda Actions.
