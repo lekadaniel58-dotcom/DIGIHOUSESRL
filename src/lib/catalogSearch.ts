@@ -45,13 +45,22 @@ export function createSearchIndex(product: Product, department = '') {
   const title = tokens(product.name);
   const subtitle = tokens(product.subtitle ?? '');
   const body = tokens(`${product.subtitle ?? ''} ${product.description ?? ''} ${product.search_terms ?? ''} ${department}`);
-  return { product, title, subtitle, body, codes: normalize(`${product.sku} ${product.search_terms ?? ''}`).split(' '), phrase: normalize(product.name) };
+  const departmentTerms = tokens(department || product.department_id || '');
+  const isPaint = departmentTerms.includes('pittura') && departmentTerms.includes('decorazioni')
+    && !subtitle.includes('trattamento');
+  return { product, title, subtitle, body, isPaint, codes: normalize(`${product.sku} ${product.search_terms ?? ''}`).split(' '), phrase: normalize(product.name) };
 }
 export function searchCatalog(index: ReturnType<typeof createSearchIndex>[], query: string): { product: Product; score: number }[] {
   const terms = tokens(query);
   if (!terms.length) return index.map(entry => ({ product: entry.product, score: 0 }));
   const phrase = normalize(query);
+  // A request for paint means the product itself, unless another product type is explicit.
+  const otherProductTypes = new Set(['rullo', 'pennello', 'telo', 'nastro', 'carta', 'proteggere',
+    'fissativo', 'rasante', 'stucco', 'colla', 'finitura', 'finiture', 'sacco', 'sacchi',
+    'mescolatore', 'pistola', 'manico', 'ricarica', 'retina', 'secchio', 'trattamento']);
+  const wantsPaint = terms.includes('pittura') && !terms.some(term => otherProductTypes.has(term));
   return index.flatMap(entry => {
+    if (wantsPaint && !entry.isPaint) return [];
     let score = entry.phrase.includes(phrase) ? 50 : 0;
     for (const term of terms) {
       if (entry.codes.includes(term)) score += 200;

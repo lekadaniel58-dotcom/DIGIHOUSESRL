@@ -39,3 +39,15 @@ for (const query of ['muffa', 'muffe', 'antimuffa']) {
   }
 }
 assert(find('silicone antimuffa')[0].name.startsWith('ACETIGUM'));
+
+for (const query of ['pittura', 'pitture', 'vernice', 'vorrei pittura per interni']) {
+  const results = find(query);
+  assert(results.length > 0, query);
+  assert(results.every(p => p.department === 'Pitture e decorazioni'), `${query}: esclusi sacchi e accessori`);
+  assert(!results.some(p => p.name.startsWith('D800')), `${query}: esclusi trattamenti preparatori`);
+}
+assert(find('pittura').some(p => p.name.startsWith('TRX')));
+assert(find('pittura').some(p => p.name.startsWith('THERMOPAINT')));
+assert(find('rullo per pittura').some(p => p.name.startsWith('RULLO')));
+assert(find('nastro per pittura').some(p => p.name.startsWith('NASTRO')));
+assert(find('YW12').some(p => p.name.startsWith('YW12')));
