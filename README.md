@@ -32,7 +32,8 @@ né categorie nel CSV. Il registro di provenienza e dimensioni è in
 da 212 voci prodotto. Per le spatole rigide è stata trovata la foto corretta
 `zangrillo-ordine/img-009.jpg` (200×200), diversa dal frattone errato del vecchio ZIP.
 
-Home e catalogo permettono di aprire le immagini con un clic; la finestra si chiude
+Solo le foto dei prodotti nel catalogo si aprono con un clic; le immagini della home
+e dei partner non sono apribili. La finestra del catalogo si chiude
 con il pulsante o Escape. Il logo usa l'originale disponibile a 1131×426.
 Le foto principali della home erano già identiche alle migliori versioni del sito
 originale: non sono state ingrandite artificialmente.
