@@ -28,8 +28,8 @@ sku,name,variant,subtitle,department,price,description,image,page
 00200,D800,5 LT,Trattamento antimuffa,Pitture e decorazioni,51.55,"Soluzione risanante per pareti soggette alla formazione di muffe, con azione ad ampio spettro e odore contenuto. Disponibile anche in latta da 5 litri.",00199.jpg,8
 00350,SILOPITTURA,14 LT,Pittura antimuffa,Pitture e decorazioni,107.05,"Pittura murale acrilica silanizzata per interni umidi, lavabile, traspirante e pensata per limitare la formazione di muffa.",00350.jpg,8
 00145,PRISMA,,Finitura al quarzo,Pitture e decorazioni,81.90,Pittura murale al quarzo per proteggere e decorare superfici interne ed esterne con una finitura opaca e uniforme.,00145.jpg,8
-,TERMOCOATHEX RIVESTIMENTO,,,Adesivi e sigillanti,,,,10
-00124,ACRIL-SILOSSANICO,RIVESTIMENTO ACR,Rivestimenti acril-silossanici · esterni,Adesivi e sigillanti,52.70,"Rivestimento acril-silossanico per esterni, a base di resine acriliche-silossaniche in dispersione acquosa. Pensato per cicli di verniciatura ad alta resistenza e per proteggere le facciate da acqua, alghe e agenti atmosferici.",00124.jpg,10
+,TERMOCOATHEX RIVESTIMENTO,,,Pitture e decorazioni,,,,10
+00124,ACRIL-SILOSSANICO,RIVESTIMENTO ACR,Rivestimenti acril-silossanici · esterni,Pitture e decorazioni,52.70,"Rivestimento acril-silossanico per esterni, a base di resine acriliche-silossaniche in dispersione acquosa. Pensato per cicli di verniciatura ad alta resistenza e per proteggere le facciate da acqua, alghe e agenti atmosferici.",00124.jpg,10
 00253,RASHEX K8 BIANCO,K8 BIANCO,Adesivo-rasante bianco,Adesivi e sigillanti,14.05,La corrispondenza IVC è RASHEX K8 WHITE: adesivo-rasante cementizio fibrorinforzato per sistemi di isolamento a cappotto.,00253.jpg,10
 00122,RASHEX K8 GRIGIO,K8 GRIGIO,Adesivo-rasante grigio,Adesivi e sigillanti,15.40,La corrispondenza IVC è RASHEX K8 GRUND: adesivo-rasante cementizio grigio per incollaggio e rasatura armata dei sistemi a cappotto.,00122.jpg,10
 00212,KT PLUS BIANCA,,Premier · Adesivi e sigillanti · adesivi,Adesivi e sigillanti,15.40,"Adesivo cementizio migliorato per ceramica, mosaico e materiale lapideo stabile. La pagina ufficiale KT Plus indica anche la variante bianca.",00212.jpg,10
@@ -55,7 +55,7 @@ sku,name,variant,subtitle,department,price,description,image,page
 00562,ACETIGUM · 9002,,Siliconi acetici · Opera,Adesivi e sigillanti,16.75,"Sigillante siliconico acetico antimuffa a basso modulo, per giunti, sanitari, box doccia, serramenti e applicazioni interne ed esterne.",00562.jpg,14
 00535,SPM PROFESSIONAL · COLLA BIANCA,,Adesivi cementizi · Opera,Adesivi e sigillanti,16.40,"Adesivo cementizio professionale deformabile e tissotropico, con elevata bagnabilità, per posa a letto sottile e spesso. Versione bianca.",00535.jpg,14
 00331,SPM PROFESSIONAL · COLLA GRIGIA,,Adesivi cementizi · Opera,Adesivi e sigillanti,15.60,"Adesivo cementizio professionale deformabile e tissotropico, con elevata bagnabilità, per posa a letto sottile e spesso. Versione grigia.",00331.jpg,15
-00537,SPM REVOLUTION,,Impermeabilizzanti · Opera,Adesivi e sigillanti,72.05,"Rivestimento impermeabilizzante cementizio monocomponente, elastico e traspirante, resistente alla pressione idrostatica positiva e negativa.",00537.jpg,15
+00537,SPM REVOLUTION,,Impermeabilizzanti · Opera,Materiali edili,72.05,"Rivestimento impermeabilizzante cementizio monocomponente, elastico e traspirante, resistente alla pressione idrostatica positiva e negativa.",00537.jpg,15
 00520,BOBINA CARTA PAPERELLA,3P0ACPME RXE 5L0LMAT 30CM X,Protezione superfici ·,Protezione e preparazione,4.20,"Carta Paperella per proteggere bordi e superfici durante i lavori di pittura e finitura, con formato pratico per applicazioni rapide.",00520.jpg,17
 00519,BOBINA CARTA PAPERELLA,1P5A CPMER XE L5L0A M 1T5 cm,Protezione superfici ·,Protezione e preparazione,2.30,"Carta Paperella per proteggere bordi e superfici durante i lavori di pittura e finitura, con formato pratico per applicazioni rapide.",00520.jpg,17
 00522,ROTOLO RICAMBIO CARTA CON ADESIVO,1C8A XR T2A0M CTON ADESIV,Protezione superfici ·,Protezione e preparazione,2.50,"Rotolo di carta con adesivo per proteggere e delimitare le superfici durante le lavorazioni di pittura, posa e manutenzione.",00522.jpg,17
@@ -145,7 +145,7 @@ sku,name,variant,subtitle,department,price,description,image,page
 ,SKIN,,Finestre ni complementari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p36-4.jpg,36
 ,Invisible light,,Finestre e infissi · Soluzi ari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p36-5.jpg,36
 ,Sicur Alu Door,,Finestre e infissi · Soluzio i,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p37-0.jpg,37
-,Invisible,,Finestre e infiss plementari,Protezione e preparazione,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p37-1.jpg,37
+,Invisible,,Finestre e infiss plementari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p37-1.jpg,37
 ,Multilux,,Zanzar · Avvolgibili innovativi,Avvolgibili e tapparelle,,Avvolgibile innovativo per migliorare comfort e controllo della luce.,p39-0.jpg,39
 ,Arialuce,,Zanzar · Avvolgibili innovativi,Avvolgibili e tapparelle,,Avvolgibile in alluminio coibentato a foro largo per favorire luce e ventilazione.,p39-1.jpg,39
 ,Arialuce 40,,Zanzar · Avvolgibili innovativi,Avvolgibili e tapparelle,,Variante a foro largo pensata per un equilibrio tra protezione e luminosità.,p39-2.jpg,39
@@ -322,11 +322,11 @@ sku,name,variant,subtitle,department,price,description,image,page
 00396,VITI PANELVIT CHROMATI,5CXH6R0 OCMOANTFI .5 DXA60 2 C00O,,Ferramenta,16.90,Viti Panelvit cromate per fissaggi.,00393.jpg,68
 00397,VITI PANELVIT CHROMATI,5CXH8R0 OCMOANTFI .5 DXA80 2 C00O,,Ferramenta,22.70,Viti Panelvit cromate per fissaggi.,00393.jpg,68
 00395,VITI PANELVIT CHROMATI,"3C,5HXR5O0M CAOTNI 3F .5 DXA50 5 00",,Ferramenta,27.55,Viti Panelvit cromate per fissaggi.,00393.jpg,68
-00399,CARTONE ONDULATO DOPPIO STRATO,1D6OMPTPIO STRATO 16,,Ferramenta,11.00,Cartone ondulato per protezione e imballaggio.,00399.jpg,68
-00400,FELTRI PROTEZIONE PAVIMENTO,MMTT11XX1100,,Ferramenta,9.20,Feltri per protezione del pavimento durante i lavori.,00400.jpg,68
-00401,TELI COPRITUTTO,MMTT44XX44,,Ferramenta,4.85,Teli copritutto per proteggere superfici e arredi.,00401.jpg,68
-00402,FOGLI TAKE AWAY,FM2O×TL22GX0I2 mT0AKE AWAY MT,,Ferramenta,15.00,Fogli protettivi per copertura e protezione.,00402.jpg,68
-00403,FOGLI TAKE AWAY,M4×T140X m10,,Ferramenta,15.00,Fogli protettivi per copertura e protezione.,00402.jpg,68
+00399,CARTONE ONDULATO DOPPIO STRATO,1D6OMPTPIO STRATO 16,,Protezione e preparazione,11.00,Cartone ondulato per protezione e imballaggio.,00399.jpg,68
+00400,FELTRI PROTEZIONE PAVIMENTO,MMTT11XX1100,,Protezione e preparazione,9.20,Feltri per protezione del pavimento durante i lavori.,00400.jpg,68
+00401,TELI COPRITUTTO,MMTT44XX44,,Protezione e preparazione,4.85,Teli copritutto per proteggere superfici e arredi.,00401.jpg,68
+00402,FOGLI TAKE AWAY,FM2O×TL22GX0I2 mT0AKE AWAY MT,,Protezione e preparazione,15.00,Fogli protettivi per copertura e protezione.,00402.jpg,68
+00403,FOGLI TAKE AWAY,M4×T140X m10,,Protezione e preparazione,15.00,Fogli protettivi per copertura e protezione.,00402.jpg,68
 00404,SILICONE ACETICO FISCHER,FISCHER,,Adesivi e sigillanti,4.45,Silicone acetico trasparente per sigillature e finiture.,00404.jpg,69
 00405,SILICONE ACRILICO SOUDAL,SOUDAL,,Adesivi e sigillanti,2.60,Silicone acrilico per sigillature e lavori di completamento.,00405.jpg,69
 00406,SCHIUMA PISTOLA TYTAN,TYTAN,,Adesivi e sigillanti,10.00,Schiuma poliuretanica per pistola.,00406.jpg,69

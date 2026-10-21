@@ -1,0 +1,187 @@
+{
+  "reviewed_rows": 357,
+  "changed_rows": 9,
+  "confirmed_rows": 348,
+  "before": {
+    "Materiali edili": 13,
+    "Pitture e decorazioni": 16,
+    "Adesivi e sigillanti": 31,
+    "Protezione e preparazione": 14,
+    "Porte interne": 24,
+    "Porte blindate": 21,
+    "Infissi": 31,
+    "Avvolgibili e tapparelle": 23,
+    "Zanzariere": 48,
+    "Pennelli e accessori": 59,
+    "Finiture": 7,
+    "Ferramenta": 70
+  },
+  "after": {
+    "Materiali edili": 14,
+    "Pitture e decorazioni": 18,
+    "Adesivi e sigillanti": 28,
+    "Protezione e preparazione": 18,
+    "Porte interne": 24,
+    "Porte blindate": 21,
+    "Infissi": 32,
+    "Avvolgibili e tapparelle": 23,
+    "Zanzariere": 48,
+    "Pennelli e accessori": 59,
+    "Finiture": 7,
+    "Ferramenta": 65
+  },
+  "changes": [
+    [
+      30,
+      "",
+      "TERMOCOATHEX RIVESTIMENTO",
+      "Adesivi e sigillanti",
+      "Pitture e decorazioni"
+    ],
+    [
+      31,
+      "00124",
+      "ACRIL-SILOSSANICO",
+      "Adesivi e sigillanti",
+      "Pitture e decorazioni"
+    ],
+    [
+      57,
+      "00537",
+      "SPM REVOLUTION",
+      "Adesivi e sigillanti",
+      "Materiali edili"
+    ],
+    [
+      147,
+      "",
+      "Invisible",
+      "Protezione e preparazione",
+      "Infissi"
+    ],
+    [
+      324,
+      "00399",
+      "CARTONE ONDULATO DOPPIO STRATO",
+      "Ferramenta",
+      "Protezione e preparazione"
+    ],
+    [
+      325,
+      "00400",
+      "FELTRI PROTEZIONE PAVIMENTO",
+      "Ferramenta",
+      "Protezione e preparazione"
+    ],
+    [
+      326,
+      "00401",
+      "TELI COPRITUTTO",
+      "Ferramenta",
+      "Protezione e preparazione"
+    ],
+    [
+      327,
+      "00402",
+      "FOGLI TAKE AWAY",
+      "Ferramenta",
+      "Protezione e preparazione"
+    ],
+    [
+      328,
+      "00403",
+      "FOGLI TAKE AWAY",
+      "Ferramenta",
+      "Protezione e preparazione"
+    ]
+  ],
+  "reference_commit": "296b40847fd9f705665d61b13aebc9b4a0f80ea7",
+  "browser_verification": {
+    "reviewedRecords": 357,
+    "recordsRenderedAcrossAllDepartments": 357,
+    "departments": [
+      {
+        "department": "Materiali edili",
+        "expected": 14,
+        "rendered": 14,
+        "verified": true
+      },
+      {
+        "department": "Pitture e decorazioni",
+        "expected": 18,
+        "rendered": 18,
+        "verified": true
+      },
+      {
+        "department": "Adesivi e sigillanti",
+        "expected": 28,
+        "rendered": 28,
+        "verified": true
+      },
+      {
+        "department": "Protezione e preparazione",
+        "expected": 18,
+        "rendered": 18,
+        "verified": true
+      },
+      {
+        "department": "Porte interne",
+        "expected": 24,
+        "rendered": 24,
+        "verified": true
+      },
+      {
+        "department": "Porte blindate",
+        "expected": 21,
+        "rendered": 21,
+        "verified": true
+      },
+      {
+        "department": "Infissi",
+        "expected": 32,
+        "rendered": 32,
+        "verified": true
+      },
+      {
+        "department": "Avvolgibili e tapparelle",
+        "expected": 23,
+        "rendered": 23,
+        "verified": true
+      },
+      {
+        "department": "Zanzariere",
+        "expected": 48,
+        "rendered": 48,
+        "verified": true
+      },
+      {
+        "department": "Pennelli e accessori",
+        "expected": 59,
+        "rendered": 59,
+        "verified": true
+      },
+      {
+        "department": "Finiture",
+        "expected": 7,
+        "rendered": 7,
+        "verified": true
+      },
+      {
+        "department": "Ferramenta",
+        "expected": 65,
+        "rendered": 65,
+        "verified": true
+      }
+    ],
+    "homeDepartmentLinks": 12,
+    "allDepartmentMembershipsCorrect": true,
+    "allNamesSkusAndImagesPreserved": true,
+    "globalCatalogComplete": true,
+    "responsiveWidths": [
+      320,
+      375,
+      768,
+      1440
+    ]
+  }
+}

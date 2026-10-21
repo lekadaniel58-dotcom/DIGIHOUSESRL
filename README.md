@@ -79,3 +79,13 @@ Il catalogo usa ora anteprime WebP fino a 600 px, separate dalle foto fino a
 (158 voci prodotto); le sorgenti già migliori sono conservate. Lo ZIP da 3,65 GB
 e i PNG originali non vengono pubblicati. Tracciabilità, dimensioni e controlli in
 [docs/drive-photo-update.md](docs/drive-photo-update.md).
+
+## Verifica completa delle categorie
+
+Tutte le 357 voci, comprese varianti e schede senza codice, hanno un esito
+individuale in [docs/catalog-category-audit.csv](docs/catalog-category-audit.csv).
+Criteri, nove correzioni e conteggi per reparto sono documentati in
+[docs/catalog-category-audit.md](docs/catalog-category-audit.md).
+`npm run check:catalog` controlla la copertura e le assegnazioni prima della
+pubblicazione: aggiornare intenzionalmente il registro dopo la revisione di
+nuovi prodotti o modifiche ai dati.
