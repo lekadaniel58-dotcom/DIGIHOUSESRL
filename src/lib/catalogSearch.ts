@@ -7,7 +7,7 @@ const groups = [
   'litro litri lt l',
   'pittura pitture vernice vernici pitturare verniciare dipingere imbiancare idropittura idropitture',
   'muro muri parete pareti murale murali',
-  'muffa antimuffa antimuffe', 'colla colle collante collanti adesivo adesivi incollare',
+  'muffa muffe antimuffa antimuffe', 'colla colle collante collanti adesivo adesivi incollare',
   'piastrella piastrelle ceramica ceramiche', 'pavimento pavimenti pavimentazione pavimentazioni',
   'esterno esterni esterna esterne facciata facciate', 'interno interni interna interne',
   'finestra finestre infisso infissi serramento serramenti',
@@ -43,8 +43,9 @@ function similar(a: string, b: string): boolean {
 }
 export function createSearchIndex(product: Product, department = '') {
   const title = tokens(product.name);
+  const subtitle = tokens(product.subtitle ?? '');
   const body = tokens(`${product.subtitle ?? ''} ${product.description ?? ''} ${product.search_terms ?? ''} ${department}`);
-  return { product, title, body, codes: normalize(`${product.sku} ${product.search_terms ?? ''}`).split(' '), phrase: normalize(product.name) };
+  return { product, title, subtitle, body, codes: normalize(`${product.sku} ${product.search_terms ?? ''}`).split(' '), phrase: normalize(product.name) };
 }
 export function searchCatalog(index: ReturnType<typeof createSearchIndex>[], query: string): { product: Product; score: number }[] {
   const terms = tokens(query);
@@ -55,6 +56,7 @@ export function searchCatalog(index: ReturnType<typeof createSearchIndex>[], que
     for (const term of terms) {
       if (entry.codes.includes(term)) score += 200;
       else if (entry.title.includes(term)) score += 30;
+      else if (entry.subtitle.includes(term)) score += 20;
       else if (entry.body.includes(term)) score += 10;
       else if (!/\d/.test(term) && term.length >= 3 && entry.title.some(word => word.startsWith(term))) score += 8;
       else if ([...entry.title, ...entry.body].some(word => similar(term, word))) score += 3;

@@ -27,3 +27,15 @@ assert.equal(find('999999999').length, 0);
 assert.equal(find('prodottoinesistente').length, 0);
 assert.equal(find('').length, products.length);
 console.log('Ricerca verificata: richieste naturali, sinonimi, refusi, codici esatti e formati raggruppati.');
+
+// A primary use in the subtitle outranks a secondary property in a description.
+for (const query of ['muffa', 'muffe', 'antimuffa']) {
+  const results = find(query);
+  const firstSilicone = results.findIndex(p => p.name.startsWith('ACETIGUM'));
+  assert(firstSilicone >= 0, 'Siliconi antimuffa ancora reperibili');
+  for (const name of ['D800', 'SILOPITTURA', 'THERMOPAINT']) {
+    const position = results.findIndex(p => p.name.startsWith(name));
+    assert(position >= 0 && position < firstSilicone, `${query}: ${name} prima dei siliconi`);
+  }
+}
+assert(find('silicone antimuffa')[0].name.startsWith('ACETIGUM'));
