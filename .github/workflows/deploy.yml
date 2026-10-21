@@ -21,6 +21,12 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
+      - uses: actions/cache@v4
+        with:
+          path: |
+            public/assets/fornitori/muratti-logo.png
+            public/assets/fornitori/hex-logo.jpg
+          key: original-partner-logos-v1
       - run: npm run fetch:partner-logos
       - run: npm run check:partners
       - run: npm run check:search
