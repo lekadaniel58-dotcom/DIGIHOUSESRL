@@ -1,3 +1,7 @@
+# Aggiornamento del catalogo
+
+Rimossa su richiesta la scheda vuota «TERMOCOATHEX RIVESTIMENTO». Rimane disponibile ACRIL-SILOSSANICO (00124). Il registro CSV è aggiornato a 356 righe; con il raggruppamento dei secchi il sito mostra 348 schede, di cui 9 in Pitture e decorazioni. Il resoconto seguente documenta il controllo precedente alla rimozione.
+
 # Verifica completa dei reparti del catalogo
 
 Controllo completato su **357 righe su 357**, corrispondenti a 274 nomi/famiglie
