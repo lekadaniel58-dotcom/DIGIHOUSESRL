@@ -10,7 +10,7 @@ body { font-family: Inter, system-ui, sans-serif; @apply bg-navy-50 text-navy; }
 .tilt{position:relative;transform-style:preserve-3d}
 .tilt::after{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(320px circle at var(--gx,50%) var(--gy,50%),rgba(184,137,43,.28),transparent 60%)}
 .tilt:hover::after{opacity:1}
-.text-shine{background:linear-gradient(90deg,#B8892B,#F3D58A,#B8892B);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:text-shine 4s linear infinite}
+.text-shine{background:linear-gradient(90deg,#B8892B,#F3D58A,#B8892B);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;}
 @keyframes text-shine{to{background-position:200% center}}
 @media (prefers-reduced-motion:reduce){.fx-ripple,.fx-shine{display:none}.text-shine{animation:none}}
 

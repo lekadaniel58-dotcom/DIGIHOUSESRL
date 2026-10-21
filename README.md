@@ -57,3 +57,10 @@ su GitHub Pages. URL previsto dopo la pubblicazione:
 
 Il repository è disponibile su GitHub. La pubblicazione è automatica dopo ogni push
 su `main`: verificare l'esito del workflow nella scheda Actions.
+
+## Fluidità
+
+Il catalogo carica 24 schede alla volta: usare **Mostra altri prodotti** per vedere
+le successive. Ricerca e filtri includono sempre l'intero catalogo. Home e schede
+usano interazioni leggere, senza animazioni continue durante lo scorrimento.
+Il confronto tecnico è documentato in [docs/performance.md](docs/performance.md).

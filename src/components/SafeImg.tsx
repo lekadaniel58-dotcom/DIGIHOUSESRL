@@ -4,5 +4,5 @@ import { useState, type ReactNode } from 'react';
 export default function SafeImg({ src, alt, className = '', fallback }: { src: string; alt: string; className?: string; fallback?: ReactNode }) {
   const [bad, setBad] = useState(false);
   if (bad) return <div role="img" aria-label={alt} className={`grid place-items-center bg-gradient-to-br from-navy-700 to-navy p-4 text-center text-xs text-white/50 ${className}`}>{fallback ?? 'Immagine in arrivo'}</div>;
-  return <img src={src.startsWith('/') ? `${import.meta.env.BASE_URL}${src.slice(1)}` : src} alt={alt} loading="lazy" onError={() => setBad(true)} className={className} />;
+  return <img src={src.startsWith('/') ? `${import.meta.env.BASE_URL}${src.slice(1)}` : src} alt={alt} decoding="async" loading={src === '/assets/hero-house.jpg' ? 'eager' : 'lazy'} fetchPriority={src === '/assets/hero-house.jpg' ? 'high' : undefined} onError={() => setBad(true)} className={className} />;
 }

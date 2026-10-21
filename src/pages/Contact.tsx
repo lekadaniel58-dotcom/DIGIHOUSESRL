@@ -1,5 +1,4 @@
 import { useRef, useState, type FormEvent } from 'react';
-import { motion } from 'framer-motion';
 import { CheckCircle2, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
 import { supabase, waLink } from '../lib/supabase';
 import FxButton from '../components/FxButton';
@@ -48,16 +47,16 @@ export default function Contact() {
             [MessageCircle, 'WhatsApp', '+39 328 309 9390', waLink('Buongiorno, vorrei informazioni.')], [MapPin, 'Come raggiungerci', 'Zona Industriale Casarano, Lotto 10, Tronco A - Apri su Google Maps', MAPS]].map(([Icon, t, v, h]) => {
             const I = Icon as typeof Mail;
             return (
-              <motion.a key={String(t)} href={String(h)} target={String(h).startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer" whileHover={{ x: 6 }} className="flex items-center gap-4 rounded-2xl bg-white p-5 ring-1 ring-navy/5 transition hover:shadow-lg">
+              <a key={String(t)} href={String(h)} target={String(h).startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer" className="flex items-center gap-4 rounded-2xl bg-white p-5 ring-1 ring-navy/5 transition hover:shadow-lg">
                 <span className="grid h-12 w-12 place-items-center rounded-full bg-navy text-gold"><I size={20} /></span>
                 <span><span className="block text-xs font-semibold uppercase tracking-wider text-navy/50">{String(t)}</span><span className="font-medium">{String(v)}</span></span>
-              </motion.a>); })}
+              </a>); })}
         </div>
         <form onSubmit={submit} noValidate className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-navy/5 md:p-8">
           {status === 'ok' ? (
-            <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="py-10 text-center" role="status">
+            <div className="py-10 text-center" role="status">
               <CheckCircle2 className="mx-auto text-gold" size={56} /><h2 className="mt-3 font-display text-2xl">Richiesta inviata!</h2><p className="mt-1 text-navy/70">Ti ricontatteremo per capire meglio il tuo progetto.</p>
-            </motion.div>) : (<>
+            </div>) : (<>
             <h2 className="font-display text-xl">Raccontaci cosa stai costruendo.</h2>
             <div className="mt-5 space-y-4">
               <label className="block"><span className="mb-1 block text-sm font-medium">Nome e cognome</span><input name="name" autoComplete="name" className={field} aria-invalid={!!errors.name} />{errors.name && <span role="alert" className="text-sm text-red-700">{errors.name}</span>}</label>

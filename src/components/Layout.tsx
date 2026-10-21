@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { AnimatePresence, motion, useScroll } from 'framer-motion';
 import { Facebook, Instagram, Menu, MessageCircle, Phone, X } from 'lucide-react';
 import { waLink } from '../lib/supabase';
 import FxButton from './FxButton';
@@ -10,7 +9,6 @@ export const MAPS = 'https://maps.app.goo.gl/SMNmwgoUxkVnGmSTA';
 
 export default function Layout() {
   const [open, setOpen] = useState(false);
-  const { scrollYProgress } = useScroll();
   const loc = useLocation();
   useEffect(() => {
     setOpen(false);
@@ -33,18 +31,17 @@ export default function Layout() {
             <button className="p-2 lg:hidden" onClick={() => setOpen(!open)} aria-label="Menu" aria-expanded={open}>{open ? <X /> : <Menu />}</button>
           </div>
         </div>
-        <motion.div style={{ scaleX: scrollYProgress }} className="absolute bottom-0 left-0 h-0.5 w-full origin-left bg-gold" aria-hidden />
-        <AnimatePresence>
+
           {open && (
-            <motion.nav initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="overflow-hidden border-t border-white/10 lg:hidden" aria-label="Mobile">
+            <nav className="overflow-hidden border-t border-white/10 lg:hidden" aria-label="Mobile">
               <div className="flex flex-col gap-1 px-4 py-3">{links.map(([to, label]) => <Link key={to} to={to} className="rounded-lg px-2 py-2 transition hover:bg-white/10 hover:text-gold">{label}</Link>)}</div>
-            </motion.nav>)}
-        </AnimatePresence>
+            </nav>)}
+
       </header>
       <main className="flex-1"><Outlet /></main>
       <a href={waLink('Buongiorno, vorrei informazioni sui vostri prodotti.')} target="_blank" rel="noopener noreferrer" aria-label="Scrivici su WhatsApp"
         className="group fixed bottom-5 right-5 z-30 flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-white shadow-xl transition hover:scale-110">
-        <span className="absolute inset-0 animate-ping rounded-full bg-[#25D366]/40 motion-reduce:hidden" aria-hidden /><MessageCircle size={20} className="relative" /><span className="relative hidden text-sm font-semibold sm:inline">WhatsApp</span>
+        <MessageCircle size={20} className="relative" /><span className="relative hidden text-sm font-semibold sm:inline">WhatsApp</span>
       </a>
       <footer className="bg-navy text-sm text-white/80">
         <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 md:grid-cols-3">

@@ -1,5 +1,4 @@
 import ZoomImage from './ZoomImage';
-import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
 import type { Product } from '../lib/types';
 import { eur } from '../lib/types';
@@ -9,10 +8,10 @@ export default function ProductCard({ p }: { p: Product }) {
   const hasVariants = (p.product_variants?.length ?? 0) > 1;
   const code = p.sku.startsWith('NOCODE') ? '' : `Cod. ${p.sku}`;
   return (
-    <motion.article layout initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} whileHover={{ y: -4 }}
+    <article
       className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-navy/5 transition hover:shadow-xl">
       <div className="aspect-square bg-navy-50 overflow-hidden">
-        {p.images[0] ? <ZoomImage containerClassName="block h-full w-full" src={p.images[0]} alt={p.name} loading="lazy" className="h-full w-full object-contain p-3 transition duration-500 group-hover:scale-105" />
+        {p.images[0] ? <ZoomImage containerClassName="block h-full w-full" src={p.images[0]} alt={p.name} loading="lazy" className="h-full w-full object-contain p-3 transition duration-150 group-hover:scale-105" />
           : <div className="h-full grid place-items-center text-navy/30 text-sm">Foto non disponibile</div>}
       </div>
       <div className="flex flex-1 flex-col gap-1 p-4">
@@ -27,6 +26,6 @@ export default function ProductCard({ p }: { p: Product }) {
           <MessageCircle size={16} />Richiedi preventivo
         </a>
       </div>
-    </motion.article>
+    </article>
   );
 }

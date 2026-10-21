@@ -16,7 +16,7 @@ export default function ZoomImage({ src, alt, containerClassName = 'block w-full
   return <>
     <button ref={trigger} type="button" aria-label={`Ingrandisci: ${alt}`} aria-haspopup="dialog"
       onClick={() => setOpen(true)} className={`relative cursor-zoom-in ${containerClassName}`}>
-      <img {...props} src={src} alt={alt} />
+      <img decoding="async" {...props} src={src} alt={alt} />
       <span className="absolute bottom-3 right-3 rounded-full bg-white/90 p-2 text-navy shadow" aria-hidden><Expand size={16} /></span>
     </button>
     {open && createPortal(
@@ -27,7 +27,7 @@ export default function ZoomImage({ src, alt, containerClassName = 'block w-full
           <p className="text-sm font-medium">{alt}</p>
           <button type="button" autoFocus aria-label="Chiudi immagine" onClick={() => setOpen(false)} className="shrink-0 rounded-full p-2 hover:bg-navy/10"><X /></button>
         </div>
-        <img src={src} alt={alt} className="mx-auto max-h-[78dvh] max-w-full object-contain" />
+        <img decoding="async" src={src} alt={alt} className="mx-auto max-h-[78dvh] max-w-full object-contain" />
       </dialog>, document.body)}
   </>;
 }

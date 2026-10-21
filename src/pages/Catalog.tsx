@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import { useCatalog } from '../lib/useCatalog';
@@ -13,7 +13,9 @@ export default function Catalog() {
   const [q, setQ] = useState(params.get('q') ?? '');
   const [sort, setSort] = useState<Sort>('name');
   const [onlyPriced, setOnlyPriced] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(24);
   const dep = params.get('reparto') ?? '';
+  useEffect(() => { setVisibleCount(24); }, [q, dep, sort, onlyPriced]);
   const depId = departments.find(d => d.slug === dep)?.id;
 
   const list = useMemo(() => {
@@ -50,8 +52,9 @@ export default function Catalog() {
       {loading ? <p>Caricamento…</p> : error ? <p role="alert" className="text-red-700">Errore: {error}</p> :
         list.length === 0 ? <p>Nessun prodotto trovato.</p> :
         <>
-          <p className="mb-4 text-sm text-navy/60">{list.length} prodotti</p>
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">{list.map(p => <ProductCard key={p.id} p={p} />)}</div>
+          <p role="status" className="mb-4 text-sm text-navy/60">{list.length} {list.length === 1 ? 'prodotto' : 'prodotti'} · {Math.min(visibleCount, list.length)} visualizzati</p>
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">{list.slice(0, visibleCount).map(p => <ProductCard key={p.id} p={p} />)}</div>
+          {visibleCount < list.length && <div className="mt-8 text-center"><button type="button" onClick={() => setVisibleCount(n => n + 24)} className="rounded-full bg-navy px-6 py-3 font-semibold text-white hover:bg-navy/90">Mostra altri prodotti</button></div>}
         </>}
     </div>
   );
