@@ -5,7 +5,8 @@ import { useCatalog } from '../lib/useCatalog';
 import ProductCard from '../components/ProductCard';
 
 type Sort = 'name' | 'price-asc' | 'price-desc';
-const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+// Canonicalize the same product term in both the query and catalog text.
+const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\bsilicon[ei]\b/g, 'silicone');
 
 export default function Catalog() {
   const { departments, products, loading, error } = useCatalog();
