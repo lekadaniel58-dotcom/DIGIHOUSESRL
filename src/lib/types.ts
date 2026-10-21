@@ -2,6 +2,7 @@ export interface Department { id: string; slug: string; name: string }
 export interface Product {
   id: string; sku: string; slug: string; name: string; subtitle: string | null; description: string | null;
   department_id: string | null; price: number | null; images: string[]; thumbnail?: string; is_featured: boolean;
+  partner_ids?: string[];
   smaller_formats?: string[]; search_terms?: string;
   product_variants?: { id: string }[];
 }

@@ -51,3 +51,5 @@ assert(find('pittura').some(p => p.name.startsWith('THERMOPAINT')));
 assert(find('rullo per pittura').some(p => p.name.startsWith('RULLO')));
 assert(find('nastro per pittura').some(p => p.name.startsWith('NASTRO')));
 assert(find('YW12').some(p => p.name.startsWith('YW12')));
+
+assert(!find('siliconi').some(p => p.name.startsWith('SIGILCOLOR')), 'I sigillanti cementizi non sono siliconi');

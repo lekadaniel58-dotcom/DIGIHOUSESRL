@@ -2,3 +2,7 @@ node_modules
 .env
 .env.local
 dist
+
+# Original supplier logos downloaded by the publication workflow
+/public/assets/fornitori/muratti-logo.png
+/public/assets/fornitori/hex-logo.jpg

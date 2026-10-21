@@ -3,7 +3,8 @@ import type { Product } from './types';
 const normalize = (text: string) => text.toLowerCase().normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 const groups = [
-  'silicone siliconi sigillante sigillanti',
+  'silicone siliconi',
+  'sigillante sigillanti sigillatura sigillare',
   'litro litri lt l',
   'pittura pitture vernice vernici pitturare verniciare dipingere imbiancare idropittura idropitture',
   'muro muri parete pareti murale murali',

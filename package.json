@@ -7,6 +7,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "import:catalog": "node scripts/import-catalog.mjs",
+    "fetch:partner-logos": "node scripts/fetch-partner-logos.mjs",
+    "check:partners": "node scripts/check-catalog-partners.mjs",
     "check:search": "node scripts/check-catalog-search.mjs",
     "check:catalog": "node scripts/check-catalog-categories.mjs",
     "check:bucket-formats": "node scripts/check-bucket-formats.mjs"

@@ -1,3 +1,5 @@
+import partnerProducts from '../data/partnerProducts.json';
+import { getPartnerIds } from './partnerCatalog';
 import { groupBucketFormats } from './groupBucketFormats';
 import responsiveImages from '../data/responsiveImages.json';
 import imageOverrides from '../data/imageOverrides.json';
@@ -43,7 +45,7 @@ export function useCatalog() {
     fetch(`${import.meta.env.BASE_URL}data/catalogo.csv`)
       .then(async response => {
         if (!response.ok) throw new Error(`Catalogo non disponibile (HTTP ${response.status})`);
-        const rows = parseCSV(await response.text());
+        const rows = [...parseCSV(await response.text()), ...partnerProducts];
         const names = [...new Set(rows.map(r => r.department).filter(Boolean))];
         const departments: Department[] = names.map(name => ({ id: slugify(name), slug: slugify(name), name }));
         const products: Product[] = rows.filter(r => r.name).map((r, i) => ({
@@ -55,8 +57,10 @@ export function useCatalog() {
           description: r.description || null,
           department_id: slugify(r.department || ''),
           price: r.price && Number.isFinite(Number(r.price.replace(',', '.'))) ? Number(r.price.replace(',', '.')) : null,
-          images: r.image ? [imageUrl(r.image, 'full')] : [],
-          thumbnail: r.image ? imageUrl(r.image, 'thumbnail') : undefined,
+          images: r.image ? ['smaller_formats' in r ? `${import.meta.env.BASE_URL}assets/${r.image}` : imageUrl(r.image, 'full')] : [],
+          thumbnail: r.image ? ('smaller_formats' in r ? `${import.meta.env.BASE_URL}assets/${r.image}` : imageUrl(r.image, 'thumbnail')) : undefined,
+          partner_ids: getPartnerIds(r.name, slugify(r.department || '')),
+          smaller_formats: 'smaller_formats' in r && Array.isArray(r.smaller_formats) ? r.smaller_formats : undefined,
           is_featured: i < 8,
         }));
         return { departments, products: groupBucketFormats(products), loading: false, error: null };

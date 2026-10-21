@@ -7,9 +7,4 @@ export const promos: Promo[] = [
   { id: 'termocoathex', title: 'TermocoatHEX', highlight: 'Offerta shock: 300 secchi', note: 'Solo 300 secchi disponibili, fino ad esaurimento scorte.', image: '/assets/promo-termocoathex.jpg', active: true },
   { id: 'gasbeton', title: 'Gasbeton', highlight: 'Leggerezza e isolamento', note: 'Resistenza e isolamento per i tuoi progetti.', image: '/assets/promo-gasbeton.png', active: true },
 ];
-export const partners = [
-  { name: 'IVC The Color Company', logo: '/assets/fornitori/ivc-logo.png' }, { name: 'Muratti', logo: '' }, { name: 'HEX', logo: '' },
-  { name: 'Gruppo AIP Porte', logo: '/assets/fornitori/aip-logo.svg' }, { name: 'Dierre', logo: '/assets/fornitori/dierre-logo.svg' },
-  { name: 'Sallustio Infissi e Persiane', logo: '/assets/fornitori/sallustio-logo.png' }, { name: 'Zanzar', logo: '/assets/fornitori/zanzar-logo.png' },
-  { name: 'OPERA Adhesives', logo: '/assets/fornitori/opera-logo.png' }, { name: 'Premier Unicalce', logo: '/assets/fornitori/premier-logo.svg' },
-];
+export { default as partners } from './partners.json';

@@ -1,0 +1,48 @@
+[
+  {
+    "sku": "1407.S40",
+    "name": "NAXOS",
+    "variant": "14 LT",
+    "subtitle": "Idropittura murale traspirante · Muratti",
+    "description": "Idropittura opaca traspirante per interni, facile da applicare e con buona resistenza all’abrasione a secco. Indicata per soffitti, garage, capannoni e ambienti senza esigenze di pitturazione specifiche.",
+    "department": "Pitture e decorazioni",
+    "price": "",
+    "image": "muratti-naxos.webp",
+    "page": "",
+    "smaller_formats": [
+      "5 L",
+      "2,5 L"
+    ]
+  },
+  {
+    "sku": "1407.S17",
+    "name": "PANAREA",
+    "variant": "14 LT",
+    "subtitle": "Idropittura lavabile profumata · Muratti",
+    "description": "Pittura lavabile per pareti interne in muratura, cartongesso e abitazioni civili, con buona copertura, ottima distensione e gradevole profumazione agli agrumi.",
+    "department": "Pitture e decorazioni",
+    "price": "",
+    "image": "muratti-panarea.webp",
+    "page": "",
+    "smaller_formats": [
+      "5 L",
+      "2,5 L",
+      "0,75 L"
+    ]
+  },
+  {
+    "sku": "1415.S418",
+    "name": "QUARZO LISCIO",
+    "variant": "14 LT",
+    "subtitle": "Rivestimento murale al quarzo · Muratti",
+    "description": "Pittura murale al quarzo per interni ed esterni, con finitura liscia, opaca e uniforme. Offre ottima copertura, buon ancoraggio e resistenza agli agenti atmosferici.",
+    "department": "Pitture e decorazioni",
+    "price": "",
+    "image": "muratti-quarzo-liscio.webp",
+    "page": "",
+    "smaller_formats": [
+      "5 L",
+      "2,5 L"
+    ]
+  }
+]

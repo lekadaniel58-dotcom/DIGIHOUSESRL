@@ -1,0 +1,126 @@
+[
+  {
+    "id": "ivc",
+    "name": "IVC The Color Company",
+    "logo": "/assets/fornitori/ivc-logo.png",
+    "departments": [],
+    "productNames": [
+      "FERRHEX COMPONENTE A",
+      "FISSATIVO ACRILICO",
+      "FLEXOCOTE",
+      "RASHEX K8 BIANCO",
+      "RASHEX K8 GRIGIO",
+      "TRX"
+    ]
+  },
+  {
+    "id": "muratti",
+    "name": "Muratti",
+    "logo": "/assets/fornitori/muratti-logo.png",
+    "departments": [],
+    "productNames": [
+      "NAXOS",
+      "PANAREA",
+      "QUARZO LISCIO"
+    ]
+  },
+  {
+    "id": "hex",
+    "name": "HEX",
+    "logo": "/assets/fornitori/hex-logo.jpg",
+    "departments": [],
+    "productNames": [
+      "FERRHEX COMPONENTE A",
+      "RASHEX K8 BIANCO",
+      "RASHEX K8 GRIGIO",
+      "FLEXOCOTE"
+    ]
+  },
+  {
+    "id": "aip",
+    "name": "Gruppo AIP Porte",
+    "logo": "/assets/fornitori/aip-logo.svg",
+    "departments": [
+      "porte-interne"
+    ],
+    "productNames": []
+  },
+  {
+    "id": "dierre",
+    "name": "Dierre",
+    "logo": "/assets/fornitori/dierre-logo.svg",
+    "departments": [
+      "porte-blindate"
+    ],
+    "productNames": []
+  },
+  {
+    "id": "sallustio",
+    "name": "Sallustio Infissi e Persiane",
+    "logo": "/assets/fornitori/sallustio-logo.png",
+    "departments": [
+      "infissi"
+    ],
+    "productNames": []
+  },
+  {
+    "id": "zanzar",
+    "name": "Zanzar",
+    "logo": "/assets/fornitori/zanzar-logo.png",
+    "departments": [
+      "zanzariere",
+      "avvolgibili-e-tapparelle"
+    ],
+    "productNames": []
+  },
+  {
+    "id": "opera",
+    "name": "OPERA Adhesives",
+    "logo": "/assets/fornitori/opera-logo.png",
+    "departments": [],
+    "productNames": [
+      "ACETIGUM · 1001",
+      "ACETIGUM · 1013",
+      "ACETIGUM · 1019",
+      "ACETIGUM · 7039",
+      "ACETIGUM · 7044",
+      "ACETIGUM · 8028",
+      "ACETIGUM · 9002",
+      "ACETIGUM · 9010",
+      "SIGILCOLOR · ANEMONE",
+      "SIGILCOLOR · ANTRACITE",
+      "SIGILCOLOR · BIANCO",
+      "SIGILCOLOR · CREMA",
+      "SIGILCOLOR · GRAFITE",
+      "SIGILCOLOR · LEGNO",
+      "SIGILCOLOR · MOKA",
+      "SIGILCOLOR · ROVERE",
+      "SIGILCOLOR · SABBIA",
+      "SIGILCOLOR · SALVIA",
+      "SIGILCOLOR · SILVER",
+      "SIGILCOLOR · SILVER 1",
+      "SPM PLANIRAPID",
+      "SPM PROFESSIONAL · COLLA BIANCA",
+      "SPM PROFESSIONAL · COLLA GRIGIA",
+      "SPM REVOLUTION"
+    ]
+  },
+  {
+    "id": "premier",
+    "name": "Premier Unicalce",
+    "logo": "/assets/fornitori/premier-logo.svg",
+    "departments": [],
+    "productNames": [
+      "YW12",
+      "YW13",
+      "YR01",
+      "S02",
+      "TERMO ANIDRO",
+      "WA500",
+      "FR100",
+      "KONKRETA MA4",
+      "RINOVO NHL",
+      "KT PLUS BIANCA"
+    ]
+  }
+]
