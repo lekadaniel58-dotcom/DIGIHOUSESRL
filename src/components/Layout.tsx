@@ -20,7 +20,7 @@ export default function Layout() {
     };
     const path = loc.pathname.replace(/\/+$/, '') || '/';
     const label = path === '/' ? sections[loc.hash] : pages[path] ?? 'Pagina non trovata';
-    document.title = label ? `${label} Digi House` : 'Digi House';
+    document.title = `${label || 'Home'} - Digi House`;
   }, [loc.pathname, loc.hash]);
   useEffect(() => {
     setOpen(false);
