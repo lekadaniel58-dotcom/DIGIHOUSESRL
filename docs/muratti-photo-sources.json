@@ -1,80 +1,86 @@
 [
   {
     "product": "naxos",
-    "source_url": "https://www.rotacommerciale.it/wp-content/uploads/2024/11/naxos-pittura-interni-economica.jpg",
-    "reference_page": "https://www.rotacommerciale.it/prodotto/pittura-economica-per-interni-naxos/",
+    "source": "user-upload",
+    "archive": "Secchio di vernice Muratti Naxos.zip",
+    "archive_entry": "Secchio di vernice Muratti Naxos.png",
+    "source_sha256": "cb593f2a5163bae91838a9794c969e33eca644033c662350970c439562fdae85",
     "original_dimensions": [
-      600,
-      600
+      1254,
+      1254
     ],
-    "source_sha256": "17d18273051bf6887dd93271f2fb4436404979bc5c04f8446115511e1e7bc79f",
-    "thumb": {
-      "file": "muratti-naxos-thumb.webp",
-      "dimensions": [
-        600,
-        600
-      ],
-      "bytes": 28300
-    },
     "hd": {
-      "file": "muratti-naxos-hd.webp",
+      "file": "muratti-naxos-uploaded-cb593f2a-full.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 993782,
+      "encoding": "lossless WebP; pixels identical to uploaded PNG"
+    },
+    "thumb": {
+      "file": "muratti-naxos-uploaded-cb593f2a-thumb.webp",
       "dimensions": [
         600,
         600
       ],
-      "bytes": 39572
+      "bytes": 33582
     }
   },
   {
     "product": "panarea",
-    "source_url": "https://storage.fareke.com/media/images/product/large/9439/muratti-panarea-idropittura-lavabile-profumata-per-interni.jpg",
-    "reference_page": "https://www.fareke.com/lavabili/35-delp-italia-genova/6882-482698-muratti-panarea-idropittura-lavabile-profumata-per-interni-8999900482698.html",
+    "source": "user-upload",
+    "archive": "Secchio di vernice Muratti Naxos.zip",
+    "archive_entry": "Secchio Muratti Panarea Professionale.png",
+    "source_sha256": "a484ac7c3445907f860ed0f581da6ca98fa081995d81aeb20ad96641243d3431",
     "original_dimensions": [
-      1000,
-      1000
+      1254,
+      1254
     ],
-    "source_sha256": "a6c41bde5d582cc0781d7e5503b705b4bc205eae065797d89b30a5af046c7e8a",
+    "hd": {
+      "file": "muratti-panarea-uploaded-a484ac7c-full.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1006228,
+      "encoding": "lossless WebP; pixels identical to uploaded PNG"
+    },
     "thumb": {
-      "file": "muratti-panarea-thumb.webp",
+      "file": "muratti-panarea-uploaded-a484ac7c-thumb.webp",
       "dimensions": [
         600,
         600
       ],
-      "bytes": 20250
-    },
-    "hd": {
-      "file": "muratti-panarea-hd.webp",
-      "dimensions": [
-        1000,
-        1000
-      ],
-      "bytes": 52842
+      "bytes": 37636
     }
   },
   {
     "product": "quarzo-liscio",
-    "source_url": "https://cdn.shopify.com/s/files/1/0604/6990/3542/products/MURATTI-QUARZOLISCIOBIANCOLT-751832.jpg?v=1673456861",
-    "reference_page": "https://grossipro.it/products/vernici-e-chimica-muratti-quarzo-liscio-bianco-esterno-lt14-751832-751832",
+    "source": "user-upload",
+    "archive": "Secchio di vernice Muratti Naxos.zip",
+    "archive_entry": "Secchio Muratti Quarzo Liscio.png",
+    "source_sha256": "98ecea50f42c25fa93158834ef12f1a0632359eb143dd52f7fb4a2f5b68f5513",
     "original_dimensions": [
-      400,
-      400
+      1254,
+      1254
     ],
-    "source_sha256": "d70b3cea380ed865e599afc2d568a1d7760838ccc31fe52a79cb52ac47016e55",
-    "thumb": {
-      "file": "muratti-quarzo-liscio-thumb.webp",
-      "dimensions": [
-        400,
-        400
-      ],
-      "bytes": 20468
-    },
     "hd": {
-      "file": "muratti-quarzo-liscio-hd.webp",
+      "file": "muratti-quarzo-liscio-uploaded-98ecea50-full.webp",
       "dimensions": [
-        400,
-        400
+        1254,
+        1254
       ],
-      "bytes": 28052
+      "bytes": 1052024,
+      "encoding": "lossless WebP; pixels identical to uploaded PNG"
+    },
+    "thumb": {
+      "file": "muratti-quarzo-liscio-uploaded-98ecea50-thumb.webp",
+      "dimensions": [
+        600,
+        600
+      ],
+      "bytes": 35006
     }
   }
 ]

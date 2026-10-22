@@ -1,3 +1,13 @@
+# Foto caricate dall’utente — aggiornamento del 22 ottobre 2026
+
+Attive le tre immagini PNG contenute nello ZIP «Secchio di vernice Muratti Naxos.zip», su indicazione dell’utente per tutti i prodotti Muratti: NAXOS, PANAREA e QUARZO LISCIO. Ogni fotografia originale misura 1254×1254 pixel. Le versioni per ingrandimento sono WebP senza perdita, con identità dei pixel verificata rispetto ai PNG caricati; le anteprime misurano 600×600 pixel e pesano circa 34–38 KB ciascuna. Nessun ritocco, generazione o modifica delle confezioni.
+
+I nomi dei file contengono l’impronta della nuova foto, per evitare immagini precedenti mantenute in cache. Le versioni complete, di circa 1 MB ciascuna, vengono richieste solo aprendo l’ingrandimento. Nomi, codici, descrizioni, prezzi, formati e associazioni partner restano invariati. Il flusso di importazione dai rivenditori ignora le foto caricate dall’utente.
+
+La provenienza attuale è registrata in `muratti-photo-sources.json`. Il resoconto seguente documenta le immagini dei rivenditori usate in precedenza, ora sostituite.
+
+---
+
 # Fotografie Muratti — 22 ottobre 2026
 
 Sostituite le miniature da 159–175 px di NAXOS, PANAREA e QUARZO LISCIO con fotografie reali dei medesimi prodotti Muratti. Fonti, indirizzi delle schede, impronte SHA-256, dimensioni e pesi sono registrati in `muratti-photo-sources.json`.

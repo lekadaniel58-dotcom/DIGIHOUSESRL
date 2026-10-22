@@ -2,11 +2,16 @@
 import hashlib
 import io
 import json
+import sys
 from pathlib import Path
 from urllib.request import Request, urlopen
 from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
+products = json.loads((ROOT / 'src/data/partnerProducts.json').read_text())
+if any('-uploaded-' in product.get('image', '') for product in products):
+    print('Le fotografie caricate dall’utente sono attive; importazione dai rivenditori ignorata.')
+    sys.exit(0)
 SOURCES = [
     ('naxos', 'https://www.rotacommerciale.it/wp-content/uploads/2024/11/naxos-pittura-interni-economica.jpg', 'https://www.rotacommerciale.it/prodotto/pittura-economica-per-interni-naxos/'),
     ('panarea', 'https://storage.fareke.com/media/images/product/large/9439/muratti-panarea-idropittura-lavabile-profumata-per-interni.jpg', 'https://www.fareke.com/lavabili/35-delp-italia-genova/6882-482698-muratti-panarea-idropittura-lavabile-profumata-per-interni-8999900482698.html'),
