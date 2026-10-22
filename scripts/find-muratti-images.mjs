@@ -1,17 +1,16 @@
-const base = 'https://www.colorificionembrini.com';
-for (const name of ['naxos', 'panarea', 'quarzo']) {
-  for (const kind of ['media', 'search']) {
-    const url = `${base}/wp-json/wp/v2/${kind}?search=${name}&per_page=20`;
-    try {
-      const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const items = await response.json();
-      for (const item of items) {
-        const details = { query: name, kind, id: item.id, title: item.title, url: item.source_url ?? item.url,
-          sizes: item.media_details?.sizes, width: item.media_details?.width, height: item.media_details?.height };
-        console.log(`::notice::Muratti source ${JSON.stringify(details)}`);
-      }
-      if (!items.length) console.log(`::notice::Muratti ${name} ${kind}: nessun risultato`);
-    } catch (error) { console.log(`::warning::Muratti ${name} ${kind}: ${error.message}`); }
-  }
+const urls = [
+  'https://www.colorificionembrini.com/isolanti-fissativi-consolidanti-e-fondi-riempitivi-per-le-preparazione-delle-pareti/muratti/',
+  'https://www.google.com/search?q=Muratti+Naxos+Panarea+pittura',
+  'https://www.bing.com/search?q=Muratti+Naxos+Panarea+pittura',
+];
+for (const url of urls) {
+  try {
+    const response = await fetch(url, { signal: AbortSignal.timeout(30000), headers: { 'User-Agent': 'Mozilla/5.0' } });
+    const html = await response.text();
+    console.log(`::notice::Muratti page ${JSON.stringify({url,status:response.status,title:html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]})}`);
+    const links = [...html.matchAll(/(?:href|src)=["']([^"']+)["']/gi)].map(m=>m[1]);
+    console.log(`::notice::Muratti links ${JSON.stringify({url,links:[...new Set(links.filter(link=>/muratti|naxos|panarea|quarzo/i.test(link)))].slice(0,50)})}`);
+    const text = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
+    console.log(`::notice::Muratti content ${JSON.stringify({url,text:text.slice(0,6500)})}`);
+  } catch (error) { console.log(`::warning::Muratti ${url}: ${error.message}`); }
 }
