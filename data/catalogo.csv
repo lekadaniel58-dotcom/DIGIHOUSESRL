@@ -1,37 +1,37 @@
 sku,name,variant,subtitle,department,price,description,image,page
-00202,D900,1 LT,Detergente per esterni,Materiali edili,10.15,Soluzione concentrata per il trattamento preliminare di pareti esterne contaminate da muschio e alghe. Disponibile anche in latta da 5 litri.,00202.jpg,3
-00203,D900,5 LT,Detergente per esterni,Materiali edili,41.85,Soluzione concentrata per il trattamento preliminare di pareti esterne contaminate da muschio e alghe. Disponibile anche in latta da 5 litri.,00202.jpg,3
-00204,FERRHEX COMPONENTE A,COMPONENTE A,Protezione ferri d’armatura,Materiali edili,4.60,Parte in polvere del sistema bicomponente FerrHEX per la protezione anticorrosiva delle armature e il ripristino del calcestruzzo.,00204.jpg,3
-00205,FERRHEX COMPONENTE B,COMPONENTE B,Protezione ferri d’armatura,Materiali edili,6.70,"Parte liquida del sistema FerrHEX, da miscelare con il componente A per preparare la malta passivante anticorrosiva.",00205.jpg,3
-00206,MALTHEX,,Malta strutturale,Materiali edili,17.75,La corrispondenza ufficiale IVC è MALTHEX HR200: malta tixotropica fibrorinforzata per riparazioni e ricostruzioni del calcestruzzo.,00206.jpg,3
+00202,D900,1 LT,Detergente per esterni,Materiali edili,10.15,Soluzione concentrata per il trattamento preliminare di pareti esterne contaminate da muschio e alghe.,00202.jpg,3
+00203,D900,5 LT,Detergente per esterni,Materiali edili,41.85,Soluzione concentrata per il trattamento preliminare di pareti esterne contaminate da muschio e alghe.,00202.jpg,3
+00204,FERRHEX COMPONENTE A,,Protezione ferri d’armatura,Materiali edili,4.60,Parte in polvere del sistema bicomponente FerrHEX per la protezione anticorrosiva delle armature e il ripristino del calcestruzzo.,00204.jpg,3
+00205,FERRHEX COMPONENTE B,,Protezione ferri d’armatura,Materiali edili,6.70,"Parte liquida del sistema FerrHEX, da miscelare con il componente A per preparare la malta passivante anticorrosiva.",00205.jpg,3
+00206,MALTHEX,,Malta strutturale,Materiali edili,17.75,Malta tixotropica fibrorinforzata per riparazioni e ricostruzioni del calcestruzzo.,00206.jpg,3
 00534,FLEXOCOTE,,Impermeabilizzante fibrorinforzato,Materiali edili,64.20,Malta cementizia monocomponente e fibrorinforzata per impermeabilizzare e proteggere strutture e superfici interne ed esterne.,00534.jpg,4
-00211,S02,,Premier · Calcestruzzi · sottofondi · massetti,Materiali edili,4.50,"Massetto tradizionale premiscelato a base di sabbia, cemento e additivi specifici, da impiegare come massetto di riempimento tradizionale.",00211.jpg,4
-00235,TERMO ANIDRO,,Premier · Calcestruzzi · sottofondi · massetti,Materiali edili,7.85,"Massetto autolivellante a base di pura anidrite, aggregati calcarei selezionati e additivi. Indicato per sistemi radianti a pavimento e per ampie superfici.",00235.jpg,4
-00207,WA500,,Premier · Malte per muratura,Materiali edili,3.75,"Malta per muratura a base di calce e cemento, per costruzioni con esigenze di valori statici normali.",00207.jpg,4
-00209,FR100,,Premier · Intonaci di fondo,Materiali edili,3.70,"Intonaco fibrorinforzato a base di calce e cemento, per intonaci di fondo interni ed esterni su laterizi, blocchi in cemento e mattoni porizzati.",00209.jpg,4
-00213,KONKRETA MA4,,Premier · Ripristino e rinforzo del calcestruzzo,Materiali edili,17.75,"Malta tixotropica antiritiro per il ripristino del calcestruzzo, con fibre sintetiche e alta adesione al supporto.",00213.jpg,5
-00244,RINOVO NHL,,Premier · Risanamento · restauro · bioedilizia,Materiali edili,18.30,"Rasante e finitura minerale universale a base di calce idraulica naturale NHL 3,5, con elevata adesione, basso modulo elastico e ottima traspirabilità.",00244.jpg,5
+00211,S02,,Massetto tradizionale · Premier,Materiali edili,4.50,"Massetto tradizionale premiscelato a base di sabbia, cemento e additivi specifici, da impiegare come massetto di riempimento tradizionale.",00211.jpg,4
+00235,TERMO ANIDRO,,Massetto autolivellante a base di anidrite · Premier,Materiali edili,7.85,"Massetto autolivellante a base di pura anidrite, aggregati calcarei selezionati e additivi. Indicato per sistemi radianti a pavimento e per ampie superfici.",00235.jpg,4
+00207,WA500,,Malta per muratura · Premier,Materiali edili,3.75,"Malta per muratura a base di calce e cemento, per costruzioni con esigenze di valori statici normali.",00207.jpg,4
+00209,FR100,,Intonaco fibrorinforzato · Premier,Materiali edili,3.70,"Intonaco fibrorinforzato a base di calce e cemento, per intonaci di fondo interni ed esterni su laterizi, blocchi in cemento e mattoni porizzati.",00209.jpg,4
+00213,KONKRETA MA4,,Malta per ripristino del calcestruzzo · Premier,Materiali edili,17.75,"Malta tixotropica antiritiro per il ripristino del calcestruzzo, con fibre sintetiche e alta adesione al supporto.",00213.jpg,5
+00244,RINOVO NHL,,Rasante e finitura minerale · Premier,Materiali edili,18.30,"Rasante e finitura minerale universale a base di calce idraulica naturale NHL 3,5, con elevata adesione, basso modulo elastico e ottima traspirabilità.",00244.jpg,5
 00536,SPM PLANIRAPID,,Sottofondi e autolivellanti · Opera,Materiali edili,26.40,"Massetto autolivellante ad alte prestazioni, a presa rapida e asciugatura veloce, fresabile per sistemi radianti e applicabile da 3 a 40 mm.",00536.jpg,5
 00183,TRX,14 LT,Silopittura traspirante,Pitture e decorazioni,78.10,"Finitura murale all’acqua ad alta copertura, pensata per pareti interne, cartongesso e supporti che richiedono permeabilità al vapore.",00183.jpg,7
 00185,TRX,5 LT,Silopittura traspirante,Pitture e decorazioni,36.80,"Finitura murale all’acqua ad alta copertura, pensata per pareti interne, cartongesso e supporti che richiedono permeabilità al vapore.",00183.jpg,7
 00184,TRX,"2,5 LT",Silopittura traspirante,Pitture e decorazioni,22.60,"Finitura murale all’acqua ad alta copertura, pensata per pareti interne, cartongesso e supporti che richiedono permeabilità al vapore.",00183.jpg,7
-00182,TRX,"00, 775500",Silopittura traspirante,Pitture e decorazioni,8.00,"Finitura murale all’acqua ad alta copertura, pensata per pareti interne, cartongesso e supporti che richiedono permeabilità al vapore.",00183.jpg,7
+00182,TRX,"0,75 L",Silopittura traspirante,Pitture e decorazioni,8.00,"Finitura murale all’acqua ad alta copertura, pensata per pareti interne, cartongesso e supporti che richiedono permeabilità al vapore.",00183.jpg,7
 00186,X-ONE,14 LT,Idropittura per interni,Pitture e decorazioni,54.65,"Idropittura acrilica traspirante e idrorepellente per pareti e soffitti interni, con buona copertura e stesura agevole.",00186.jpg,7
 00188,X-ONE,5 LT,Idropittura per interni,Pitture e decorazioni,26.80,"Idropittura acrilica traspirante e idrorepellente per pareti e soffitti interni, con buona copertura e stesura agevole.",00186.jpg,7
 00187,X-ONE,"2,5 LT",Idropittura per interni,Pitture e decorazioni,15.40,"Idropittura acrilica traspirante e idrorepellente per pareti e soffitti interni, con buona copertura e stesura agevole.",00186.jpg,7
 00192,THERMORIFLEX IR,14 L BIANCO,Finitura silossanica,Pitture e decorazioni,117.10,"Finitura esterna acril-silossanica con pigmenti riflettenti e microsfere cave, pensata per proteggere e contenere il riscaldamento superficiale.",00192.jpg,7
 00193,THERMORIFLEX IR,5 L BIANCO,Finitura silossanica,Pitture e decorazioni,49.55,"Finitura esterna acril-silossanica con pigmenti riflettenti e microsfere cave, pensata per proteggere e contenere il riscaldamento superficiale.",00192.jpg,7
-00194,THERMORIFLEX IR,"00 ,775500 L LBTIANCO",Finitura silossanica,Pitture e decorazioni,10.75,"Finitura esterna acril-silossanica con pigmenti riflettenti e microsfere cave, pensata per proteggere e contenere il riscaldamento superficiale.",00192.jpg,7
+00194,THERMORIFLEX IR,"0,75 L BIANCO",Finitura silossanica,Pitture e decorazioni,10.75,"Finitura esterna acril-silossanica con pigmenti riflettenti e microsfere cave, pensata per proteggere e contenere il riscaldamento superficiale.",00192.jpg,7
 00190,THERMOPAINT,13 LT,Anticondensa · antimuffa,Pitture e decorazioni,128.85,"Idropittura interna con microsfere cave di vetro, pensata per ambienti esposti a condensa e umidità.",00190.jpg,7
 00191,THERMOPAINT,4 LT,Anticondensa · antimuffa,Pitture e decorazioni,43.60,"Idropittura interna con microsfere cave di vetro, pensata per ambienti esposti a condensa e umidità.",00190.jpg,7
-00199,D800,1 LT,Trattamento antimuffa,Pitture e decorazioni,12.50,"Soluzione risanante per pareti soggette alla formazione di muffe, con azione ad ampio spettro e odore contenuto. Disponibile anche in latta da 5 litri.",00199.jpg,8
-00200,D800,5 LT,Trattamento antimuffa,Pitture e decorazioni,51.55,"Soluzione risanante per pareti soggette alla formazione di muffe, con azione ad ampio spettro e odore contenuto. Disponibile anche in latta da 5 litri.",00199.jpg,8
+00199,D800,1 LT,Trattamento antimuffa,Pitture e decorazioni,12.50,"Soluzione risanante per pareti soggette alla formazione di muffe, con azione ad ampio spettro e odore contenuto.",00199.jpg,8
+00200,D800,5 LT,Trattamento antimuffa,Pitture e decorazioni,51.55,"Soluzione risanante per pareti soggette alla formazione di muffe, con azione ad ampio spettro e odore contenuto.",00199.jpg,8
 00350,SILOPITTURA,14 LT,Pittura antimuffa,Pitture e decorazioni,107.05,"Pittura murale acrilica silanizzata per interni umidi, lavabile, traspirante e pensata per limitare la formazione di muffa.",00350.jpg,8
 00145,PRISMA,,Finitura al quarzo,Pitture e decorazioni,81.90,Pittura murale al quarzo per proteggere e decorare superfici interne ed esterne con una finitura opaca e uniforme.,00145.jpg,8
-00124,ACRIL-SILOSSANICO,RIVESTIMENTO ACR,Rivestimenti acril-silossanici · esterni,Pitture e decorazioni,52.70,"Rivestimento acril-silossanico per esterni, a base di resine acriliche-silossaniche in dispersione acquosa. Pensato per cicli di verniciatura ad alta resistenza e per proteggere le facciate da acqua, alghe e agenti atmosferici.",00124.jpg,10
-00253,RASHEX K8 BIANCO,K8 BIANCO,Adesivo-rasante bianco,Adesivi e sigillanti,14.05,La corrispondenza IVC è RASHEX K8 WHITE: adesivo-rasante cementizio fibrorinforzato per sistemi di isolamento a cappotto.,00253.jpg,10
-00122,RASHEX K8 GRIGIO,K8 GRIGIO,Adesivo-rasante grigio,Adesivi e sigillanti,15.40,La corrispondenza IVC è RASHEX K8 GRUND: adesivo-rasante cementizio grigio per incollaggio e rasatura armata dei sistemi a cappotto.,00122.jpg,10
-00212,KT PLUS BIANCA,,Premier · Adesivi e sigillanti · adesivi,Adesivi e sigillanti,15.40,"Adesivo cementizio migliorato per ceramica, mosaico e materiale lapideo stabile. La pagina ufficiale KT Plus indica anche la variante bianca.",00212.jpg,10
+00124,ACRIL-SILOSSANICO,,Rivestimenti acril-silossanici · esterni,Pitture e decorazioni,52.70,"Rivestimento acril-silossanico per esterni, a base di resine acriliche-silossaniche in dispersione acquosa. Pensato per cicli di verniciatura ad alta resistenza e per proteggere le facciate da acqua, alghe e agenti atmosferici.",00124.jpg,10
+00253,RASHEX K8 BIANCO,,Adesivo-rasante bianco,Adesivi e sigillanti,14.05,Adesivo-rasante cementizio fibrorinforzato per sistemi di isolamento a cappotto.,00253.jpg,10
+00122,RASHEX K8 GRIGIO,,Adesivo-rasante grigio,Adesivi e sigillanti,15.40,Adesivo-rasante cementizio grigio per incollaggio e rasatura armata dei sistemi a cappotto.,00122.jpg,10
+00212,KT PLUS BIANCA,,Adesivo cementizio bianco · Premier,Adesivi e sigillanti,15.40,"Adesivo cementizio migliorato per ceramica, mosaico e materiale lapideo stabile, nella versione bianca.",00212.jpg,10
 00543,SIGILCOLOR · BIANCO,,Sigillanti colorati · Opera,Adesivi e sigillanti,10.10,"Sigillante cementizio ad alte prestazioni, a presa rapida e asciugatura veloce, per fughe da 1 a 10 mm. Idrorepellente, antimacchia e con effetto goccia.",00543.jpg,11
 00544,SIGILCOLOR · SILVER,,Sigillanti colorati · Opera,Adesivi e sigillanti,10.10,"Sigillante cementizio ad alte prestazioni, a presa rapida e asciugatura veloce, per fughe da 1 a 10 mm. Idrorepellente, antimacchia e con effetto goccia.",00544.jpg,11
 00545,SIGILCOLOR · GRAFITE,,Sigillanti colorati · Opera,Adesivi e sigillanti,10.10,"Sigillante cementizio ad alte prestazioni, a presa rapida e asciugatura veloce, per fughe da 1 a 10 mm. Idrorepellente, antimacchia e con effetto goccia.",00545.jpg,11
@@ -42,8 +42,8 @@ sku,name,variant,subtitle,department,price,description,image,page
 00550,SIGILCOLOR · SABBIA,,Sigillanti colorati · Opera,Adesivi e sigillanti,14.05,"Sigillante cementizio ad alte prestazioni, a presa rapida e asciugatura veloce, per fughe da 1 a 10 mm. Idrorepellente, antimacchia e con effetto goccia.",00550.jpg,12
 00551,SIGILCOLOR · ROVERE,,Sigillanti colorati · Opera,Adesivi e sigillanti,14.05,"Sigillante cementizio ad alte prestazioni, a presa rapida e asciugatura veloce, per fughe da 1 a 10 mm. Idrorepellente, antimacchia e con effetto goccia.",00551.jpg,12
 00553,SIGILCOLOR · MOKA,,Sigillanti colorati · Opera,Adesivi e sigillanti,14.05,"Sigillante cementizio ad alte prestazioni, a presa rapida e asciugatura veloce, per fughe da 1 a 10 mm. Idrorepellente, antimacchia e con effetto goccia.",00553.jpg,12
-00554,SIGILCOLOR · SILVER 1,,Sigillanti colorati · Opera,Adesivi e sigillanti,10.10,"SSiiggiilllalanntete c ecmemenetinztioiz aiod aadlte a pltree sptarezisotnaiz, iao pnrie, saa p rraepsidaa rea pasidcaiu gea atusrcai uveglaotcuer,a veloce, per fpuegr hfueg hdea d1a a1 1a0 1 0m mmm. .I dIdrroorreeppeelllleennttee, ,a anntimtimacacchciah iead ee fcfeotnto egfofeccttioa. goccia.",00554.jpg,13
-00552,SIGILCOLOR · LEGNO,,Sigillanti colorati · Opera,Adesivi e sigillanti,14.05,,00552.jpg,13
+00554,SIGILCOLOR · SILVER 1,,Sigillanti colorati · Opera,Adesivi e sigillanti,10.10,"Sigillante cementizio ad alte prestazioni, a presa rapida e asciugatura veloce, per fughe da 1 a 10 mm. Idrorepellente, antimacchia e con effetto goccia.",00554.jpg,13
+00552,SIGILCOLOR · LEGNO,,Sigillanti colorati · Opera,Adesivi e sigillanti,14.05,"Sigillante cementizio ad alte prestazioni, a presa rapida e asciugatura veloce, per fughe da 1 a 10 mm. Idrorepellente, antimacchia e con effetto goccia.",00552.jpg,13
 00555,ACETIGUM · 9010,,Siliconi acetici · Opera,Adesivi e sigillanti,13.40,"Sigillante siliconico acetico antimuffa a basso modulo, per giunti, sanitari, box doccia, serramenti e applicazioni interne ed esterne.",00555.jpg,13
 00556,ACETIGUM · 7044,,Siliconi acetici · Opera,Adesivi e sigillanti,16.75,"Sigillante siliconico acetico antimuffa a basso modulo, per giunti, sanitari, box doccia, serramenti e applicazioni interne ed esterne.",00556.jpg,13
 00557,ACETIGUM · 7039,,Siliconi acetici · Opera,Adesivi e sigillanti,16.75,"Sigillante siliconico acetico antimuffa a basso modulo, per giunti, sanitari, box doccia, serramenti e applicazioni interne ed esterne.",00557.jpg,13
@@ -55,19 +55,19 @@ sku,name,variant,subtitle,department,price,description,image,page
 00535,SPM PROFESSIONAL · COLLA BIANCA,,Adesivi cementizi · Opera,Adesivi e sigillanti,16.40,"Adesivo cementizio professionale deformabile e tissotropico, con elevata bagnabilità, per posa a letto sottile e spesso. Versione bianca.",00535.jpg,14
 00331,SPM PROFESSIONAL · COLLA GRIGIA,,Adesivi cementizi · Opera,Adesivi e sigillanti,15.60,"Adesivo cementizio professionale deformabile e tissotropico, con elevata bagnabilità, per posa a letto sottile e spesso. Versione grigia.",00331.jpg,15
 00537,SPM REVOLUTION,,Impermeabilizzanti · Opera,Materiali edili,72.05,"Rivestimento impermeabilizzante cementizio monocomponente, elastico e traspirante, resistente alla pressione idrostatica positiva e negativa.",00537.jpg,15
-00520,BOBINA CARTA PAPERELLA,3P0ACPME RXE 5L0LMAT 30CM X,Protezione superfici ·,Protezione e preparazione,4.20,"Carta Paperella per proteggere bordi e superfici durante i lavori di pittura e finitura, con formato pratico per applicazioni rapide.",00520.jpg,17
-00519,BOBINA CARTA PAPERELLA,1P5A CPMER XE L5L0A M 1T5 cm,Protezione superfici ·,Protezione e preparazione,2.30,"Carta Paperella per proteggere bordi e superfici durante i lavori di pittura e finitura, con formato pratico per applicazioni rapide.",00520.jpg,17
-00522,ROTOLO RICAMBIO CARTA CON ADESIVO,1C8A XR T2A0M CTON ADESIV,Protezione superfici ·,Protezione e preparazione,2.50,"Rotolo di carta con adesivo per proteggere e delimitare le superfici durante le lavorazioni di pittura, posa e manutenzione.",00522.jpg,17
-00521,ROTOLO RICAMBIO CARTA CON ADESIVO,1C0A XR T2A0 MCOTN ADESIV,Protezione superfici ·,Protezione e preparazione,2.20,"Rotolo di carta con adesivo per proteggere e delimitare le superfici durante le lavorazioni di pittura, posa e manutenzione.",00522.jpg,17
-00524,TELO PROTETTIVO IN POLIETILENE,,Protezione superfici ·,Protezione e preparazione,1.60,"Telo protettivo in polietilene per coprire pavimenti, arredi e superfici durante i lavori di pittura e ristrutturazione.",00524.jpg,17
-00525,NASTRO CARTA ADESIVO,11A88D XXE S5 5I0V0O 18 X 50,Mascheratura e finitura ·,Protezione e preparazione,1.60,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
-00526,NASTRO CARTA ADESIVO,22A44D XXE S5 5I0V0O 24 X 50,Mascheratura e finitura ·,Protezione e preparazione,2.15,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
-00527,NASTRO CARTA ADESIVO,33A00D XXE S5 5I0V0O 30 X 50,Mascheratura e finitura ·,Protezione e preparazione,2.70,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
-00528,NASTRO CARTA ADESIVO,33A66D XEXS 5I5V00O 36 X 50,Mascheratura e finitura ·,Protezione e preparazione,3.20,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
-00529,NASTRO CARTA ADESIVO,44A88D XEXS 5I5V00O 48 X 50,Mascheratura e finitura ·,Protezione e preparazione,4.30,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
-00531,RASCHIETTO DA INNESTARE CON LAMA RIPORTATA,1IN0CNMESTARE CON LA,Preparazione superfici ·,Protezione e preparazione,2.75,"Raschietto da innestare con lama riportata per rimuovere residui, preparare il supporto e lavorare su superfici da rinnovare.",00531.jpg,18
-00532,RASCHIETTO DA INNESTARE CON LAMA RIPORTATA,1IN5CNMESTARE CON LA,Preparazione superfici ·,Protezione e preparazione,3.05,"Raschietto da innestare con lama riportata per rimuovere residui, preparare il supporto e lavorare su superfici da rinnovare.",00531.jpg,18
-00530,TAMPONE PER CARTA VETRATA,,Preparazione superfici ·,Protezione e preparazione,7.55,Tampone per carta vetrata per facilitare la carteggiatura manuale e rendere più uniforme la pressione sulla superficie.,00530.jpg,18
+00520,BOBINA CARTA PAPERELLA,30 cm × 50 m,Protezione superfici,Protezione e preparazione,4.20,"Carta Paperella per proteggere bordi e superfici durante i lavori di pittura e finitura, con formato pratico per applicazioni rapide.",00520.jpg,17
+00519,BOBINA CARTA PAPERELLA,15 cm × 50 m,Protezione superfici,Protezione e preparazione,2.30,"Carta Paperella per proteggere bordi e superfici durante i lavori di pittura e finitura, con formato pratico per applicazioni rapide.",00520.jpg,17
+00522,ROTOLO RICAMBIO CARTA CON ADESIVO,18 × 20 m,Protezione superfici,Protezione e preparazione,2.50,"Rotolo di carta con adesivo per proteggere e delimitare le superfici durante le lavorazioni di pittura, posa e manutenzione.",00522.jpg,17
+00521,ROTOLO RICAMBIO CARTA CON ADESIVO,10 × 20 m,Protezione superfici,Protezione e preparazione,2.20,"Rotolo di carta con adesivo per proteggere e delimitare le superfici durante le lavorazioni di pittura, posa e manutenzione.",00522.jpg,17
+00524,TELO PROTETTIVO IN POLIETILENE,,Protezione superfici,Protezione e preparazione,1.60,"Telo protettivo in polietilene per coprire pavimenti, arredi e superfici durante i lavori di pittura e ristrutturazione.",00524.jpg,17
+00525,NASTRO CARTA ADESIVO,18 × 50,Mascheratura e finitura,Protezione e preparazione,1.60,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
+00526,NASTRO CARTA ADESIVO,24 × 50,Mascheratura e finitura,Protezione e preparazione,2.15,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
+00527,NASTRO CARTA ADESIVO,30 × 50,Mascheratura e finitura,Protezione e preparazione,2.70,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
+00528,NASTRO CARTA ADESIVO,36 × 50,Mascheratura e finitura,Protezione e preparazione,3.20,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
+00529,NASTRO CARTA ADESIVO,48 × 50,Mascheratura e finitura,Protezione e preparazione,4.30,"Nastro carta adesivo per mascherature pulite, protezione dei bordi e definizione delle linee durante la pittura.",00525.jpg,17
+00531,RASCHIETTO DA INNESTARE CON LAMA RIPORTATA,10 cm,Preparazione superfici,Protezione e preparazione,2.75,"Raschietto da innestare con lama riportata per rimuovere residui, preparare il supporto e lavorare su superfici da rinnovare.",00531.jpg,18
+00532,RASCHIETTO DA INNESTARE CON LAMA RIPORTATA,15 cm,Preparazione superfici,Protezione e preparazione,3.05,"Raschietto da innestare con lama riportata per rimuovere residui, preparare il supporto e lavorare su superfici da rinnovare.",00531.jpg,18
+00530,TAMPONE PER CARTA VETRATA,,Preparazione superfici,Protezione e preparazione,7.55,Tampone per carta vetrata per facilitare la carteggiatura manuale e rendere più uniforme la pressione sulla superficie.,00530.jpg,18
 ,Grafix,,Porte interne · porte moderne,Porte interne,,"Linee lineari e contemporanee, con finiture e dettagli pensati per ambienti moderni.",p20-0.jpg,20
 ,Vertis,,Porte interne · porte moderne,Porte interne,,Scanalature delicate che danno ritmo alla superficie e carattere alla porta.,p20-1.jpg,20
 ,Neos,,Porte interne · porte moderne,Porte interne,,"Ampie superfici vetrate per portare luminosità, trasparenze e leggerezza negli interni.",p20-2.jpg,20
@@ -138,13 +138,13 @@ sku,name,variant,subtitle,department,price,description,image,page
 ,Persiana Erika,,Finestre e infissi · Persiane in alluminio,Infissi,,"Persiane e sistemi oscuranti resistenti agli agenti atmosferici, con configurazioni e finiture personalizzabili.",p35-3.jpg,35
 ,Persiana di sicurezza,,Finestre e infissi · Persiane in alluminio,Infissi,,"Persiane e sistemi oscuranti resistenti agli agenti atmosferici, con configurazioni e finiture personalizzabili.",p35-4.jpg,35
 ,Persiana Poseydon,,Finestre e infissi · Persiane in alluminio,Infissi,,"Persiane e sistemi oscuranti resistenti agli agenti atmosferici, con configurazioni e finiture personalizzabili.",p36-0.jpg,36
-,Persiana combinata,,Finestre e infissi · Persiane in allum,Infissi,,"Persiane e sistemi oscuranti resistenti agli agenti atmosferici, con configurazioni e finiture personalizzabili.",p36-1.jpg,36
+,Persiana combinata,,Finestre e infissi · Persiane in alluminio,Infissi,,"Persiane e sistemi oscuranti resistenti agli agenti atmosferici, con configurazioni e finiture personalizzabili.",p36-1.jpg,36
 ,Scuri con telaio in alluminio,,Finestre e infissi · Scuri in alluminio,Infissi,,"Scuri in alluminio per sicurezza, privacy e protezione, disponibili con telaio o a murare.",p36-2.jpg,36
 ,Scuri a murare in alluminio,,Finestre e infissi · Scuri in alluminio,Infissi,,"Scuri in alluminio per sicurezza, privacy e protezione, disponibili con telaio o a murare.",p36-3.jpg,36
-,SKIN,,Finestre ni complementari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p36-4.jpg,36
-,Invisible light,,Finestre e infissi · Soluzi ari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p36-5.jpg,36
-,Sicur Alu Door,,Finestre e infissi · Soluzio i,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p37-0.jpg,37
-,Invisible,,Finestre e infiss plementari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p37-1.jpg,37
+,SKIN,,Finestre e infissi · Soluzioni complementari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p36-4.jpg,36
+,Invisible light,,Finestre e infissi · Soluzioni complementari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p36-5.jpg,36
+,Sicur Alu Door,,Finestre e infissi · Soluzioni complementari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p37-0.jpg,37
+,Invisible,,Finestre e infissi · Soluzioni complementari,Infissi,,"Sistemi complementari per completare la protezione, il design e la sicurezza dell’involucro edilizio.",p37-1.jpg,37
 ,Multilux,,Zanzar · Avvolgibili innovativi,Avvolgibili e tapparelle,,Avvolgibile innovativo per migliorare comfort e controllo della luce.,p39-0.jpg,39
 ,Arialuce,,Zanzar · Avvolgibili innovativi,Avvolgibili e tapparelle,,Avvolgibile in alluminio coibentato a foro largo per favorire luce e ventilazione.,p39-1.jpg,39
 ,Arialuce 40,,Zanzar · Avvolgibili innovativi,Avvolgibili e tapparelle,,Variante a foro largo pensata per un equilibrio tra protezione e luminosità.,p39-2.jpg,39
@@ -187,13 +187,13 @@ sku,name,variant,subtitle,department,price,description,image,page
 ,Micro Fanny,,Zanzar · Zanzariere avvolgenti senza bottone,Zanzariere,,Zanzariera compatta per finestre.,p47-0.jpg,47
 ,Oasis Zelda,,Zanzar · Zanzariere avvolgenti senza bottone,Zanzariere,,Soluzione laterale e avvolgente dal design discreto.,p47-1.jpg,47
 ,Altoblock,,Zanzar · Zanzariere avvolgenti senza bottone,Zanzariere,,Sistema progettato per aperture e passaggi più alti.,p47-2.jpg,47
-,Kiss 50,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Zanzariera avvolgente con comando a bottone.,p47-3.jpg,47
+,Kiss 50,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Zanzariera avvolgente con bottone.,p47-3.jpg,47
 ,Miss,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Sistema con bottone per finestre e portefinestre.,p47-4.jpg,47
 ,Fast 50,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Soluzione rapida e pratica per la protezione quotidiana.,p48-0.jpg,48
 ,Tonda,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Modello con geometria arrotondata e comando integrato.,p48-1.jpg,48
 ,Eko 50,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Zanzariera con bottone e struttura compatta.,p48-2.jpg,48
 ,Quadra,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Sistema con design squadrato per installazioni contemporanee.,p48-3.jpg,48
-,Gipsy,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Zanzariera con comando a bottone per diverse aperture.,p48-4.jpg,48
+,Gipsy,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Zanzariera con bottone per diverse aperture.,p48-4.jpg,48
 ,Susy Elite,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Soluzione curata nelle finiture per ambienti residenziali.,p49-0.jpg,49
 ,Moto 65,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Sistema motorizzabile per aperture e comfort evoluti.,p49-1.jpg,49
 ,Perlegno 45,,Zanzar · Zanzariere avvolgenti con bottone,Zanzariere,,Soluzione pensata per abbinarsi a serramenti in legno.,p49-2.jpg,49
@@ -216,140 +216,140 @@ sku,name,variant,subtitle,department,price,description,image,page
 ,Sly,,Zanzar · Zanzariere a pannello,Zanzariere,,Pannello dal design discreto per serramenti contemporanei.,p52-4.jpg,52
 ,Pegaso,,Zanzar · Zanzariere a pannello,Zanzariere,,Sistema a pannello per finestre e portefinestre.,p53-0.jpg,53
 ,Tris,,Zanzar · Zanzariere a pannello,Zanzariere,,Configurazione modulare per più ante e aperture.,p53-1.jpg,53
-00450,SP.15,3F0IBRA SINTETICA,Pennellesse professionali ·,Pennelli e accessori,2.45,"Pennellessa con manico in legno e fibra sintetica, pensata per applicazioni di pitture e smalti all’acqua.",00450.jpg,55
-00451,SP.15,4F0IBRA SINTETICA,Pennellesse professionali ·,Pennelli e accessori,2.85,"Pennellessa con manico in legno e fibra sintetica, pensata per applicazioni di pitture e smalti all’acqua.",00450.jpg,55
-00452,SP.15,5F0IBRA SINTETICA,Pennellesse professionali ·,Pennelli e accessori,4.00,"Pennellessa con manico in legno e fibra sintetica, pensata per applicazioni di pitture e smalti all’acqua.",00450.jpg,55
-00453,SP.15,6F0IBRA SINTETICA,Pennellesse professionali ·,Pennelli e accessori,4.70,"Pennellessa con manico in legno e fibra sintetica, pensata per applicazioni di pitture e smalti all’acqua.",00450.jpg,55
-00460,PLASTICA,3TXA7VOLETTA E MANI,Plafoncini e plafoniere ·,Pennelli e accessori,3.50,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
-00461,PLASTICA,3TXA1V0OLETTA E MANI,Plafoncini e plafoniere ·,Pennelli e accessori,4.05,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
-00462,PLASTICA,3TXA1V2OLETTA E MANI,Plafoncini e plafoniere ·,Pennelli e accessori,4.35,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
-00463,PLASTICA,4TXA1V4OLETTA E MANI,Plafoncini e plafoniere ·,Pennelli e accessori,5.30,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
-00464,PLASTICA,5TXA1V5OLETTA E MANI,Plafoncini e plafoniere ·,Pennelli e accessori,6.35,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
-00465,PLAFONETTA SETOLA BIONDA MM.76,3MXM7 76 3X7,Plafoncini e plafoniere ·,Pennelli e accessori,10.90,Plafonetta con setola bionda per stesura uniforme su pareti e superfici di ampia metratura.,00465.jpg,55
-00466,PLAFONETTA SETOLA BIONDA MM.76,3MXM10 76 3X10,Plafoncini e plafoniere ·,Pennelli e accessori,11.95,Plafonetta con setola bionda per stesura uniforme su pareti e superfici di ampia metratura.,00465.jpg,55
-00467,PLAFONETTA SETOLA BIONDA MM.76,3MXM12 76 3X12,Plafoncini e plafoniere ·,Pennelli e accessori,14.25,Plafonetta con setola bionda per stesura uniforme su pareti e superfici di ampia metratura.,00465.jpg,55
-00469,PLAFONIERA A MAZZETTI · SETOLA BIONDA,5S0EXT1O5L0A BION50X15,Plafoncini e plafoniere ·,Pennelli e accessori,19.60,"Plafoniera a mazzetti in setola bionda, con struttura pensata per lavori intensivi e distribuzione regolare del prodotto.",00469.jpg,55
-00470,PLAFONIERA A MAZZETTI · SETOLA BIONDA,6S0EXT1O6L0A BION60X15,Plafoncini e plafoniere ·,Pennelli e accessori,20.80,"Plafoniera a mazzetti in setola bionda, con struttura pensata per lavori intensivi e distribuzione regolare del prodotto.",00469.jpg,55
-00472,PENNELLO TONDO PER ANGOLI GUIPON,2P6ER ANGOLI GUIPO,Pennelli speciali ·,Pennelli e accessori,13.95,"Pennello tondo con setola bionda, adatto per angoli, bordi e ritocchi di precisione.",00472.jpg,56
-00473,PENNELLO TONDO PER ANGOLI GUIPON,3P0ER ANGOLI GUIPO,Pennelli speciali ·,Pennelli e accessori,17.05,"Pennello tondo con setola bionda, adatto per angoli, bordi e ritocchi di precisione.",00472.jpg,56
-00474,PENNELLO RADIATORE · SETOLA PROFESSIONALE,2S0ETOLA PROFESSIO,Pennelli speciali ·,Pennelli e accessori,2.00,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
-00475,PENNELLO RADIATORE · SETOLA PROFESSIONALE,3S0ETOLA PROFESSIO,Pennelli speciali ·,Pennelli e accessori,2.35,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
-00476,PENNELLO RADIATORE · SETOLA PROFESSIONALE,4S0ETOLA PROFESSIO,Pennelli speciali ·,Pennelli e accessori,3.00,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
-00477,PENNELLO RADIATORE · SETOLA PROFESSIONALE,5S0ETOLA PROFESSIO,Pennelli speciali ·,Pennelli e accessori,3.85,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
-00478,PENNELLO RADIATORE · SETOLA PROFESSIONALE,6S0ETOLA PROFESSIO,Pennelli speciali ·,Pennelli e accessori,4.60,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
-00479,PENNELLO RADIATORE · SETOLA PROFESSIONALE,7S0ETOLA PROFESSIO,Pennelli speciali ·,Pennelli e accessori,5.50,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
-00481,RULLO PERLON TERMOFUSO · DIAMETRO 48,2T0ERMOFUSO DIAMET,Rulli per pittura ·,Pennelli e accessori,9.60,Rullo in tessuto Perlon termofuso per una stesura uniforme e una buona resa su pareti lisce.,00481.jpg,56
-00482,RULLO PERLON TERMOFUSO · DIAMETRO 48,2T3ERMOFUSO DIAMET,Rulli per pittura ·,Pennelli e accessori,10.35,Rullo in tessuto Perlon termofuso per una stesura uniforme e una buona resa su pareti lisce.,00481.jpg,56
-00483,RULLO POLIAMMIDE PER ESTERNI · DIAMETRO 58,2P0ER ESTERNI DIAM,Rulli per pittura ·,Pennelli e accessori,10.05,"Rullo in tessuto poliammide per esterni, progettato per supporti e lavorazioni che richiedono resistenza.",00483.jpg,56
-00484,RULLO POLIAMMIDE PER ESTERNI · DIAMETRO 58,2P4ER ESTERNI DIAM,Rulli per pittura ·,Pennelli e accessori,10.50,"Rullo in tessuto poliammide per esterni, progettato per supporti e lavorazioni che richiedono resistenza.",00483.jpg,56
-00485,RULLO POLIAMMIDE TRILOBATO,2T0RILOBATO 20,Rulli per pittura ·,Pennelli e accessori,10.30,Rullo in tessuto poliammide trilobato per una distribuzione regolare e una finitura uniforme.,00485.jpg,56
-00486,RULLO POLIAMMIDE TRILOBATO,2T4RILOBATO 24,Rulli per pittura ·,Pennelli e accessori,10.70,Rullo in tessuto poliammide trilobato per una distribuzione regolare e una finitura uniforme.,00485.jpg,56
-00487,RULLO POLIESTERE BIANCO · DIAMETRO 43,2D0IAMETRO 43 20,Rulli per pittura ·,Pennelli e accessori,3.95,Rullo in tessuto poliestere bianco per lavorazioni di pittura e finitura su superfici murarie.,00487.jpg,57
-00488,RULLO POLIESTERE BIANCO · DIAMETRO 43,2D5IAMETRO 43 25,Rulli per pittura ·,Pennelli e accessori,4.25,Rullo in tessuto poliestere bianco per lavorazioni di pittura e finitura su superfici murarie.,00487.jpg,57
-00489,RICARICA RULLINO · TESSUTO PERLON,5TESSUTO PERLON 5,Ricariche per rullini ·,Pennelli e accessori,1.30,"Ricarica in tessuto Perlon per rullini, pratica per sostituire rapidamente il rivestimento usurato.",00489.jpg,57
-00490,RICARICA RULLINO · TESSUTO PERLON,1T0ESSUTO PERLON 1,Ricariche per rullini ·,Pennelli e accessori,1.40,"Ricarica in tessuto Perlon per rullini, pratica per sostituire rapidamente il rivestimento usurato.",00489.jpg,57
-00491,RICARICA RULLINO · SPUGNA MOLTOPRENE,5SPUGNA MOLTOPREN,Ricariche per rullini ·,Pennelli e accessori,1.40,Ricarica in spugna Moltoprene per applicazioni che richiedono una stesura regolare e controllata.,00491.jpg,57
-00492,RICARICA RULLINO · SPUGNA MOLTOPRENE,1S0PUGNA MOLTOPREN,Ricariche per rullini ·,Pennelli e accessori,1.40,Ricarica in spugna Moltoprene per applicazioni che richiedono una stesura regolare e controllata.,00491.jpg,57
-00493,RICARICA RULLINO · TESSUTO VELOUR,5CM,Ricariche per rullini ·,Pennelli e accessori,1.40,Ricarica in tessuto Velour per lavorazioni di pittura e finiture uniformi.,00493.jpg,57
-00494,RICARICA RULLINO · TESSUTO VELOUR,10CM,Ricariche per rullini ·,Pennelli e accessori,1.50,Ricarica in tessuto Velour per lavorazioni di pittura e finiture uniformi.,00493.jpg,57
-00495,MANICO PER RULLINO DA 5 CM,A5RCCMH AERTCTHOE CTOTOR TCOOR,Accessori per rulli ·,Pennelli e accessori,1.25,"Manico per rullino da 5 cm, disponibile nella versione lunga o corta per adattarsi a diverse modalità di lavoro.",00495.jpg,57
-00496,MANICO PER RULLINO DA 5 CM,A5RCCMH AERTCTHOE LTUTNOG LOUN,Accessori per rulli ·,Pennelli e accessori,1.25,"Manico per rullino da 5 cm, disponibile nella versione lunga o corta per adattarsi a diverse modalità di lavoro.",00495.jpg,57
-00497,MANICO PER RULLINO DA 10 CM,A1R0CCMHE ATRTCOH CETOTROT OCO,Accessori per rulli ·,Pennelli e accessori,1.25,"Manico per rullino da 10 cm, disponibile nella versione lunga o corta.",00497.jpg,58
-00498,MANICO PER RULLINO DA 10 CM,A1R0CCMHE ATRTCOH LEUTTNOG OLU,Accessori per rulli ·,Pennelli e accessori,1.25,"Manico per rullino da 10 cm, disponibile nella versione lunga o corta.",00497.jpg,58
-00502,RETINA SCOLA-RULLO DI PLASTICA,1R0ULLO DI PLASTIC,Accessori per rulli ·,Pennelli e accessori,0.75,Retina scola-rullo in plastica per scaricare l’eccesso di pittura e lavorare in modo più pulito.,00502.jpg,58
-00503,PERTICA TELESCOPICA IN METALLO,1INM TMETALLO 1MT,Aste e pertiche ·,Pennelli e accessori,3.60,Pertica telescopica in metallo per estendere la portata del rullo e lavorare su soffitti e superfici alte.,00503.jpg,58
-00504,PERTICA TELESCOPICA IN METALLO,2INM TMETALLO 2MT,Aste e pertiche ·,Pennelli e accessori,4.40,Pertica telescopica in metallo per estendere la portata del rullo e lavorare su soffitti e superfici alte.,00503.jpg,58
-00505,PERTICA TELESCOPICA IN METALLO,3INM TMETALLO 3MT,Aste e pertiche ·,Pennelli e accessori,5.60,Pertica telescopica in metallo per estendere la portata del rullo e lavorare su soffitti e superfici alte.,00503.jpg,58
-00506,PERTICA TELESCOPICA IN ALLUMINIO,2INM TALLUMINIO 2MT,Aste e pertiche ·,Pennelli e accessori,10.75,"Pertica telescopica in alluminio, leggera e pratica per lavori in quota con rullo o pennello.",00506.jpg,58
-00507,PERTICA TELESCOPICA IN ALLUMINIO,3INM TALLUMINIO 3MT,Aste e pertiche ·,Pennelli e accessori,14.55,"Pertica telescopica in alluminio, leggera e pratica per lavori in quota con rullo o pennello.",00506.jpg,58
-00510,PERTICA TELESCOPICA IN ALLUMINIO,"4IN,5 MALTLUMINIO 4 5",Aste e pertiche ·,Pennelli e accessori,31.60,"Pertica telescopica in alluminio, leggera e pratica per lavori in quota con rullo o pennello.",00506.jpg,58
-00511,PERTICA TELESCOPICA IN ALLUMINIO,6INM TALLUMINIO 6MT,Aste e pertiche ·,Pennelli e accessori,50.85,"Pertica telescopica in alluminio, leggera e pratica per lavori in quota con rullo o pennello.",00506.jpg,58
-00508,PENNELLO PIATTO · MANICO LEGNO,AL E7GCNMO 7CM,Pennelli da finitura ·,Pennelli e accessori,3.95,Pennello piatto con manico in legno per applicazioni controllate e finiture su superfici di diversa estensione.,00508.jpg,58
-00509,PENNELLO PIATTO · MANICO LEGNO,AL E1G0CNMO 10CM,Pennelli da finitura ·,Pennelli e accessori,6.20,Pennello piatto con manico in legno per applicazioni controllate e finiture su superfici di diversa estensione.,00508.jpg,58
-00512,GUANTO SPUGNA / POLIESTERE,,Protezione e pulizia ·,Pennelli e accessori,5.60,"Guanto con spugna da un lato e poliestere dall’altro, utile per applicazione, pulizia e finitura.",00512.jpg,59
-00513,PISTOLA PER SILICONE CON ASTE,,Utensili per imbianchini ·,Pennelli e accessori,5.05,"Pistola per silicone con aste, per estrudere cartucce in modo pratico durante sigillature e finiture.",00513.jpg,59
-00514,MESCOLATORE PER VERNICI,6600,Utensili per imbianchini ·,Pennelli e accessori,3.45,Mescolatore per vernici con diametro disponibile per diverse quantità e viscosità di prodotto.,00514.jpg,59
-00515,MESCOLATORE PER VERNICI,8800,Utensili per imbianchini ·,Pennelli e accessori,4.15,Mescolatore per vernici con diametro disponibile per diverse quantità e viscosità di prodotto.,00514.jpg,59
-00516,MESCOLATORE PER VERNICI,110000,Utensili per imbianchini ·,Pennelli e accessori,6.75,Mescolatore per vernici con diametro disponibile per diverse quantità e viscosità di prodotto.,00514.jpg,59
-00517,SPAZZOLA CURVA · FILO OTTONATO,AFNILIOCO O TCTOORNTAOTO MA,Spazzole e preparazione ·,Pennelli e accessori,2.00,"Spazzola curva con filo ottonato e manico ergonomico per preparare, pulire e trattare le superfici.",00517.jpg,59
-00518,SPAZZOLA CURVA · FILO OTTONATO,AFNILIOCO O TLUTONNGAOTO MA,Spazzole e preparazione ·,Pennelli e accessori,5.10,"Spazzola curva con filo ottonato e manico ergonomico per preparare, pulire e trattare le superfici.",00517.jpg,59
-00150,FISSATIVO ACRILICO,1 LT,Primer acrilico,Finiture,8.00,"Primer professionale a base acqua, diluibile 1:4, per isolare, consolidare e rendere più uniforme il supporto prima della finitura. Disponibile in latta da 5 litri.",00150.jpg,61
-00151,FISSATIVO ACRILICO,5LTT,Primer acrilico,Finiture,32.45,"Primer professionale a base acqua, diluibile 1:4, per isolare, consolidare e rendere più uniforme il supporto prima della finitura. Disponibile in latta da 5 litri.",00150.jpg,61
-00256,SILOGRUND,14LTT,Fondo uniformante,Finiture,102.25,Fondo acril-silossanico per uniformare l’assorbimento e preparare il supporto alla finitura successiva.,00256.jpg,61
-00255,UNIFORMA,14LTT,Fissativo pigmentato,Finiture,86.15,"Fissativo pigmentato all’acqua per preparare e uniformare pareti nuove o già tinteggiate, inclusi i supporti in cartongesso.",00255.jpg,61
-00232,YW12,,Premier · Finiture in polvere · pasta · pitture,Finiture,12.00,"Finitura in polvere a base di calce idrata e inerti selezionati, per finiture al civile bianche all’interno e per interventi di bioedilizia o restauro.",00232.jpg,61
-00233,YW13,,Premier · Finiture in polvere · pasta · pitture,Finiture,10.20,"Finitura in polvere a base di calce idrata e inerti selezionati, per finiture al civile bianche all’interno, bioedilizia e restauro.",00233.jpg,62
-00234,YR01,,Premier · Finiture in polvere · pasta · pitture,Finiture,19.25,"Finitura liscia per interni a base di calce idrata, sabbia micronizzata e additivi che ne migliorano la lavorabilità.",00234.jpg,62
-00353,FILO COTTO MATASSINE N°5 ITALIA,N 5 IN ITALIA,,Ferramenta,1.05,Matassine filo cotto per tracciature e lavorazioni edili.,00353.jpg,64
-00354,MASTELLI PUGLIA NERI LT50,NERI L50,,Ferramenta,11.50,Mastelli neri per movimentazione e preparazione dei materiali in cantiere.,00354.jpg,64
+00450,PENNELLESSA MANICO LEGNO · FIBRA SINTETICA SP.15,30,Pennellesse professionali,Pennelli e accessori,2.45,"Pennellessa con manico in legno e fibra sintetica, pensata per applicazioni di pitture e smalti all’acqua.",00450.jpg,55
+00451,PENNELLESSA MANICO LEGNO · FIBRA SINTETICA SP.15,40,Pennellesse professionali,Pennelli e accessori,2.85,"Pennellessa con manico in legno e fibra sintetica, pensata per applicazioni di pitture e smalti all’acqua.",00450.jpg,55
+00452,PENNELLESSA MANICO LEGNO · FIBRA SINTETICA SP.15,50,Pennellesse professionali,Pennelli e accessori,4.00,"Pennellessa con manico in legno e fibra sintetica, pensata per applicazioni di pitture e smalti all’acqua.",00450.jpg,55
+00453,PENNELLESSA MANICO LEGNO · FIBRA SINTETICA SP.15,60,Pennellesse professionali,Pennelli e accessori,4.70,"Pennellessa con manico in legno e fibra sintetica, pensata per applicazioni di pitture e smalti all’acqua.",00450.jpg,55
+00460,PLAFONCINO ECONOMICO · TAVOLETTA E MANICO IN PLASTICA,3 × 7,Plafoncini e plafoniere,Pennelli e accessori,3.50,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
+00461,PLAFONCINO ECONOMICO · TAVOLETTA E MANICO IN PLASTICA,3 × 10,Plafoncini e plafoniere,Pennelli e accessori,4.05,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
+00462,PLAFONCINO ECONOMICO · TAVOLETTA E MANICO IN PLASTICA,3 × 12,Plafoncini e plafoniere,Pennelli e accessori,4.35,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
+00463,PLAFONCINO ECONOMICO · TAVOLETTA E MANICO IN PLASTICA,4 × 14,Plafoncini e plafoniere,Pennelli e accessori,5.30,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
+00464,PLAFONCINO ECONOMICO · TAVOLETTA E MANICO IN PLASTICA,5 × 15,Plafoncini e plafoniere,Pennelli e accessori,6.35,"Plafoncino economico con tavoletta e manico in plastica, per lavori di pittura e manutenzione.",00460.jpg,55
+00465,PLAFONETTA SETOLA BIONDA MM.76,3 × 7,Plafoncini e plafoniere,Pennelli e accessori,10.90,Plafonetta con setola bionda per stesura uniforme su pareti e superfici di ampia metratura.,00465.jpg,55
+00466,PLAFONETTA SETOLA BIONDA MM.76,3 × 10,Plafoncini e plafoniere,Pennelli e accessori,11.95,Plafonetta con setola bionda per stesura uniforme su pareti e superfici di ampia metratura.,00465.jpg,55
+00467,PLAFONETTA SETOLA BIONDA MM.76,3 × 12,Plafoncini e plafoniere,Pennelli e accessori,14.25,Plafonetta con setola bionda per stesura uniforme su pareti e superfici di ampia metratura.,00465.jpg,55
+00469,PLAFONIERA A MAZZETTI · SETOLA BIONDA,50 × 150,Plafoncini e plafoniere,Pennelli e accessori,19.60,"Plafoniera a mazzetti in setola bionda, con struttura pensata per lavori intensivi e distribuzione regolare del prodotto.",00469.jpg,55
+00470,PLAFONIERA A MAZZETTI · SETOLA BIONDA,60 × 160,Plafoncini e plafoniere,Pennelli e accessori,20.80,"Plafoniera a mazzetti in setola bionda, con struttura pensata per lavori intensivi e distribuzione regolare del prodotto.",00469.jpg,55
+00472,PENNELLO TONDO PER ANGOLI GUIPON,26,Pennelli speciali,Pennelli e accessori,13.95,"Pennello tondo con setola bionda, adatto per angoli, bordi e ritocchi di precisione.",00472.jpg,56
+00473,PENNELLO TONDO PER ANGOLI GUIPON,30,Pennelli speciali,Pennelli e accessori,17.05,"Pennello tondo con setola bionda, adatto per angoli, bordi e ritocchi di precisione.",00472.jpg,56
+00474,PENNELLO RADIATORE · SETOLA PROFESSIONALE,20,Pennelli speciali,Pennelli e accessori,2.00,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
+00475,PENNELLO RADIATORE · SETOLA PROFESSIONALE,30,Pennelli speciali,Pennelli e accessori,2.35,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
+00476,PENNELLO RADIATORE · SETOLA PROFESSIONALE,40,Pennelli speciali,Pennelli e accessori,3.00,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
+00477,PENNELLO RADIATORE · SETOLA PROFESSIONALE,50,Pennelli speciali,Pennelli e accessori,3.85,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
+00478,PENNELLO RADIATORE · SETOLA PROFESSIONALE,60,Pennelli speciali,Pennelli e accessori,4.60,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
+00479,PENNELLO RADIATORE · SETOLA PROFESSIONALE,70,Pennelli speciali,Pennelli e accessori,5.50,"Pennello radiatore professionale con manico sagomato, indicato per termosifoni, nicchie e superfici difficili da raggiungere.",00474.jpg,56
+00481,RULLO PERLON TERMOFUSO · DIAMETRO 48,20,Rulli per pittura,Pennelli e accessori,9.60,Rullo in tessuto Perlon termofuso per una stesura uniforme e una buona resa su pareti lisce.,00481.jpg,56
+00482,RULLO PERLON TERMOFUSO · DIAMETRO 48,23,Rulli per pittura,Pennelli e accessori,10.35,Rullo in tessuto Perlon termofuso per una stesura uniforme e una buona resa su pareti lisce.,00481.jpg,56
+00483,RULLO POLIAMMIDE PER ESTERNI · DIAMETRO 58,20,Rulli per pittura,Pennelli e accessori,10.05,"Rullo in tessuto poliammide per esterni, progettato per supporti e lavorazioni che richiedono resistenza.",00483.jpg,56
+00484,RULLO POLIAMMIDE PER ESTERNI · DIAMETRO 58,24,Rulli per pittura,Pennelli e accessori,10.50,"Rullo in tessuto poliammide per esterni, progettato per supporti e lavorazioni che richiedono resistenza.",00483.jpg,56
+00485,RULLO POLIAMMIDE TRILOBATO,20,Rulli per pittura,Pennelli e accessori,10.30,Rullo in tessuto poliammide trilobato per una distribuzione regolare e una finitura uniforme.,00485.jpg,56
+00486,RULLO POLIAMMIDE TRILOBATO,24,Rulli per pittura,Pennelli e accessori,10.70,Rullo in tessuto poliammide trilobato per una distribuzione regolare e una finitura uniforme.,00485.jpg,56
+00487,RULLO POLIESTERE BIANCO · DIAMETRO 43,20,Rulli per pittura,Pennelli e accessori,3.95,Rullo in tessuto poliestere bianco per lavorazioni di pittura e finitura su superfici murarie.,00487.jpg,57
+00488,RULLO POLIESTERE BIANCO · DIAMETRO 43,25,Rulli per pittura,Pennelli e accessori,4.25,Rullo in tessuto poliestere bianco per lavorazioni di pittura e finitura su superfici murarie.,00487.jpg,57
+00489,RICARICA RULLINO · TESSUTO PERLON,5,Ricariche per rullini,Pennelli e accessori,1.30,"Ricarica in tessuto Perlon per rullini, pratica per sostituire rapidamente il rivestimento usurato.",00489.jpg,57
+00490,RICARICA RULLINO · TESSUTO PERLON,10,Ricariche per rullini,Pennelli e accessori,1.40,"Ricarica in tessuto Perlon per rullini, pratica per sostituire rapidamente il rivestimento usurato.",00489.jpg,57
+00491,RICARICA RULLINO · SPUGNA MOLTOPRENE,5,Ricariche per rullini,Pennelli e accessori,1.40,Ricarica in spugna Moltoprene per applicazioni che richiedono una stesura regolare e controllata.,00491.jpg,57
+00492,RICARICA RULLINO · SPUGNA MOLTOPRENE,10,Ricariche per rullini,Pennelli e accessori,1.40,Ricarica in spugna Moltoprene per applicazioni che richiedono una stesura regolare e controllata.,00491.jpg,57
+00493,RICARICA RULLINO · TESSUTO VELOUR,5 cm,Ricariche per rullini,Pennelli e accessori,1.40,Ricarica in tessuto Velour per lavorazioni di pittura e finiture uniformi.,00493.jpg,57
+00494,RICARICA RULLINO · TESSUTO VELOUR,10 cm,Ricariche per rullini,Pennelli e accessori,1.50,Ricarica in tessuto Velour per lavorazioni di pittura e finiture uniformi.,00493.jpg,57
+00495,MANICO PER RULLINO DA 5 CM,Archetto corto,Accessori per rulli,Pennelli e accessori,1.25,"Manico per rullino da 5 cm, disponibile nella versione lunga o corta per adattarsi a diverse modalità di lavoro.",00495.jpg,57
+00496,MANICO PER RULLINO DA 5 CM,Archetto lungo,Accessori per rulli,Pennelli e accessori,1.25,"Manico per rullino da 5 cm, disponibile nella versione lunga o corta per adattarsi a diverse modalità di lavoro.",00495.jpg,57
+00497,MANICO PER RULLINO DA 10 CM,Archetto corto,Accessori per rulli,Pennelli e accessori,1.25,"Manico per rullino da 10 cm, disponibile nella versione lunga o corta.",00497.jpg,58
+00498,MANICO PER RULLINO DA 10 CM,Archetto lungo,Accessori per rulli,Pennelli e accessori,1.25,"Manico per rullino da 10 cm, disponibile nella versione lunga o corta.",00497.jpg,58
+00502,RETINA SCOLA-RULLO DI PLASTICA,10,Accessori per rulli,Pennelli e accessori,0.75,Retina scola-rullo in plastica per scaricare l’eccesso di pittura e lavorare in modo più pulito.,00502.jpg,58
+00503,PERTICA TELESCOPICA IN METALLO,1 m,Aste e pertiche,Pennelli e accessori,3.60,Pertica telescopica in metallo per estendere la portata del rullo e lavorare su soffitti e superfici alte.,00503.jpg,58
+00504,PERTICA TELESCOPICA IN METALLO,2 m,Aste e pertiche,Pennelli e accessori,4.40,Pertica telescopica in metallo per estendere la portata del rullo e lavorare su soffitti e superfici alte.,00503.jpg,58
+00505,PERTICA TELESCOPICA IN METALLO,3 m,Aste e pertiche,Pennelli e accessori,5.60,Pertica telescopica in metallo per estendere la portata del rullo e lavorare su soffitti e superfici alte.,00503.jpg,58
+00506,PERTICA TELESCOPICA IN ALLUMINIO,2 m,Aste e pertiche,Pennelli e accessori,10.75,"Pertica telescopica in alluminio, leggera e pratica per lavori in quota con rullo o pennello.",00506.jpg,58
+00507,PERTICA TELESCOPICA IN ALLUMINIO,3 m,Aste e pertiche,Pennelli e accessori,14.55,"Pertica telescopica in alluminio, leggera e pratica per lavori in quota con rullo o pennello.",00506.jpg,58
+00510,PERTICA TELESCOPICA IN ALLUMINIO,"4,5 m",Aste e pertiche,Pennelli e accessori,31.60,"Pertica telescopica in alluminio, leggera e pratica per lavori in quota con rullo o pennello.",00506.jpg,58
+00511,PERTICA TELESCOPICA IN ALLUMINIO,6 m,Aste e pertiche,Pennelli e accessori,50.85,"Pertica telescopica in alluminio, leggera e pratica per lavori in quota con rullo o pennello.",00506.jpg,58
+00508,PENNELLO PIATTO · MANICO LEGNO,7 cm,Pennelli da finitura,Pennelli e accessori,3.95,Pennello piatto con manico in legno per applicazioni controllate e finiture su superfici di diversa estensione.,00508.jpg,58
+00509,PENNELLO PIATTO · MANICO LEGNO,10 cm,Pennelli da finitura,Pennelli e accessori,6.20,Pennello piatto con manico in legno per applicazioni controllate e finiture su superfici di diversa estensione.,00508.jpg,58
+00512,GUANTO SPUGNA / POLIESTERE,,Protezione e pulizia,Pennelli e accessori,5.60,"Guanto con spugna da un lato e poliestere dall’altro, utile per applicazione, pulizia e finitura.",00512.jpg,59
+00513,PISTOLA PER SILICONE CON ASTE,,Utensili per imbianchini,Pennelli e accessori,5.05,"Pistola per silicone con aste, per estrudere cartucce in modo pratico durante sigillature e finiture.",00513.jpg,59
+00514,MESCOLATORE PER VERNICI,60,Utensili per imbianchini,Pennelli e accessori,3.45,Mescolatore per vernici con diametro disponibile per diverse quantità e viscosità di prodotto.,00514.jpg,59
+00515,MESCOLATORE PER VERNICI,80,Utensili per imbianchini,Pennelli e accessori,4.15,Mescolatore per vernici con diametro disponibile per diverse quantità e viscosità di prodotto.,00514.jpg,59
+00516,MESCOLATORE PER VERNICI,100,Utensili per imbianchini,Pennelli e accessori,6.75,Mescolatore per vernici con diametro disponibile per diverse quantità e viscosità di prodotto.,00514.jpg,59
+00517,SPAZZOLA CURVA · FILO OTTONATO,Manico corto,Spazzole e preparazione,Pennelli e accessori,2.00,"Spazzola curva con filo ottonato e manico ergonomico per preparare, pulire e trattare le superfici.",00517.jpg,59
+00518,SPAZZOLA CURVA · FILO OTTONATO,Manico lungo,Spazzole e preparazione,Pennelli e accessori,5.10,"Spazzola curva con filo ottonato e manico ergonomico per preparare, pulire e trattare le superfici.",00517.jpg,59
+00150,FISSATIVO ACRILICO,1 LT,Primer acrilico,Finiture,8.00,"Primer professionale a base acqua, diluibile 1:4, per isolare, consolidare e rendere più uniforme il supporto prima della finitura.",00150.jpg,61
+00151,FISSATIVO ACRILICO,5 L,Primer acrilico,Finiture,32.45,"Primer professionale a base acqua, diluibile 1:4, per isolare, consolidare e rendere più uniforme il supporto prima della finitura.",00150.jpg,61
+00256,SILOGRUND,14 L,Fondo uniformante,Finiture,102.25,Fondo acril-silossanico per uniformare l’assorbimento e preparare il supporto alla finitura successiva.,00256.jpg,61
+00255,UNIFORMA,14 L,Fissativo pigmentato,Finiture,86.15,"Fissativo pigmentato all’acqua per preparare e uniformare pareti nuove o già tinteggiate, inclusi i supporti in cartongesso.",00255.jpg,61
+00232,YW12,,Finitura minerale in polvere · Premier,Finiture,12.00,"Finitura in polvere a base di calce idrata e inerti selezionati, per finiture al civile bianche all’interno e per interventi di bioedilizia o restauro.",00232.jpg,61
+00233,YW13,,Finitura minerale in polvere · Premier,Finiture,10.20,"Finitura in polvere a base di calce idrata e inerti selezionati, per finiture al civile bianche all’interno, bioedilizia e restauro.",00233.jpg,62
+00234,YR01,,Finitura liscia a base di calce · Premier,Finiture,19.25,"Finitura liscia per interni a base di calce idrata, sabbia micronizzata e additivi che ne migliorano la lavorabilità.",00234.jpg,62
+00353,FILO COTTO MATASSINE N°5 ITALIA,,,Ferramenta,1.05,Filo cotto in matassine per legature e fissaggi nei lavori edili.,00353.jpg,64
+00354,MASTELLI PUGLIA NERI LT50,,,Ferramenta,11.50,Mastelli neri per movimentazione e preparazione dei materiali in cantiere.,00354.jpg,64
 00355,CAZZUOLINO MANICO LEGNO PT MM.140,,,Ferramenta,11.25,Cazzuolino con manico in legno per lavori di posa e finitura.,00355.jpg,64
 00356,CAZZUOLE EXTRA QUADRE MM.180,,,Ferramenta,4.40,Cazzuole extra quadre per applicazione e lavorazione di malte.,00356.jpg,64
-00357,FRATTONI ANCORA INOX 20X8,20X8,,Ferramenta,12.10,Frattone in acciaio inox per stesura e finitura.,00357.jpg,65
+00357,FRATTONI ANCORA INOX 20X8,,,Ferramenta,12.10,Frattone in acciaio inox per stesura e finitura.,00357.jpg,65
 00358,FRATTONI ANCORA 5X7,,,Ferramenta,19.35,Frattone Ancora per lavorazioni di precisione.,00358.jpg,65
-00360,SPATOLE ANCORA RIGIDE,2R0IGIDE 20,,Ferramenta,4.70,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
-00361,SPATOLE ANCORA RIGIDE,4R0IGIDE 40,,Ferramenta,4.70,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
-00362,SPATOLE ANCORA RIGIDE,5R0IGIDE 50,,Ferramenta,4.95,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
-00363,SPATOLE ANCORA RIGIDE,6R0IGIDE 60,,Ferramenta,5.50,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
-00364,SPATOLE ANCORA RIGIDE,7R0IGIDE 70,,Ferramenta,5.90,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
-00365,SPATOLE ANCORA RIGIDE,8R0IGIDE 80,,Ferramenta,6.20,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
-00366,SPATOLE ANCORA RIGIDE,9R0IGIDE 90,,Ferramenta,6.65,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
-00367,SPATOLE ANCORA RIGIDE,1R0I0GIDE 100,,Ferramenta,7.55,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
-00368,SPATOLE ANCORA RIGIDE,1R2I0GIDE 120,,Ferramenta,9.05,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
-00369,SPATOLE ANCORA DENTATE,6D0ENTATE 60,,Ferramenta,2.20,Spatole dentate per distribuzione regolare di adesivi e collanti.,00369.jpg,65
-00370,SPATOLE ANCORA DENTATE,8D0ENTATE 80,,Ferramenta,3.05,Spatole dentate per distribuzione regolare di adesivi e collanti.,00369.jpg,65
-00371,SPATOLE ANCORA DENTATE,1D0E0NTATE 100,,Ferramenta,3.70,Spatole dentate per distribuzione regolare di adesivi e collanti.,00369.jpg,65
-00372,SPATOLE ANCORA DENTATE,1D2E0NTATE 120,,Ferramenta,4.25,Spatole dentate per distribuzione regolare di adesivi e collanti.,00369.jpg,65
-00373,FRATTONI ANCORA PLASTICA 24X10,24X10,,Ferramenta,10.70,Frattone in plastica per lavorazioni e finiture.,00373.jpg,65
-00374,FRATTONI SPUGNA BLU 240X100,BLU 240X100,,Ferramenta,7.50,Frattone con spugna blu per finiture e pulizia.,00374.jpg,66
-00375,FRATTONI SPUGNA PAVIMENTO 29X15X3,3PAVIMENTO 29X15X,,Ferramenta,5.20,Frattone spugna per lavorazioni su pavimento.,00375.jpg,66
-00376,PIALLE ANCORA GESSO ALLUMINIO,8A5LXL4U5M5INIO 85X455,,Ferramenta,52.55,Pialla in alluminio per gesso.,00376.jpg,66
-00377,RASCHIATORI INTONACO,2255XX1155,,Ferramenta,6.80,Raschiatori per intonaco e preparazione delle superfici.,00377.jpg,66
-00378,TRACCIATORI COMPLETI ALLUMINIO,COMPLETI ALLUMIN,,Ferramenta,10.35,Tracciatori completi in alluminio per linee e riferimenti.,00378.jpg,66
+00360,SPATOLE ANCORA RIGIDE,20,,Ferramenta,4.70,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
+00361,SPATOLE ANCORA RIGIDE,40,,Ferramenta,4.70,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
+00362,SPATOLE ANCORA RIGIDE,50,,Ferramenta,4.95,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
+00363,SPATOLE ANCORA RIGIDE,60,,Ferramenta,5.50,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
+00364,SPATOLE ANCORA RIGIDE,70,,Ferramenta,5.90,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
+00365,SPATOLE ANCORA RIGIDE,80,,Ferramenta,6.20,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
+00366,SPATOLE ANCORA RIGIDE,90,,Ferramenta,6.65,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
+00367,SPATOLE ANCORA RIGIDE,100,,Ferramenta,7.55,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
+00368,SPATOLE ANCORA RIGIDE,120,,Ferramenta,9.05,Spatole rigide per rasatura e rimozione del materiale.,00360.jpg,65
+00369,SPATOLE ANCORA DENTATE,60,,Ferramenta,2.20,Spatole dentate per distribuzione regolare di adesivi e collanti.,00369.jpg,65
+00370,SPATOLE ANCORA DENTATE,80,,Ferramenta,3.05,Spatole dentate per distribuzione regolare di adesivi e collanti.,00369.jpg,65
+00371,SPATOLE ANCORA DENTATE,100,,Ferramenta,3.70,Spatole dentate per distribuzione regolare di adesivi e collanti.,00369.jpg,65
+00372,SPATOLE ANCORA DENTATE,120,,Ferramenta,4.25,Spatole dentate per distribuzione regolare di adesivi e collanti.,00369.jpg,65
+00373,FRATTONI ANCORA PLASTICA 24X10,,,Ferramenta,10.70,Frattone in plastica per lavorazioni e finiture.,00373.jpg,65
+00374,FRATTONI SPUGNA BLU 240X100,,,Ferramenta,7.50,Frattone con spugna blu per finiture e pulizia.,00374.jpg,66
+00375,FRATTONI SPUGNA PAVIMENTO 29X15X3,,,Ferramenta,5.20,Frattone spugna per lavorazioni su pavimento.,00375.jpg,66
+00376,PIALLE ANCORA GESSO ALLUMINIO,,,Ferramenta,52.55,Pialla in alluminio per gesso.,00376.jpg,66
+00377,RASCHIATORI INTONACO,25 × 15,,Ferramenta,6.80,Raschiatori per intonaco e preparazione delle superfici.,00377.jpg,66
+00378,TRACCIATORI COMPLETI ALLUMINIO,,,Ferramenta,10.35,Tracciatori completi in alluminio per linee e riferimenti.,00378.jpg,66
 00379,SECCHIO MURATORI PLASTICA GIALLA,,,Ferramenta,4.10,Secchio da muratori in plastica gialla.,00379.jpg,67
 00380,FORETTI PER CARTONGESSO,,,Ferramenta,11.30,Foretti per lavorazioni su cartongesso.,00380.jpg,67
-00387,TASSELLI AXEL NYLON,5NYLON 5,,Ferramenta,0.05,Tasselli in nylon per fissaggi su supporti edili.,00387.jpg,67
-00388,TASSELLI AXEL NYLON,6NYLON 6,,Ferramenta,0.04,Tasselli in nylon per fissaggi su supporti edili.,00387.jpg,67
-00389,TASSELLI AXEL NYLON,8NYLON 8,,Ferramenta,0.09,Tasselli in nylon per fissaggi su supporti edili.,00387.jpg,67
-00386,TASSELLI AXEL NYLON,1N0YLON 10,,Ferramenta,0.20,Tasselli in nylon per fissaggi su supporti edili.,00387.jpg,67
-00390,VITI FISSAGGIO CEMENTO TPS,"7C,5EXM1E3N5TO TPS 7 5X",,Ferramenta,0.50,Viti TPS per fissaggio su cemento.,00390.jpg,67
-00391,VITI FISSAGGIO CEMENTO TPS,"7C,5EXM1E8N0TO TPS 7 5X",,Ferramenta,0.70,Viti TPS per fissaggio su cemento.,00390.jpg,67
+00387,TASSELLI AXEL NYLON,5,,Ferramenta,0.05,Tasselli in nylon per fissaggi su supporti edili.,00387.jpg,67
+00388,TASSELLI AXEL NYLON,6,,Ferramenta,0.04,Tasselli in nylon per fissaggi su supporti edili.,00387.jpg,67
+00389,TASSELLI AXEL NYLON,8,,Ferramenta,0.09,Tasselli in nylon per fissaggi su supporti edili.,00387.jpg,67
+00386,TASSELLI AXEL NYLON,10,,Ferramenta,0.20,Tasselli in nylon per fissaggi su supporti edili.,00387.jpg,67
+00390,VITI FISSAGGIO CEMENTO TPS,"7,5 × 135",,Ferramenta,0.50,Viti TPS per fissaggio su cemento.,00390.jpg,67
+00391,VITI FISSAGGIO CEMENTO TPS,"7,5 × 180",,Ferramenta,0.70,Viti TPS per fissaggio su cemento.,00390.jpg,67
 00392,CHIODI ACCIAIO TP,al kg,,Ferramenta,6.00,Chiodi in acciaio per fissaggi e lavorazioni.,00392.jpg,67
-00393,VITI PANELVIT CHROMATI,"3C,5HXR3O0M CAOTNI 3F .5 DXA30 5 00",,Ferramenta,11.30,Viti Panelvit cromate per fissaggi.,00393.jpg,68
-00394,VITI PANELVIT CHROMATI,"3C,5HXR4O0M CAOTNI 3F .5 DXA40 5 00",,Ferramenta,16.00,Viti Panelvit cromate per fissaggi.,00393.jpg,68
-00396,VITI PANELVIT CHROMATI,5CXH6R0 OCMOANTFI .5 DXA60 2 C00O,,Ferramenta,16.90,Viti Panelvit cromate per fissaggi.,00393.jpg,68
-00397,VITI PANELVIT CHROMATI,5CXH8R0 OCMOANTFI .5 DXA80 2 C00O,,Ferramenta,22.70,Viti Panelvit cromate per fissaggi.,00393.jpg,68
-00395,VITI PANELVIT CHROMATI,"3C,5HXR5O0M CAOTNI 3F .5 DXA50 5 00",,Ferramenta,27.55,Viti Panelvit cromate per fissaggi.,00393.jpg,68
-00399,CARTONE ONDULATO DOPPIO STRATO,1D6OMPTPIO STRATO 16,,Protezione e preparazione,11.00,Cartone ondulato per protezione e imballaggio.,00399.jpg,68
-00400,FELTRI PROTEZIONE PAVIMENTO,MMTT11XX1100,,Protezione e preparazione,9.20,Feltri per protezione del pavimento durante i lavori.,00400.jpg,68
-00401,TELI COPRITUTTO,MMTT44XX44,,Protezione e preparazione,4.85,Teli copritutto per proteggere superfici e arredi.,00401.jpg,68
-00402,FOGLI TAKE AWAY,FM2O×TL22GX0I2 mT0AKE AWAY MT,,Protezione e preparazione,15.00,Fogli protettivi per copertura e protezione.,00402.jpg,68
-00403,FOGLI TAKE AWAY,M4×T140X m10,,Protezione e preparazione,15.00,Fogli protettivi per copertura e protezione.,00402.jpg,68
-00404,SILICONE ACETICO FISCHER,FISCHER,,Adesivi e sigillanti,4.45,Silicone acetico trasparente per sigillature e finiture.,00404.jpg,69
-00405,SILICONE ACRILICO SOUDAL,SOUDAL,,Adesivi e sigillanti,2.60,Silicone acrilico per sigillature e lavori di completamento.,00405.jpg,69
-00406,SCHIUMA PISTOLA TYTAN,TYTAN,,Adesivi e sigillanti,10.00,Schiuma poliuretanica per pistola.,00406.jpg,69
+00393,VITI PANELVIT CHROMATI,"3,5 × 30 · confezione da 500",,Ferramenta,11.30,Viti Panelvit cromate per fissaggi.,00393.jpg,68
+00394,VITI PANELVIT CHROMATI,"3,5 × 40 · confezione da 500",,Ferramenta,16.00,Viti Panelvit cromate per fissaggi.,00393.jpg,68
+00396,VITI PANELVIT CHROMATI,5 × 60 · confezione da 200,,Ferramenta,16.90,Viti Panelvit cromate per fissaggi.,00393.jpg,68
+00397,VITI PANELVIT CHROMATI,5 × 80 · confezione da 200,,Ferramenta,22.70,Viti Panelvit cromate per fissaggi.,00393.jpg,68
+00395,VITI PANELVIT CHROMATI,"3,5 × 50 · confezione da 500",,Ferramenta,27.55,Viti Panelvit cromate per fissaggi.,00393.jpg,68
+00399,CARTONE ONDULATO DOPPIO STRATO,16 m,,Protezione e preparazione,11.00,Cartone ondulato per protezione e imballaggio.,00399.jpg,68
+00400,FELTRI PROTEZIONE PAVIMENTO,1 × 10 m,,Protezione e preparazione,9.20,Feltri per protezione del pavimento durante i lavori.,00400.jpg,68
+00401,TELI COPRITUTTO,4 × 4 m,,Protezione e preparazione,4.85,Teli copritutto per proteggere superfici e arredi.,00401.jpg,68
+00402,FOGLI TAKE AWAY,2 × 20 m,,Protezione e preparazione,15.00,Fogli protettivi per copertura e protezione.,00402.jpg,68
+00403,FOGLI TAKE AWAY,4 × 10 m,,Protezione e preparazione,15.00,Fogli protettivi per copertura e protezione.,00402.jpg,68
+00404,SILICONE ACETICO FISCHER,,,Adesivi e sigillanti,4.45,Silicone acetico trasparente per sigillature e finiture.,00404.jpg,69
+00405,SILICONE ACRILICO SOUDAL,,,Adesivi e sigillanti,2.60,Sigillante acrilico Soudal per sigillature e lavori di completamento.,00405.jpg,69
+00406,SCHIUMA PISTOLA TYTAN,,,Adesivi e sigillanti,10.00,Schiuma poliuretanica per pistola.,00406.jpg,69
 00407,SBLOCCANTE WD40,,,Ferramenta,11.00,Sbloccante multiuso per manutenzione e protezione.,00407.jpg,69
-00409,DISCHI SAITEKO METALLO,"1M1E5XTA1,L6LXO2 2115X1 6X",,Ferramenta,2.95,Dischi da taglio per metallo.,00409.jpg,69
-00410,DISCHI SAITEKO MARMO,1M1A58RXM3OX 212158X3X22,,Ferramenta,3.70,Dischi per taglio marmo.,00410.jpg,70
-00440,CHIAVI TORX AXEL A T,99; 1100; 1155; 2200; 2255; 2277;30;40,,Ferramenta,3.60,Chiavi Torx a T per serraggio professionale.,00440.jpg,70
-00412,MARTELLI CARPENTIERE BELLOTA,BELLOTTA,,Ferramenta,18.40,Martello da carpentiere Bellota.,00412.jpg,70
+00409,DISCHI SAITEKO METALLO,"115 × 1,6 × 22",,Ferramenta,2.95,Dischi da taglio per metallo.,00409.jpg,69
+00410,DISCHI SAITEKO MARMO,,,Ferramenta,3.70,Dischi per taglio marmo.,00410.jpg,70
+00440,CHIAVI TORX AXEL A T,9 · 10 · 15 · 20 · 25 · 27 · 30 · 40,,Ferramenta,3.60,Chiavi Torx a T per serraggio professionale.,00440.jpg,70
+00412,MARTELLI CARPENTIERE BELLOTA,,,Ferramenta,18.40,Martello da carpentiere Bellota.,00412.jpg,70
 00413,MARTELLI DA BANCO,,,Ferramenta,4.50,Martello da banco per lavorazioni e montaggio.,00413.jpg,70
-00414,MAZZUOLE GOMMA NERA,GOMMA NERA,,Ferramenta,4.45,Mazzuola in gomma nera.,00414.jpg,70
-00415,MAZZETTE MICROFIBRA EXTRA,EXTRA,,Ferramenta,12.90,Mazzetta in microfibra extra.,00415.jpg,71
-00416,SCALPELLI FALEGNAME STANLEY,6STANLEY 6,,Ferramenta,19.75,Scalpelli da falegname Stanley.,00416.jpg,71
-00417,SCALPELLI FALEGNAME STANLEY,8STANLEY 8,,Ferramenta,19.75,Scalpelli da falegname Stanley.,00416.jpg,71
-00418,SCALPELLI FALEGNAME STANLEY,1S0TANLEY 10,,Ferramenta,20.80,Scalpelli da falegname Stanley.,00416.jpg,71
-00419,SCALPELLI FALEGNAME STANLEY,1S2TANLEY 12,,Ferramenta,20.80,Scalpelli da falegname Stanley.,00416.jpg,71
-00420,SCALPELLI FALEGNAME STANLEY,1S4TANLEY 14,,Ferramenta,20.80,Scalpelli da falegname Stanley.,00416.jpg,71
-00421,SCALPELLI FALEGNAME STANLEY,1S6TANLEY 16,,Ferramenta,22.30,Scalpelli da falegname Stanley.,00416.jpg,71
-00422,SCALPELLI FALEGNAME STANLEY,1S8TANLEY 18,,Ferramenta,22.85,Scalpelli da falegname Stanley.,00416.jpg,71
-00423,SCALPELLI FALEGNAME STANLEY,2S0TANLEY 20,,Ferramenta,22.85,Scalpelli da falegname Stanley.,00416.jpg,71
-00424,SCALPELLI FALEGNAME STANLEY,2S2TANLEY 22,,Ferramenta,23.30,Scalpelli da falegname Stanley.,00416.jpg,71
-00425,SCALPELLI FALEGNAME STANLEY,2S5TANLEY 25,,Ferramenta,26.70,Scalpelli da falegname Stanley.,00416.jpg,71
-00426,STRETTOI FALEGNAME,4F0ALEGNAME 40,,Ferramenta,15.50,Strettoi da falegname.,00426.jpg,71
-00427,STRETTOI FALEGNAME,6F0ALEGNAME 60,,Ferramenta,23.05,Strettoi da falegname.,00426.jpg,71
-00428,STRETTOI FALEGNAME,8F0ALEGNAME 80,,Ferramenta,26.15,Strettoi da falegname.,00426.jpg,71
+00414,MAZZUOLE GOMMA NERA,,,Ferramenta,4.45,Mazzuola in gomma nera.,00414.jpg,70
+00415,MAZZETTE MICROFIBRA EXTRA,,,Ferramenta,12.90,"Mazzetta da lavoro, modello Microfibra Extra.",00415.jpg,71
+00416,SCALPELLI FALEGNAME STANLEY,6,,Ferramenta,19.75,Scalpelli da falegname Stanley.,00416.jpg,71
+00417,SCALPELLI FALEGNAME STANLEY,8,,Ferramenta,19.75,Scalpelli da falegname Stanley.,00416.jpg,71
+00418,SCALPELLI FALEGNAME STANLEY,10,,Ferramenta,20.80,Scalpelli da falegname Stanley.,00416.jpg,71
+00419,SCALPELLI FALEGNAME STANLEY,12,,Ferramenta,20.80,Scalpelli da falegname Stanley.,00416.jpg,71
+00420,SCALPELLI FALEGNAME STANLEY,14,,Ferramenta,20.80,Scalpelli da falegname Stanley.,00416.jpg,71
+00421,SCALPELLI FALEGNAME STANLEY,16,,Ferramenta,22.30,Scalpelli da falegname Stanley.,00416.jpg,71
+00422,SCALPELLI FALEGNAME STANLEY,18,,Ferramenta,22.85,Scalpelli da falegname Stanley.,00416.jpg,71
+00423,SCALPELLI FALEGNAME STANLEY,20,,Ferramenta,22.85,Scalpelli da falegname Stanley.,00416.jpg,71
+00424,SCALPELLI FALEGNAME STANLEY,22,,Ferramenta,23.30,Scalpelli da falegname Stanley.,00416.jpg,71
+00425,SCALPELLI FALEGNAME STANLEY,25,,Ferramenta,26.70,Scalpelli da falegname Stanley.,00416.jpg,71
+00426,STRETTOI FALEGNAME,40,,Ferramenta,15.50,Strettoi da falegname.,00426.jpg,71
+00427,STRETTOI FALEGNAME,60,,Ferramenta,23.05,Strettoi da falegname.,00426.jpg,71
+00428,STRETTOI FALEGNAME,80,,Ferramenta,26.15,Strettoi da falegname.,00426.jpg,71
 00429,CUTTER AXEL,,,Ferramenta,10.25,Cutter con lama.,00429.jpg,71
-00435,DOPPIMETRI LEGNO BIANCO-GIALLI,LEGNO BIANCO GIA,,Ferramenta,4.00,Doppimetri in legno bianco-gialli.,00435.jpg,71
-00436,ROTELLE METRICHE,1S0TMATNLEY 10MT,,Ferramenta,12.05,Rotelle metriche per rilievi e misurazione.,00436.jpg,72
-00437,FLESSOMETRI MILWAUKEE AUTOLOCK,5AMUTTOLOCK 5MT,,Ferramenta,16.30,Flessometri Milwaukee Autolock.,00437.jpg,72
-00439,PUNTELLI MURATORE,CMMU.R22A0T/O40R0E cm 220,,Ferramenta,47.60,Puntelli da muratore regolabili.,00439.jpg,72
+00435,DOPPIMETRI LEGNO BIANCO-GIALLI,,,Ferramenta,4.00,Doppimetri in legno bianco-gialli.,00435.jpg,71
+00436,ROTELLE METRICHE,10 m,,Ferramenta,12.05,Rotelle metriche per rilievi e misurazione.,00436.jpg,72
+00437,FLESSOMETRI MILWAUKEE AUTOLOCK,5 m,,Ferramenta,16.30,Flessometri Milwaukee Autolock.,00437.jpg,72
+00439,PUNTELLI MURATORE,220–400 cm,,Ferramenta,47.60,Puntelli da muratore regolabili.,00439.jpg,72

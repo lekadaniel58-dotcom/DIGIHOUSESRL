@@ -29,6 +29,7 @@ jobs:
           key: original-partner-logos-v1
       - run: npm run fetch:partner-logos
       - run: npm run check:partners
+      - run: npm run check:text
       - run: npm run check:search
       - run: npm run check:catalog
       - run: npm run check:bucket-formats

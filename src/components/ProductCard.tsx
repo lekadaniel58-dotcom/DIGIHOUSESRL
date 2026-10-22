@@ -19,6 +19,10 @@ export default function ProductCard({ p }: { p: Product }) {
         {p.smaller_formats?.length ? <p className="text-xs leading-relaxed text-navy/70">Disponibile anche nei formati più piccoli: {p.smaller_formats.join(' · ')}.</p> : null}
         {p.subtitle && <p className="text-xs text-navy/60">{p.subtitle}</p>}
         {code && <p className="text-xs text-navy/50">{code}</p>}
+        {p.description && <details className="mt-2 text-sm text-navy/75">
+          <summary aria-label={`Descrizione di ${p.name}`} className="cursor-pointer font-medium text-navy">Descrizione</summary>
+          <p className="mt-2 leading-relaxed">{p.description}</p>
+        </details>}
         <p className="mt-auto pt-3 text-lg font-bold text-gold-600">
           {p.price !== null ? <>{hasVariants && <span className="text-xs font-medium text-navy/60">da </span>}{eur(p.price)}</> : <span className="text-sm">Su preventivo</span>}
         </p>

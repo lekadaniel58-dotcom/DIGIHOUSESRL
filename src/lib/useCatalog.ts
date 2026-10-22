@@ -42,7 +42,7 @@ export function useCatalog() {
   const [state, setState] = useState<CatalogState>({ departments: [], products: [], loading: true, error: null });
   useEffect(() => {
     let alive = true;
-    fetch(`${import.meta.env.BASE_URL}data/catalogo.csv`)
+    fetch(`${import.meta.env.BASE_URL}data/catalogo.csv`, { cache: 'no-cache' })
       .then(async response => {
         if (!response.ok) throw new Error(`Catalogo non disponibile (HTTP ${response.status})`);
         const rows = [...parseCSV(await response.text()), ...partnerProducts];
