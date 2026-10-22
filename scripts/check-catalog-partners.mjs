@@ -28,7 +28,7 @@ assert(!getPartnerIds('SKIN', 'infissi').includes('dierre'));
 for (const extra of extras) {
   assert(!rows.some(r => r.sku === extra.sku || r.name === extra.name));
   assert.equal(extra.variant, '14 LT');
-  assert.equal(extra.price, '');
+  assert(Number.isFinite(Number(extra.price)) && Number(extra.price) > 0, 'Prezzo Muratti valido');
   assert(extra.smaller_formats.length >= 2);
   assert(fs.existsSync(new URL(`../public/assets/${extra.image}`, import.meta.url)));
   assert(extra.thumbnail && extra.thumbnail !== extra.image);

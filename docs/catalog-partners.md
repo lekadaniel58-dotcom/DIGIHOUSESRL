@@ -25,3 +25,5 @@ I loghi originali Muratti e HEX vengono scaricati da `npm run fetch:partner-logo
 Correzione FERRHEX: entrambi i componenti A (00204) e B (00205) del sistema bicomponente sono associati a HEX e IVC. La pagina di riferimento mostrava soltanto A; il filtro comprende ora anche B, già presente nel catalogo corrente. Nessun dato commerciale modificato.
 
 Le immagini originali verificate sono conservate nella cache della compilazione, così gli aggiornamenti del catalogo non richiedono nuovi download. È supportata la conversione automatica WebP dei CDN dei fornitori, anche per URL che terminano in `.jpg` o `.png`; pagine HTML o risposte non riconosciute vengono respinte.
+
+Prezzi Muratti comunicati dall’utente per le schede da 14 L: NAXOS 24,45 €, PANAREA 53,50 €, QUARZO LISCIO 53,60 €. Sostituiscono la precedente indicazione «Su preventivo».
