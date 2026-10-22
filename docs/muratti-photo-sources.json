@@ -1,0 +1,80 @@
+[
+  {
+    "product": "naxos",
+    "source_url": "https://www.rotacommerciale.it/wp-content/uploads/2024/11/naxos-pittura-interni-economica.jpg",
+    "reference_page": "https://www.rotacommerciale.it/prodotto/pittura-economica-per-interni-naxos/",
+    "original_dimensions": [
+      600,
+      600
+    ],
+    "source_sha256": "17d18273051bf6887dd93271f2fb4436404979bc5c04f8446115511e1e7bc79f",
+    "thumb": {
+      "file": "muratti-naxos-thumb.webp",
+      "dimensions": [
+        600,
+        600
+      ],
+      "bytes": 28300
+    },
+    "hd": {
+      "file": "muratti-naxos-hd.webp",
+      "dimensions": [
+        600,
+        600
+      ],
+      "bytes": 39572
+    }
+  },
+  {
+    "product": "panarea",
+    "source_url": "https://storage.fareke.com/media/images/product/large/9439/muratti-panarea-idropittura-lavabile-profumata-per-interni.jpg",
+    "reference_page": "https://www.fareke.com/lavabili/35-delp-italia-genova/6882-482698-muratti-panarea-idropittura-lavabile-profumata-per-interni-8999900482698.html",
+    "original_dimensions": [
+      1000,
+      1000
+    ],
+    "source_sha256": "a6c41bde5d582cc0781d7e5503b705b4bc205eae065797d89b30a5af046c7e8a",
+    "thumb": {
+      "file": "muratti-panarea-thumb.webp",
+      "dimensions": [
+        600,
+        600
+      ],
+      "bytes": 20250
+    },
+    "hd": {
+      "file": "muratti-panarea-hd.webp",
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "bytes": 52842
+    }
+  },
+  {
+    "product": "quarzo-liscio",
+    "source_url": "https://cdn.shopify.com/s/files/1/0604/6990/3542/products/MURATTI-QUARZOLISCIOBIANCOLT-751832.jpg?v=1673456861",
+    "reference_page": "https://grossipro.it/products/vernici-e-chimica-muratti-quarzo-liscio-bianco-esterno-lt14-751832-751832",
+    "original_dimensions": [
+      400,
+      400
+    ],
+    "source_sha256": "d70b3cea380ed865e599afc2d568a1d7760838ccc31fe52a79cb52ac47016e55",
+    "thumb": {
+      "file": "muratti-quarzo-liscio-thumb.webp",
+      "dimensions": [
+        400,
+        400
+      ],
+      "bytes": 20468
+    },
+    "hd": {
+      "file": "muratti-quarzo-liscio-hd.webp",
+      "dimensions": [
+        400,
+        400
+      ],
+      "bytes": 28052
+    }
+  }
+]
