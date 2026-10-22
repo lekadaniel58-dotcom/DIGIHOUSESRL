@@ -1,6 +1,6 @@
 # Richieste imprese via email
 
-La pagina `#/imprese` invia un modulo POST a FormSubmit, destinatario
+La pagina `#/imprese` invia un POST JSON all’endpoint AJAX di FormSubmit, destinatario
 `degihousesrl@gmail.com`. Non richiede credenziali email nel codice pubblico.
 Il campo `email` è l'indirizzo del referente per le risposte; l'oggetto è
 “DIGI HOUSE — Richiesta iscrizione impresa”, con riepilogo dei dati in tabella.
@@ -14,17 +14,21 @@ Il campo `email` è l'indirizzo del referente per le risposte; l'oggetto è
 
 Fino all'attivazione e alla verifica di ricezione, la consegna email non va
 considerata operativa. Il destinatario deve completare personalmente la verifica.
-Il servizio può richiedere una verifica antispam al cliente. La conferma dell'invio
-è gestita dal servizio, senza mostrare un successo anticipato sul sito.
+Il cliente resta su Digi House. La conferma appare solo dopo una risposta HTTP
+positiva con `success: true` o `success: "true"` dal servizio; non certifica la
+consegna nella casella destinataria. Da lì può tornare al catalogo.
 
 La validazione locale controlla i campi obbligatori. Il modulo mantiene il campo
-honeypot `_honey` e la protezione antispam predefinita del servizio. Nessuna
+honeypot `_honey` e i controlli del servizio compatibili con l’endpoint AJAX. Nessuna
 iscrizione o condizione commerciale viene attivata automaticamente.
 
 ## Verifica effettuata
 
-Build TypeScript/Vite e test browser del POST intercettato localmente: dati,
-destinatario, validazione e visualizzazione mobile/desktop. Nessuna richiesta
+Build TypeScript/Vite e test browser con endpoint intercettato: dati, validazione,
+conferma senza navigazione esterna, collegamento al catalogo, attesa lenta e blocco
+dei doppi invii. Errori HTTP, rete o `success: false` mantengono i dati senza
+mostrare una conferma. Dopo 8 secondi appare un avviso; a 25 secondi l’attesa
+viene interrotta senza tentativi automatici (la consegna può essere incerta). Nessuna richiesta
 fittizia è stata inviata. La rete dell'ambiente restituisce HTTP 403 per
 `formsubmit.co`, quindi non è stato possibile verificare qui il servizio remoto
 o la consegna effettiva. Le eventuali condizioni e i limiti del servizio vanno

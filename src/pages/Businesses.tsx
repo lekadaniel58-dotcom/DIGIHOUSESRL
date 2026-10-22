@@ -1,5 +1,7 @@
-import { useState, type FormEvent } from 'react';
-import { Building2, Mail } from 'lucide-react';
+import { useEffect, useRef, useState, type FormEvent } from 'react';
+import { Building2, CheckCircle2, Mail } from 'lucide-react';
+
+import { Link } from 'react-router-dom';
 
 const fields = [
   { name: 'company', label: 'Ragione sociale', autoComplete: 'organization', maxLength: 150 },
@@ -12,9 +14,16 @@ const fieldClass = 'w-full rounded-xl bg-white px-4 py-3 ring-1 ring-navy/20 foc
 
 export default function Businesses() {
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [sending, setSending] = useState(false);
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const [slow, setSlow] = useState(false);
+  const inFlight = useRef<AbortController | null>(null);
+  const feedback = useRef<HTMLDivElement>(null);
+  useEffect(() => () => { inFlight.current?.abort(); }, []);
+  useEffect(() => { if (status === 'success' || status === 'error') feedback.current?.focus(); }, [status]);
 
-  const submit = (event: FormEvent<HTMLFormElement>) => {
+  const submit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    if (inFlight.current) return;
     const form = event.currentTarget;
     const data = new FormData(form);
     if (data.get('_honey')) { event.preventDefault(); return; }
@@ -34,9 +43,30 @@ export default function Businesses() {
       if (first instanceof HTMLElement) first.focus();
       return;
     }
-    // Submit directly to the email provider. Its confirmation page reports delivery acceptance;
-    // do not show a local success message before the provider has accepted the request.
-    setSending(true);
+    const controller = new AbortController();
+    inFlight.current = controller;
+    setStatus('sending');
+    setSlow(false);
+    const slowTimer = window.setTimeout(() => setSlow(true), 8000);
+    const timeout = window.setTimeout(() => controller.abort(), 25000);
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/degihousesrl@gmail.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ ...Object.fromEntries(data), _url: window.location.href }),
+        signal: controller.signal,
+      });
+      const result = await response.json();
+      if (!response.ok || (result?.success !== true && result?.success !== 'true')) throw new Error('Request not accepted');
+      if (inFlight.current === controller) setStatus('success');
+    } catch {
+      if (inFlight.current === controller) setStatus('error');
+    } finally {
+      window.clearTimeout(slowTimer);
+      window.clearTimeout(timeout);
+      if (inFlight.current === controller) inFlight.current = null;
+      setSlow(false);
+    }
   };
 
   return <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
@@ -54,7 +84,14 @@ export default function Businesses() {
         </ol>
         <p className="mt-6 text-sm text-navy/60">La richiesta non attiva automaticamente un account o un listino. Le condizioni per le imprese vengono confermate direttamente da DIGI HOUSE.</p>
       </div>
-      <form action="https://formsubmit.co/degihousesrl@gmail.com" method="POST" onSubmit={submit} noValidate className="min-w-0 rounded-3xl bg-white p-6 shadow-sm ring-1 ring-navy/10 md:p-8">
+      <form onSubmit={submit} noValidate aria-busy={status === 'sending'} className="min-w-0 rounded-3xl bg-white p-6 shadow-sm ring-1 ring-navy/10 md:p-8">
+        {status === 'success' ? <div ref={feedback} tabIndex={-1} role="status" className="py-8 text-center">
+          <CheckCircle2 size={48} className="mx-auto text-gold" aria-hidden="true" />
+          <h2 className="mt-4 font-display text-2xl">Richiesta inviata</h2>
+          <p className="mt-3 text-navy/70">Grazie! Ti ricontatteremo per verificare i dati della tua impresa e concordare le condizioni dedicate.</p>
+          <Link to="/catalogo" className="mt-6 inline-block rounded-full bg-navy px-6 py-3 font-semibold text-white">Torna al catalogo</Link>
+        </div> : <>
+        <fieldset disabled={status === 'sending'} className="min-w-0">
         <input type="hidden" name="_subject" value="DIGI HOUSE — Richiesta iscrizione impresa" />
         <input type="hidden" name="_template" value="table" />
         <h2 className="font-display text-xl">Richiesta di iscrizione</h2>
@@ -70,8 +107,14 @@ export default function Businesses() {
           <label className="flex items-start gap-3 text-sm text-navy/80"><input name="acknowledgement" type="checkbox" required className="mt-1" aria-invalid={!!errors.acknowledgement} aria-describedby={errors.acknowledgement ? 'error-acknowledgement' : undefined} /><span>Chiedo di essere ricontattato da DIGI HOUSE per l’iscrizione e le condizioni riservate alla mia impresa.</span></label>
           {errors.acknowledgement && <p id="error-acknowledgement" role="alert" className="text-sm text-red-700">{errors.acknowledgement}</p>}
         </div>
-        <p className="mt-4 text-xs leading-relaxed text-navy/60">Premendo “Invia richiesta”, i dati saranno trasmessi tramite FormSubmit alla casella email di DIGI HOUSE per gestire la richiesta. Potrebbe esserti chiesta una verifica antispam prima della conferma.</p>
-        <button type="submit" disabled={sending} className="mt-6 inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3 font-semibold text-white hover:bg-navy/90 disabled:opacity-60"><Mail size={18} />{sending ? 'Invio in corso…' : 'Invia richiesta'}</button>
+        <p className="mt-4 text-xs leading-relaxed text-navy/60">Premendo “Invia richiesta”, i dati saranno trasmessi tramite FormSubmit alla casella email di DIGI HOUSE per gestire la richiesta. La conferma dell’invio apparirà su questa pagina.</p>
+        <button type="submit" disabled={status === 'sending'} className="mt-6 inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3 font-semibold text-white hover:bg-navy/90 disabled:opacity-60"><Mail size={18} />{status === 'sending' ? 'Invio in corso…' : 'Invia richiesta'}</button>
+        </fieldset>
+        {status === 'sending' && <p role="status" className="mt-4 text-sm text-navy/70">{slow ? 'Il servizio sta impiegando più tempo del previsto. Attendi la conferma senza inviare di nuovo.' : 'Stiamo inviando la richiesta. Rimani su questa pagina.'}</p>}
+        {status === 'error' && <div ref={feedback} tabIndex={-1} role="alert" className="mt-4 rounded-xl bg-red-50 p-4 text-sm text-red-800">
+          Non abbiamo ricevuto conferma dell’invio. I dati sono rimasti nel modulo. Prima di riprovare, puoi contattarci al <a className="underline" href="tel:+3908331860089">0833 186 0089</a> o scrivere a <a className="break-all underline" href="mailto:degihousesrl@gmail.com">degihousesrl@gmail.com</a>.
+        </div>}
+        </>}
       </form>
     </div>
   </div>;
