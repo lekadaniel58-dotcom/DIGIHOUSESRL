@@ -33,3 +33,7 @@ Due righe già presenti nel CSV non hanno fotografia: «PENNELLESSA MANICO LEGNO
 I loghi originali Muratti/HEX sono scaricati o recuperati dalla cache e verificati dal processo di pubblicazione su GitHub: i domini dei fornitori restano bloccati nella rete di questo ambiente locale. L'esito della pubblicazione viene controllato separatamente su GitHub Actions. Le prove locali non attestano la raggiungibilità di tutti i servizi esterni (Maps, social, WhatsApp) né le disponibilità commerciali delle promozioni.
 
 CSV, codici, prezzi, nomi, descrizioni e associazioni dei prodotti esistenti non modificati da questa verifica.
+
+## Aggiornamento richiesto dopo la verifica
+
+Rimosse dal CSV le due schede prive di fotografia indicate sopra, su richiesta dell’utente. Il registro categorie è aggiornato a 354 righe. Il sito mostra ora 349 schede, tutte con fotografia (inclusi i tre prodotti Muratti e gli otto formati piccoli già accorpati). I risultati precedenti documentano la situazione prima della rimozione.
