@@ -28,6 +28,7 @@ jobs:
             public/assets/fornitori/hex-logo.jpg
           key: original-partner-logos-v1
       - run: npm run fetch:partner-logos
+      - run: node scripts/find-muratti-images.mjs
       - run: npm run check:partners
       - run: npm run check:search
       - run: npm run check:catalog
