@@ -167,6 +167,17 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-7xl px-4 pb-16" aria-labelledby="imprese-title">
+        <div className="flex flex-wrap items-center justify-between gap-6 rounded-3xl bg-navy p-7 text-white md:p-10">
+          <div className="max-w-2xl">
+            <p className="text-sm font-semibold uppercase tracking-widest text-gold">Area imprese</p>
+            <h2 id="imprese-title" className="mt-2 font-display text-3xl">Lavori con un’impresa?</h2>
+            <p className="mt-3 text-white/75">I prezzi del sito sono riservati ai privati. Iscrivi la tua impresa per richiedere forniture e condizioni commerciali dedicate.</p>
+          </div>
+          <FxButton to="/imprese">Iscrivi la tua impresa</FxButton>
+        </div>
+      </section>
+
       <section className="overflow-hidden bg-white py-14">
         <div className="mx-auto max-w-7xl px-4"><Head eyebrow="Collaborazioni selezionate" title="I nostri partner." text="Soluzioni e materiali scelti da aziende specializzate nei rispettivi settori." /></div>
         <PartnerMarquee />

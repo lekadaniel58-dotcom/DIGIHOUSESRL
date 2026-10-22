@@ -4,7 +4,7 @@ import { Facebook, Instagram, Menu, MessageCircle, Phone, X } from 'lucide-react
 import { waLink } from '../lib/supabase';
 import FxButton from './FxButton';
 
-const links = [['/#serramenti', 'Serramenti'], ['/#comfort', 'Comfort'], ['/#edilizia', 'Edilizia & Fai-da-te'], ['/catalogo', 'Catalogo'], ['/#offerte', 'Offerte'], ['/contatti', 'Contatti']] as const;
+const links = [['/#serramenti', 'Serramenti'], ['/#comfort', 'Comfort'], ['/#edilizia', 'Edilizia & Fai-da-te'], ['/catalogo', 'Catalogo'], ['/#offerte', 'Offerte'], ['/imprese', 'Area imprese'], ['/contatti', 'Contatti']] as const;
 export const MAPS = 'https://maps.app.goo.gl/SMNmwgoUxkVnGmSTA';
 
 export default function Layout() {
@@ -20,7 +20,7 @@ export default function Layout() {
       <header className="sticky top-0 z-30 bg-navy text-white shadow-lg">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
           <Link to="/" aria-label="DIGI HOUSE - Home"><img src={`${import.meta.env.BASE_URL}logo.png`} alt="DIGI HOUSE" className="h-11 w-auto transition hover:scale-105" /></Link>
-          <nav className="hidden items-center gap-6 lg:flex" aria-label="Principale">
+          <nav className="hidden items-center gap-4 lg:flex" aria-label="Principale">
             {links.map(([to, label]) => (
               <Link key={to} to={to} className="group relative py-1 text-sm font-medium transition hover:text-gold">{label}
                 <span className="absolute -bottom-0.5 left-0 h-0.5 w-0 bg-gold transition-all duration-300 group-hover:w-full" /></Link>))}
@@ -54,7 +54,7 @@ export default function Layout() {
             <p className="mt-2">Tel. +39 0833 186 0089<br />WhatsApp +39 328 309 9390<br />degihousesrl@gmail.com</p>
             <a href={MAPS} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-gold hover:underline">Apri la sede su Google Maps</a></div>
         </div>
-        <nav aria-label="Informazioni" className="mx-auto flex max-w-7xl flex-wrap justify-center gap-6 px-4 pb-6"><Link to="/chi-siamo" className="hover:text-gold">Chi siamo</Link><Link to="/promozioni" className="hover:text-gold">Promozioni</Link></nav>
+        <nav aria-label="Informazioni" className="mx-auto flex max-w-7xl flex-wrap justify-center gap-6 px-4 pb-6"><Link to="/chi-siamo" className="hover:text-gold">Chi siamo</Link><Link to="/promozioni" className="hover:text-gold">Promozioni</Link><Link to="/imprese" className="hover:text-gold">Iscrizione imprese</Link></nav>
         <p className="border-t border-white/10 py-4 text-center text-xs">© DIGI HOUSE. Tutti i diritti riservati. · Privacy · Cookie</p>
       </footer>
     </div>

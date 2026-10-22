@@ -26,6 +26,7 @@ export default function ProductCard({ p }: { p: Product }) {
         <p className="mt-auto pt-3 text-lg font-bold text-gold-600">
           {p.price !== null ? <>{hasVariants && <span className="text-xs font-medium text-navy/60">da </span>}{eur(p.price)}</> : <span className="text-sm">Su preventivo</span>}
         </p>
+        {p.price !== null && <p className="text-xs text-navy/60">Prezzo per privati</p>}
         <a href={waLink(`Buongiorno, vorrei un preventivo per: ${p.name}${code ? ' (' + code + ')' : ''}`)} target="_blank" rel="noopener noreferrer"
           className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-navy px-3 py-2 text-sm font-medium text-white transition hover:bg-gold">
           <MessageCircle size={16} />Richiedi preventivo

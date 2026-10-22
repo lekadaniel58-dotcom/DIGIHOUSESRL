@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Catalog from './pages/Catalog';
 import { About, Promotions, NotFound } from './pages/Information';
 import Contact from './pages/Contact';
+import Businesses from './pages/Businesses';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path="catalogo" element={<Catalog />} />
           <Route path="promozioni" element={<Promotions />} />
           <Route path="chi-siamo" element={<About />} />
+          <Route path="imprese" element={<Businesses />} />
           <Route path="contatti" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Route>

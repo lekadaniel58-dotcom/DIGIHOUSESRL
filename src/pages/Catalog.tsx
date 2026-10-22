@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import { useCatalog } from '../lib/useCatalog';
 import ProductCard from '../components/ProductCard';
@@ -47,6 +47,10 @@ export default function Catalog() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">
       <h1 className="font-display text-3xl mb-6">{partner ? `Catalogo · ${partner.name}` : 'Catalogo'}</h1>
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-white p-4 ring-1 ring-navy/10">
+        <p className="text-sm text-navy/80">I prezzi visualizzati sono riservati ai privati. Sei un’impresa? Richiedi le condizioni dedicate.</p>
+        <Link to="/imprese" className="rounded-full bg-navy px-5 py-2 text-sm font-semibold text-white hover:bg-navy/90">Iscrivi la tua impresa</Link>
+      </div>
       {partner && <p className="mb-4 text-sm text-navy/70">Stai visualizzando solo i prodotti {partner.name}. <button type="button" onClick={() => updateFilter('partner', '')} className="underline">Mostra tutti i partner</button></p>}
       <div className="mb-6 flex flex-wrap items-center gap-3">
         <label className="relative w-full flex-none sm:w-auto sm:flex-1 min-w-0 sm:min-w-[220px]">
