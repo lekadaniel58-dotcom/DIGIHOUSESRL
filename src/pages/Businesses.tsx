@@ -1,6 +1,5 @@
 import { useState, type FormEvent } from 'react';
-import { Building2, MessageCircle } from 'lucide-react';
-import { waLink } from '../lib/supabase';
+import { Building2, Mail } from 'lucide-react';
 
 const fields = [
   { name: 'company', label: 'Ragione sociale', autoComplete: 'organization', maxLength: 150 },
@@ -13,13 +12,12 @@ const fieldClass = 'w-full rounded-xl bg-white px-4 py-3 ring-1 ring-navy/20 foc
 
 export default function Businesses() {
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [request, setRequest] = useState('');
+  const [sending, setSending] = useState(false);
 
   const submit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
     const form = event.currentTarget;
     const data = new FormData(form);
-    if (data.get('website')) return;
+    if (data.get('_honey')) { event.preventDefault(); return; }
     const value = (name: string) => String(data.get(name) ?? '').trim();
     const next: Record<string, string> = {};
     if (value('company').length < 2) next.company = 'Inserisci la ragione sociale.';
@@ -31,12 +29,14 @@ export default function Businesses() {
     if (!data.get('acknowledgement')) next.acknowledgement = 'Conferma di voler essere ricontattato per la richiesta.';
     setErrors(next);
     if (Object.keys(next).length) {
-      setRequest('');
+      event.preventDefault();
       const first = form.elements.namedItem(Object.keys(next)[0]);
       if (first instanceof HTMLElement) first.focus();
       return;
     }
-    setRequest(waLink(`Buongiorno DIGI HOUSE, vorrei richiedere l’iscrizione della mia impresa e conoscere le condizioni commerciali dedicate.\n\nRagione sociale: ${value('company')}\nPartita IVA: ${value('vat')}\nReferente: ${value('contact')}\nEmail: ${value('email')}\nTelefono: ${value('phone')}${value('message') ? `\nEsigenze: ${value('message')}` : ''}\n\nChiedo di essere ricontattato per questa richiesta.`));
+    // Submit directly to the email provider. Its confirmation page reports delivery acceptance;
+    // do not show a local success message before the provider has accepted the request.
+    setSending(true);
   };
 
   return <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
@@ -49,12 +49,14 @@ export default function Businesses() {
         <p className="mt-4 leading-relaxed text-navy/80">I prezzi visualizzati sul sito sono riservati ai privati. Se acquisti per un’impresa, compila la richiesta per conoscere le condizioni dedicate alle tue forniture.</p>
         <ol className="mt-6 space-y-4 text-navy/80">
           <li>1. Inserisci i dati dell’impresa e del referente.</li>
-          <li>2. Apri WhatsApp e conferma l’invio della richiesta a DIGI HOUSE.</li>
+          <li>2. Premi “Invia richiesta” per inviare i dati via email a DIGI HOUSE.</li>
           <li>3. Ti ricontatteremo per verificare i dati e concordare le condizioni commerciali.</li>
         </ol>
         <p className="mt-6 text-sm text-navy/60">La richiesta non attiva automaticamente un account o un listino. Le condizioni per le imprese vengono confermate direttamente da DIGI HOUSE.</p>
       </div>
-      <form onSubmit={submit} onChange={() => { if (request) setRequest(''); }} noValidate className="min-w-0 rounded-3xl bg-white p-6 shadow-sm ring-1 ring-navy/10 md:p-8">
+      <form action="https://formsubmit.co/degihousesrl@gmail.com" method="POST" onSubmit={submit} noValidate className="min-w-0 rounded-3xl bg-white p-6 shadow-sm ring-1 ring-navy/10 md:p-8">
+        <input type="hidden" name="_subject" value="DIGI HOUSE — Richiesta iscrizione impresa" />
+        <input type="hidden" name="_template" value="table" />
         <h2 className="font-display text-xl">Richiesta di iscrizione</h2>
         <p className="mt-2 text-sm text-navy/60">Tutti i campi sono obbligatori, salvo dove indicato.</p>
         <div className="mt-6 space-y-4">
@@ -64,16 +66,12 @@ export default function Businesses() {
             {errors[field.name] && <p id={`error-${field.name}`} role="alert" className="mt-1 text-sm text-red-700">{errors[field.name]}</p>}
           </div>)}
           <label className="block"><span className="mb-1 block text-sm font-medium">Di cosa hai bisogno? (facoltativo)</span><textarea name="message" rows={4} maxLength={1500} className={fieldClass} placeholder="Materiali, quantità o forniture che ti interessano" /></label>
-          <input name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 opacity-0" />
+          <input name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 opacity-0" />
           <label className="flex items-start gap-3 text-sm text-navy/80"><input name="acknowledgement" type="checkbox" required className="mt-1" aria-invalid={!!errors.acknowledgement} aria-describedby={errors.acknowledgement ? 'error-acknowledgement' : undefined} /><span>Chiedo di essere ricontattato da DIGI HOUSE per l’iscrizione e le condizioni riservate alla mia impresa.</span></label>
           {errors.acknowledgement && <p id="error-acknowledgement" role="alert" className="text-sm text-red-700">{errors.acknowledgement}</p>}
         </div>
-        <p className="mt-4 text-xs leading-relaxed text-navy/60">I dati del modulo saranno condivisi con DIGI HOUSE tramite WhatsApp solo quando confermerai l’invio del messaggio. Saranno usati per gestire questa richiesta.</p>
-        <button type="submit" className="mt-6 rounded-full bg-navy px-6 py-3 font-semibold text-white hover:bg-navy/90">Prepara la richiesta</button>
-        {request && <div role="status" className="mt-5 rounded-2xl bg-navy-50 p-4">
-          <p className="text-sm">Richiesta pronta. Apri WhatsApp e invia il messaggio per completare la richiesta di iscrizione.</p>
-          <a href={request} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 font-semibold text-navy"><MessageCircle size={18} />Invia su WhatsApp</a>
-        </div>}
+        <p className="mt-4 text-xs leading-relaxed text-navy/60">Premendo “Invia richiesta”, i dati saranno trasmessi tramite FormSubmit alla casella email di DIGI HOUSE per gestire la richiesta. Potrebbe esserti chiesta una verifica antispam prima della conferma.</p>
+        <button type="submit" disabled={sending} className="mt-6 inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3 font-semibold text-white hover:bg-navy/90 disabled:opacity-60"><Mail size={18} />{sending ? 'Invio in corso…' : 'Invia richiesta'}</button>
       </form>
     </div>
   </div>;
