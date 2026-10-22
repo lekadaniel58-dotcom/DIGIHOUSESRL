@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="it">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Conferma candidatura — DIGI HOUSE</title><meta name="robots" content="noindex"></head>
+<body>
+<script>
+  const request = new URLSearchParams(window.location.search).get('request');
+  if (window.parent !== window && request) {
+    window.parent.postMessage({ type: 'digi-careers-receipt', request }, window.location.origin);
+  } else {
+    window.location.replace('./#/lavora-con-noi');
+  }
+</script>
+</body>
+</html>
