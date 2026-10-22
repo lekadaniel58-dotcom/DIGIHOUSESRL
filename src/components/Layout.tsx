@@ -34,7 +34,7 @@ export default function Layout() {
 
           {open && (
             <nav className="overflow-hidden border-t border-white/10 lg:hidden" aria-label="Mobile">
-              <div className="flex flex-col gap-1 px-4 py-3">{links.map(([to, label]) => <Link key={to} to={to} className="rounded-lg px-2 py-2 transition hover:bg-white/10 hover:text-gold">{label}</Link>)}</div>
+              <div className="flex flex-col gap-1 px-4 py-3">{links.map(([to, label]) => <Link key={to} to={to} onClick={() => setOpen(false)} className="rounded-lg px-2 py-2 transition hover:bg-white/10 hover:text-gold">{label}</Link>)}</div>
             </nav>)}
 
       </header>
@@ -54,6 +54,7 @@ export default function Layout() {
             <p className="mt-2">Tel. +39 0833 186 0089<br />WhatsApp +39 328 309 9390<br />degihousesrl@gmail.com</p>
             <a href={MAPS} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-gold hover:underline">Apri la sede su Google Maps</a></div>
         </div>
+        <nav aria-label="Informazioni" className="mx-auto flex max-w-7xl flex-wrap justify-center gap-6 px-4 pb-6"><Link to="/chi-siamo" className="hover:text-gold">Chi siamo</Link><Link to="/promozioni" className="hover:text-gold">Promozioni</Link></nav>
         <p className="border-t border-white/10 py-4 text-center text-xs">© DIGI HOUSE. Tutti i diritti riservati. · Privacy · Cookie</p>
       </footer>
     </div>

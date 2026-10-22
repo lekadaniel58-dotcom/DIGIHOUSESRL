@@ -5,7 +5,7 @@ import './index.css';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
-import Placeholder from './pages/Placeholder';
+import { About, Promotions, NotFound } from './pages/Information';
 import Contact from './pages/Contact';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -15,10 +15,10 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="catalogo" element={<Catalog />} />
-          <Route path="promozioni" element={<Placeholder title="Promozioni" />} />
-          <Route path="chi-siamo" element={<Placeholder title="Chi siamo" />} />
+          <Route path="promozioni" element={<Promotions />} />
+          <Route path="chi-siamo" element={<About />} />
           <Route path="contatti" element={<Contact />} />
-          <Route path="*" element={<Placeholder title="Pagina non trovata" />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </HashRouter>

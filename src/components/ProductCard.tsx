@@ -6,7 +6,7 @@ import { waLink } from '../lib/supabase';
 
 export default function ProductCard({ p }: { p: Product }) {
   const hasVariants = (p.product_variants?.length ?? 0) > 1;
-  const code = p.sku.startsWith('NOCODE') ? '' : `Cod. ${p.sku}`;
+  const code = !p.sku.trim() || p.sku.startsWith('NOCODE') ? '' : `Cod. ${p.sku}`;
   return (
     <article
       className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-navy/5 transition hover:shadow-xl">

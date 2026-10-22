@@ -1,4 +1,4 @@
-import { useRef, useState, type FormEvent } from 'react';
+import { useState, type FormEvent } from 'react';
 import { CheckCircle2, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
 import { supabase, waLink } from '../lib/supabase';
 import FxButton from '../components/FxButton';
@@ -8,7 +8,6 @@ const reparti = ['Porte interne e finestre', 'Avvolgibili e zanzariere', 'Ferram
 const field = 'w-full rounded-xl bg-white px-4 py-3 ring-1 ring-navy/10 transition focus:ring-2 focus:ring-gold';
 
 export default function Contact() {
-  const started = useRef(Date.now());
   const [status, setStatus] = useState<'idle' | 'sending' | 'ok' | 'error'>('idle');
   const [errors, setErrors] = useState<Record<string, string>>({});
 
@@ -25,15 +24,19 @@ export default function Contact() {
     if (msg.length > 2500) err.message = 'Messaggio troppo lungo.';
     setErrors(err);
     if (Object.keys(err).length) return;
-    if (Date.now() - started.current < 3000) { setStatus('error'); return; }
     setStatus('sending');
     const full = `${dept ? `Reparto: ${dept}\n` : ''}${phone ? `Telefono: ${phone}\n` : ''}\n${msg}`;
-    if (!supabase) {
-      window.location.assign(waLink(`Buongiorno, sono ${name}. Email: ${email}\n${full}`));
-      return;
+    try {
+      if (!supabase) {
+        setStatus('idle');
+        window.location.assign(waLink(`Buongiorno, sono ${name}. Email: ${email}\n${full}`));
+        return;
+      }
+      const { error } = await supabase.from('contact_messages').insert({ name, email, message: full });
+      setStatus(error ? 'error' : 'ok');
+    } catch {
+      setStatus('error');
     }
-    const { error } = await supabase.from('contact_messages').insert({ name, email, message: full });
-    setStatus(error ? 'error' : 'ok');
   };
 
   return (
@@ -63,10 +66,10 @@ export default function Contact() {
               <label className="block"><span className="mb-1 block text-sm font-medium">Email</span><input name="email" type="email" autoComplete="email" className={field} aria-invalid={!!errors.email} />{errors.email && <span role="alert" className="text-sm text-red-700">{errors.email}</span>}</label>
               <label className="block"><span className="mb-1 block text-sm font-medium">Telefono (facoltativo)</span><input name="phone" type="tel" autoComplete="tel" className={field} /></label>
               <label className="block"><span className="mb-1 block text-sm font-medium">Sono interessato a</span><select name="dept" className={field} defaultValue=""><option value="">Scegli il reparto</option>{reparti.map(r => <option key={r}>{r}</option>)}</select></label>
-              <label className="block"><span className="mb-1 block text-sm font-medium">Messaggio</span><textarea name="message" rows={5} className={field} aria-invalid={!!errors.message} />{errors.message && <span role="alert" className="text-sm text-red-700">{errors.message}</span>}</label>
+              <label className="block"><span className="mb-1 block text-sm font-medium">Messaggio</span><textarea name="message" rows={5} maxLength={2500} className={field} aria-invalid={!!errors.message} />{errors.message && <span role="alert" className="text-sm text-red-700">{errors.message}</span>}</label>
               <input name="website" tabIndex={-1} autoComplete="off" aria-hidden className="absolute -left-[9999px] h-0 w-0 opacity-0" />
             </div>
-            {status === 'error' && <p role="alert" className="mt-4 text-sm text-red-700">{supabase ? 'Invio non riuscito. Riprova tra qualche secondo o scrivici su WhatsApp.' : 'Il modulo è in attesa di configurazione. Scrivici su WhatsApp.'}</p>}
+            {status === 'error' && <p role="alert" className="mt-4 text-sm text-red-700">{supabase ? 'Invio non riuscito. Riprova tra qualche secondo o scrivici su WhatsApp.' : 'Non è stato possibile aprire WhatsApp. Usa il collegamento WhatsApp presente in questa pagina.'}</p>}
             <div className="mt-6 flex flex-wrap items-center gap-3"><FxButton variant="navy" type="submit" disabled={status === 'sending'}>{status === 'sending' ? 'Invio in corso…' : supabase ? 'Invia la richiesta' : 'Continua su WhatsApp'}</FxButton>
               <span className="text-xs text-navy/50">{!supabase && 'Il messaggio si aprirà in WhatsApp: conferma lì l’invio. '}Nessun impegno: ti ricontattiamo per capire meglio di cosa hai bisogno.</span></div>
           </>)}

@@ -11,7 +11,9 @@ type Sort = 'relevance' | 'name' | 'price-asc' | 'price-desc';
 export default function Catalog() {
   const { departments, products, loading, error } = useCatalog();
   const [params, setParams] = useSearchParams();
-  const [q, setQ] = useState(params.get('q') ?? '');
+  const queryFromUrl = params.get('q') ?? '';
+  const [q, setQ] = useState(queryFromUrl);
+  useEffect(() => { setQ(queryFromUrl); }, [queryFromUrl]);
   const [sort, setSort] = useState<Sort>('relevance');
   const [onlyPriced, setOnlyPriced] = useState(false);
   const [visibleCount, setVisibleCount] = useState(24);
