@@ -4,7 +4,7 @@ import { Facebook, Instagram, Menu, MessageCircle, Phone, X } from 'lucide-react
 import { waLink } from '../lib/supabase';
 import FxButton from './FxButton';
 
-const links = [['/#serramenti', 'Serramenti'], ['/#comfort', 'Comfort'], ['/#edilizia', 'Edilizia & Fai-da-te'], ['/catalogo', 'Catalogo'], ['/#offerte', 'Offerte'], ['/imprese', 'Area imprese'], ['/contatti', 'Contatti']] as const;
+const links = [['/#serramenti', 'Serramenti'], ['/#comfort', 'Comfort'], ['/#edilizia', 'Edilizia & Fai-da-te'], ['/catalogo', 'Catalogo'], ['/#offerte', 'Offerte'], ['/imprese', 'Area imprese'], ['/lavora-con-noi', 'Lavora con noi'], ['/contatti', 'Contatti']] as const;
 export const MAPS = 'https://maps.app.goo.gl/SMNmwgoUxkVnGmSTA';
 
 export default function Layout() {
@@ -20,20 +20,20 @@ export default function Layout() {
       <header className="sticky top-0 z-30 bg-navy text-white shadow-lg">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
           <Link to="/" aria-label="DIGI HOUSE - Home"><img src={`${import.meta.env.BASE_URL}logo.png`} alt="DIGI HOUSE" className="h-11 w-auto transition hover:scale-105" /></Link>
-          <nav className="hidden items-center gap-4 lg:flex" aria-label="Principale">
+          <nav className="hidden items-center gap-4 xl:flex" aria-label="Principale">
             {links.map(([to, label]) => (
               <Link key={to} to={to} className="group relative py-1 text-sm font-medium transition hover:text-gold">{label}
                 <span className="absolute -bottom-0.5 left-0 h-0.5 w-0 bg-gold transition-all duration-300 group-hover:w-full" /></Link>))}
           </nav>
           <div className="flex items-center gap-3">
-            <a href="tel:+3908331860089" className="hidden items-center gap-2 text-sm hover:text-gold xl:flex" aria-label="Chiama"><Phone size={16} />0833 186 0089</a>
+            <a href="tel:+3908331860089" className="hidden items-center gap-2 text-sm hover:text-gold 2xl:flex" aria-label="Chiama"><Phone size={16} />0833 186 0089</a>
             <div className="hidden sm:block"><FxButton size="sm" to="/contatti">Richiedi consulenza</FxButton></div>
-            <button className="p-2 lg:hidden" onClick={() => setOpen(!open)} aria-label="Menu" aria-expanded={open}>{open ? <X /> : <Menu />}</button>
+            <button className="p-2 xl:hidden" onClick={() => setOpen(!open)} aria-label="Menu" aria-expanded={open}>{open ? <X /> : <Menu />}</button>
           </div>
         </div>
 
           {open && (
-            <nav className="overflow-hidden border-t border-white/10 lg:hidden" aria-label="Mobile">
+            <nav className="overflow-hidden border-t border-white/10 xl:hidden" aria-label="Mobile">
               <div className="flex flex-col gap-1 px-4 py-3">{links.map(([to, label]) => <Link key={to} to={to} onClick={() => setOpen(false)} className="rounded-lg px-2 py-2 transition hover:bg-white/10 hover:text-gold">{label}</Link>)}</div>
             </nav>)}
 
@@ -54,7 +54,7 @@ export default function Layout() {
             <p className="mt-2">Tel. +39 0833 186 0089<br />WhatsApp +39 328 309 9390<br />degihousesrl@gmail.com</p>
             <a href={MAPS} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-gold hover:underline">Apri la sede su Google Maps</a></div>
         </div>
-        <nav aria-label="Informazioni" className="mx-auto flex max-w-7xl flex-wrap justify-center gap-6 px-4 pb-6"><Link to="/chi-siamo" className="hover:text-gold">Chi siamo</Link><Link to="/promozioni" className="hover:text-gold">Promozioni</Link><Link to="/imprese" className="hover:text-gold">Iscrizione imprese</Link></nav>
+        <nav aria-label="Informazioni" className="mx-auto flex max-w-7xl flex-wrap justify-center gap-6 px-4 pb-6"><Link to="/chi-siamo" className="hover:text-gold">Chi siamo</Link><Link to="/promozioni" className="hover:text-gold">Promozioni</Link><Link to="/imprese" className="hover:text-gold">Iscrizione imprese</Link><Link to="/lavora-con-noi" className="hover:text-gold">Lavora con noi</Link></nav>
         <p className="border-t border-white/10 py-4 text-center text-xs">© DIGI HOUSE. Tutti i diritti riservati. · Privacy · Cookie</p>
       </footer>
     </div>

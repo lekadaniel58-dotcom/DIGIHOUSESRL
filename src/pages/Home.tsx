@@ -178,6 +178,15 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-7xl px-4 pb-16" aria-labelledby="careers-title">
+        <div className="rounded-3xl bg-white p-7 ring-1 ring-navy/10 md:p-10">
+          <p className="text-sm font-semibold uppercase tracking-widest text-gold">Lavora con noi</p>
+          <h2 id="careers-title" className="mt-2 font-display text-3xl">Costruiamo insieme nuove opportunità.</h2>
+          <p className="mt-3 max-w-2xl text-navy/75">Vuoi entrare in squadra come dipendente o proporre la tua azienda come subappaltatore? Presentaci le tue competenze e la tua esperienza.</p>
+          <div className="mt-6"><FxButton variant="navy" to="/lavora-con-noi">Invia la tua candidatura</FxButton></div>
+        </div>
+      </section>
+
       <section className="overflow-hidden bg-white py-14">
         <div className="mx-auto max-w-7xl px-4"><Head eyebrow="Collaborazioni selezionate" title="I nostri partner." text="Soluzioni e materiali scelti da aziende specializzate nei rispettivi settori." /></div>
         <PartnerMarquee />
