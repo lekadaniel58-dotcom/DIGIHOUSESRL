@@ -27,3 +27,11 @@ fittizia inviata; ricezione effettiva e servizio remoto non verificati qui.
 Verificati inoltre allegato mancante, estensione non accettata, file oltre limite,
 trasmissione dei byte di un PDF e di un Word in multipart, ricevuta nel frame,
 rifiuto di messaggi senza identificativo corretto e timeout conservando il file.
+
+## Foto dei subappaltatori
+
+Solo il percorso subappaltatore richiede da una a tre foto di lavori svolti:
+prima foto obbligatoria, altre due facoltative, JPG/PNG/WebP. Campi multipart
+distinti `work_photo_1`, `work_photo_2`, `work_photo_3`, insieme ad `attachment`
+per il profilo aziendale. Il limite complessivo di tutti i file è 5.000.000 byte.
+Gli altri percorsi non mostrano né inviano questi campi.

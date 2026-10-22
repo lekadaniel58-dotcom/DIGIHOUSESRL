@@ -56,6 +56,23 @@ export default function Careers() {
     if (!(attachment instanceof File) || !attachment.size) next.attachment = 'Allega il curriculum o il profilo aziendale.';
     else if (!/\.(pdf|doc|docx)$/i.test(attachment.name)) next.attachment = 'Scegli un file PDF o Word (.doc, .docx).';
     else if (attachment.size > 5_000_000) next.attachment = 'Il file supera il limite di 5 MB.';
+    if (kind === 'subcontractor') {
+      let total = attachment instanceof File ? attachment.size : 0;
+      for (const index of [1, 2, 3]) {
+        const name = `work_photo_${index}`;
+        const photo = data.get(name);
+        if (!(photo instanceof File) || !photo.name) {
+          if (index === 1) next[name] = 'Allega almeno una foto dei lavori svolti.';
+          continue;
+        }
+        total += photo.size;
+        if (!photo.size || !/\.(jpe?g|png|webp)$/i.test(photo.name) ||
+            (photo.type && !['image/jpeg', 'image/png', 'image/webp'].includes(photo.type))) {
+          next[name] = 'Scegli una foto JPG, PNG o WebP valida.';
+        }
+      }
+      if (total > 5_000_000) next.work_photo_1 = 'Il profilo aziendale e tutte le foto insieme devono pesare al massimo 5 MB. Scegli file più leggeri.';
+    }
     if (!data.get('acknowledgement')) next.acknowledgement = 'Conferma di voler essere ricontattato per la candidatura.';
     setErrors(next);
     if (Object.keys(next).length) {
@@ -118,7 +135,7 @@ export default function Careers() {
         <div className="rounded-2xl bg-white p-6 ring-1 ring-navy/10">
           <Building2 className="text-gold" size={32} aria-hidden="true" />
           <h2 className="mt-3 font-display text-2xl">Sei un’azienda subappaltatrice?</h2>
-          <p className="mt-3 text-navy/75">Presenta la tua impresa, le lavorazioni di cui ti occupi, le zone in cui operi e la disponibilità della tua squadra.</p>
+          <p className="mt-3 text-navy/75">Presenta la tua impresa, le lavorazioni di cui ti occupi, le zone in cui operi e la disponibilità della tua squadra. Allega il profilo aziendale e le foto di alcuni lavori svolti.</p>
         </div>
         <div className="rounded-2xl bg-white p-6 ring-1 ring-navy/10">
           <h2 className="font-display text-2xl">Sei un fornitore o un agente commerciale?</h2>
@@ -158,14 +175,26 @@ export default function Careers() {
           <div>
             <label htmlFor="careers-attachment" className="mb-1 block text-sm font-medium">{kind === 'employee' ? 'Allega il curriculum' : kind === 'supplier' ? 'Allega una presentazione aziendale o un catalogo' : 'Allega il profilo aziendale o curriculum dell’impresa'}</label>
             <input id="careers-attachment" name="attachment" type="file" required accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" className={`${fieldClass} min-w-0 text-sm file:mr-3 file:rounded-lg file:border-0 file:bg-navy-50 file:px-3 file:py-2 file:text-navy`} aria-invalid={!!errors.attachment} aria-describedby={`attachment-help${errors.attachment ? ' error-attachment' : ''}`} />
-            <p id="attachment-help" className="mt-2 text-xs text-navy/60">PDF o Word (.doc, .docx), massimo 5 MB. Il documento sarà allegato alla candidatura.</p>
+            <p id="attachment-help" className="mt-2 text-xs text-navy/60">{kind === 'subcontractor' ? 'PDF o Word (.doc, .docx). Profilo aziendale e foto: massimo 5 MB complessivi.' : 'PDF o Word (.doc, .docx), massimo 5 MB. Il documento sarà allegato alla candidatura.'}</p>
             {errors.attachment && <p id="error-attachment" role="alert" className="mt-1 text-sm text-red-700">{errors.attachment}</p>}
           </div>
+          {kind === 'subcontractor' && <fieldset className="space-y-4 rounded-2xl bg-navy-50 p-4">
+            <legend className="px-1 text-sm font-semibold">Foto dei lavori svolti</legend>
+            <p id="work-photos-help" className="text-xs text-navy/70">Allega da 1 a 3 foto in formato JPG, PNG o WebP. Profilo aziendale e foto insieme: massimo 5 MB.</p>
+            {[1, 2, 3].map(index => {
+              const name = `work_photo_${index}`;
+              return <div key={name}>
+                <label htmlFor={name} className="mb-1 block text-sm font-medium">Foto {index}{index === 1 ? ' (obbligatoria)' : ' (facoltativa)'}</label>
+                <input id={name} name={name} type="file" required={index === 1} accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp" className={`${fieldClass} min-w-0 text-sm file:mr-3 file:rounded-lg file:border-0 file:bg-navy-50 file:px-3 file:py-2 file:text-navy`} aria-invalid={!!errors[name]} aria-describedby={`work-photos-help${errors[name] ? ` error-${name}` : ''}`} />
+                {errors[name] && <p id={`error-${name}`} role="alert" className="mt-1 text-sm text-red-700">{errors[name]}</p>}
+              </div>;
+            })}
+          </fieldset>}
           <input name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 opacity-0" />
           <label className="flex items-start gap-3 text-sm text-navy/80"><input name="acknowledgement" type="checkbox" required className="mt-1" aria-invalid={!!errors.acknowledgement} aria-describedby={errors.acknowledgement ? 'error-acknowledgement' : undefined} /><span>Chiedo di essere ricontattato da DIGI HOUSE per la valutazione della mia candidatura.</span></label>
           {errors.acknowledgement && <p id="error-acknowledgement" role="alert" className="text-sm text-red-700">{errors.acknowledgement}</p>}
         </div>
-        <p className="mt-4 text-xs leading-relaxed text-navy/60">Premendo “Invia candidatura”, i dati e il documento allegato saranno trasmessi tramite FormSubmit alla casella email di DIGI HOUSE per valutare la candidatura. Non inserire dati sanitari o altri dati sensibili. La conferma dell’invio apparirà su questa pagina.</p>
+        <p className="mt-4 text-xs leading-relaxed text-navy/60">Premendo “Invia candidatura”, i dati e gli allegati saranno trasmessi tramite FormSubmit alla casella email di DIGI HOUSE per valutare la candidatura. Non inserire dati sanitari o altri dati sensibili. La conferma dell’invio apparirà su questa pagina.</p>
         <button type="submit" disabled={status === 'sending'} className="mt-6 inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3 font-semibold text-white hover:bg-navy/90 disabled:opacity-60"><Mail size={18} />{status === 'sending' ? 'Invio in corso…' : 'Invia candidatura'}</button>
         </fieldset>
         {status === 'sending' && <p role="status" className="mt-4 text-sm text-navy/70">{slow ? 'Il servizio sta impiegando più tempo del previsto. Attendi la conferma senza inviare di nuovo.' : 'Stiamo inviando la candidatura. Rimani su questa pagina.'}</p>}
