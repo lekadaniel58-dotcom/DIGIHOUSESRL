@@ -49,9 +49,15 @@ export function createSearchIndex(product: Product, department = '') {
   const departmentTerms = tokens(department || product.department_id || '');
   const isPaint = departmentTerms.includes('pittura') && departmentTerms.includes('decorazioni')
     && !subtitle.includes('trattamento');
-  return { product, title, subtitle, body, isPaint, codes: normalize(`${product.sku} ${product.search_terms ?? ''}`).split(' '), phrase: normalize(product.name) };
+  const literal = normalize(`${product.name} ${product.sku} ${product.subtitle ?? ''} ${product.description ?? ''} ${product.search_terms ?? ''}`);
+  return { product, title, subtitle, body, isPaint, literal, codes: normalize(`${product.sku} ${product.search_terms ?? ''}`).split(' '), phrase: normalize(product.name) };
 }
 export function searchCatalog(index: ReturnType<typeof createSearchIndex>[], query: string): { product: Product; score: number }[] {
+  const letter = normalize(query);
+  // Single letters are literal searches, including letters normally ignored in sentences.
+  if (/^[a-z]$/.test(letter)) return index.filter(entry => entry.literal.includes(letter))
+    .map(entry => ({ product: entry.product, score: entry.phrase.startsWith(letter) ? 30 : entry.phrase.includes(letter) ? 20 : 10 }))
+    .sort((a, b) => b.score - a.score || a.product.name.localeCompare(b.product.name, 'it'));
   const terms = tokens(query);
   if (!terms.length) return index.map(entry => ({ product: entry.product, score: 0 }));
   const phrase = normalize(query);

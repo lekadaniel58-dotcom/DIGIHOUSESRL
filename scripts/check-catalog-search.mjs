@@ -65,3 +65,11 @@ for (const [query, expected] of [['pen', 'PENNELLO'], ['ru', 'RULLO'], ['sil', '
 }
 assert(names('pri').some(name => name.startsWith('PRISMA')), 'I prefissi dei nomi commerciali restano ricercabili');
 assert.equal(find('99999').length, 0, 'I codici non vengono corretti o completati come parole');
+
+const literal = p => `${p.name} ${p.sku} ${p.subtitle ?? ''} ${p.description ?? ''} ${p.search_terms ?? ''}`.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+for (const letter of 'abcdefghijklmnopqrstuvwxyz') {
+  const expected = products.filter(p => literal(p).includes(letter)).map(p => p.id).sort();
+  assert.deepEqual(find(letter).map(p => p.id).sort(), expected, `Tutti i prodotti contenenti ${letter}, anche dentro le parole`);
+  assert.deepEqual(find(letter.toUpperCase()).map(p => p.id).sort(), expected);
+}
+assert.deepEqual(find('è').map(p => p.id).sort(), find('e').map(p => p.id).sort());
