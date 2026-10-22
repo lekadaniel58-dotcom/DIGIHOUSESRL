@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { Building2, CheckCircle2, Mail } from 'lucide-react';
 
 import { Link } from 'react-router-dom';
+import MunicipalityInput from '../components/MunicipalityInput';
 
 type Field = { name: string; label: string; autoComplete: string; maxLength: number; type?: string };
 const commonFields: Field[] = [
@@ -167,7 +168,7 @@ export default function Careers() {
         <div className="mt-6 space-y-4">
           {fields.map(field => <div key={field.name}>
             <label htmlFor={`careers-${field.name}`} className="mb-1 block text-sm font-medium">{field.label}</label>
-            <input {...field} id={`careers-${field.name}`} type={field.type ?? 'text'} required className={fieldClass} aria-invalid={!!errors[field.name]} aria-describedby={errors[field.name] ? `error-${field.name}` : undefined} />
+            {field.name === 'city' ? <MunicipalityInput id="careers-city" name="city" error={errors.city} /> : <input {...field} id={`careers-${field.name}`} type={field.type ?? 'text'} required className={fieldClass} aria-invalid={!!errors[field.name]} aria-describedby={errors[field.name] ? `error-${field.name}` : undefined} />}
             {errors[field.name] && <p id={`error-${field.name}`} role="alert" className="mt-1 text-sm text-red-700">{errors[field.name]}</p>}
           </div>)}
           <label className="block"><span className="mb-1 block text-sm font-medium">{kind === 'supplier' ? 'Proposta di collaborazione' : 'Esperienza e competenze'}</span><textarea name="message" rows={5} required maxLength={2500} className={fieldClass} aria-invalid={!!errors.message} aria-describedby={errors.message ? 'error-message' : undefined} placeholder={kind === 'supplier' ? 'Prodotti, marchi, zone servite, disponibilità e condizioni di fornitura' : kind === 'subcontractor' ? 'Lavorazioni, esperienza della squadra, zone operative e disponibilità' : 'Esperienze precedenti, competenze e disponibilità'} /></label>
