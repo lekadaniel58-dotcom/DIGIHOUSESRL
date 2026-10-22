@@ -1,11 +1,6 @@
 name: Import Muratti original product photographs
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - scripts/import-muratti-photos.py
-      - .github/workflows/import-muratti-photos.yml
 permissions:
   contents: write
 concurrency:

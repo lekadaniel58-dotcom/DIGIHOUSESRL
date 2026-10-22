@@ -7,12 +7,13 @@
     "description": "Idropittura opaca traspirante per interni, facile da applicare e con buona resistenza all’abrasione a secco. Indicata per soffitti, garage, capannoni e ambienti senza esigenze di pitturazione specifiche.",
     "department": "Pitture e decorazioni",
     "price": "",
-    "image": "muratti-naxos.webp",
+    "image": "muratti-naxos-hd.webp",
     "page": "",
     "smaller_formats": [
       "5 L",
       "2,5 L"
-    ]
+    ],
+    "thumbnail": "muratti-naxos-thumb.webp"
   },
   {
     "sku": "1407.S17",
@@ -22,13 +23,14 @@
     "description": "Pittura lavabile per pareti interne in muratura, cartongesso e abitazioni civili, con buona copertura, ottima distensione e gradevole profumazione agli agrumi.",
     "department": "Pitture e decorazioni",
     "price": "",
-    "image": "muratti-panarea.webp",
+    "image": "muratti-panarea-hd.webp",
     "page": "",
     "smaller_formats": [
       "5 L",
       "2,5 L",
       "0,75 L"
-    ]
+    ],
+    "thumbnail": "muratti-panarea-thumb.webp"
   },
   {
     "sku": "1415.S418",
@@ -38,11 +40,12 @@
     "description": "Pittura murale al quarzo per interni ed esterni, con finitura liscia, opaca e uniforme. Offre ottima copertura, buon ancoraggio e resistenza agli agenti atmosferici.",
     "department": "Pitture e decorazioni",
     "price": "",
-    "image": "muratti-quarzo-liscio.webp",
+    "image": "muratti-quarzo-liscio-hd.webp",
     "page": "",
     "smaller_formats": [
       "5 L",
       "2,5 L"
-    ]
+    ],
+    "thumbnail": "muratti-quarzo-liscio-thumb.webp"
   }
 ]

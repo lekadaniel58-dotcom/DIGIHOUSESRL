@@ -58,7 +58,7 @@ export function useCatalog() {
           department_id: slugify(r.department || ''),
           price: r.price && Number.isFinite(Number(r.price.replace(',', '.'))) ? Number(r.price.replace(',', '.')) : null,
           images: r.image ? ['smaller_formats' in r ? `${import.meta.env.BASE_URL}assets/${r.image}` : imageUrl(r.image, 'full')] : [],
-          thumbnail: r.image ? ('smaller_formats' in r ? `${import.meta.env.BASE_URL}assets/${r.image}` : imageUrl(r.image, 'thumbnail')) : undefined,
+          thumbnail: r.image ? ('smaller_formats' in r ? `${import.meta.env.BASE_URL}assets/${'thumbnail' in r && r.thumbnail ? r.thumbnail : r.image}` : imageUrl(r.image, 'thumbnail')) : undefined,
           partner_ids: getPartnerIds(r.name, slugify(r.department || '')),
           smaller_formats: 'smaller_formats' in r && Array.isArray(r.smaller_formats) ? r.smaller_formats : undefined,
           is_featured: i < 8,

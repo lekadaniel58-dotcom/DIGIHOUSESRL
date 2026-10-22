@@ -31,6 +31,8 @@ for (const extra of extras) {
   assert.equal(extra.price, '');
   assert(extra.smaller_formats.length >= 2);
   assert(fs.existsSync(new URL(`../public/assets/${extra.image}`, import.meta.url)));
+  assert(extra.thumbnail && extra.thumbnail !== extra.image);
+  assert(fs.existsSync(new URL(`../public/assets/${extra.thumbnail}`, import.meta.url)));
 }
 console.log(`Partner verificati: ${JSON.stringify(expectedCounts)}; ${products.length} schede totali.`);
 
