@@ -95,7 +95,7 @@ export default function Home() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-gold/10 to-transparent" aria-hidden />
             <Tilt interactive className="relative overflow-hidden rounded-3xl shadow-2xl ring-1 ring-white/20">
-              <SafeImg src="/assets/hero-house.jpg" alt="Casa contemporanea con ampie finestre e serramenti scuri" className="aspect-[4/3] w-full object-cover" fallback="DIGI HOUSE" />
+              <SafeImg priority src="/assets/hero-haus-buerger.avif" alt="Casa contemporanea con ampie vetrate illuminate e giardino al crepuscolo" className="aspect-[4/3] w-full object-cover" fallback="DIGI HOUSE" />
             </Tilt>
             <div className="absolute -bottom-5 -left-3 rounded-2xl bg-gold px-5 py-3 text-navy shadow-xl">
               <p className="text-xs font-semibold uppercase tracking-wider">Soluzioni complete</p><p className="font-display text-lg leading-tight">Dalla casa al cantiere.</p>
