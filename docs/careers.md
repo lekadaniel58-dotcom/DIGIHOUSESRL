@@ -35,3 +35,16 @@ prima foto obbligatoria, altre due facoltative, JPG/PNG/WebP. Campi multipart
 distinti `work_photo_1`, `work_photo_2`, `work_photo_3`, insieme ad `attachment`
 per il profilo aziendale. Il limite complessivo di tutti i file è 5.000.000 byte.
 Gli altri percorsi non mostrano né inviano questi campi.
+
+## Interfaccia a percorsi
+
+La pagina iniziale presenta tre schede selezionabili affiancate su desktop e
+scorrevoli con snap su mobile. Nessun modulo è mostrato prima della scelta.
+La scheda selezionata viene evidenziata e apre il modulo pertinente, con riepilogo
+degli allegati, focus sul titolo e scorrimento che rispetta il movimento ridotto.
+Il pulsante “Cambia percorso” riporta alle schede. I recapiti già compilati vengono
+conservati quando si cambia percorso. La selezione è bloccata durante l'invio.
+
+Verificati tastiera e tocco, tre invii multipart intercettati (nessuna email reale),
+comuni, allegati e foto, conferma sul sito e layout da 320 a 1440 pixel. Ispezionate
+le schermate iniziali desktop/mobile. Build TypeScript/Vite riuscita.

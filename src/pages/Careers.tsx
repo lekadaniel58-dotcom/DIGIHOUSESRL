@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react';
-import { Building2, CheckCircle2, Mail } from 'lucide-react';
+import { ArrowRight, BriefcaseBusiness, CheckCircle2, FileText, HardHat, Mail, PackageCheck } from 'lucide-react';
 
 import { Link } from 'react-router-dom';
 import MunicipalityInput from '../components/MunicipalityInput';
@@ -16,10 +16,26 @@ const companyFields: Field[] = [
   { name: 'company', label: 'Ragione sociale', autoComplete: 'organization', maxLength: 150 },
   { name: 'vat', label: 'Partita IVA', autoComplete: 'off', maxLength: 20 },
 ];
+const paths = [
+  { id: 'employee', label: 'Dipendente', emailLabel: 'Come dipendente', Icon: BriefcaseBusiness, eyebrow: 'Entra nella squadra', title: 'Porta il tuo talento.', text: 'Cerchi un lavoro? Raccontaci cosa sai fare e quale ruolo vorresti ricoprire.', documents: 'Curriculum in PDF o Word', details: 'Parlaci delle tue esperienze, delle competenze e della tua disponibilità.' },
+  { id: 'subcontractor', label: 'Subappaltatore', emailLabel: 'Come azienda subappaltatrice', Icon: HardHat, eyebrow: 'Collaboriamo sul campo', title: 'Metti in gioco la tua impresa.', text: 'Proponi la tua squadra per lavorazioni, installazioni e progetti da realizzare insieme.', documents: 'Profilo aziendale + da 1 a 3 foto dei lavori', details: 'Presenta le lavorazioni, le zone operative e la disponibilità della tua squadra.' },
+  { id: 'supplier', label: 'Fornitore o agente', emailLabel: 'Come fornitore o agente commerciale', Icon: PackageCheck, eyebrow: 'Nuovi materiali, nuove possibilità', title: 'Proponi le tue forniture.', text: 'Rappresenti un marchio o un’azienda? Facci conoscere i prodotti che vorresti proporci.', documents: 'Presentazione aziendale o catalogo', details: 'Indica materiali, marchi rappresentati e condizioni della collaborazione.' },
+] as const;
 const fieldClass = 'w-full rounded-xl bg-white px-4 py-3 ring-1 ring-navy/20 focus:ring-2 focus:ring-gold';
 
 export default function Careers() {
   const [kind, setKind] = useState<'employee' | 'subcontractor' | 'supplier'>('employee');
+  const [hasSelected, setHasSelected] = useState(false);
+  const selected = paths.find(path => path.id === kind)!;
+  const panelHeading = useRef<HTMLHeadingElement>(null);
+  useEffect(() => {
+    if (!hasSelected) return;
+    const frame = requestAnimationFrame(() => {
+      panelHeading.current?.focus({ preventScroll: true });
+      panelHeading.current?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [hasSelected, kind]);
   const fields = kind === 'employee' ? commonFields : [
     ...companyFields, ...commonFields.map(field => kind === 'supplier' && field.name === 'specialty'
       ? { ...field, label: 'Materiali e categorie di prodotto proposti' } : field),
@@ -123,27 +139,47 @@ export default function Careers() {
     }
   };
 
-  return <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
-    <p className="text-sm font-semibold uppercase tracking-[0.25em] text-gold">Persone e collaborazioni</p>
-    <h1 className="mt-2 font-display text-3xl md:text-4xl">Lavora con noi</h1>
-    <p className="mt-4 max-w-2xl text-navy/75">Proponi la tua candidatura come dipendente, presenta la tua azienda come subappaltatore oppure proponi una collaborazione come fornitore o agente commerciale.</p>
-    <div className="mt-8 grid items-start gap-8 lg:grid-cols-2">
-      <div className="space-y-5">
-        <div className="rounded-2xl bg-white p-6 ring-1 ring-navy/10">
-          <h2 className="font-display text-2xl">Vuoi lavorare come dipendente?</h2>
-          <p className="mt-3 text-navy/75">Raccontaci le tue competenze, le esperienze e il ruolo che ti interessa. Puoi inviare una candidatura spontanea anche se non trovi una posizione pubblicata.</p>
-        </div>
-        <div className="rounded-2xl bg-white p-6 ring-1 ring-navy/10">
-          <Building2 className="text-gold" size={32} aria-hidden="true" />
-          <h2 className="mt-3 font-display text-2xl">Sei un’azienda subappaltatrice?</h2>
-          <p className="mt-3 text-navy/75">Presenta la tua impresa, le lavorazioni di cui ti occupi, le zone in cui operi e la disponibilità della tua squadra. Allega il profilo aziendale e le foto di alcuni lavori svolti.</p>
-        </div>
-        <div className="rounded-2xl bg-white p-6 ring-1 ring-navy/10">
-          <h2 className="font-display text-2xl">Sei un fornitore o un agente commerciale?</h2>
-          <p className="mt-3 text-navy/75">Proponi materiali e nuove forniture per DIGI HOUSE. Presenta i marchi e le aziende che rappresenti, i prodotti trattati e le condizioni della collaborazione.</p>
-        </div>
-        <p className="text-sm text-navy/60">Valuteremo le candidature in base alle nostre esigenze. L’invio non garantisce un’assunzione o un incarico. Se necessario, ti contatteremo per approfondire e richiedere ulteriori informazioni o documentazione aziendale.</p>
+  return <div className="mx-auto max-w-6xl px-4 py-8 md:py-12">
+    <section className="relative overflow-hidden rounded-3xl bg-navy px-6 py-10 text-white md:px-10 md:py-14">
+      <div aria-hidden="true" className="pointer-events-none absolute -right-16 -top-24 h-72 w-72 rounded-full border-[40px] border-gold/10" />
+      <p className="relative text-xs font-semibold uppercase tracking-[0.25em] text-gold">Persone · Imprese · Collaborazioni</p>
+      <h1 className="relative mt-3 font-display text-4xl md:text-5xl">Lavora con noi</h1>
+      <p className="relative mt-4 max-w-2xl text-lg text-white/75">Il prossimo progetto può iniziare da te. Scegli come vuoi collaborare con DIGI HOUSE.</p>
+      <div className="relative mt-7 flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/70"><span className="font-semibold text-gold">01 · Scegli il percorso</span><span>02 · Presentati</span><span>03 · Invia la proposta</span></div>
+    </section>
+
+    <section className="mt-9" aria-labelledby="choose-path">
+      <h2 id="choose-path" className="scroll-mt-24 font-display text-2xl">Come vuoi lavorare con noi?</h2>
+      <p className="mt-2 text-sm text-navy/65">Seleziona il tuo percorso per aprire la candidatura dedicata.</p>
+      <div className="-mx-1 mt-5 grid snap-x snap-mandatory auto-cols-[85%] grid-flow-col gap-4 overflow-x-auto px-1 pb-5 pt-1 sm:grid-flow-row sm:grid-cols-3 sm:overflow-visible">
+        {paths.map(path => {
+          const active = hasSelected && kind === path.id;
+          return <button key={path.id} type="button" aria-label={path.label} aria-pressed={active} aria-controls="careers-application" disabled={status === 'sending'}
+            onClick={() => { setKind(path.id); setHasSelected(true); setErrors({}); setStatus('idle'); if (hasSelected && kind === path.id) { panelHeading.current?.focus({ preventScroll: true }); panelHeading.current?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' }); } }}
+            className={`group flex h-full snap-center flex-col rounded-2xl border p-6 text-left transition duration-200 motion-safe:hover:-translate-y-1 motion-reduce:transition-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold disabled:opacity-60 ${active ? 'border-gold bg-navy text-white shadow-lg' : 'border-navy/10 bg-white text-navy hover:border-gold hover:shadow-lg'}`}>
+            <div className="flex items-center justify-between gap-3"><span className={`grid h-12 w-12 place-items-center rounded-xl ${active ? 'bg-white/10 text-gold' : 'bg-navy-50 text-navy'}`}><path.Icon size={25} aria-hidden="true" /></span>{active && <CheckCircle2 size={21} className="text-gold" aria-hidden="true" />}</div>
+            <p className={`mt-5 text-xs font-semibold uppercase tracking-wider ${active ? 'text-gold' : 'text-navy/55'}`}>{path.eyebrow}</p>
+            <h3 className="mt-2 font-display text-2xl">{path.label}</h3>
+            <p className={`mt-3 flex-1 text-sm leading-relaxed ${active ? 'text-white/75' : 'text-navy/70'}`}>{path.text}</p>
+            <span className={`mt-6 inline-flex items-center gap-2 text-sm font-semibold ${active ? 'text-gold' : 'text-navy'}`}>{active ? 'Percorso selezionato' : 'Scopri e candidati'}<ArrowRight size={17} aria-hidden="true" className="transition-transform group-hover:translate-x-1 motion-reduce:transition-none" /></span>
+          </button>;
+        })}
       </div>
+      <p className="mt-1 text-xs text-navy/55 sm:hidden">Scorri le schede per vedere tutti i percorsi.</p>
+    </section>
+
+    <section id="careers-application" hidden={!hasSelected} className="mt-8">
+      {hasSelected && <>
+      <h2 ref={panelHeading} tabIndex={-1} className="scroll-mt-24 font-display text-3xl focus:outline-none">{selected.title}</h2>
+      <div className="mt-6 grid items-start gap-6 lg:grid-cols-[0.7fr_1.3fr]">
+      <aside className="rounded-2xl bg-navy-50 p-6 lg:sticky lg:top-24">
+        <p className="text-xs font-semibold uppercase tracking-wider text-navy/55">Il tuo percorso</p>
+        <h3 className="mt-2 font-display text-xl">{selected.label}</h3>
+        <button type="button" disabled={status === 'sending'} onClick={() => { document.getElementById('choose-path')?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' }); document.querySelector<HTMLButtonElement>('[aria-controls="careers-application"][aria-pressed="true"]')?.focus({ preventScroll: true }); }} className="mt-2 text-sm font-semibold underline underline-offset-4 disabled:opacity-60">Cambia percorso</button>
+        <p className="mt-3 text-sm leading-relaxed text-navy/75">{selected.details}</p>
+        <div className="mt-5 flex items-start gap-3 border-t border-navy/10 pt-5"><FileText size={20} className="mt-0.5 shrink-0 text-gold" aria-hidden="true" /><div><p className="text-sm font-semibold">Prepara gli allegati</p><p className="mt-1 text-sm text-navy/70">{selected.documents}</p><p className="mt-1 text-xs text-navy/60">Massimo 5 MB complessivi.</p></div></div>
+        <p className="mt-5 text-xs leading-relaxed text-navy/60">Valuteremo la tua proposta in base alle nostre esigenze e ti contatteremo per approfondire.</p>
+      </aside>
       <iframe ref={uploadFrame} name="careers-upload" title="Conferma invio candidatura" hidden aria-hidden="true" />
       <form action="https://formsubmit.co/degihousesrl@gmail.com" method="POST" encType="multipart/form-data" target="careers-upload" onSubmit={submit} noValidate aria-busy={status === 'sending'} className="min-w-0 rounded-3xl bg-white p-6 shadow-sm ring-1 ring-navy/10 md:p-8">
         {status === 'success' ? <div ref={feedback} tabIndex={-1} role="status" className="py-8 text-center">
@@ -157,29 +193,24 @@ export default function Careers() {
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_next" defaultValue="" />
         <input type="hidden" name="_captcha" value="false" />
-        <h2 className="font-display text-xl">Invia la tua candidatura</h2>
-        <fieldset className="mt-5 space-y-3">
-          <legend className="mb-2 text-sm font-semibold">Come vuoi lavorare con noi?</legend>
-          {[['employee', 'Come dipendente'], ['subcontractor', 'Come azienda subappaltatrice'], ['supplier', 'Come fornitore o agente commerciale']].map(([value, label]) => <label key={value} className="flex cursor-pointer items-center gap-3 rounded-xl bg-navy-50 p-3 text-sm">
-            <input type="radio" name="tipo_candidatura" value={label} checked={kind === value} onChange={() => { setKind(value as typeof kind); setErrors({}); setStatus('idle'); }} />{label}
-          </label>)}
-        </fieldset>
+        <input type="hidden" name="tipo_candidatura" value={selected.emailLabel} />
+        <h3 className="font-display text-xl">Presentati a DIGI HOUSE</h3>
         <p className="mt-4 text-sm text-navy/60">Tutti i campi sono obbligatori, salvo dove indicato.</p>
-        <div className="mt-6 space-y-4">
-          {fields.map(field => <div key={field.name}>
+        <div className="mt-6 grid gap-5 sm:grid-cols-2">
+          {fields.map(field => <div key={field.name} className={field.name === 'specialty' || field.name === 'brands' ? 'sm:col-span-2' : 'min-w-0'}>
             <label htmlFor={`careers-${field.name}`} className="mb-1 block text-sm font-medium">{field.label}</label>
             {field.name === 'city' ? <MunicipalityInput id="careers-city" name="city" error={errors.city} /> : <input {...field} id={`careers-${field.name}`} type={field.type ?? 'text'} required className={fieldClass} aria-invalid={!!errors[field.name]} aria-describedby={errors[field.name] ? `error-${field.name}` : undefined} />}
             {errors[field.name] && <p id={`error-${field.name}`} role="alert" className="mt-1 text-sm text-red-700">{errors[field.name]}</p>}
           </div>)}
-          <label className="block"><span className="mb-1 block text-sm font-medium">{kind === 'supplier' ? 'Proposta di collaborazione' : 'Esperienza e competenze'}</span><textarea name="message" rows={5} required maxLength={2500} className={fieldClass} aria-invalid={!!errors.message} aria-describedby={errors.message ? 'error-message' : undefined} placeholder={kind === 'supplier' ? 'Prodotti, marchi, zone servite, disponibilità e condizioni di fornitura' : kind === 'subcontractor' ? 'Lavorazioni, esperienza della squadra, zone operative e disponibilità' : 'Esperienze precedenti, competenze e disponibilità'} /></label>
-          {errors.message && <p id="error-message" role="alert" className="text-sm text-red-700">{errors.message}</p>}
-          <div>
+          <label className="block sm:col-span-2"><span className="mb-1 block text-sm font-medium">{kind === 'supplier' ? 'Proposta di collaborazione' : 'Esperienza e competenze'}</span><textarea name="message" rows={5} required maxLength={2500} className={fieldClass} aria-invalid={!!errors.message} aria-describedby={errors.message ? 'error-message' : undefined} placeholder={kind === 'supplier' ? 'Prodotti, marchi, zone servite, disponibilità e condizioni di fornitura' : kind === 'subcontractor' ? 'Lavorazioni, esperienza della squadra, zone operative e disponibilità' : 'Esperienze precedenti, competenze e disponibilità'} /></label>
+          {errors.message && <p id="error-message" role="alert" className="sm:col-span-2 text-sm text-red-700">{errors.message}</p>}
+          <div className="sm:col-span-2">
             <label htmlFor="careers-attachment" className="mb-1 block text-sm font-medium">{kind === 'employee' ? 'Allega il curriculum' : kind === 'supplier' ? 'Allega una presentazione aziendale o un catalogo' : 'Allega il profilo aziendale o curriculum dell’impresa'}</label>
             <input id="careers-attachment" name="attachment" type="file" required accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" className={`${fieldClass} min-w-0 text-sm file:mr-3 file:rounded-lg file:border-0 file:bg-navy-50 file:px-3 file:py-2 file:text-navy`} aria-invalid={!!errors.attachment} aria-describedby={`attachment-help${errors.attachment ? ' error-attachment' : ''}`} />
             <p id="attachment-help" className="mt-2 text-xs text-navy/60">{kind === 'subcontractor' ? 'PDF o Word (.doc, .docx). Profilo aziendale e foto: massimo 5 MB complessivi.' : 'PDF o Word (.doc, .docx), massimo 5 MB. Il documento sarà allegato alla candidatura.'}</p>
             {errors.attachment && <p id="error-attachment" role="alert" className="mt-1 text-sm text-red-700">{errors.attachment}</p>}
           </div>
-          {kind === 'subcontractor' && <fieldset className="space-y-4 rounded-2xl bg-navy-50 p-4">
+          {kind === 'subcontractor' && <fieldset className="space-y-4 rounded-2xl bg-navy-50 p-4 sm:col-span-2">
             <legend className="px-1 text-sm font-semibold">Foto dei lavori svolti</legend>
             <p id="work-photos-help" className="text-xs text-navy/70">Allega da 1 a 3 foto in formato JPG, PNG o WebP. Profilo aziendale e foto insieme: massimo 5 MB.</p>
             {[1, 2, 3].map(index => {
@@ -192,8 +223,8 @@ export default function Careers() {
             })}
           </fieldset>}
           <input name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 opacity-0" />
-          <label className="flex items-start gap-3 text-sm text-navy/80"><input name="acknowledgement" type="checkbox" required className="mt-1" aria-invalid={!!errors.acknowledgement} aria-describedby={errors.acknowledgement ? 'error-acknowledgement' : undefined} /><span>Chiedo di essere ricontattato da DIGI HOUSE per la valutazione della mia candidatura.</span></label>
-          {errors.acknowledgement && <p id="error-acknowledgement" role="alert" className="text-sm text-red-700">{errors.acknowledgement}</p>}
+          <label className="flex items-start gap-3 text-sm text-navy/80 sm:col-span-2"><input name="acknowledgement" type="checkbox" required className="mt-1" aria-invalid={!!errors.acknowledgement} aria-describedby={errors.acknowledgement ? 'error-acknowledgement' : undefined} /><span>Chiedo di essere ricontattato da DIGI HOUSE per la valutazione della mia candidatura.</span></label>
+          {errors.acknowledgement && <p id="error-acknowledgement" role="alert" className="sm:col-span-2 text-sm text-red-700">{errors.acknowledgement}</p>}
         </div>
         <p className="mt-4 text-xs leading-relaxed text-navy/60">Premendo “Invia candidatura”, i dati e gli allegati saranno trasmessi tramite FormSubmit alla casella email di DIGI HOUSE per valutare la candidatura. Non inserire dati sanitari o altri dati sensibili. La conferma dell’invio apparirà su questa pagina.</p>
         <button type="submit" disabled={status === 'sending'} className="mt-6 inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3 font-semibold text-white hover:bg-navy/90 disabled:opacity-60"><Mail size={18} />{status === 'sending' ? 'Invio in corso…' : 'Invia candidatura'}</button>
@@ -204,6 +235,8 @@ export default function Careers() {
         </div>}
         </>}
       </form>
-    </div>
+      </div>
+      </>}
+    </section>
   </div>;
 }
