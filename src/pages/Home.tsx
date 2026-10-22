@@ -132,7 +132,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <Tilt interactive className="overflow-hidden rounded-3xl shadow-xl"><SafeImg src="/assets/roller-screen.jpg" alt="Sistema avvolgibile e schermatura per finestra" className="aspect-[4/3] w-full object-cover" fallback="Avvolgibili e zanzariere" /></Tilt>
+            <Tilt interactive className="overflow-hidden rounded-3xl shadow-xl"><SafeImg src="/assets/comfort-interni-finestre.webp" alt="Ambiente interno con ampie finestre, pareti in mattoni e luce naturale" className="aspect-[4/3] w-full object-cover" fallback="Avvolgibili e zanzariere" /></Tilt>
             <div className="mt-4 grid gap-4 sm:grid-cols-2">{comfort.map((c, i) => <DeptCard key={c.title} c={c} i={i} />)}</div>
           </div>
         </div>
