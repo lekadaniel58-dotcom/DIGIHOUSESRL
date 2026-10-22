@@ -58,8 +58,8 @@ export default function MunicipalityInput({ id, name, error }: { id: string; nam
         </button>
       </li>)}
     </ul>}
-    <p id={`${id}-hint`} role="status" className="mt-2 text-xs text-navy/60">
-      {open && query ? loadState === 'loading' ? 'Caricamento comuni…' : loadState === 'error' ? 'Suggerimenti non disponibili. Scrivi comune e provincia manualmente.' : matches.length ? `${matches.length} comuni: seleziona un suggerimento o continua a scrivere.` : 'Nessun suggerimento. Puoi scrivere comune e provincia manualmente.' : 'Scrivi le prime lettere e seleziona il comune con la provincia.'}
+    <p id={`${id}-hint`} role="status" className={open && query ? 'mt-2 text-xs text-navy/60' : 'sr-only'}>
+      {open && query ? loadState === 'loading' ? 'Caricamento comuni…' : loadState === 'error' ? 'Suggerimenti non disponibili. Scrivi comune e provincia manualmente.' : matches.length ? `${matches.length} comuni: seleziona un suggerimento o continua a scrivere.` : 'Nessun suggerimento. Puoi scrivere comune e provincia manualmente.' : ''}
     </p>
   </div>;
 }

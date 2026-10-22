@@ -18,7 +18,7 @@ const companyFields: Field[] = [
 ];
 const paths = [
   { id: 'employee', label: 'Dipendente', emailLabel: 'Come dipendente', Icon: BriefcaseBusiness, eyebrow: 'Entra nella squadra', title: 'Porta il tuo talento.', text: 'Cerchi un lavoro? Raccontaci cosa sai fare e quale ruolo vorresti ricoprire.', documents: 'Curriculum in PDF o Word', details: 'Parlaci delle tue esperienze, delle competenze e della tua disponibilità.' },
-  { id: 'subcontractor', label: 'Subappaltatore', emailLabel: 'Come azienda subappaltatrice', Icon: HardHat, eyebrow: 'Collaboriamo sul campo', title: 'Metti in gioco la tua impresa.', text: 'Proponi la tua squadra per lavorazioni, installazioni e progetti da realizzare insieme.', documents: 'Profilo aziendale + da 1 a 3 foto dei lavori', details: 'Presenta le lavorazioni, le zone operative e la disponibilità della tua squadra.' },
+  { id: 'subcontractor', label: 'Subappaltatore', emailLabel: 'Come azienda subappaltatrice', Icon: HardHat, eyebrow: 'Collaboriamo sul campo', title: 'Metti in gioco la tua impresa.', text: 'Proponi la tua squadra per lavorazioni, installazioni e progetti da realizzare insieme.', documents: 'Profilo aziendale · foto dei lavori facoltative', details: 'Presenta le lavorazioni, le zone operative e la disponibilità della tua squadra.' },
   { id: 'supplier', label: 'Fornitore o agente', emailLabel: 'Come fornitore o agente commerciale', Icon: PackageCheck, eyebrow: 'Nuovi materiali, nuove possibilità', title: 'Proponi le tue forniture.', text: 'Rappresenti un marchio o un’azienda? Facci conoscere i prodotti che vorresti proporci.', documents: 'Presentazione aziendale o catalogo', details: 'Indica materiali, marchi rappresentati e condizioni della collaborazione.' },
 ] as const;
 const fieldClass = 'w-full rounded-xl bg-white px-4 py-3 ring-1 ring-navy/20 focus:ring-2 focus:ring-gold';
@@ -79,7 +79,6 @@ export default function Careers() {
         const name = `work_photo_${index}`;
         const photo = data.get(name);
         if (!(photo instanceof File) || !photo.name) {
-          if (index === 1) next[name] = 'Allega almeno una foto dei lavori svolti.';
           continue;
         }
         total += photo.size;
@@ -211,13 +210,13 @@ export default function Careers() {
             {errors.attachment && <p id="error-attachment" role="alert" className="mt-1 text-sm text-red-700">{errors.attachment}</p>}
           </div>
           {kind === 'subcontractor' && <fieldset className="space-y-4 rounded-2xl bg-navy-50 p-4 sm:col-span-2">
-            <legend className="px-1 text-sm font-semibold">Foto dei lavori svolti</legend>
-            <p id="work-photos-help" className="text-xs text-navy/70">Allega da 1 a 3 foto in formato JPG, PNG o WebP. Profilo aziendale e foto insieme: massimo 5 MB.</p>
+            <legend className="px-1 text-sm font-semibold">Foto dei lavori svolti (facoltative)</legend>
+            <p id="work-photos-help" className="text-xs text-navy/70">Se vuoi, aggiungi fino a 3 foto dei lavori svolti: ci aiuteranno a conoscere la tua impresa. Formati JPG, PNG o WebP. Profilo aziendale e foto insieme: massimo 5 MB.</p>
             {[1, 2, 3].map(index => {
               const name = `work_photo_${index}`;
               return <div key={name}>
-                <label htmlFor={name} className="mb-1 block text-sm font-medium">Foto {index}{index === 1 ? ' (obbligatoria)' : ' (facoltativa)'}</label>
-                <input id={name} name={name} type="file" required={index === 1} accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp" className={`${fieldClass} min-w-0 text-sm file:mr-3 file:rounded-lg file:border-0 file:bg-navy-50 file:px-3 file:py-2 file:text-navy`} aria-invalid={!!errors[name]} aria-describedby={`work-photos-help${errors[name] ? ` error-${name}` : ''}`} />
+                <label htmlFor={name} className="mb-1 block text-sm font-medium">Foto {index} (facoltativa)</label>
+                <input id={name} name={name} type="file" accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp" className={`${fieldClass} min-w-0 text-sm file:mr-3 file:rounded-lg file:border-0 file:bg-navy-50 file:px-3 file:py-2 file:text-navy`} aria-invalid={!!errors[name]} aria-describedby={`work-photos-help${errors[name] ? ` error-${name}` : ''}`} />
                 {errors[name] && <p id={`error-${name}`} role="alert" className="mt-1 text-sm text-red-700">{errors[name]}</p>}
               </div>;
             })}
