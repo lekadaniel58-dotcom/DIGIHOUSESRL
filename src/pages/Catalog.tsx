@@ -52,7 +52,7 @@ export default function Catalog() {
         <label className="relative w-full flex-none sm:w-auto sm:flex-1 min-w-0 sm:min-w-[220px]">
           <span className="sr-only">Cerca prodotto</span>
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-navy/40" size={18} />
-          <input value={q} onChange={e => setQ(e.target.value)} placeholder="coma possiamo aiutarti?"
+          <input value={q} onChange={e => setQ(e.target.value)} placeholder="Come possiamo aiutarti?"
             className="w-full rounded-full bg-white py-3 pl-10 pr-4 ring-1 ring-navy/10 focus:ring-gold" />
         </label>
         <select aria-label="Reparto" value={dep} onChange={e => updateFilter('reparto', e.target.value)} className="rounded-full bg-white px-4 py-3 ring-1 ring-navy/10">
