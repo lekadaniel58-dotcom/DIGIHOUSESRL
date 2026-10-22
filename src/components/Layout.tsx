@@ -11,6 +11,18 @@ export default function Layout() {
   const [open, setOpen] = useState(false);
   const loc = useLocation();
   useEffect(() => {
+    const pages: Record<string, string> = {
+      '/catalogo': 'Catalogo', '/promozioni': 'Promozioni', '/chi-siamo': 'Chi siamo',
+      '/imprese': 'Area imprese', '/lavora-con-noi': 'Lavora con noi', '/contatti': 'Contatti',
+    };
+    const sections: Record<string, string> = {
+      '#serramenti': 'Serramenti', '#comfort': 'Comfort', '#edilizia': 'Edilizia & Fai-da-te', '#offerte': 'Offerte',
+    };
+    const path = loc.pathname.replace(/\/+$/, '') || '/';
+    const label = path === '/' ? sections[loc.hash] : pages[path] ?? 'Pagina non trovata';
+    document.title = label ? `${label} Digi House` : 'Digi House';
+  }, [loc.pathname, loc.hash]);
+  useEffect(() => {
     setOpen(false);
     if (loc.hash) { const t = setTimeout(() => document.getElementById(loc.hash.slice(1))?.scrollIntoView({ behavior: 'smooth' }), 80); return () => clearTimeout(t); }
     window.scrollTo(0, 0);
