@@ -1,8 +1,8 @@
 const urls = [
-  'https://www.rotacommerciale.it/prodotto/pittura-economica-per-interni-naxos/',
-  'https://grossipro.it/collections/muratti/products.json?limit=250',
-  'https://html.duckduckgo.com/html/?q=%22Muratti%22+%22Panarea%22+pittura',
-  'https://html.duckduckgo.com/html/?q=%22Muratti%22+%22Quarzo+liscio%22',
+  'https://www.fareke.com/lavabili/35-delp-italia-genova/6882-482698-muratti-panarea-idropittura-lavabile-profumata-per-interni-8999900482698.html',
+  'https://emad-store.com/collections/pittura/products.json?limit=250',
+  'https://didonatospa.it/marchi-2/',
+  'https://www.muratti.it/wp-json/wp/v2/media?search=quarzo&per_page=20',
 ];
 await Promise.all(urls.map(async url => {
   try {
