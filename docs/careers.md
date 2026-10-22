@@ -1,11 +1,13 @@
 # Lavora con noi
 
 Pagina `#/lavora-con-noi`, collegata da menu desktop/mobile, homepage e footer.
-Due percorsi: dipendente e azienda subappaltatrice. I campi azienda e partita IVA
-sono richiesti e inviati soltanto per il secondo percorso. Entrambi raccolgono
+Tre percorsi: dipendente, azienda subappaltatrice, fornitore o agente commerciale.
+Azienda e partita IVA sono richieste per i due percorsi professionali. Tutti raccolgono
 referente, email, telefono, comune/provincia, specializzazione ed esperienza.
 Allegato obbligatorio: curriculum per i dipendenti, profilo aziendale o curriculum
-dell’impresa per i subappaltatori. Un file PDF, DOC o DOCX, massimo 5.000.000 byte.
+dell’impresa per i subappaltatori, presentazione aziendale o catalogo per fornitori
+e agenti. Questi ultimi indicano materiali, marchi rappresentati e proposta di
+collaborazione, con oggetto email dedicato. Un file PDF, DOC o DOCX, massimo 5.000.000 byte.
 
 Invio multipart con file allo stesso destinatario dell’Area imprese, `degihousesrl@gmail.com`,
 con oggetti email distinti. Restano necessari attivazione e verifica della casella
