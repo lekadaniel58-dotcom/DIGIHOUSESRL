@@ -55,20 +55,37 @@ export function searchCatalog(index: ReturnType<typeof createSearchIndex>[], que
   const terms = tokens(query);
   if (!terms.length) return index.map(entry => ({ product: entry.product, score: 0 }));
   const phrase = normalize(query);
+  // Complete word fragments without reinterpreting complete words or product codes.
+  const expansions = new Map<string, string[]>();
+  for (const term of terms) {
+    if (term.length < 2 || /\d/.test(term) || aliases.has(term)) continue;
+    const completions = [...new Set([...aliases].filter(([word]) => word.startsWith(term)).map(([, concept]) => concept))];
+    // “pi” leads to paints rather than tools or tile adhesives.
+    if (term === 'pi') completions.splice(0, completions.length, 'pittura');
+    expansions.set(term, [term, ...completions]);
+  }
+  const candidates = (term: string) => expansions.get(term) ?? [term];
   // A request for paint means the product itself, unless another product type is explicit.
   const otherProductTypes = new Set(['rullo', 'pennello', 'telo', 'nastro', 'carta', 'proteggere',
     'fissativo', 'rasante', 'stucco', 'colla', 'finitura', 'finiture', 'sacco', 'sacchi',
     'mescolatore', 'pistola', 'manico', 'ricarica', 'retina', 'secchio', 'trattamento']);
-  const wantsPaint = terms.includes('pittura') && !terms.some(term => otherProductTypes.has(term));
+  const wantsPaint = terms.some(term => candidates(term).includes('pittura')) &&
+    !terms.some(term => candidates(term).some(candidate => otherProductTypes.has(candidate)));
   return index.flatMap(entry => {
     if (wantsPaint && !entry.isPaint) return [];
     let score = entry.phrase.includes(phrase) ? 50 : 0;
     for (const term of terms) {
+      const alternatives = candidates(term);
+      const completing = expansions.has(term);
       if (entry.codes.includes(term)) score += 200;
       else if (entry.title.includes(term)) score += 30;
       else if (entry.subtitle.includes(term)) score += 20;
       else if (entry.body.includes(term)) score += 10;
-      else if (!/\d/.test(term) && term.length >= 3 && entry.title.some(word => word.startsWith(term))) score += 8;
+      else if (completing && entry.title.some(word => word.startsWith(term))) score += 18;
+      else if (completing && alternatives.some(word => entry.title.includes(word))) score += 16;
+      else if (completing && alternatives.some(word => entry.subtitle.includes(word))) score += 14;
+      else if (completing && alternatives.some(word => entry.body.includes(word))) score += 8;
+      else if (completing && term.length >= 3 && entry.subtitle.some(word => word.startsWith(term))) score += 6;
       else if ([...entry.title, ...entry.body].some(word => similar(term, word))) score += 3;
       else return [];
     }

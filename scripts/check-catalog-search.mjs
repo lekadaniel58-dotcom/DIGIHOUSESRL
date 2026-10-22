@@ -53,3 +53,15 @@ assert(find('nastro per pittura').some(p => p.name.startsWith('NASTRO')));
 assert(find('YW12').some(p => p.name.startsWith('YW12')));
 
 assert(!find('siliconi').some(p => p.name.startsWith('SIGILCOLOR')), 'I sigillanti cementizi non sono siliconi');
+
+for (const query of ['pi', 'pit', 'pitt', 'vern']) {
+  const results = find(query);
+  assert(results.length > 0, query);
+  assert(results.every(p => p.department === 'Pitture e decorazioni'), `${query}: pitture, non sacchi o utensili`);
+  assert(results.some(p => p.name.startsWith('TRX')), `${query}: trovata pittura con nome commerciale`);
+}
+for (const [query, expected] of [['pen', 'PENNELLO'], ['ru', 'RULLO'], ['sil', 'SILICONE'], ['fin', 'Infisso'], ['col', 'KT PLUS'], ['pitt est', 'PRISMA'], ['rullo per pitt', 'RULLO']]) {
+  assert(names(query).some(name => name.includes(expected)), query);
+}
+assert(names('pri').some(name => name.startsWith('PRISMA')), 'I prefissi dei nomi commerciali restano ricercabili');
+assert.equal(find('99999').length, 0, 'I codici non vengono corretti o completati come parole');
