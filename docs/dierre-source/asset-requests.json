@@ -124,5 +124,26 @@
     "source_title": "Under",
     "image_url": "https://www.dierre.com/wp-content/uploads/2021/07/dierre-under.jpg",
     "image_scope": "family"
+  },
+  {
+    "name": "Greta",
+    "source_url": "https://www.dierre.com/porte/blindate/inferriate-persiane/#greta",
+    "source_title": "Greta",
+    "image_url": "https://www.dierre.com/wp-content/uploads/2021/10/dierre-greta.jpg",
+    "image_scope": "model"
+  },
+  {
+    "name": "Anthos",
+    "source_url": "https://www.dierre.com/porte/blindate/inferriate-persiane/#anthos-e-anthea",
+    "source_title": "Anthos",
+    "image_url": "https://www.dierre.com/wp-content/uploads/2021/10/dierre-anthos-anthea.jpg",
+    "image_scope": "model"
+  },
+  {
+    "name": "Anthea",
+    "source_url": "https://www.dierre.com/porte/blindate/inferriate-persiane/#anthos-e-anthea",
+    "source_title": "Anthea",
+    "image_url": "https://www.dierre.com/wp-content/uploads/2021/10/dierre-anthea-inferriate-blindate.jpg",
+    "image_scope": "model"
   }
 ]
