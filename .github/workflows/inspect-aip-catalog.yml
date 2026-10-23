@@ -1,0 +1,29 @@
+name: Inspect official AIP catalogue sources
+on:
+  push:
+    branches: [source/aip-catalog]
+    paths:
+      - scripts/inspect-aip-catalog.py
+      - .github/workflows/inspect-aip-catalog.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/inspect-aip-catalog.py
+      - name: Save public sources on the review branch
+        run: |
+          git config user.name 'Digi House catalogue import'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/aip-source
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save official AIP catalogue sources for review [skip ci]'
+            git push origin HEAD:source/aip-catalog
+          fi
