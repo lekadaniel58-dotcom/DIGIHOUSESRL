@@ -18,7 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python scripts/inspect-pail-catalog.py
+      - if: hashFiles('docs/pail-source/index.json') == '' || hashFiles('docs/pail-source/page-requests.json') != ''
+        run: python scripts/inspect-pail-catalog.py
       - if: hashFiles('docs/pail-source/asset-requests.json') != ''
         run: |
           pip install Pillow==11.3.0

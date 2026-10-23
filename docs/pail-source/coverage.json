@@ -1,0 +1,824 @@
+[
+  {
+    "program": "pail-rapido",
+    "label": "Linea rapido pail",
+    "key": "linea-cieca-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/01-LINEA_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Bari rapido pail RIGA 2001",
+    "key": "riga-bari-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/20-RIGA-2001_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Mantova rapido pail RIGA 2013",
+    "key": "riga-mantova-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/21-RIGA-2013_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Matera rapido pail RIGA 2014",
+    "key": "riga-matera-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/22-RIGA-2014_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Perugia rapido pail RIGA 2015",
+    "key": "riga-perugia-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/23-RIGA-2015_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Pescara rapido pail RIGA 2020",
+    "key": "riga-pescara-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/24-RIGA-2020_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Siena rapido pail RIGA 2023",
+    "key": "riga-siena-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/25-RIGA-2023_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Milano rapido pail RIGA 2032",
+    "key": "riga-milano-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/26-RIGA-2032_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Rimini rapido pail RIGA 2033",
+    "key": "riga-rimini-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/27-RIGA-2033_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Bologna rapido pail RIGA 2034",
+    "key": "riga-bologna-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/28-RIGA-2034_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Ancona rapido pail RIGA 2035",
+    "key": "riga-ancona-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/29-RIGA-2035_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Modena rapido pail RIGA 2036",
+    "key": "riga-modena-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/30-RIGA-2036_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Genova rapido pail RIGA 2037",
+    "key": "riga-genova-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/31-RIGA-2037_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Trento rapido pail RIGA 2038",
+    "key": "riga-trento-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/32-RIGA-2038_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Udine rapido pail RIGA 2039",
+    "key": "riga-udine-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/33-RIGA-2039_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Sassari rapido pail RIGA 2040",
+    "key": "riga-sassari-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/34-RIGA-2040_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Napoli rapido pail RIGA 2041",
+    "key": "riga-napoli-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/35-RIGA-2041_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Chieti rapido pail RIGA 2042",
+    "key": "riga-chieti-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/36-RIGA-2042_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "L'Aquila rapido pail RIGA 2043",
+    "key": "riga-l-aquila-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/37-RIGA-2043_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Teramo rapido pail RIGA 2044",
+    "key": "riga-teramo-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/38-RIGA-2044_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Aosta rapido pail RIGA 2045",
+    "key": "riga-aosta-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/39-RIGA-2045_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Caserta rapido pail RIGA 2046",
+    "key": "riga-caserta-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/40-RIGA-2046_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Lecce rapido pail RIGA 2047",
+    "key": "riga-lecce-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/41b-RIGA-2047_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Torino rapido pail RIGA 2046",
+    "key": "riga-torino-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/42-RIGA-2046_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Roma rapido pail RIGA 2049",
+    "key": "riga-roma-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02_03_01_Porticine_Riga_Roma.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Agrigento rapido pail RIGA 2047",
+    "key": "riga-agrigento-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/02/riga-agrigento1.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Ferrara rapido pail RIGA 2047",
+    "key": "riga-ferrara-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/02/riga-ferrara1.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Ravenna rapido pail RIGA 2053",
+    "key": "riga-ravenna-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02_04_01_Porticine_Riga_Ravenna-2053.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Catania rapido pail RIGA 2055",
+    "key": "riga-catania-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02_06_01_Porticine_Riga_Catania-2055.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Padova rapido pail RIGA 2054",
+    "key": "riga-padova-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02_05_01_Porticine_Riga_Padova-2054.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Avellino rapido pail RIGA 2056",
+    "key": "riga-avellino-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02_07_01_Porticine_Riga_Avellino-2056.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Livorno rapido pail RIGA 2057",
+    "key": "riga-livorno-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02_08_01_Porticine_Riga_Livorno-2057.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Palermo rapido pail RIGA 2058",
+    "key": "riga-palermo-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02_09_01_Porticine_Riga_Palermo-2058.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Salerno rapido pail RIGA 2059",
+    "key": "riga-salerno-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02_10_01_Porticine_Riga_Salerno-2059.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Firenze rapido pail RIGA 2060",
+    "key": "riga-firenze-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02_01_01_Porticine_Riga_Firenze-2060_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Londra Luna rapido pail",
+    "key": "luna-londra-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/12-Porticine_Luna-01_Vista_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Madrid Luna rapido pail",
+    "key": "luna-madrid-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/10-Porticine_Luna-02_Vista_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Parigi Luna rapido pail",
+    "key": "luna-parigi-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/11-Porticine_Luna-03_Vista_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Berlino Luna rapido pail",
+    "key": "luna-berlino-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/15-Porticine_Luna-04_Vista_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Zagabria Luna rapido pail",
+    "key": "luna-zagabria-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/16-Porticine_Luna-05_Vista_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea bianco rapido pail",
+    "key": "linea-cieca-bianco",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/01-LINEA_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia bianco Frassino rapido pail",
+    "key": "marsia-bianco-frassino",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02-MS-BIANCO-FRASSINO_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Olmo Artico rapido pail",
+    "key": "marsia-olmo-artico",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02-MS-OLMO-ARTICO_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Olmo Baltico rapido pail",
+    "key": "marsia-olmo-baltico",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02-MS-OLMO-BALTICO_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Olmo Deserto rapido pail",
+    "key": "marsia-olmo-deserto",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02-MS-OLMO-DESERTO_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Canaletto rapido pail",
+    "key": "marsia-canaletto",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/14-01-Canaletto-Aggiornamento_Ms_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Cieca Nuvola Lac rapido pail",
+    "key": "linea-cieca-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/MOD.CIECA_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Standard Nuvola Lac rapido pail",
+    "key": "linea-vetro-standard-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/mod.-vetro-standrad.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Simmetrico Nuvola Lac rapido pail",
+    "key": "linea-vetro-simmetrico-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/mo.-vetro-simmetrico.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Asimmetrico Nuvola Lac rapido pail",
+    "key": "linea-vetro-asimmetrico-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/mod.-vetro-asimmetrico.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Small Nuvola Lac rapido pail",
+    "key": "linea-vetro-small-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/mod.-vetro-small.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Cieca Cappuccino Lac rapido pail",
+    "key": "linea-cieca-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-04-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Standard Cappuccino Lac rapido pail",
+    "key": "linea-vetro-standard-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-05-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Simmetrico Cappuccino Lac rapido pail",
+    "key": "linea-vetro-simmetrico-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-06-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Asimmetrico Cappuccino Lac rapido pail",
+    "key": "linea-vetro-asimmetrico-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-07-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Small Cappuccino Lac rapido pail",
+    "key": "linea-vetro-small-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-08-1-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Cieca Bianco Matrix rapido pail",
+    "key": "linea-cieca-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/cmod.ciec_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Standard Bianco Matrix rapido pail",
+    "key": "linea-vetro-standard-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/MOD.VETRO-STANDARD.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Simmetrico Bianco Matrix rapido pail",
+    "key": "linea-vetro-simmetrico-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/MOD.-VETRO-SIMETRICO.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Asimmetrico Bianco Matrix rapido pail",
+    "key": "linea-vetro-asimmetrico-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/ASIMMETRICO.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Small Bianco Matrix rapido pail",
+    "key": "linea-vetro-small-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/small.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Cieca Caracalla Naturale rapido pail",
+    "key": "linea-cieca-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-02-1.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Standard Caracalla Naturale rapido pail",
+    "key": "linea-vetro-standard-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-03-1.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Simmetrico Caracalla Naturale rapido pail",
+    "key": "linea-vetro-simmetrico-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-04-1.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Asimmetrico Caracalla Naturale rapido pail",
+    "key": "linea-vetro-asimmetrico-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-05-1.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Small Caracalla Naturale rapido pail",
+    "key": "linea-vetro-small-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-06-1.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Cieca Rovere Vicenza rapido pail",
+    "key": "linea-cieca-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/rovere-1-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Standard Rovere Vicenza rapido pail",
+    "key": "linea-vetro-standard-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/roverevicenza-05-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Simmetrico Rovere Vicenza rapido pail",
+    "key": "linea-vetro-simmetrico-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/roverevicenza-06-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Asimmetrico Rovere Vicenza rapido pail",
+    "key": "linea-vetro-asimmetrico-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/roverevicenza-07-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Vetro Small Rovere Vicenza rapido pail",
+    "key": "linea-vetro-small-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/roverevicenza-08-scaled.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Riga Milano",
+    "key": "riga-milano-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/032_070_Riga-2032_Laccato_Telaio-Design-2015_01_07_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Riga Torino",
+    "key": "riga-torino-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/036_073_Riga_2048_Laccato_Telaio-Evolight_01_09_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Riga Perugia",
+    "key": "riga-perugia-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/riga_2015.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Luna Madrid",
+    "key": "luna-madrid-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/047_138_Pianeta2_Cieca_Laccato_Telaio-Design-2015_01_02_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Luna Berlino",
+    "key": "luna-berlino-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/048_141_Pianeta-4-C_Laccato_Telaio-Evolight-Lato-Interno_01_04_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea",
+    "key": "linea-cieca-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/017_008_Linea-Laccato-Bianco-telaio-design-Cromo_01_06_-4c1cc08c60208276e5ebc359feb88665.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea",
+    "key": "linea-cieca-laccato-latte",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/linea.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Quercia Calderone",
+    "key": "marsia-quercia-calderone",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/13_Quercia-Calderone_Vista_01_05_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Quercia Calderone",
+    "key": "marsia-quercia-calderone",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/marsia_6.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Canaletto",
+    "key": "marsia-canaletto",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/05/marsia-rapido-pail-canaletto.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Canaletto",
+    "key": "marsia-canaletto",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/05/marsia-decorati-canaletto.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Olmo Artico",
+    "key": "marsia-olmo-artico",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/11/017_122_Alisea_MS_C_Olmo_Artico_T_Evo_01_01_.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Olmo Artico",
+    "key": "marsia-vetro-simmetrico-olmo-artico",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/marsia_3_vetro.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Olmo Baltico",
+    "key": "marsia-olmo-baltico",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/11/marsia_2-1.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Olmo Baltico",
+    "key": "marsia-olmo-baltico",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/05/olmo-baltco-rapido-marsia-pail.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Olmo Deserto",
+    "key": "marsia-olmo-deserto",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/img486.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Olmo Deserto",
+    "key": "marsia-olmo-deserto",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/05/olmo-deserto-rapido-pail-decorati-marsia.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Rovere City",
+    "key": "marsia-inserti-200-rovere-city",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/028_alisea-MS-cieca-con-due-inserti-oriz.-h-maniglia-telaio-ETEREA-line.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Rovere City",
+    "key": "marsia-inserti-200-vetro-small-rovere-city",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/05/rovere-city-rapido-pail-decorati-marsia.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Bianco Frassino",
+    "key": "marsia-bianco-frassino",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/020_alisea-MS-cieca-eterea-line.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Marsia Bianco Frassino",
+    "key": "marsia-inserto-orizzontale-bianco-frassino",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/11/img854.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Bianco",
+    "key": "linea-cieca-bianco",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/001_alisea-LN-cieca-telaio-EVO.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Bianco",
+    "key": "linea-vetro-asimmetrico-bianco",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/12/linea_vetro.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Noce Nazionale",
+    "key": "linea-cieca-noce-nazionale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2020/11/141_048_alisea-LN-cieca-telaio-standard.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Linea Noce Nazionale",
+    "key": "linea-vetro-standard-noce-nazionale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/05/nonece-nazionale-rapido-pail-decorati-linea.jpg"
+  },
+  {
+    "program": "pail-rapido",
+    "label": "Mimetica 43",
+    "key": "mimetica-43",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/05/mimetica-43-rapido-pail.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea bianco super rapido",
+    "key": "linea-cieca-bianco",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/01-LINEA_LACCATO_.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia bianco Frassino super rapido",
+    "key": "marsia-bianco-frassino",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02-MS-BIANCO-FRASSINO_01_.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Olmo Artico super rapido",
+    "key": "marsia-olmo-artico",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02-MS-OLMO-ARTICO_01_.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Olmo Baltico super rapido",
+    "key": "marsia-olmo-baltico",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02-MS-OLMO-BALTICO_01_.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Olmo Deserto super rapido",
+    "key": "marsia-olmo-deserto",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/02-MS-OLMO-DESERTO_01_.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Canaletto super rapido",
+    "key": "marsia-canaletto",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2021/01/14-01-Canaletto-Aggiornamento_Ms_01_.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Cieca Nuvola Lac super rapido pail",
+    "key": "linea-cieca-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/MOD.CIECA_.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Standard Nuvola Lac super rapido pail",
+    "key": "linea-vetro-standard-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/mod.-vetro-standrad.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Simmetrico Nuvola Lac super rapido pail",
+    "key": "linea-vetro-simmetrico-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/mo.-vetro-simmetrico.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Asimmetrico Nuvola Lac super rapido pail",
+    "key": "linea-vetro-asimmetrico-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/mod.-vetro-asimmetrico.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Small Nuvola Lac super rapido pail",
+    "key": "linea-vetro-small-nuvola-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/mod.-vetro-small.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Cieca Cappuccino Lac super rapido pail",
+    "key": "linea-cieca-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-04-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Standard Cappuccino Lac super rapido pail",
+    "key": "linea-vetro-standard-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-05-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Simmetrico Cappuccino Lac super rapido pail",
+    "key": "linea-vetro-simmetrico-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-06-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Asimmetrico Cappuccino Lac super rapido pail",
+    "key": "linea-vetro-asimmetrico-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-07-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Small Cappuccino Lac super rapido pail",
+    "key": "linea-vetro-small-cappuccino-lac",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/CAPPUCCINO-08-1-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Cieca Bianco Matrix super rapido",
+    "key": "linea-cieca-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/cmod.ciec_.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Standard Bianco Matrix super rapido",
+    "key": "linea-vetro-standard-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/MOD.VETRO-STANDARD.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Simmetrico Bianco Matrix super rapido",
+    "key": "linea-vetro-simmetrico-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/MOD.-VETRO-SIMETRICO.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Asimmetrico Bianco Matrix super rapido",
+    "key": "linea-vetro-asimmetrico-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/ASIMMETRICO.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Small Bianco Matrix super rapido",
+    "key": "linea-vetro-small-bianco-matrix",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/small.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Cieca Caracalla Naturale super rapido",
+    "key": "linea-cieca-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-02-1.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Standard Caracalla Naturale super rapido",
+    "key": "linea-vetro-standard-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-03-1.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Simmetrico Caracalla Naturale super rapido",
+    "key": "linea-vetro-simmetrico-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-04-1.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Asimmetrico Caracalla Naturale super rapido",
+    "key": "linea-vetro-asimmetrico-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-05-1.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Small Caracalla Naturale super rapido",
+    "key": "linea-vetro-small-caracalla-naturale",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/caracalla-naturale-06-1.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Cieca Rovere Vicenza super rapido",
+    "key": "linea-cieca-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/rovere-1-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Standard Rovere Vicenza super rapido",
+    "key": "linea-vetro-standard-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/roverevicenza-05-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Simmetrico Rovere Vicenza super rapido",
+    "key": "linea-vetro-simmetrico-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/roverevicenza-06-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Asimmetrico Rovere Vicenza super rapido",
+    "key": "linea-vetro-asimmetrico-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/roverevicenza-07-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Vetro Small Rovere Vicenza super rapido",
+    "key": "linea-vetro-small-rovere-vicenza",
+    "image_url": "https://www.pailporte.com/wp-content/uploads/2026/05/roverevicenza-08-scaled.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Bianco",
+    "key": "linea-cieca-bianco",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/001_alisea-LN-cieca-telaio-EVO-ca6d8ab619dbf140a9415cc544a15574.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Bianco Frassino",
+    "key": "marsia-bianco-frassino",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/020_alisea-MS-cieca-eterea-line-5d66016f83408e785d453161d51a2249.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Olmo Artico",
+    "key": "marsia-olmo-artico",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/017_122_Alisea_MS_C_Olmo_Artico_T_Evo_01_01_-0115183c039b3b8450d9d18e66278905-0ed98f3bcbde2b1bb08bbd5fe76eb271.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Quercia Calderone",
+    "key": "marsia-quercia-calderone",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/13_Quercia-Calderone_Vista_01_05_-a56dd19f899621f3f99cd73c4797e31c.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Olmo Baltico",
+    "key": "marsia-olmo-baltico",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/marsia_2-1-f94b39cc6365f68ca793a09059bf944d.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Olmo Deserto",
+    "key": "marsia-olmo-deserto",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/img486-2c4d92f788d9883d003b493f6a760af5.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Quercia Calderone",
+    "key": "marsia-quercia-calderone",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/marsia_6-b5ab7c559c310df0688d6c141f885948.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Linea Noce Nazionale",
+    "key": "linea-cieca-noce-nazionale",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/141_048_alisea-LN-cieca-telaio-standard-f970b24ddb8a5d900eb4c3c9a29f596c.jpg"
+  },
+  {
+    "program": "pail-super-rapido",
+    "label": "Marsia Canaletto",
+    "key": "marsia-canaletto",
+    "image_url": "https://www.pailporte.com/wp-content/plugins/widgetkit/cache/marsia-decorati-canaletto-91404ff992859c788946fad8fec4ff3d.jpg"
+  }
+]
