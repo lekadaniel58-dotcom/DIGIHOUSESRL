@@ -11,8 +11,8 @@ const slug = text => text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f
 const legacyProducts = groupBucketFormats([...rows, ...extras].map(r => ({ ...r,
   department_id: slug(r.department), partner_ids: getPartnerIds(r.name, slug(r.department)) })));
 const { mergeAipProducts } = await import('../src/lib/mergeAipProducts.ts');
-const products = mergeAipProducts(legacyProducts, read('../src/data/aipProducts.json'));
-assert.equal(new Set(partners.map(p => p.id)).size, 9);
+const products = [...mergeAipProducts(legacyProducts, read('../src/data/aipProducts.json')), ...read('../src/data/pailProducts.json')];
+assert.equal(new Set(partners.map(p => p.id)).size, 10);
 for (const partner of partners) {
   for (const name of partner.productNames) assert([...rows, ...extras].some(r => r.name === name), `${partner.id}: ${name}`);
   for (const department of partner.departments) assert(rows.some(r => slug(r.department) === department));
@@ -20,7 +20,7 @@ for (const partner of partners) {
   if (partner.logo && !['muratti', 'hex'].includes(partner.id)) assert(fs.existsSync(new URL(`../public${partner.logo}`, import.meta.url)));
   // The two original logos are downloaded and signature-checked before publication.
 }
-const expectedCounts = { ivc: 14, muratti: 3, hex: 7, aip: 92, dierre: 21, sallustio: 32, zanzar: 71, opera: 24, premier: 10 };
+const expectedCounts = { ivc: 14, muratti: 3, hex: 7, aip: 92, dierre: 21, sallustio: 32, zanzar: 71, opera: 24, premier: 10, pail: 80 };
 for (const [id, count] of Object.entries(expectedCounts)) assert.equal(products.filter(p => p.partner_ids.includes(id)).length, count, id);
 assert(!getPartnerIds('KT PLUS BIANCA', 'adesivi-e-sigillanti').includes('opera'));
 assert(!getPartnerIds('SILICONE ACETICO FISCHER', 'adesivi-e-sigillanti').includes('opera'));

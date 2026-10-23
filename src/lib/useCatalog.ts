@@ -1,3 +1,4 @@
+import pailProducts from '../data/pailProducts.json';
 import dierrePhotoData from '../data/dierrePhotos.json';
 import { mergeAipProducts } from './mergeAipProducts';
 import aipProducts from '../data/aipProducts.json';
@@ -69,7 +70,7 @@ export function useCatalog() {
           is_featured: i < 8,
         }));
         const merged = mergeAipProducts(products, aipProducts.map(p => ({ ...p, images: p.images.map(image => imageUrl(image, 'full')), thumbnail: imageUrl(p.thumbnail, 'thumbnail') })));
-        return { departments, products: groupBucketFormats(merged), loading: false, error: null };
+        return { departments, products: groupBucketFormats([...merged, ...pailProducts.map(p => ({ ...p, images: p.images.map(image => imageUrl(image, 'full')), thumbnail: imageUrl(p.thumbnail, 'thumbnail') }))]), loading: false, error: null };
       })
       .then(result => { if (alive) setState(result); })
       .catch(e => { if (alive) setState(s => ({ ...s, loading: false, error: String(e.message ?? e) })); });

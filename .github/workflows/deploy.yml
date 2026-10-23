@@ -30,6 +30,7 @@ jobs:
       - run: npm run fetch:partner-logos
       - run: npm run check:sections
       - run: npm run check:dierre
+      - run: npm run check:pail
       - run: npm run check:doors
       - run: npm run check:partners
       - run: npm run check:text

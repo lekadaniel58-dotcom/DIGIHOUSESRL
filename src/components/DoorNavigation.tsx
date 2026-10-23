@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronRight, DoorClosed } from 'lucide-react';
 import type { Product } from '../lib/types';
 import DoorMaterialNavigation from './DoorMaterialNavigation';
-import { doorCollections, doorFamilies, getDoorCollection } from '../lib/doorCollections';
+import { doorCollections, doorFamilies, getDoorCollection, getDoorCollections } from '../lib/doorCollections';
 
 type Props = { products: Product[]; family: string; collection: string; params: URLSearchParams; browsing: boolean };
 
 export default function DoorNavigation({ products, family, collection, params, browsing }: Props) {
-  if (collection === 'moderne' && browsing) return <DoorSeriesNavigation products={products} params={params} />;
+  if (['moderne', 'pail-rapido', 'pail-super-rapido'].includes(collection) && browsing) return <DoorSeriesNavigation products={products} params={params} collection={collection} />;
   const materialView = family === 'porte-interne' && (params.get('vista') === 'materiali' || !!params.get('materiale'));
   if (materialView) return <DoorMaterialNavigation products={products} params={params} browsing={browsing} />;
   const materialParams = new URLSearchParams(params);
   materialParams.set('reparto', 'porte-interne'); materialParams.set('vista', 'materiali');
-  materialParams.delete('collezione'); materialParams.delete('materiale');
+  materialParams.delete('serie'); materialParams.delete('collezione'); materialParams.delete('materiale');
   const familyInfo = doorFamilies.find(item => item.id === family);
   const collectionInfo = doorCollections.find(item => item.id === collection && item.family === family);
   const href = (department: string, group = '') => {
@@ -25,7 +25,7 @@ export default function DoorNavigation({ products, family, collection, params, b
   };
   const groups = family ? doorCollections.filter(item => item.family === family) : doorFamilies;
   const cards = groups.map(item => {
-    const models = products.filter(product => 'family' in item ? getDoorCollection(product)?.id === item.id : product.department_id === item.id);
+    const models = products.filter(product => 'family' in item ? getDoorCollections(product).some(c => c.id === item.id) : product.department_id === item.id);
     const cover = models.find(product => product.name.startsWith(item.cover)) ?? models[0];
     return { ...item, models, cover, to: 'family' in item ? href(item.family, item.id) : href(item.id) };
   }).filter(item => item.models.length);
@@ -55,13 +55,13 @@ export default function DoorNavigation({ products, family, collection, params, b
           <div className="aspect-[4/3] overflow-hidden bg-white">
             {item.cover && <img src={item.cover.thumbnail ?? item.cover.images[0]} alt={item.cover.name} loading="lazy" decoding="async" className="h-full w-full object-contain p-3 transition-transform duration-200 motion-safe:group-hover:scale-105" />}
           </div>
-          <div className="flex flex-1 flex-col p-5"><p className="text-xs font-semibold uppercase tracking-wider text-gold-600">{item.models.length} modelli</p><h3 className="mt-2 font-display text-2xl">{item.name}</h3><p className="mt-3 flex-1 text-sm text-navy/70">{item.text}</p><span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold">{family ? 'Scopri i modelli' : 'Esplora le collezioni'}<ArrowRight size={16} aria-hidden="true" /></span></div>
+          <div className="flex flex-1 flex-col p-5"><p className="text-xs font-semibold uppercase tracking-wider text-gold-600">{item.models.length} {item.id.startsWith('pail-') ? 'configurazioni' : 'modelli'}</p><h3 className="mt-2 font-display text-2xl">{item.name}</h3><p className="mt-3 flex-1 text-sm text-navy/70">{item.text}</p><span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold">{family ? 'Scopri i modelli' : 'Esplora le collezioni'}<ArrowRight size={16} aria-hidden="true" /></span></div>
         </Link>)}
       </div>
       {otherModels.length > 0 && <Link to={href(family, 'altre')} className="mt-5 inline-flex items-center gap-2 font-semibold underline"><DoorClosed size={18} />Altri modelli ({otherModels.length})</Link>}
       {!cards.length && <p className="mt-5 text-navy/70">Nessuna collezione disponibile con i filtri selezionati. Modifica i filtri per esplorare le porte.</p>}
     </> : <div className="rounded-2xl bg-white p-5 ring-1 ring-navy/10">
-      <div className="flex flex-wrap items-center justify-between gap-3"><h2 className="font-display text-2xl">{params.get('serie') ? `${collectionInfo?.name} · ${params.get('serie')!.replace(/^./, c => c.toUpperCase())}` : collectionInfo?.name ?? (collection === 'altre' ? 'Altri modelli' : familyInfo?.name ?? 'Tutte le porte')}</h2><Link to={href(family || 'porte', params.get('serie') ? 'moderne' : '')} className="text-sm font-semibold underline">{params.get('serie') ? 'Cambia serie' : family ? 'Cambia collezione' : 'Scegli una famiglia'}</Link></div>
+      <div className="flex flex-wrap items-center justify-between gap-3"><h2 className="font-display text-2xl">{params.get('serie') ? `${collectionInfo?.name} · ${params.get('serie')!.replace(/^./, c => c.toUpperCase())}` : collectionInfo?.name ?? (collection === 'altre' ? 'Altri modelli' : familyInfo?.name ?? 'Tutte le porte')}</h2><Link to={href(family || 'porte', params.get('serie') ? collection : '')} className="text-sm font-semibold underline">{params.get('serie') ? 'Cambia serie' : family ? 'Cambia collezione' : 'Scegli una famiglia'}</Link></div>
       <p className="mt-2 text-sm text-navy/65">Esplora i modelli, ingrandisci le foto e chiedici un preventivo per la soluzione che preferisci.</p>
     </div>}
   </section>;
