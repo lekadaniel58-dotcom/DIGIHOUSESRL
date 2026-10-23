@@ -13,7 +13,7 @@ const expected = {
   prestige: ['Sleek Out', 'Sleek', 'Sentry-Evo', 'Synergy Out', 'Synergy In', 'Vitra', 'Silence', 'Wall Security'],
   compact: ['D180', 'Tablet', 'Tablet Class 4', 'Tablet Plus'],
   teknica: ['Synergy-In Firecut', 'Sblock Push', 'Under 1', 'Under 2'],
-  portoncini: ['Greta', 'Anthos', 'Anthea'],
+  'inferriate-persiane': ['Greta', 'Anthos', 'Anthea'],
 };
 assert.equal(products.length, 45);
 assert.equal(doorCollections.length, 8);

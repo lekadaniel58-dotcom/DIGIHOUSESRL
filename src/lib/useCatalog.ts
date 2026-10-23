@@ -1,3 +1,4 @@
+import dierrePhotoData from '../data/dierrePhotos.json';
 import { mergeAipProducts } from './mergeAipProducts';
 import aipProducts from '../data/aipProducts.json';
 import partnerProducts from '../data/partnerProducts.json';
@@ -10,6 +11,7 @@ import type { Department, Product } from './types';
 
 type CatalogState = { departments: Department[]; products: Product[]; loading: boolean; error: string | null };
 type Row = Record<string, string>;
+const dierrePhotos = dierrePhotoData as Record<string, { note: string | null; subtitle: string | null }>;
 
 // CSV parser supporting quoted fields, escaped quotes and multiline descriptions.
 function parseCSV(text: string): Row[] {
@@ -55,7 +57,8 @@ export function useCatalog() {
           sku: r.sku || '',
           slug: slugify(`${r.name}-${r.sku}-${i}`),
           name: r.variant ? `${r.name} – ${r.variant}` : r.name,
-          subtitle: r.subtitle || null,
+          subtitle: dierrePhotos[r.image]?.subtitle ?? (r.subtitle || null),
+          image_note: dierrePhotos[r.image]?.note ?? undefined,
           description: r.description || null,
           department_id: slugify(r.department || ''),
           price: r.price && Number.isFinite(Number(r.price.replace(',', '.'))) ? Number(r.price.replace(',', '.')) : null,

@@ -2,7 +2,7 @@ import type { Product } from './types';
 
 export const doorFamilies = [
   { id: 'porte-interne', name: 'Porte interne', text: 'Scegli lo stile degli ambienti: linee moderne, legno e vetro.', cover: 'Essenza' },
-  { id: 'porte-blindate', name: 'Porte blindate e portoncini', text: 'Scopri le collezioni dedicate alla sicurezza e all’ingresso.', cover: 'Synergy Out' },
+  { id: 'porte-blindate', name: 'Porte blindate e sicurezza', text: 'Porte blindate, inferriate e persiane per la sicurezza della casa.', cover: 'Synergy Out' },
 ] as const;
 
 export const doorCollections = [
@@ -13,10 +13,11 @@ export const doorCollections = [
   { id: 'prestige', family: 'porte-blindate', name: 'Prestige', match: 'prestige', text: 'La collezione di porte blindate di alta gamma.', cover: 'Sleek' },
   { id: 'compact', family: 'porte-blindate', name: 'Compact', match: 'compact', text: 'La gamma di porte blindate compatte e accessibili.', cover: 'Tablet' },
   { id: 'teknica', family: 'porte-blindate', name: 'Teknica', match: 'teknica', text: 'Porte tecniche per esigenze e ambienti specifici.', cover: 'Sblock Push' },
-  { id: 'portoncini', family: 'porte-blindate', name: 'Portoncini e serramenti esterni', match: 'portoncini e serramenti esterni', text: 'Le proposte dedicate agli ingressi esterni.', cover: 'Greta' },
+  { id: 'inferriate-persiane', family: 'porte-blindate', name: 'Inferriate e persiane blindate', match: 'inferriate e persiane blindate', text: 'Greta, Anthos e Anthea: inferriate e persiane di sicurezza per finestre e portefinestre.', cover: 'Greta' },
 ] as const;
 
 export function getDoorCollection(product: Product) {
+  if (product.department_id === 'porte-blindate' && ['Greta', 'Anthos', 'Anthea'].includes(product.name)) return doorCollections.find(c => c.id === 'inferriate-persiane');
   if (product.door_collection && product.department_id === 'porte-interne') return doorCollections.find(c => c.id === product.door_collection && c.family === 'porte-interne');
   return doorCollections.find(collection => collection.family === product.department_id &&
     product.subtitle?.toLocaleLowerCase('it').split('·').some(part => part.trim() === collection.match));
