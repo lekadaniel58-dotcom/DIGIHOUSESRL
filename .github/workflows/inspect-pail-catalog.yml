@@ -1,0 +1,35 @@
+name: Review Rapido Pail and Super Rapido sources
+on:
+  push:
+    branches: [source/pail-catalog]
+    paths:
+      - 'scripts/inspect-pail-catalog.py'
+      - 'scripts/fetch-pail-assets.py'
+      - 'docs/pail-source/*requests.json'
+      - '.github/workflows/inspect-pail-catalog.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/inspect-pail-catalog.py
+      - if: hashFiles('docs/pail-source/asset-requests.json') != ''
+        run: |
+          pip install Pillow==11.3.0
+          python scripts/fetch-pail-assets.py
+      - name: Save reviewed sources
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/pail-source
+          if [ -d data/immagini ]; then git add 'data/immagini/pail-official-*' 2>/dev/null || true; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Save official Pail source material [skip ci]"
+            git push
+          fi
