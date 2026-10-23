@@ -6,6 +6,7 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 DEST = Path('docs/aip-source')
 DEST.mkdir(parents=True, exist_ok=True)
@@ -73,5 +74,22 @@ while pending and len(seen) < 30:
     except Exception as error:
         report['errors'].append({'url': url, 'error': str(error)})
 report['urls'] = sorted(urls)
+page_urls = [url for url in urls if any(part in url for part in (
+    '/porte-interne', '/trix-', '/porte-rei/', '/area-download/', '/sistemi-di-apertura/'))]
+report['pages'] = []
+def page_source(url):
+    data, resolved = fetch(url)
+    name = urlparse(url).path.strip('/').replace('/', '--') or 'home'
+    filename = f'page-{name}.html'
+    (DEST / filename).write_bytes(data)
+    return {'url': resolved, 'file': filename, 'bytes': len(data)}
+with ThreadPoolExecutor(max_workers=4) as pool:
+    jobs = {pool.submit(page_source, url): url for url in page_urls}
+    for job in as_completed(jobs):
+        try:
+            report['pages'].append(job.result())
+        except Exception as error:
+            report['errors'].append({'url': jobs[job], 'error': str(error)})
+report['pages'].sort(key=lambda item: item['url'])
 (DEST / 'index.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 print(f'Public AIP source review: {len(urls)} sitemap URLs, {len(report["links"])} home links, {len(report["errors"])} retrieval errors.')
