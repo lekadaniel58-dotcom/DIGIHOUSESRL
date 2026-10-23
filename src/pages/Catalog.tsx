@@ -7,6 +7,7 @@ import partners from '../data/partners.json';
 import { createSearchIndex, searchCatalog } from '../lib/catalogSearch';
 import { doorFamilies, getDoorCollection, getDoorFamily } from '../lib/doorCollections';
 import DoorNavigation from '../components/DoorNavigation';
+import { getDoorMaterials } from '../lib/doorMaterials';
 
 type Sort = 'relevance' | 'name' | 'price-asc' | 'price-desc';
 
@@ -22,20 +23,22 @@ export default function Catalog() {
   const dep = params.get('reparto') ?? '';
   const partnerId = params.get('partner') ?? '';
   const collection = params.get('collezione') ?? '';
+  const material = params.get('materiale') ?? '';
+  const doorView = params.get('vista') ?? '';
   const doorFamily = getDoorFamily(dep, partnerId);
   const doorScope = dep === 'porte' || !!doorFamily;
-  const browsingDoors = doorScope && !collection && !q.trim();
+  const browsingDoors = doorScope && !collection && !material && !q.trim();
   useEffect(() => {
     if (doorScope) window.scrollTo({ top: 0, behavior: 'instant' });
-  }, [doorScope, doorFamily, collection]);
+  }, [doorScope, doorFamily, collection, material, doorView]);
   const partner = partners.find(p => p.id === partnerId);
   const updateFilter = (key: string, value: string) => {
     const next = new URLSearchParams(params);
     if (value) next.set(key, value); else next.delete(key);
-    if (key === 'reparto' || key === 'partner') next.delete('collezione');
+    if (key === 'reparto' || key === 'partner') { next.delete('collezione'); next.delete('materiale'); next.delete('vista'); }
     setParams(next);
   };
-  useEffect(() => { setVisibleCount(24); }, [q, dep, partnerId, collection, sort, onlyPriced]);
+  useEffect(() => { setVisibleCount(24); }, [q, dep, partnerId, collection, material, sort, onlyPriced]);
   const depId = departments.find(d => d.slug === dep)?.id;
 
   const searchIndex = useMemo(() => products.map(p => createSearchIndex(p,
@@ -55,9 +58,11 @@ export default function Catalog() {
     return [...r].sort(cmp[sort]);
   }, [searchIndex, q, depId, partnerId, partner, sort, onlyPriced, doorScope, doorFamily]);
   const list = useMemo(() => {
-    if (!doorScope || !collection || collection === 'tutte') return matching;
-    return matching.filter(product => collection === 'altre' ? !getDoorCollection(product) : getDoorCollection(product)?.id === collection);
-  }, [matching, doorScope, collection]);
+    if (!doorScope) return matching;
+    return matching.filter(product =>
+      (!collection || collection === 'tutte' || (collection === 'altre' ? !getDoorCollection(product) : getDoorCollection(product)?.id === collection)) &&
+      (!material || getDoorMaterials(product).some(item => item.id === material)));
+  }, [matching, doorScope, collection, material]);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">

@@ -43,3 +43,31 @@ Verificati inoltre partner, ricerca e compilazione TypeScript/Vite.
 Nel browser: tutti i 45 modelli senza duplicati, avanti/indietro, AIP/Dierre,
 ricerca, cambio reparto, link non valido, zoom, catalogo generale e tocco mobile.
 Layout controllato da 320 a 1440 pixel; schermate desktop/mobile ispezionate.
+
+## Materiali e finiture delle porte interne
+
+Aggiunta vista alternativa `vista=materiali`, con selezione `materiale` condivisibile.
+Per collezione e per materiale sono due percorsi della stessa gamma, con ricerca
+e partner combinabili. Le schede dei modelli mostrano gli attributi documentati.
+Laccato è presentato come finitura, non come materiale della struttura.
+
+Fonte aggiuntiva: pagina storica DIGI HOUSE `porte-interne-aip.html` del repository
+https://github.com/lekadaniel58-dotcom/digi-house, consultata il 23 ottobre 2026,
+e descrizioni attuali del CSV. La gamma Sololegno contiene gli 11 modelli in legno.
+La gamma Visioni contiene sei modelli in vetro; Neos, Xline, Concerto, Reset,
+Sintesi e Fiabidea hanno vetro/parti vetrate esplicitamente descritti (12 totali).
+Stilidea è descritta con ante laccate (1 modello). La selezione Vetro comprende
+anche modelli misti: l'interfaccia lo precisa e non implica un'anta interamente
+in vetro per ogni prodotto. Attributi combinabili, ad esempio Stilidea legno/laccato.
+
+Né il CSV né la pagina storica identificano modelli in laminato. In attesa della
+conferma del cliente, la scheda Laminato è un collegamento per informazioni su
+WhatsApp, senza associare arbitrariamente i modelli moderni al laminato.
+Al cliente è stato chiesto quali modelli appartengono a questa categoria.
+I siti del produttore e il riferimento GP Porte restano bloccati dalla rete locale.
+Le porte blindate mantengono le collezioni: non sono stati dedotti materiali dei
+pannelli o finiture non documentate. Tutte le 45 porte restano raggiungibili.
+
+Verificati: check:doors esteso, build, selezione materiali, ritorno alle collezioni,
+filtri AIP, ricerca, 24 modelli interni conservati, cambio reparto che elimina i
+vecchi parametri, layout/tocco da 320 a 1280 pixel. Nessun messaggio inviato.

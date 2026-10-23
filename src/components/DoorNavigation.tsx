@@ -1,16 +1,23 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronRight, DoorClosed } from 'lucide-react';
 import type { Product } from '../lib/types';
+import DoorMaterialNavigation from './DoorMaterialNavigation';
 import { doorCollections, doorFamilies, getDoorCollection } from '../lib/doorCollections';
 
 type Props = { products: Product[]; family: string; collection: string; params: URLSearchParams; browsing: boolean };
 
 export default function DoorNavigation({ products, family, collection, params, browsing }: Props) {
+  const materialView = family === 'porte-interne' && (params.get('vista') === 'materiali' || !!params.get('materiale'));
+  if (materialView) return <DoorMaterialNavigation products={products} params={params} browsing={browsing} />;
+  const materialParams = new URLSearchParams(params);
+  materialParams.set('reparto', 'porte-interne'); materialParams.set('vista', 'materiali');
+  materialParams.delete('collezione'); materialParams.delete('materiale');
   const familyInfo = doorFamilies.find(item => item.id === family);
   const collectionInfo = doorCollections.find(item => item.id === collection && item.family === family);
   const href = (department: string, group = '') => {
     const next = new URLSearchParams(params);
     next.set('reparto', department);
+    next.delete('materiale'); next.delete('vista');
     if (group) next.set('collezione', group); else next.delete('collezione');
     return `/catalogo?${next}`;
   };
@@ -29,6 +36,10 @@ export default function DoorNavigation({ products, family, collection, params, b
       {familyInfo && <><ChevronRight size={14} aria-hidden="true" /><Link to={href(family)} className="hover:underline" aria-current={!collection ? 'page' : undefined}>{familyInfo.name}</Link></>}
       {collection && <><ChevronRight size={14} aria-hidden="true" /><span aria-current="page" className="font-semibold text-navy">{collection === 'tutte' ? 'Tutti i modelli' : collection === 'altre' ? 'Altri modelli' : collectionInfo?.name ?? 'Collezione non disponibile'}</span></>}
     </nav>
+    {family === 'porte-interne' && <nav aria-label="Esplora porte interne" className="mb-5 flex flex-wrap gap-2 text-sm font-semibold">
+      <Link to={href(family)} aria-current="page" className="rounded-full bg-navy px-5 py-3 text-white">Per collezione</Link>
+      <Link to={`/catalogo?${materialParams}`} className="rounded-full bg-white px-5 py-3 ring-1 ring-navy/10">Per materiale e finitura</Link>
+    </nav>}
     {browsing ? <>
       <div className="mb-6 flex flex-wrap items-end justify-between gap-4 rounded-3xl bg-navy p-6 text-white md:p-8">
         <div><p className="text-xs font-semibold uppercase tracking-widest text-gold">Collezioni DIGI HOUSE</p>

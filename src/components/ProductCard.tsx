@@ -1,10 +1,12 @@
 import ZoomImage from './ZoomImage';
+import { getDoorMaterials } from '../lib/doorMaterials';
 import { MessageCircle } from 'lucide-react';
 import type { Product } from '../lib/types';
 import { eur } from '../lib/types';
 import { waLink } from '../lib/supabase';
 
 export default function ProductCard({ p }: { p: Product }) {
+  const materials = getDoorMaterials(p);
   const hasVariants = (p.product_variants?.length ?? 0) > 1;
   const code = !p.sku.trim() || p.sku.startsWith('NOCODE') ? '' : `Cod. ${p.sku}`;
   return (
@@ -18,6 +20,7 @@ export default function ProductCard({ p }: { p: Product }) {
         <h3 className="font-semibold leading-tight">{p.name}</h3>
         {p.smaller_formats?.length ? <p className="text-xs leading-relaxed text-navy/70">Disponibile anche nei formati più piccoli: {p.smaller_formats.join(' · ')}.</p> : null}
         {p.subtitle && <p className="text-xs text-navy/60">{p.subtitle}</p>}
+        {materials.length > 0 && <p className="text-xs text-navy/70">Materiali e finiture: {materials.map(item => item.name).join(' · ')}</p>}
         {code && <p className="text-xs text-navy/50">{code}</p>}
         {p.description && <details className="mt-2 text-sm text-navy/75">
           <summary aria-label={`Descrizione di ${p.name}`} className="cursor-pointer font-medium text-navy">Descrizione</summary>
