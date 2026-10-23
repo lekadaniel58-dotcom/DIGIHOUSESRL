@@ -1,0 +1,35 @@
+name: Review official Dierre product photographs
+on:
+  push:
+    branches: [source/dierre-photos]
+    paths:
+      - 'scripts/inspect-dierre-photos.py'
+      - 'scripts/fetch-dierre-photos.py'
+      - 'docs/dierre-source/*requests.json'
+      - '.github/workflows/inspect-dierre-photos.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/inspect-dierre-photos.py
+      - if: hashFiles('docs/dierre-source/asset-requests.json') != ''
+        run: |
+          pip install Pillow==11.3.0
+          python scripts/fetch-dierre-photos.py
+      - name: Save sources for review
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/dierre-source
+          if [ -d data/immagini ]; then git add 'data/immagini/dierre-official-*' 2>/dev/null || true; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Save official Dierre photograph sources [skip ci]"
+            git push
+          fi
