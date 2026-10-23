@@ -117,6 +117,7 @@ export default function Home() {
 
       <section id="serramenti" className="scroll-mt-20 bg-white py-16"><div className="mx-auto max-w-7xl px-4">
         <Head eyebrow="Porte interne & finestre" title="Dettagli che definiscono lo spazio." text="Una porta non separa soltanto due ambienti. Una finestra non porta dentro solo la luce. Insieme definiscono proporzioni, atmosfera e comfort della casa." />
+        <Link to="/catalogo?reparto=porte" className="mt-6 inline-flex items-center gap-2 font-semibold text-navy underline decoration-gold underline-offset-4">Esplora tutte le collezioni di porte <ArrowUpRight size={17} /></Link>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{serramenti.map((c, i) => <DeptCard key={c.title} c={c} i={i} big />)}</div>
       </div></section>
 

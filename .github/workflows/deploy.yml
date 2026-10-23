@@ -28,6 +28,7 @@ jobs:
             public/assets/fornitori/hex-logo.jpg
           key: original-partner-logos-v1
       - run: npm run fetch:partner-logos
+      - run: npm run check:doors
       - run: npm run check:partners
       - run: npm run check:text
       - run: npm run check:search
