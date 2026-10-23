@@ -23,22 +23,23 @@ export default function Catalog() {
   const dep = params.get('reparto') ?? '';
   const partnerId = params.get('partner') ?? '';
   const collection = params.get('collezione') ?? '';
+  const series = params.get('serie') ?? '';
   const material = params.get('materiale') ?? '';
   const doorView = params.get('vista') ?? '';
   const doorFamily = getDoorFamily(dep, partnerId);
   const doorScope = dep === 'porte' || !!doorFamily;
-  const browsingDoors = doorScope && !collection && !material && !q.trim();
+  const browsingDoors = doorScope && (!collection || collection === 'moderne' && !series) && !material && !q.trim();
   useEffect(() => {
     if (doorScope) window.scrollTo({ top: 0, behavior: 'instant' });
-  }, [doorScope, doorFamily, collection, material, doorView]);
+  }, [doorScope, doorFamily, collection, series, material, doorView]);
   const partner = partners.find(p => p.id === partnerId);
   const updateFilter = (key: string, value: string) => {
     const next = new URLSearchParams(params);
     if (value) next.set(key, value); else next.delete(key);
-    if (key === 'reparto' || key === 'partner') { next.delete('collezione'); next.delete('materiale'); next.delete('vista'); }
+    if (key === 'reparto' || key === 'partner') { next.delete('serie'); next.delete('collezione'); next.delete('materiale'); next.delete('vista'); }
     setParams(next);
   };
-  useEffect(() => { setVisibleCount(24); }, [q, dep, partnerId, collection, material, sort, onlyPriced]);
+  useEffect(() => { setVisibleCount(24); }, [q, dep, partnerId, collection, series, material, sort, onlyPriced]);
   const depId = departments.find(d => d.slug === dep)?.id;
 
   const searchIndex = useMemo(() => products.map(p => createSearchIndex(p,
@@ -61,8 +62,9 @@ export default function Catalog() {
     if (!doorScope) return matching;
     return matching.filter(product =>
       (!collection || collection === 'tutte' || (collection === 'altre' ? !getDoorCollection(product) : getDoorCollection(product)?.id === collection)) &&
+      (!series || product.door_series === series) &&
       (!material || getDoorMaterials(product).some(item => item.id === material)));
-  }, [matching, doorScope, collection, material]);
+  }, [matching, doorScope, collection, series, material]);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">

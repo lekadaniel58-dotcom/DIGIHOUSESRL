@@ -10,7 +10,7 @@ export default function DoorMaterialNavigation({ products, params, browsing }: {
   const href = (view: string, selected = '') => {
     const next = new URLSearchParams(params);
     next.set('reparto', 'porte-interne');
-    next.delete('collezione'); next.delete('materiale'); next.delete('vista');
+    next.delete('serie'); next.delete('collezione'); next.delete('materiale'); next.delete('vista');
     if (view === 'materiali') next.set('vista', view);
     if (selected) next.set('materiale', selected);
     return `/catalogo?${next}`;
@@ -33,7 +33,7 @@ export default function DoorMaterialNavigation({ products, params, browsing }: {
         {doorMaterials.map(item => {
           const models = products.filter(product => getDoorMaterials(product).some(m => m.id === item.id));
           const cover = models.find(product => product.name === item.cover) ?? models[0];
-          const unverified = item.id === 'laminato';
+          const unverified = models.length === 0;
           const content = <>
             <div className="grid aspect-[4/3] place-items-center overflow-hidden bg-white">{cover ? <img src={cover.thumbnail ?? cover.images[0]} alt={cover.name} loading="lazy" decoding="async" className="h-full w-full object-contain p-3 transition-transform duration-200 motion-safe:group-hover:scale-105" /> : <Layers size={52} className="text-gold" aria-hidden="true" />}</div>
             <div className="flex flex-1 flex-col p-5"><p className="text-xs font-semibold uppercase tracking-wider text-gold-600">{unverified ? 'Modelli da confermare' : `${models.length} ${models.length === 1 ? 'modello' : 'modelli'}`}</p><h3 className="mt-2 font-display text-2xl">{item.name}</h3><p className="mt-3 flex-1 text-sm text-navy/70">{item.text}</p><span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold">{unverified ? 'Chiedi informazioni' : 'Scopri i modelli'}<ArrowRight size={16} aria-hidden="true" /></span></div>

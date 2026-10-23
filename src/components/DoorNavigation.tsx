@@ -1,3 +1,5 @@
+import aipCatalogs from '../data/aipCatalogs.json';
+import DoorSeriesNavigation from './DoorSeriesNavigation';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronRight, DoorClosed } from 'lucide-react';
 import type { Product } from '../lib/types';
@@ -7,6 +9,7 @@ import { doorCollections, doorFamilies, getDoorCollection } from '../lib/doorCol
 type Props = { products: Product[]; family: string; collection: string; params: URLSearchParams; browsing: boolean };
 
 export default function DoorNavigation({ products, family, collection, params, browsing }: Props) {
+  if (collection === 'moderne' && browsing) return <DoorSeriesNavigation products={products} params={params} />;
   const materialView = family === 'porte-interne' && (params.get('vista') === 'materiali' || !!params.get('materiale'));
   if (materialView) return <DoorMaterialNavigation products={products} params={params} browsing={browsing} />;
   const materialParams = new URLSearchParams(params);
@@ -17,7 +20,7 @@ export default function DoorNavigation({ products, family, collection, params, b
   const href = (department: string, group = '') => {
     const next = new URLSearchParams(params);
     next.set('reparto', department);
-    next.delete('materiale'); next.delete('vista');
+    next.delete('serie'); next.delete('materiale'); next.delete('vista');
     if (group) next.set('collezione', group); else next.delete('collezione');
     return `/catalogo?${next}`;
   };
@@ -40,6 +43,7 @@ export default function DoorNavigation({ products, family, collection, params, b
       <Link to={href(family)} aria-current="page" className="rounded-full bg-navy px-5 py-3 text-white">Per collezione</Link>
       <Link to={`/catalogo?${materialParams}`} className="rounded-full bg-white px-5 py-3 ring-1 ring-navy/10">Per materiale e finitura</Link>
     </nav>}
+    {family === 'porte-interne' && !collection && <details className="mb-6 rounded-2xl bg-white p-5 ring-1 ring-navy/10"><summary className="cursor-pointer font-semibold">Cataloghi completi AIP: tutte le finiture e le configurazioni</summary><p className="mt-3 text-sm text-navy/70">Consulta anche le collezioni Futura e Riquadra e gli aggiornamenti del catalogo Trix 2026.</p><div className="mt-4 flex flex-wrap gap-3">{aipCatalogs.map(c => <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="rounded-full bg-navy px-4 py-2 text-sm text-white">{c.name} · PDF ↗</a>)}</div></details>}
     {browsing ? <>
       <div className="mb-6 flex flex-wrap items-end justify-between gap-4 rounded-3xl bg-navy p-6 text-white md:p-8">
         <div><p className="text-xs font-semibold uppercase tracking-widest text-gold">Collezioni DIGI HOUSE</p>
@@ -59,7 +63,7 @@ export default function DoorNavigation({ products, family, collection, params, b
       {otherModels.length > 0 && <Link to={href(family, 'altre')} className="mt-5 inline-flex items-center gap-2 font-semibold underline"><DoorClosed size={18} />Altri modelli ({otherModels.length})</Link>}
       {!cards.length && <p className="mt-5 text-navy/70">Nessuna collezione disponibile con i filtri selezionati. Modifica i filtri per esplorare le porte.</p>}
     </> : <div className="rounded-2xl bg-white p-5 ring-1 ring-navy/10">
-      <div className="flex flex-wrap items-center justify-between gap-3"><h2 className="font-display text-2xl">{collectionInfo?.name ?? (collection === 'altre' ? 'Altri modelli' : familyInfo?.name ?? 'Tutte le porte')}</h2><Link to={href(family || 'porte')} className="text-sm font-semibold underline">{family ? 'Cambia collezione' : 'Scegli una famiglia'}</Link></div>
+      <div className="flex flex-wrap items-center justify-between gap-3"><h2 className="font-display text-2xl">{params.get('serie') ? `${collectionInfo?.name} · ${params.get('serie')!.replace(/^./, c => c.toUpperCase())}` : collectionInfo?.name ?? (collection === 'altre' ? 'Altri modelli' : familyInfo?.name ?? 'Tutte le porte')}</h2><Link to={href(family || 'porte', params.get('serie') ? 'moderne' : '')} className="text-sm font-semibold underline">{params.get('serie') ? 'Cambia serie' : family ? 'Cambia collezione' : 'Scegli una famiglia'}</Link></div>
       <p className="mt-2 text-sm text-navy/65">Esplora i modelli, ingrandisci le foto e chiedici un preventivo per la soluzione che preferisci.</p>
     </div>}
   </section>;

@@ -1,0 +1,1950 @@
+[
+  {
+    "id": "aip-gf01",
+    "sku": "GF01",
+    "slug": "aip-gf01",
+    "name": "Grafix GF01",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF01. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-3b24ad6f43e50b22-full.webp"
+    ],
+    "thumbnail": "aip-official-3b24ad6f43e50b22-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF01.webp"
+  },
+  {
+    "id": "aip-gf07",
+    "sku": "GF07",
+    "slug": "aip-gf07",
+    "name": "Grafix GF07",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF07. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-24fca3736ec1cebd-full.webp"
+    ],
+    "thumbnail": "aip-official-24fca3736ec1cebd-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF07.webp"
+  },
+  {
+    "id": "aip-gf08",
+    "sku": "GF08",
+    "slug": "aip-gf08",
+    "name": "Grafix GF08",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF08. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-f74bffa7e9b19df0-full.webp"
+    ],
+    "thumbnail": "aip-official-f74bffa7e9b19df0-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF08.webp"
+  },
+  {
+    "id": "aip-gf13",
+    "sku": "GF13",
+    "slug": "aip-gf13",
+    "name": "Grafix GF13",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF13. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-695f048eea3f64b8-full.webp"
+    ],
+    "thumbnail": "aip-official-695f048eea3f64b8-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF13.webp"
+  },
+  {
+    "id": "aip-gf15",
+    "sku": "GF15",
+    "slug": "aip-gf15",
+    "name": "Grafix GF15",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF15. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-6fd6b837288dc2c4-full.webp"
+    ],
+    "thumbnail": "aip-official-6fd6b837288dc2c4-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF15.webp"
+  },
+  {
+    "id": "aip-gf16",
+    "sku": "GF16",
+    "slug": "aip-gf16",
+    "name": "Grafix GF16",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF16. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-966e7410a7410b38-full.webp"
+    ],
+    "thumbnail": "aip-official-966e7410a7410b38-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF16.webp"
+  },
+  {
+    "id": "aip-gf21",
+    "sku": "GF21",
+    "slug": "aip-gf21",
+    "name": "Grafix GF21",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF21. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-10215942b02c8519-full.webp"
+    ],
+    "thumbnail": "aip-official-10215942b02c8519-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF21.webp"
+  },
+  {
+    "id": "aip-gf23",
+    "sku": "GF23",
+    "slug": "aip-gf23",
+    "name": "Grafix GF23",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF23. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-8ad118d0aae5872b-full.webp"
+    ],
+    "thumbnail": "aip-official-8ad118d0aae5872b-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF23.webp"
+  },
+  {
+    "id": "aip-gf24",
+    "sku": "GF24",
+    "slug": "aip-gf24",
+    "name": "Grafix GF24",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF24. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-0243665980bf763d-full.webp"
+    ],
+    "thumbnail": "aip-official-0243665980bf763d-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF24.webp"
+  },
+  {
+    "id": "aip-gf25",
+    "sku": "GF25",
+    "slug": "aip-gf25",
+    "name": "Grafix GF25",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF25. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-09926c979c23bec2-full.webp"
+    ],
+    "thumbnail": "aip-official-09926c979c23bec2-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF25.webp"
+  },
+  {
+    "id": "aip-gf26-d",
+    "sku": "GF26-D",
+    "slug": "aip-gf26-d",
+    "name": "Grafix GF26-D",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF26-D. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-906eb6d96e33efee-full.webp"
+    ],
+    "thumbnail": "aip-official-906eb6d96e33efee-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF26-D.webp"
+  },
+  {
+    "id": "aip-gf26",
+    "sku": "GF26",
+    "slug": "aip-gf26",
+    "name": "Grafix GF26",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF26. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-d7e2026b4694bbf8-full.webp"
+    ],
+    "thumbnail": "aip-official-d7e2026b4694bbf8-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF26.webp"
+  },
+  {
+    "id": "aip-gf27-d",
+    "sku": "GF27-D",
+    "slug": "aip-gf27-d",
+    "name": "Grafix GF27-D",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF27-D. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-008cfcce787a3919-full.webp"
+    ],
+    "thumbnail": "aip-official-008cfcce787a3919-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF27-D.webp"
+  },
+  {
+    "id": "aip-gf27",
+    "sku": "GF27",
+    "slug": "aip-gf27",
+    "name": "Grafix GF27",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF27. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-4bb2af55d2eb6958-full.webp"
+    ],
+    "thumbnail": "aip-official-4bb2af55d2eb6958-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF27.webp"
+  },
+  {
+    "id": "aip-gf30",
+    "sku": "GF30",
+    "slug": "aip-gf30",
+    "name": "Grafix GF30",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF30. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-17042bf7e77cefba-full.webp"
+    ],
+    "thumbnail": "aip-official-17042bf7e77cefba-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF30.webp"
+  },
+  {
+    "id": "aip-gf31",
+    "sku": "GF31",
+    "slug": "aip-gf31",
+    "name": "Grafix GF31",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF31. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-3faee74ba8b9e360-full.webp"
+    ],
+    "thumbnail": "aip-official-3faee74ba8b9e360-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF31.webp"
+  },
+  {
+    "id": "aip-gf32",
+    "sku": "GF32",
+    "slug": "aip-gf32",
+    "name": "Grafix GF32",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF32. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-9a67fe7ecf3d66a8-full.webp"
+    ],
+    "thumbnail": "aip-official-9a67fe7ecf3d66a8-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF32.webp"
+  },
+  {
+    "id": "aip-gf40",
+    "sku": "GF40",
+    "slug": "aip-gf40",
+    "name": "Grafix GF40",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF40. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-29ddd39eb445c342-full.webp"
+    ],
+    "thumbnail": "aip-official-29ddd39eb445c342-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF40.webp"
+  },
+  {
+    "id": "aip-gf41",
+    "sku": "GF41",
+    "slug": "aip-gf41",
+    "name": "Grafix GF41",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF41. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-9d75707e418489ac-full.webp"
+    ],
+    "thumbnail": "aip-official-9d75707e418489ac-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF41.webp"
+  },
+  {
+    "id": "aip-gf42",
+    "sku": "GF42",
+    "slug": "aip-gf42",
+    "name": "Grafix GF42",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Grafix, modello GF42. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-02ffcc1126a067de-full.webp"
+    ],
+    "thumbnail": "aip-official-02ffcc1126a067de-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "grafix",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-grafix/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/GF42.webp"
+  },
+  {
+    "id": "aip-vt10",
+    "sku": "VT10",
+    "slug": "aip-vt10",
+    "name": "Vertis VT10",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT10. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-663344434518f583-full.webp"
+    ],
+    "thumbnail": "aip-official-663344434518f583-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT10.webp"
+  },
+  {
+    "id": "aip-vt11",
+    "sku": "VT11",
+    "slug": "aip-vt11",
+    "name": "Vertis VT11",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT11. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-28b9a6e9122384be-full.webp"
+    ],
+    "thumbnail": "aip-official-28b9a6e9122384be-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT11.webp"
+  },
+  {
+    "id": "aip-vt12",
+    "sku": "VT12",
+    "slug": "aip-vt12",
+    "name": "Vertis VT12",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT12. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-2d13959f0d3b4229-full.webp"
+    ],
+    "thumbnail": "aip-official-2d13959f0d3b4229-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT12.webp"
+  },
+  {
+    "id": "aip-vt13",
+    "sku": "VT13",
+    "slug": "aip-vt13",
+    "name": "Vertis VT13",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT13. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-0810a4eb2110b5b5-full.webp"
+    ],
+    "thumbnail": "aip-official-0810a4eb2110b5b5-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT13.webp"
+  },
+  {
+    "id": "aip-vt14",
+    "sku": "VT14",
+    "slug": "aip-vt14",
+    "name": "Vertis VT14",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT14. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-e4891e1a5d93c8b5-full.webp"
+    ],
+    "thumbnail": "aip-official-e4891e1a5d93c8b5-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT14.webp"
+  },
+  {
+    "id": "aip-vt15",
+    "sku": "VT15",
+    "slug": "aip-vt15",
+    "name": "Vertis VT15",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT15. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-14462bee3f2bc554-full.webp"
+    ],
+    "thumbnail": "aip-official-14462bee3f2bc554-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT15.webp"
+  },
+  {
+    "id": "aip-vt16",
+    "sku": "VT16",
+    "slug": "aip-vt16",
+    "name": "Vertis VT16",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT16. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-37b11f268bac013b-full.webp"
+    ],
+    "thumbnail": "aip-official-37b11f268bac013b-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT16.webp"
+  },
+  {
+    "id": "aip-vt17",
+    "sku": "VT17",
+    "slug": "aip-vt17",
+    "name": "Vertis VT17",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT17. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-ddba7a2cfd31edb9-full.webp"
+    ],
+    "thumbnail": "aip-official-ddba7a2cfd31edb9-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT17.webp"
+  },
+  {
+    "id": "aip-vt18",
+    "sku": "VT18",
+    "slug": "aip-vt18",
+    "name": "Vertis VT18",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT18. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-ef9c15feb484114e-full.webp"
+    ],
+    "thumbnail": "aip-official-ef9c15feb484114e-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT18.webp"
+  },
+  {
+    "id": "aip-vt19",
+    "sku": "VT19",
+    "slug": "aip-vt19",
+    "name": "Vertis VT19",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT19. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-8de348d1e522368f-full.webp"
+    ],
+    "thumbnail": "aip-official-8de348d1e522368f-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT19.webp"
+  },
+  {
+    "id": "aip-vt20",
+    "sku": "VT20",
+    "slug": "aip-vt20",
+    "name": "Vertis VT20",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT20. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-3dcbbf3177fbeb30-full.webp"
+    ],
+    "thumbnail": "aip-official-3dcbbf3177fbeb30-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT20.webp"
+  },
+  {
+    "id": "aip-vt21",
+    "sku": "VT21",
+    "slug": "aip-vt21",
+    "name": "Vertis VT21",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Vertis, modello VT21. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-7dfcc2713f752d6d-full.webp"
+    ],
+    "thumbnail": "aip-official-7dfcc2713f752d6d-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "vertis",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-vertis/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/VT21.webp"
+  },
+  {
+    "id": "aip-nx05",
+    "sku": "NX05",
+    "slug": "aip-nx05",
+    "name": "Neos NX05",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Neos, modello NX05. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-f4960ecef1e39b70-full.webp"
+    ],
+    "thumbnail": "aip-official-f4960ecef1e39b70-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "neos",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-neos/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/NX05.webp"
+  },
+  {
+    "id": "aip-nx06",
+    "sku": "NX06",
+    "slug": "aip-nx06",
+    "name": "Neos NX06",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Neos, modello NX06. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-53c527332c32aa1d-full.webp"
+    ],
+    "thumbnail": "aip-official-53c527332c32aa1d-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "neos",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-neos/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/NX06.webp"
+  },
+  {
+    "id": "aip-nx07",
+    "sku": "NX07",
+    "slug": "aip-nx07",
+    "name": "Neos NX07",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Neos, modello NX07. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-ba9c42041131535d-full.webp"
+    ],
+    "thumbnail": "aip-official-ba9c42041131535d-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "neos",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-neos/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/NX07.webp"
+  },
+  {
+    "id": "aip-nx08",
+    "sku": "NX08",
+    "slug": "aip-nx08",
+    "name": "Neos NX08",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Neos, modello NX08. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-36a69ac37dfafde8-full.webp"
+    ],
+    "thumbnail": "aip-official-36a69ac37dfafde8-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "neos",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-neos/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/NX08.webp"
+  },
+  {
+    "id": "aip-st01",
+    "sku": "ST01",
+    "slug": "aip-st01",
+    "name": "Xtipe ST01",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xtipe, modello ST01. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-02c19f8985d74700-full.webp"
+    ],
+    "thumbnail": "aip-official-02c19f8985d74700-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xtipe",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xtipe/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/ST01.webp"
+  },
+  {
+    "id": "aip-st02",
+    "sku": "ST02",
+    "slug": "aip-st02",
+    "name": "Xtipe ST02",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xtipe, modello ST02. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-163d4fed19c60f96-full.webp"
+    ],
+    "thumbnail": "aip-official-163d4fed19c60f96-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xtipe",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xtipe/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/ST02.webp"
+  },
+  {
+    "id": "aip-st03",
+    "sku": "ST03",
+    "slug": "aip-st03",
+    "name": "Xtipe ST03",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xtipe, modello ST03. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-857e299c67fa6bdd-full.webp"
+    ],
+    "thumbnail": "aip-official-857e299c67fa6bdd-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xtipe",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xtipe/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/ST03.webp"
+  },
+  {
+    "id": "aip-st04",
+    "sku": "ST04",
+    "slug": "aip-st04",
+    "name": "Xtipe ST04",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xtipe, modello ST04. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-b3e93cc7844ab289-full.webp"
+    ],
+    "thumbnail": "aip-official-b3e93cc7844ab289-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xtipe",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xtipe/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/ST04.webp"
+  },
+  {
+    "id": "aip-st05",
+    "sku": "ST05",
+    "slug": "aip-st05",
+    "name": "Xtipe ST05",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xtipe, modello ST05. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-5b363c67f88de970-full.webp"
+    ],
+    "thumbnail": "aip-official-5b363c67f88de970-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xtipe",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xtipe/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/ST05.webp"
+  },
+  {
+    "id": "aip-st06",
+    "sku": "ST06",
+    "slug": "aip-st06",
+    "name": "Xtipe ST06",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xtipe, modello ST06. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-649e59dbd3ed0a56-full.webp"
+    ],
+    "thumbnail": "aip-official-649e59dbd3ed0a56-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xtipe",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xtipe/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/ST06.webp"
+  },
+  {
+    "id": "aip-st07",
+    "sku": "ST07",
+    "slug": "aip-st07",
+    "name": "Xtipe ST07",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xtipe, modello ST07. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-01166459691a77a3-full.webp"
+    ],
+    "thumbnail": "aip-official-01166459691a77a3-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xtipe",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xtipe/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/ST07.webp"
+  },
+  {
+    "id": "aip-xl03",
+    "sku": "XL03",
+    "slug": "aip-xl03",
+    "name": "Xline XL03",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL03. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-dfc7fa2f088edcea-full.webp"
+    ],
+    "thumbnail": "aip-official-dfc7fa2f088edcea-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL03.webp"
+  },
+  {
+    "id": "aip-xl04",
+    "sku": "XL04",
+    "slug": "aip-xl04",
+    "name": "Xline XL04",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL04. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-8392138135952132-full.webp"
+    ],
+    "thumbnail": "aip-official-8392138135952132-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL04.webp"
+  },
+  {
+    "id": "aip-xl06",
+    "sku": "XL06",
+    "slug": "aip-xl06",
+    "name": "Xline XL06",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL06. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-2dc7d384e697ca95-full.webp"
+    ],
+    "thumbnail": "aip-official-2dc7d384e697ca95-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL06.webp"
+  },
+  {
+    "id": "aip-xl07",
+    "sku": "XL07",
+    "slug": "aip-xl07",
+    "name": "Xline XL07",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL07. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-3ff2710dccf65cf9-full.webp"
+    ],
+    "thumbnail": "aip-official-3ff2710dccf65cf9-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL07.webp"
+  },
+  {
+    "id": "aip-xl08",
+    "sku": "XL08",
+    "slug": "aip-xl08",
+    "name": "Xline XL08",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL08. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-45d45db043c7f3b9-full.webp"
+    ],
+    "thumbnail": "aip-official-45d45db043c7f3b9-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL08.webp"
+  },
+  {
+    "id": "aip-xl10",
+    "sku": "XL10",
+    "slug": "aip-xl10",
+    "name": "Xline XL10",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL10. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-7e8caf85016b3814-full.webp"
+    ],
+    "thumbnail": "aip-official-7e8caf85016b3814-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL10.webp"
+  },
+  {
+    "id": "aip-xl15",
+    "sku": "XL15",
+    "slug": "aip-xl15",
+    "name": "Xline XL15",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL15. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-63b5edccde4eac1e-full.webp"
+    ],
+    "thumbnail": "aip-official-63b5edccde4eac1e-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL15.webp"
+  },
+  {
+    "id": "aip-xl16",
+    "sku": "XL16",
+    "slug": "aip-xl16",
+    "name": "Xline XL16",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL16. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-5cd52053265d8462-full.webp"
+    ],
+    "thumbnail": "aip-official-5cd52053265d8462-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL16.webp"
+  },
+  {
+    "id": "aip-xl17",
+    "sku": "XL17",
+    "slug": "aip-xl17",
+    "name": "Xline XL17",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL17. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-dce740ca79b80f2c-full.webp"
+    ],
+    "thumbnail": "aip-official-dce740ca79b80f2c-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL17.webp"
+  },
+  {
+    "id": "aip-xl19",
+    "sku": "XL19",
+    "slug": "aip-xl19",
+    "name": "Xline XL19",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL19. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-ac8a253955329d27-full.webp"
+    ],
+    "thumbnail": "aip-official-ac8a253955329d27-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL19.webp"
+  },
+  {
+    "id": "aip-xl20",
+    "sku": "XL20",
+    "slug": "aip-xl20",
+    "name": "Xline XL20",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL20. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-b237e9908ff713e9-full.webp"
+    ],
+    "thumbnail": "aip-official-b237e9908ff713e9-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL20.webp"
+  },
+  {
+    "id": "aip-xl21",
+    "sku": "XL21",
+    "slug": "aip-xl21",
+    "name": "Xline XL21",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL21. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-e5707da4617c7d7c-full.webp"
+    ],
+    "thumbnail": "aip-official-e5707da4617c7d7c-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL21.webp"
+  },
+  {
+    "id": "aip-xl22",
+    "sku": "XL22",
+    "slug": "aip-xl22",
+    "name": "Xline XL22",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL22. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-d40c58ba0ee7cbac-full.webp"
+    ],
+    "thumbnail": "aip-official-d40c58ba0ee7cbac-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL22.webp"
+  },
+  {
+    "id": "aip-xl23",
+    "sku": "XL23",
+    "slug": "aip-xl23",
+    "name": "Xline XL23",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL23. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-4c836f943266324e-full.webp"
+    ],
+    "thumbnail": "aip-official-4c836f943266324e-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL23.webp"
+  },
+  {
+    "id": "aip-xl24",
+    "sku": "XL24",
+    "slug": "aip-xl24",
+    "name": "Xline XL24",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Xline, modello XL24. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-3a884a899f879ee1-full.webp"
+    ],
+    "thumbnail": "aip-official-3a884a899f879ee1-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "xline",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-xline/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/XL24.webp"
+  },
+  {
+    "id": "aip-rl01",
+    "sku": "RL01",
+    "slug": "aip-rl01",
+    "name": "Relex RL01",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Relex, modello RL01. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-2bafab49d952f3f5-full.webp"
+    ],
+    "thumbnail": "aip-official-2bafab49d952f3f5-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "relex",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-relex/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/RL01.webp"
+  },
+  {
+    "id": "aip-rl02",
+    "sku": "RL02",
+    "slug": "aip-rl02",
+    "name": "Relex RL02",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Relex, modello RL02. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-ef1c402a4470a426-full.webp"
+    ],
+    "thumbnail": "aip-official-ef1c402a4470a426-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "relex",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-relex/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/RL02.webp"
+  },
+  {
+    "id": "aip-rl03",
+    "sku": "RL03",
+    "slug": "aip-rl03",
+    "name": "Relex RL03",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Relex, modello RL03. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-4e10448644c7f364-full.webp"
+    ],
+    "thumbnail": "aip-official-4e10448644c7f364-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "relex",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-relex/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/RL03.webp"
+  },
+  {
+    "id": "aip-rl04",
+    "sku": "RL04",
+    "slug": "aip-rl04",
+    "name": "Relex RL04",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Relex, modello RL04. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-5aac02a837ab7534-full.webp"
+    ],
+    "thumbnail": "aip-official-5aac02a837ab7534-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "relex",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-relex/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/RL04.webp"
+  },
+  {
+    "id": "aip-rl05",
+    "sku": "RL05",
+    "slug": "aip-rl05",
+    "name": "Relex RL05",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Relex, modello RL05. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-92ea8ad3d1a32364-full.webp"
+    ],
+    "thumbnail": "aip-official-92ea8ad3d1a32364-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "relex",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-relex/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/RL05.webp"
+  },
+  {
+    "id": "aip-rl06",
+    "sku": "RL06",
+    "slug": "aip-rl06",
+    "name": "Relex RL06",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Relex, modello RL06. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-254f91b01e598496-full.webp"
+    ],
+    "thumbnail": "aip-official-254f91b01e598496-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "relex",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-relex/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/RL06.webp"
+  },
+  {
+    "id": "aip-rl07",
+    "sku": "RL07",
+    "slug": "aip-rl07",
+    "name": "Relex RL07",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Relex, modello RL07. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-13a5aa28f5e0da1d-full.webp"
+    ],
+    "thumbnail": "aip-official-13a5aa28f5e0da1d-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "relex",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-relex/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/RL07.webp"
+  },
+  {
+    "id": "aip-rl08",
+    "sku": "RL08",
+    "slug": "aip-rl08",
+    "name": "Relex RL08",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Relex, modello RL08. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-921c6bf2b14c90fc-full.webp"
+    ],
+    "thumbnail": "aip-official-921c6bf2b14c90fc-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "relex",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-relex/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/RL08.webp"
+  },
+  {
+    "id": "aip-kx01",
+    "sku": "KX01",
+    "slug": "aip-kx01",
+    "name": "Klax KX01",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Klax, modello KX01. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-043d89d094a95af9-full.webp"
+    ],
+    "thumbnail": "aip-official-043d89d094a95af9-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "klax",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-klax/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/KX01.webp"
+  },
+  {
+    "id": "aip-kx02",
+    "sku": "KX02",
+    "slug": "aip-kx02",
+    "name": "Klax KX02",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Klax, modello KX02. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-fc3396a63ddbc1de-full.webp"
+    ],
+    "thumbnail": "aip-official-fc3396a63ddbc1de-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "klax",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-klax/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/KX02.webp"
+  },
+  {
+    "id": "aip-kx03",
+    "sku": "KX03",
+    "slug": "aip-kx03",
+    "name": "Klax KX03",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Klax, modello KX03. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-241d2624df4f5ff3-full.webp"
+    ],
+    "thumbnail": "aip-official-241d2624df4f5ff3-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "klax",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-klax/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/KX03.webp"
+  },
+  {
+    "id": "aip-kx04",
+    "sku": "KX04",
+    "slug": "aip-kx04",
+    "name": "Klax KX04",
+    "subtitle": "AIP · Trix",
+    "description": "Porta interna AIP Trix, serie Klax, modello KX04. Finiture e sistemi di apertura da concordare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-70583b468fae9fc9-full.webp"
+    ],
+    "thumbnail": "aip-official-70583b468fae9fc9-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "moderne",
+    "door_series": "klax",
+    "door_materials": [
+      "melaminico"
+    ],
+    "source_url": "https://aipporte.com/trix-klax/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/07/KX04.webp"
+  },
+  {
+    "id": "aip-visioni-canvas",
+    "sku": "",
+    "slug": "aip-visioni-canvas",
+    "name": "Canvas",
+    "subtitle": "AIP · Visioni",
+    "description": "Porta in vetro con tessuto inserito tra le lastre.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-e5967e33d5a88404-full.webp"
+    ],
+    "thumbnail": "aip-official-e5967e33d5a88404-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "vetro",
+    "door_series": null,
+    "door_materials": [
+      "vetro"
+    ],
+    "source_url": "https://aipporte.com/porte-interne-in-vetro/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2024/07/canvas3.webp"
+  },
+  {
+    "id": "aip-visioni-connection",
+    "sku": "",
+    "slug": "aip-visioni-connection",
+    "name": "Connection",
+    "subtitle": "AIP · Visioni",
+    "description": "Porta in vetro con reti metalliche decorative.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-c5ba6a1c1a7121ea-full.webp"
+    ],
+    "thumbnail": "aip-official-c5ba6a1c1a7121ea-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "vetro",
+    "door_series": null,
+    "door_materials": [
+      "vetro"
+    ],
+    "source_url": "https://aipporte.com/porte-interne-in-vetro/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2024/07/connecion.webp"
+  },
+  {
+    "id": "aip-visioni-materici",
+    "sku": "",
+    "slug": "aip-visioni-materici",
+    "name": "Materici",
+    "subtitle": "AIP · Visioni",
+    "description": "Porta in vetro con superfici e texture decorative.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-50ad7faf7fc80221-full.webp"
+    ],
+    "thumbnail": "aip-official-50ad7faf7fc80221-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "vetro",
+    "door_series": null,
+    "door_materials": [
+      "vetro"
+    ],
+    "source_url": "https://aipporte.com/porte-interne-in-vetro/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2024/07/materici.webp"
+  },
+  {
+    "id": "aip-visioni-wood",
+    "sku": "",
+    "slug": "aip-visioni-wood",
+    "name": "Wood",
+    "subtitle": "AIP · Visioni",
+    "description": "Porta in vetro della serie Wood.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-c979e8dd285372a3-full.webp"
+    ],
+    "thumbnail": "aip-official-c979e8dd285372a3-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "vetro",
+    "door_series": null,
+    "door_materials": [
+      "vetro"
+    ],
+    "source_url": "https://aipporte.com/porte-interne-in-vetro/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2024/07/wood.webp"
+  },
+  {
+    "id": "aip-visioni-profile",
+    "sku": "",
+    "slug": "aip-visioni-profile",
+    "name": "Profile",
+    "subtitle": "AIP · Visioni",
+    "description": "Porta in vetro con profili in alluminio.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-7f1af29f6f19c788-full.webp"
+    ],
+    "thumbnail": "aip-official-7f1af29f6f19c788-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "vetro",
+    "door_series": null,
+    "door_materials": [
+      "vetro"
+    ],
+    "source_url": "https://aipporte.com/porte-interne-in-vetro/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2024/07/profile.webp"
+  },
+  {
+    "id": "aip-visioni-industrial",
+    "sku": "",
+    "slug": "aip-visioni-industrial",
+    "name": "Industrial",
+    "subtitle": "AIP · Visioni",
+    "description": "Porta in vetro con profili in alluminio a riquadri.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-599fe83d23615ffd-full.webp"
+    ],
+    "thumbnail": "aip-official-599fe83d23615ffd-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "vetro",
+    "door_series": null,
+    "door_materials": [
+      "vetro"
+    ],
+    "source_url": "https://aipporte.com/porte-interne-in-vetro/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2024/07/INDUSTRIAL.webp"
+  },
+  {
+    "id": "aip-tech-eitech",
+    "sku": "",
+    "slug": "aip-tech-eitech",
+    "name": "EiTech",
+    "subtitle": "AIP · AIP Tech",
+    "description": "Porta tecnica della gamma AIP Tech. Configurazione e prestazioni antincendio da verificare in fase di preventivo.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-3f5db62cf45480d4-full.webp"
+    ],
+    "thumbnail": "aip-official-3f5db62cf45480d4-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "aip-tech",
+    "door_series": null,
+    "door_materials": [],
+    "source_url": "https://aipporte.com/porte-rei/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/02/icona-eitech-e1739355337334.jpg"
+  },
+  {
+    "id": "aip-tech-alltech",
+    "sku": "",
+    "slug": "aip-tech-alltech",
+    "name": "AllTech",
+    "subtitle": "AIP · AIP Tech",
+    "description": "Porta tecnica con telaio in alluminio e pannello rivestito in laminato HPL.",
+    "department_id": "porte-interne",
+    "price": null,
+    "images": [
+      "aip-official-f4ca55e81eed0b50-full.webp"
+    ],
+    "thumbnail": "aip-official-f4ca55e81eed0b50-thumbnail.webp",
+    "partner_ids": [
+      "aip"
+    ],
+    "is_featured": false,
+    "door_collection": "aip-tech",
+    "door_series": null,
+    "door_materials": [
+      "laminato"
+    ],
+    "source_url": "https://aipporte.com/porte-rei/",
+    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/02/alltech-e1739356120466.webp"
+  }
+]

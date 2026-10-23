@@ -1,3 +1,5 @@
+import { mergeAipProducts } from './mergeAipProducts';
+import aipProducts from '../data/aipProducts.json';
 import partnerProducts from '../data/partnerProducts.json';
 import { getPartnerIds } from './partnerCatalog';
 import { groupBucketFormats } from './groupBucketFormats';
@@ -63,7 +65,8 @@ export function useCatalog() {
           smaller_formats: 'smaller_formats' in r && Array.isArray(r.smaller_formats) ? r.smaller_formats : undefined,
           is_featured: i < 8,
         }));
-        return { departments, products: groupBucketFormats(products), loading: false, error: null };
+        const merged = mergeAipProducts(products, aipProducts.map(p => ({ ...p, images: p.images.map(image => imageUrl(image, 'full')), thumbnail: imageUrl(p.thumbnail, 'thumbnail') })));
+        return { departments, products: groupBucketFormats(merged), loading: false, error: null };
       })
       .then(result => { if (alive) setState(result); })
       .catch(e => { if (alive) setState(s => ({ ...s, loading: false, error: String(e.message ?? e) })); });

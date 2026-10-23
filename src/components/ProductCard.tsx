@@ -26,6 +26,7 @@ export default function ProductCard({ p }: { p: Product }) {
           <summary aria-label={`Descrizione di ${p.name}`} className="cursor-pointer font-medium text-navy">Descrizione</summary>
           <p className="mt-2 leading-relaxed">{p.description}</p>
         </details>}
+        {p.source_url && <a href={p.source_url} target="_blank" rel="noopener noreferrer" className="mt-2 text-xs underline">Scopri la gamma sul sito AIP</a>}
         <p className="mt-auto pt-3 text-lg font-bold text-gold-600">
           {p.price !== null ? <>{hasVariants && <span className="text-xs font-medium text-navy/60">da </span>}{eur(p.price)}</> : <span className="text-sm">Su preventivo</span>}
         </p>

@@ -16,7 +16,7 @@ const expected = {
   portoncini: ['Greta', 'Anthos', 'Anthea'],
 };
 assert.equal(products.length, 45);
-assert.equal(doorCollections.length, 8);
+assert.equal(doorCollections.length, 9);
 for (const [id, names] of Object.entries(expected)) {
   const assigned = products.filter(product => getDoorCollection(product)?.id === id).map(product => product.name);
   assert.deepEqual(new Set(assigned), new Set(names), id);
@@ -27,7 +27,7 @@ assert.equal(getDoorFamily('', 'dierre'), 'porte-blindate');
 assert.equal(getDoorFamily('', 'hex'), '');
 assert.equal(getDoorCollection({ department_id: 'infissi', subtitle: 'Porte interne · porte moderne' }), undefined);
 assert.equal(getDoorCollection({ department_id: 'porte-interne', subtitle: 'Nuova collezione' }), undefined);
-console.log('Porte verificate: 45 modelli, 2 famiglie, 8 collezioni; nessun modello mancante o duplicato.');
+console.log('Porte verificate: 45 schede originarie preservate, 2 famiglie, 9 collezioni; nessun modello mancante o duplicato.');
 
 const materialCounts = { laminato: 0, legno: 11, vetro: 12, laccato: 1 };
 for (const [id, count] of Object.entries(materialCounts)) assert.equal(products.filter(product => getDoorMaterials(product).some(material => material.id === id)).length, count, id);
@@ -35,4 +35,30 @@ for (const material of doorMaterials) for (const name of material.models) assert
 assert.deepEqual(getDoorMaterials(products.find(product => product.name === 'Grafix')), []);
 assert.deepEqual(getDoorMaterials(products.find(product => product.name === 'Stilidea')).map(material => material.id), ['legno', 'laccato']);
 assert.equal(getDoorMaterials(products.find(product => product.name === 'Vitra')).length, 0);
-console.log('Materiali verificati: 11 legno, 12 vetro/parti vetrate, 1 laccata; nessuna attribuzione non verificata al laminato.');
+console.log('Materiali delle schede originarie verificati: 11 legno, 12 vetro/parti vetrate, 1 laccata.');
+
+const additions = JSON.parse(fs.readFileSync(new URL('../src/data/aipProducts.json', import.meta.url), 'utf8'));
+const inventory = JSON.parse(fs.readFileSync(new URL('../docs/aip-model-inventory.json', import.meta.url), 'utf8'));
+const { mergeAipProducts } = await import('../src/lib/mergeAipProducts.ts');
+const merged = mergeAipProducts(products, additions);
+assert.equal(additions.length, 78);
+assert.equal(merged.filter(p => p.department_id === 'porte-interne').length, 94);
+assert.equal(new Set(merged.map(p => p.name.toLowerCase())).size, merged.length);
+assert.equal(merged.filter(p => p.name.startsWith('Industrial')).length, 1);
+assert.equal(merged.filter(p => p.door_collection === 'moderne').length, 70);
+assert.deepEqual(Object.fromEntries(['grafix','vertis','neos','xtipe','xline','relex','klax'].map(id => [id, merged.filter(p => p.door_series === id).length])), {grafix:20,vertis:12,neos:4,xtipe:7,xline:15,relex:8,klax:4});
+for (const model of inventory) {
+  const matches = merged.filter(p => p.name === model.name || model.name === 'Industrial' && p.name === 'Industrial · geometrie');
+  assert.equal(matches.length, 1, model.name);
+}
+for (const p of additions) {
+  assert.equal(p.price, null);
+  assert.deepEqual(p.partner_ids, ['aip']);
+  assert(getDoorCollection(p), p.name);
+  assert(p.source_url.startsWith('https://aipporte.com/'));
+  for (const image of [...p.images, p.thumbnail]) assert(fs.existsSync(new URL('../data/immagini/'+image, import.meta.url)), image);
+}
+assert(getDoorMaterials(additions.find(p => p.name === 'AllTech')).some(m => m.id === 'laminato'));
+assert(!getDoorMaterials(additions.find(p => p.name === 'Wood')).some(m => m.id === 'legno'));
+assert.equal(mergeAipProducts(merged, additions).length, merged.length, 'Importazione ripetibile senza duplicati');
+console.log('AIP: 78 proposte ufficiali coperte, 94 schede interne finali; immagini locali, materiali verificati, nessun duplicato.');
