@@ -1,0 +1,12 @@
+# Allow crawling of all content
+User-agent: *
+Disallow: /wp-
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /author/
+
+Allow: /wp-content/uploads
+
+Sitemap: https://dierre.com/sitemap_index.xml
