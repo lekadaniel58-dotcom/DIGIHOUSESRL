@@ -86,5 +86,21 @@
   {
     "url": "https://www.dierre.com/porte/blindate/teknica/",
     "filename": "page-teknica.html"
+  },
+  {
+    "url": "https://www.dierre.com/porte/blindate/inferriate-persiane/",
+    "filename": "page-inferriate-persiane.html"
+  },
+  {
+    "url": "https://www.dierre.com/wp-json/wp/v2/search?search=greta&per_page=20",
+    "filename": "page-search-greta.json"
+  },
+  {
+    "url": "https://www.dierre.com/wp-json/wp/v2/search?search=anthos&per_page=20",
+    "filename": "page-search-anthos.json"
+  },
+  {
+    "url": "https://www.dierre.com/wp-json/wp/v2/search?search=anthea&per_page=20",
+    "filename": "page-search-anthea.json"
   }
 ]
