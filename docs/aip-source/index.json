@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-10-23T06:36:40.140628+00:00",
+  "retrieved_at": "2026-10-23T06:38:27.004145+00:00",
   "errors": [],
   "sitemaps": [
     {
@@ -249,5 +249,82 @@
       "text": "Scopri di più"
     }
   ],
-  "home_url": "https://aipporte.com/"
+  "home_url": "https://aipporte.com/",
+  "pages": [
+    {
+      "url": "https://aipporte.com/area-download/",
+      "file": "page-area-download.html",
+      "bytes": 175493
+    },
+    {
+      "url": "https://aipporte.com/porte-interne-in-legno/",
+      "file": "page-porte-interne-in-legno.html",
+      "bytes": 458034
+    },
+    {
+      "url": "https://aipporte.com/porte-interne-in-vetro/",
+      "file": "page-porte-interne-in-vetro.html",
+      "bytes": 487345
+    },
+    {
+      "url": "https://aipporte.com/porte-interne-moderne/",
+      "file": "page-porte-interne-moderne.html",
+      "bytes": 380624
+    },
+    {
+      "url": "https://aipporte.com/porte-interne/",
+      "file": "page-porte-interne.html",
+      "bytes": 200369
+    },
+    {
+      "url": "https://aipporte.com/porte-interne/maniglie-per-porte-interne/",
+      "file": "page-porte-interne--maniglie-per-porte-interne.html",
+      "bytes": 195910
+    },
+    {
+      "url": "https://aipporte.com/porte-rei/",
+      "file": "page-porte-rei.html",
+      "bytes": 317368
+    },
+    {
+      "url": "https://aipporte.com/sistemi-di-apertura/",
+      "file": "page-sistemi-di-apertura.html",
+      "bytes": 275185
+    },
+    {
+      "url": "https://aipporte.com/trix-grafix/",
+      "file": "page-trix-grafix.html",
+      "bytes": 185612
+    },
+    {
+      "url": "https://aipporte.com/trix-klax/",
+      "file": "page-trix-klax.html",
+      "bytes": 158670
+    },
+    {
+      "url": "https://aipporte.com/trix-neos/",
+      "file": "page-trix-neos.html",
+      "bytes": 158713
+    },
+    {
+      "url": "https://aipporte.com/trix-relex/",
+      "file": "page-trix-relex.html",
+      "bytes": 165823
+    },
+    {
+      "url": "https://aipporte.com/trix-vertis/",
+      "file": "page-trix-vertis.html",
+      "bytes": 171502
+    },
+    {
+      "url": "https://aipporte.com/trix-xline/",
+      "file": "page-trix-xline.html",
+      "bytes": 177100
+    },
+    {
+      "url": "https://aipporte.com/trix-xtipe/",
+      "file": "page-trix-xtipe.html",
+      "bytes": 164332
+    }
+  ]
 }
