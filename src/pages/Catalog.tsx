@@ -10,7 +10,7 @@ import { useCatalog } from '../lib/useCatalog';
 import ProductCard from '../components/ProductCard';
 import partners from '../data/partners.json';
 import { createSearchIndex, searchCatalog } from '../lib/catalogSearch';
-import { doorFamilies, getDoorCollection, getDoorFamily } from '../lib/doorCollections';
+import { doorFamilies, getDoorCollection, getDoorCollections, getDoorFamily } from '../lib/doorCollections';
 import DoorNavigation from '../components/DoorNavigation';
 import { getDoorMaterials } from '../lib/doorMaterials';
 
@@ -43,7 +43,7 @@ export default function Catalog() {
   const browsingWindows = windowScope && !windowCollection && !q.trim();
   const doorFamily = getDoorFamily(dep, partnerId);
   const doorScope = dep === 'porte' || !!doorFamily;
-  const browsingDoors = doorScope && (!collection || collection === 'moderne' && !series) && !material && !q.trim();
+  const browsingDoors = doorScope && (!collection || ['moderne', 'pail-rapido', 'pail-super-rapido'].includes(collection) && !series) && !material && !q.trim();
   useEffect(() => {
     if (doorScope || windowScope || sector) window.scrollTo({ top: 0, behavior: 'instant' });
   }, [doorScope, doorFamily, collection, series, material, doorView, windowScope, windowFamily, windowCollection, sector]);
@@ -80,7 +80,7 @@ export default function Catalog() {
       (!windowCollection || windowCollection === 'tutte' || (windowCollection === 'altre' ? !getWindowCollection(p) : getWindowCollection(p)?.id === windowCollection)));
     if (!doorScope) return matching;
     return matching.filter(product =>
-      (!collection || collection === 'tutte' || (collection === 'altre' ? !getDoorCollection(product) : getDoorCollection(product)?.id === collection)) &&
+      (!collection || collection === 'tutte' || (collection === 'altre' ? !getDoorCollection(product) : getDoorCollections(product).some(c => c.id === collection))) &&
       (!series || product.door_series === series) &&
       (!material || getDoorMaterials(product).some(item => item.id === material)));
   }, [matching, doorScope, collection, series, material, windowScope, windowFamily, windowCollection]);

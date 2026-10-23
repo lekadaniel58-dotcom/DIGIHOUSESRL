@@ -130,5 +130,12 @@
       "RINOVO NHL",
       "KT PLUS BIANCA"
     ]
+  },
+  {
+    "id": "pail",
+    "name": "Pail Porte",
+    "logo": "/assets/fornitori/pail-logo.webp",
+    "departments": [],
+    "productNames": []
   }
 ]
