@@ -1,3 +1,4 @@
+import { changeCatalogFilter, changeCatalogQuery } from '../lib/catalogFilters';
 import CatalogSections from '../components/CatalogSections';
 import FittingsNavigation from '../components/FittingsNavigation';
 import WindowNavigation from '../components/WindowNavigation';
@@ -47,11 +48,10 @@ export default function Catalog() {
   useEffect(() => {
     if (doorScope || windowScope || sector) window.scrollTo({ top: 0, behavior: 'instant' });
   }, [doorScope, doorFamily, collection, series, material, doorView, windowScope, windowFamily, windowCollection, sector]);
+  useEffect(() => { setOnlyPriced(false); setSort('relevance'); }, [sector]);
   const partner = partners.find(p => p.id === partnerId);
   const updateFilter = (key: string, value: string) => {
-    const next = new URLSearchParams(params);
-    if (value) next.set(key, value); else next.delete(key);
-    if (key === 'reparto' || key === 'partner') { next.delete('serie'); next.delete('collezione'); next.delete('materiale'); next.delete('vista'); next.delete('famiglia'); next.delete('sottocategoria'); }
+    const next = changeCatalogFilter(params, key, value, products);
     if (sector) next.set('settore', sector);
     setParams(next);
   };
@@ -100,7 +100,7 @@ export default function Catalog() {
         <label className="relative w-full flex-none sm:w-auto sm:flex-1 min-w-0 sm:min-w-[220px]">
           <span className="sr-only">Cerca prodotto</span>
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-navy/40" size={18} />
-          <input value={q} onChange={e => setQ(e.target.value)} placeholder="Come possiamo aiutarti?"
+          <input value={q} onChange={e => { setQ(e.target.value); setParams(changeCatalogQuery(params, e.target.value, sector), { replace: true }); }} placeholder="Come possiamo aiutarti?"
             className="w-full rounded-full bg-white py-3 pl-10 pr-4 ring-1 ring-navy/10 focus:ring-gold" />
         </label>
         <select aria-label="Reparto" value={dep} onChange={e => updateFilter('reparto', e.target.value)} className="rounded-full bg-white px-4 py-3 ring-1 ring-navy/10">

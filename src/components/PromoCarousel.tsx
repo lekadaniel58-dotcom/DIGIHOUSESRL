@@ -9,12 +9,19 @@ export default function PromoCarousel() {
   const list = promos.filter(p => p.active);
   const [i, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const [pageVisible, setPageVisible] = useState(!document.hidden);
+  useEffect(() => {
+    const onVisibility = () => setPageVisible(!document.hidden);
+    document.addEventListener('visibilitychange', onVisibility);
+    return () => document.removeEventListener('visibilitychange', onVisibility);
+  }, []);
   const go = (d: number) => setIndex(n => (n + d + list.length) % list.length);
-  useEffect(() => { if (paused || list.length < 2) return; const t = setInterval(() => go(1), 6000); return () => clearInterval(t); }, [paused, list.length]);
+  useEffect(() => { if (paused || focused || !pageVisible || list.length < 2) return; const t = setInterval(() => go(1), 6000); return () => clearInterval(t); }, [paused, focused, pageVisible, list.length]);
   if (!list.length) return null;
   const p = list[i];
   return (
-    <div onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} className="relative overflow-hidden rounded-3xl bg-navy text-white shadow-2xl">
+    <div onFocusCapture={() => setFocused(true)} onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setFocused(false); }} onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} className="relative overflow-hidden rounded-3xl bg-navy text-white shadow-2xl">
 
         <div key={p.id}
           className="grid items-center gap-8 p-8 md:grid-cols-2 md:p-12">

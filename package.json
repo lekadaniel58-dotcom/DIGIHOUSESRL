@@ -16,7 +16,8 @@
     "check:doors": "node scripts/check-door-collections.mjs",
     "check:sections": "node scripts/check-catalog-sections.mjs",
     "check:dierre": "node scripts/check-dierre-photos.mjs",
-    "check:pail": "node scripts/check-pail-collections.mjs"
+    "check:pail": "node scripts/check-pail-collections.mjs",
+    "check:filters": "node scripts/check-catalog-filters.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",

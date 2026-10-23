@@ -3,6 +3,7 @@ import type { Product } from '../lib/types';
 import { getWindowCollection } from '../lib/windowCollections';
 
 export default function FittingsNavigation({ products }: { products: Product[] }) {
+  if (!products.length) return <p role="status" className="text-navy/70">Nessun prodotto con i filtri selezionati. Modifica i filtri o disattiva “Solo con prezzo”.</p>;
   const groups = [
     { name: 'Porte', text: 'Interne, blindate e portoncini: esplora famiglie e collezioni.', to: 'reparto=porte', matches: (p: Product) => ['porte-interne', 'porte-blindate'].includes(p.department_id ?? '') },
     { name: 'Finestre e portefinestre', text: 'Alluminio, PVC e sistemi compositi, divisi per materiale e apertura.', to: 'reparto=infissi&famiglia=finestre', matches: (p: Product) => getWindowCollection(p)?.family === 'finestre' },

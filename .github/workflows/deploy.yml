@@ -28,6 +28,7 @@ jobs:
             public/assets/fornitori/hex-logo.jpg
           key: original-partner-logos-v1
       - run: npm run fetch:partner-logos
+      - run: npm run check:filters
       - run: npm run check:sections
       - run: npm run check:dierre
       - run: npm run check:pail
@@ -49,5 +50,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - uses: actions/checkout@v4
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify the published site (read only)
+        run: python3 scripts/check-published-site.py

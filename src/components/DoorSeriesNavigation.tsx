@@ -19,6 +19,7 @@ export default function DoorSeriesNavigation({ products, params, collection = 'm
     <Link to={`/catalogo?${back}`} className="text-sm underline">← Tutte le collezioni di porte interne</Link>
     <h2 className="my-5 font-display text-3xl">{label}: scegli la serie</h2>
     <p className="mb-5 max-w-2xl text-navy/70">{collectionInfo?.text}</p>
+    {!series.length && <p role="status" className="text-navy/70">Nessun modello con i filtri selezionati. Modifica i filtri o disattiva “Solo con prezzo”.</p>}
     <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{series.map(name => {
       const models = scoped.filter(p => p.door_series === name);
       return <Link key={name} to={href(name!)} className="overflow-hidden rounded-2xl bg-white p-5 ring-1 ring-navy/10 hover:shadow-lg">

@@ -26,6 +26,7 @@ export default function WindowNavigation({ products, params, browsing }: { produ
       <div><p className="text-xs uppercase tracking-widest text-gold">Finestre e infissi</p><h2 className="mt-2 font-display text-3xl">{collectionInfo?.name ?? familyInfo?.name ?? 'Scegli la famiglia'}</h2><p className="mt-3 text-sm text-white/75">{browsing ? 'Scegli una categoria, poi confronta i singoli modelli.' : 'Confronta i modelli e chiedici una configurazione su misura.'}</p></div>
       <Link to={browsing ? href(family, 'tutte') : href(family)} className="rounded-full bg-gold px-5 py-3 text-sm font-semibold text-navy">{browsing ? 'Mostra tutti i modelli' : 'Cambia categoria'}</Link>
     </div>
+    {browsing && !products.length && <p role="status" className="text-navy/70">Nessun modello con i filtri selezionati. Modifica i filtri o disattiva “Solo con prezzo”.</p>}
     {browsing && <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{cards.map(g => <Link key={g.id} to={g.to} className="overflow-hidden rounded-2xl bg-white ring-1 ring-navy/10 hover:shadow-lg">
       <img src={g.models[0].thumbnail ?? g.models[0].images[0]} alt="" loading="lazy" decoding="async" className="h-56 w-full object-contain p-4" />
       <div className="p-5"><p className="text-xs font-semibold text-gold-600">{g.models.length} modelli</p><h3 className="mt-2 font-display text-2xl">{g.name}</h3><p className="mt-3 text-sm text-navy/70">{g.text}</p><p className="mt-4 text-sm font-semibold">{family ? 'Scopri i modelli' : 'Esplora le categorie'} →</p></div>
