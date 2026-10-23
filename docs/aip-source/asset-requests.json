@@ -1,0 +1,342 @@
+{
+  "images": [
+    {
+      "id": "GF01",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF01.webp"
+    },
+    {
+      "id": "GF07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF07.webp"
+    },
+    {
+      "id": "GF08",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF08.webp"
+    },
+    {
+      "id": "GF13",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF13.webp"
+    },
+    {
+      "id": "GF15",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF15.webp"
+    },
+    {
+      "id": "GF16",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF16.webp"
+    },
+    {
+      "id": "GF21",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF21.webp"
+    },
+    {
+      "id": "GF23",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF23.webp"
+    },
+    {
+      "id": "GF24",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF24.webp"
+    },
+    {
+      "id": "GF25",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF25.webp"
+    },
+    {
+      "id": "GF26-D",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF26-D.webp"
+    },
+    {
+      "id": "GF26",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF26.webp"
+    },
+    {
+      "id": "GF27-D",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF27-D.webp"
+    },
+    {
+      "id": "GF27",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF27.webp"
+    },
+    {
+      "id": "GF30",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF30.webp"
+    },
+    {
+      "id": "GF31",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF31.webp"
+    },
+    {
+      "id": "GF32",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF32.webp"
+    },
+    {
+      "id": "GF40",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF40.webp"
+    },
+    {
+      "id": "GF41",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF41.webp"
+    },
+    {
+      "id": "GF42",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF42.webp"
+    },
+    {
+      "id": "VT10",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT10.webp"
+    },
+    {
+      "id": "VT11",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT11.webp"
+    },
+    {
+      "id": "VT12",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT12.webp"
+    },
+    {
+      "id": "VT13",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT13.webp"
+    },
+    {
+      "id": "VT14",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT14.webp"
+    },
+    {
+      "id": "VT15",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT15.webp"
+    },
+    {
+      "id": "VT16",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT16.webp"
+    },
+    {
+      "id": "VT17",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT17.webp"
+    },
+    {
+      "id": "VT18",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT18.webp"
+    },
+    {
+      "id": "VT19",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT19.webp"
+    },
+    {
+      "id": "VT20",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT20.webp"
+    },
+    {
+      "id": "VT21",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT21.webp"
+    },
+    {
+      "id": "NX05",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/NX05.webp"
+    },
+    {
+      "id": "NX06",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/NX06.webp"
+    },
+    {
+      "id": "NX07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/NX07.webp"
+    },
+    {
+      "id": "NX08",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/NX08.webp"
+    },
+    {
+      "id": "ST01",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST01.webp"
+    },
+    {
+      "id": "ST02",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST02.webp"
+    },
+    {
+      "id": "ST03",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST03.webp"
+    },
+    {
+      "id": "ST04",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST04.webp"
+    },
+    {
+      "id": "ST05",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST05.webp"
+    },
+    {
+      "id": "ST06",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST06.webp"
+    },
+    {
+      "id": "ST07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST07.webp"
+    },
+    {
+      "id": "XL03",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL03.webp"
+    },
+    {
+      "id": "XL04",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL04.webp"
+    },
+    {
+      "id": "XL06",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL06.webp"
+    },
+    {
+      "id": "XL07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL07.webp"
+    },
+    {
+      "id": "XL08",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL08.webp"
+    },
+    {
+      "id": "XL10",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL10.webp"
+    },
+    {
+      "id": "XL15",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL15.webp"
+    },
+    {
+      "id": "XL16",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL16.webp"
+    },
+    {
+      "id": "XL17",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL17.webp"
+    },
+    {
+      "id": "XL19",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL19.webp"
+    },
+    {
+      "id": "XL20",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL20.webp"
+    },
+    {
+      "id": "XL21",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL21.webp"
+    },
+    {
+      "id": "XL22",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL22.webp"
+    },
+    {
+      "id": "XL23",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL23.webp"
+    },
+    {
+      "id": "XL24",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL24.webp"
+    },
+    {
+      "id": "RL01",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL01.webp"
+    },
+    {
+      "id": "RL02",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL02.webp"
+    },
+    {
+      "id": "RL03",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL03.webp"
+    },
+    {
+      "id": "RL04",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL04.webp"
+    },
+    {
+      "id": "RL05",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL05.webp"
+    },
+    {
+      "id": "RL06",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL06.webp"
+    },
+    {
+      "id": "RL07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL07.webp"
+    },
+    {
+      "id": "RL08",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL08.webp"
+    },
+    {
+      "id": "KX01",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/KX01.webp"
+    },
+    {
+      "id": "KX02",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/KX02.webp"
+    },
+    {
+      "id": "KX03",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/KX03.webp"
+    },
+    {
+      "id": "KX04",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/KX04.webp"
+    },
+    {
+      "id": "visioni-canvas",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/canvas3.webp"
+    },
+    {
+      "id": "visioni-connection",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/connecion.webp"
+    },
+    {
+      "id": "visioni-materici",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/materici.webp"
+    },
+    {
+      "id": "visioni-wood",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/wood.webp"
+    },
+    {
+      "id": "visioni-profile",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/profile.webp"
+    },
+    {
+      "id": "visioni-industrial",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/INDUSTRIAL.webp"
+    },
+    {
+      "id": "tech-eitech",
+      "url": "https://aipporte.com/wp-content/uploads/2025/02/icona-eitech-e1739355337334.jpg"
+    },
+    {
+      "id": "tech-alltech",
+      "url": "https://aipporte.com/wp-content/uploads/2025/02/alltech-e1739356120466.webp"
+    }
+  ],
+  "pdfs": [
+    {
+      "id": "Sololegno",
+      "url": "https://aipporte.com/wp-content/uploads/2025/06/Catalogo_Sololegno_2019.pdf"
+    },
+    {
+      "id": "Visioni",
+      "url": "https://aipporte.com/wp-content/uploads/2025/06/VISIONI_2024_low.pdf"
+    },
+    {
+      "id": "Trix",
+      "url": "https://aipporte.com/wp-content/uploads/2026/09/TRIX_2026_web.pdf"
+    },
+    {
+      "id": "AIP Tech",
+      "url": "https://aipporte.com/wp-content/uploads/2025/06/AIP_REI_2023_low_aff.pdf"
+    },
+    {
+      "id": "Riquadra",
+      "url": "https://aipporte.com/wp-content/uploads/2025/06/Catalogo_Riquadra_2022.pdf"
+    },
+    {
+      "id": "Futura",
+      "url": "https://aipporte.com/wp-content/uploads/2025/11/Futura_2025_x_web.pdf"
+    }
+  ]
+}

@@ -5,6 +5,8 @@ on:
     paths:
       - scripts/inspect-aip-catalog.py
       - .github/workflows/inspect-aip-catalog.yml
+      - scripts/fetch-aip-review-assets.py
+      - docs/aip-source/asset-requests.json
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,11 +20,16 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/inspect-aip-catalog.py
+      - if: hashFiles('docs/aip-source/asset-requests.json') != ''
+        run: |
+          pip install pymupdf==1.26.6 Pillow==11.3.0
+          python scripts/fetch-aip-review-assets.py
       - name: Save public sources on the review branch
         run: |
           git config user.name 'Digi House catalogue import'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add docs/aip-source
+          git add data/immagini/aip-official-* 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m 'Save official AIP catalogue sources for review [skip ci]'
             git push origin HEAD:source/aip-catalog
