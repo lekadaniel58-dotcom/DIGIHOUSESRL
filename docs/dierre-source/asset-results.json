@@ -214,5 +214,41 @@
     "height": 800,
     "full": "dierre-official-8afee86e4dfbe662-full.webp",
     "thumbnail": "dierre-official-8afee86e4dfbe662-thumbnail.webp"
+  },
+  {
+    "name": "Greta",
+    "source_url": "https://www.dierre.com/porte/blindate/inferriate-persiane/#greta",
+    "source_title": "Greta",
+    "image_url": "https://www.dierre.com/wp-content/uploads/2021/10/dierre-greta.jpg",
+    "image_scope": "model",
+    "sha256": "0ae509182c00b708a94a004ea94d9d26434b80b4a61a98dc59aa8b07b4c8929e",
+    "width": 1920,
+    "height": 800,
+    "full": "dierre-official-0ae509182c00b708-full.webp",
+    "thumbnail": "dierre-official-0ae509182c00b708-thumbnail.webp"
+  },
+  {
+    "name": "Anthos",
+    "source_url": "https://www.dierre.com/porte/blindate/inferriate-persiane/#anthos-e-anthea",
+    "source_title": "Anthos",
+    "image_url": "https://www.dierre.com/wp-content/uploads/2021/10/dierre-anthos-anthea.jpg",
+    "image_scope": "model",
+    "sha256": "f86ea995c024897537495fcb9f18ba5edd8887fcb1ea4e9d13d7b4bf25fc34db",
+    "width": 1920,
+    "height": 800,
+    "full": "dierre-official-f86ea995c0248975-full.webp",
+    "thumbnail": "dierre-official-f86ea995c0248975-thumbnail.webp"
+  },
+  {
+    "name": "Anthea",
+    "source_url": "https://www.dierre.com/porte/blindate/inferriate-persiane/#anthos-e-anthea",
+    "source_title": "Anthea",
+    "image_url": "https://www.dierre.com/wp-content/uploads/2021/10/dierre-anthea-inferriate-blindate.jpg",
+    "image_scope": "model",
+    "sha256": "ef50888fa73b1dfe9bff8d7d4d2eb1d94cb1e2af67d4cf1e5bb65a46c40ce031",
+    "width": 1920,
+    "height": 800,
+    "full": "dierre-official-ef50888fa73b1dfe-full.webp",
+    "thumbnail": "dierre-official-ef50888fa73b1dfe-thumbnail.webp"
   }
 ]
