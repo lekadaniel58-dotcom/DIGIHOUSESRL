@@ -1,0 +1,733 @@
+{
+  "images": [
+    {
+      "id": "GF01",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF01.webp",
+      "sha256": "3b24ad6f43e50b22b67cf887403c8f1c3bd9cf2e90794b800ead3380e0f514f9",
+      "full": "aip-official-3b24ad6f43e50b22-full.webp",
+      "thumbnail": "aip-official-3b24ad6f43e50b22-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF07.webp",
+      "sha256": "24fca3736ec1cebd229f32b4c5e60f566f5a3564bc79d441d2746676aeae97d3",
+      "full": "aip-official-24fca3736ec1cebd-full.webp",
+      "thumbnail": "aip-official-24fca3736ec1cebd-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF08",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF08.webp",
+      "sha256": "f74bffa7e9b19df02b36c1031cda2807f1eb43502f38a264cb85a2cdff244b1d",
+      "full": "aip-official-f74bffa7e9b19df0-full.webp",
+      "thumbnail": "aip-official-f74bffa7e9b19df0-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF13",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF13.webp",
+      "sha256": "695f048eea3f64b8b987845005a0a59c99b83484550d75a89c28929e4f89564e",
+      "full": "aip-official-695f048eea3f64b8-full.webp",
+      "thumbnail": "aip-official-695f048eea3f64b8-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF15",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF15.webp",
+      "sha256": "6fd6b837288dc2c4e2322dde2df287a6e360fb31210bf4c8b87c04a9013c0fd0",
+      "full": "aip-official-6fd6b837288dc2c4-full.webp",
+      "thumbnail": "aip-official-6fd6b837288dc2c4-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF16",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF16.webp",
+      "sha256": "966e7410a7410b38f24beb711f6946757b249c19effa5edcfd79ae15ac4d464e",
+      "full": "aip-official-966e7410a7410b38-full.webp",
+      "thumbnail": "aip-official-966e7410a7410b38-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF21",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF21.webp",
+      "sha256": "10215942b02c85198fd1617b685867c069aa2a313e3176de5ac7b50fdc2eee5b",
+      "full": "aip-official-10215942b02c8519-full.webp",
+      "thumbnail": "aip-official-10215942b02c8519-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF23",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF23.webp",
+      "sha256": "8ad118d0aae5872bfe85bea5be35925e6644f26014742949191088045310f28a",
+      "full": "aip-official-8ad118d0aae5872b-full.webp",
+      "thumbnail": "aip-official-8ad118d0aae5872b-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF24",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF24.webp",
+      "sha256": "0243665980bf763ddc94d9172c3be09c55c7ca452e553686f4a70afe20a2a701",
+      "full": "aip-official-0243665980bf763d-full.webp",
+      "thumbnail": "aip-official-0243665980bf763d-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF25",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF25.webp",
+      "sha256": "09926c979c23bec2d43743c571c6165bcc6ad823e03a2a8702e586b109b0db38",
+      "full": "aip-official-09926c979c23bec2-full.webp",
+      "thumbnail": "aip-official-09926c979c23bec2-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF26",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF26.webp",
+      "sha256": "d7e2026b4694bbf8c2363004819fb19eb01155238b7faee469b08df36542571b",
+      "full": "aip-official-d7e2026b4694bbf8-full.webp",
+      "thumbnail": "aip-official-d7e2026b4694bbf8-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF26-D",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF26-D.webp",
+      "sha256": "906eb6d96e33efee96c71600430422dc32fa7f07ae9a8315cfabe6f8998af6e2",
+      "full": "aip-official-906eb6d96e33efee-full.webp",
+      "thumbnail": "aip-official-906eb6d96e33efee-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF27",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF27.webp",
+      "sha256": "4bb2af55d2eb69588f59096d97a32fd82701c15a493bc0cba974f4e429796e53",
+      "full": "aip-official-4bb2af55d2eb6958-full.webp",
+      "thumbnail": "aip-official-4bb2af55d2eb6958-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF27-D",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF27-D.webp",
+      "sha256": "008cfcce787a3919db8f6cc9d1cff4accdfeaf14680ce01dc47579a97eaa506e",
+      "full": "aip-official-008cfcce787a3919-full.webp",
+      "thumbnail": "aip-official-008cfcce787a3919-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF30",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF30.webp",
+      "sha256": "17042bf7e77cefbae46cbafe781e0ecbe4af4769d55e9da2b197f3545c1d3095",
+      "full": "aip-official-17042bf7e77cefba-full.webp",
+      "thumbnail": "aip-official-17042bf7e77cefba-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF31",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF31.webp",
+      "sha256": "3faee74ba8b9e360895a768d8c684094ead707a418dc95807bd72a64c98280ed",
+      "full": "aip-official-3faee74ba8b9e360-full.webp",
+      "thumbnail": "aip-official-3faee74ba8b9e360-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF32",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF32.webp",
+      "sha256": "9a67fe7ecf3d66a8e5ae9ae142a29eaea606041a3178094826af0a77443549b3",
+      "full": "aip-official-9a67fe7ecf3d66a8-full.webp",
+      "thumbnail": "aip-official-9a67fe7ecf3d66a8-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF40",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF40.webp",
+      "sha256": "29ddd39eb445c342f758f72c62adfed40135952b75c5d2391a29acc1f2211ed9",
+      "full": "aip-official-29ddd39eb445c342-full.webp",
+      "thumbnail": "aip-official-29ddd39eb445c342-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF41",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF41.webp",
+      "sha256": "9d75707e418489ac02674f2ea5f9db063c9193ee15ba6c933ef9da6119903b92",
+      "full": "aip-official-9d75707e418489ac-full.webp",
+      "thumbnail": "aip-official-9d75707e418489ac-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "GF42",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/GF42.webp",
+      "sha256": "02ffcc1126a067debfaa3b31f8c0823a81f7786b7c2da4a7e04aaa16683e31e6",
+      "full": "aip-official-02ffcc1126a067de-full.webp",
+      "thumbnail": "aip-official-02ffcc1126a067de-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "KX01",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/KX01.webp",
+      "sha256": "043d89d094a95af9d9e13de54f0cbecbcd4b818c132c84e3584c773a3f52618b",
+      "full": "aip-official-043d89d094a95af9-full.webp",
+      "thumbnail": "aip-official-043d89d094a95af9-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "KX02",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/KX02.webp",
+      "sha256": "fc3396a63ddbc1de4947dc2f918f32eccbaf64459f79b075320edadae81b9934",
+      "full": "aip-official-fc3396a63ddbc1de-full.webp",
+      "thumbnail": "aip-official-fc3396a63ddbc1de-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "KX03",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/KX03.webp",
+      "sha256": "241d2624df4f5ff3a7e20aca09fc414b9c01604ac50490f8fb9531a27d631542",
+      "full": "aip-official-241d2624df4f5ff3-full.webp",
+      "thumbnail": "aip-official-241d2624df4f5ff3-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "KX04",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/KX04.webp",
+      "sha256": "70583b468fae9fc9026e1f9d764b6bbc457372ccfe8bca61833a2e34441f9d51",
+      "full": "aip-official-70583b468fae9fc9-full.webp",
+      "thumbnail": "aip-official-70583b468fae9fc9-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "NX05",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/NX05.webp",
+      "sha256": "f4960ecef1e39b705018fb74276219dbe094e2f91266844bbc600d29a0dc61f8",
+      "full": "aip-official-f4960ecef1e39b70-full.webp",
+      "thumbnail": "aip-official-f4960ecef1e39b70-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "NX06",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/NX06.webp",
+      "sha256": "53c527332c32aa1dbfc01dc3395da62b839c19f517e40de20dbba3e96f6a03b9",
+      "full": "aip-official-53c527332c32aa1d-full.webp",
+      "thumbnail": "aip-official-53c527332c32aa1d-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "NX07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/NX07.webp",
+      "sha256": "ba9c42041131535dc3e20a88bd2800bd2679aef832d6c94a3741f429b18ca724",
+      "full": "aip-official-ba9c42041131535d-full.webp",
+      "thumbnail": "aip-official-ba9c42041131535d-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "NX08",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/NX08.webp",
+      "sha256": "36a69ac37dfafde822b2337d20d82b61dfad2d9ad46ae043bd5345f7ed733e21",
+      "full": "aip-official-36a69ac37dfafde8-full.webp",
+      "thumbnail": "aip-official-36a69ac37dfafde8-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "RL01",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL01.webp",
+      "sha256": "2bafab49d952f3f51e4033936563b278627d55ee422d11f279d6c65c2f2a3fa7",
+      "full": "aip-official-2bafab49d952f3f5-full.webp",
+      "thumbnail": "aip-official-2bafab49d952f3f5-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "RL02",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL02.webp",
+      "sha256": "ef1c402a4470a4264c92bc0b2c3867a9c93f2ff42a919b016ab6e607b0fda10f",
+      "full": "aip-official-ef1c402a4470a426-full.webp",
+      "thumbnail": "aip-official-ef1c402a4470a426-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "RL03",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL03.webp",
+      "sha256": "4e10448644c7f364887771497c682604004d31c3a06903a46eef024230fc3dda",
+      "full": "aip-official-4e10448644c7f364-full.webp",
+      "thumbnail": "aip-official-4e10448644c7f364-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "RL04",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL04.webp",
+      "sha256": "5aac02a837ab75347adf7a65b61346aafaf9ef633f0375cea21790e4c6b374de",
+      "full": "aip-official-5aac02a837ab7534-full.webp",
+      "thumbnail": "aip-official-5aac02a837ab7534-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "RL05",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL05.webp",
+      "sha256": "92ea8ad3d1a32364c346ad4f913ba73ae26e18f5af2daa1057b3d2476db4207a",
+      "full": "aip-official-92ea8ad3d1a32364-full.webp",
+      "thumbnail": "aip-official-92ea8ad3d1a32364-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "RL06",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL06.webp",
+      "sha256": "254f91b01e59849661f6229cfc2f56506433cc1af12ca9200f69c205f5928418",
+      "full": "aip-official-254f91b01e598496-full.webp",
+      "thumbnail": "aip-official-254f91b01e598496-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "RL07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL07.webp",
+      "sha256": "13a5aa28f5e0da1df7be5523d6e724476779c363e2d288e55aaf7d3f1d81313b",
+      "full": "aip-official-13a5aa28f5e0da1d-full.webp",
+      "thumbnail": "aip-official-13a5aa28f5e0da1d-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "RL08",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/RL08.webp",
+      "sha256": "921c6bf2b14c90fce66c31549ee664d06ba5fb883648e442ed24b962469108e6",
+      "full": "aip-official-921c6bf2b14c90fc-full.webp",
+      "thumbnail": "aip-official-921c6bf2b14c90fc-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "ST01",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST01.webp",
+      "sha256": "02c19f8985d74700108b1ec9588adeb6ab3d4db5bfd1873a17efd81aca7c945a",
+      "full": "aip-official-02c19f8985d74700-full.webp",
+      "thumbnail": "aip-official-02c19f8985d74700-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "ST02",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST02.webp",
+      "sha256": "163d4fed19c60f9668fa0c0790fe51708b090479d06d7e3796fc960a382b27f6",
+      "full": "aip-official-163d4fed19c60f96-full.webp",
+      "thumbnail": "aip-official-163d4fed19c60f96-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "ST03",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST03.webp",
+      "sha256": "857e299c67fa6bdde48f4252b447f8ba6ee83dc6e225d83364d3ebd2f633cb79",
+      "full": "aip-official-857e299c67fa6bdd-full.webp",
+      "thumbnail": "aip-official-857e299c67fa6bdd-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "ST04",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST04.webp",
+      "sha256": "b3e93cc7844ab28996fbcd7ea40c02efeae1ce2cf8140393931893e10443097d",
+      "full": "aip-official-b3e93cc7844ab289-full.webp",
+      "thumbnail": "aip-official-b3e93cc7844ab289-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "ST05",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST05.webp",
+      "sha256": "5b363c67f88de970635d4f85370fe0f2ae1d8601970f29392a08448eea944872",
+      "full": "aip-official-5b363c67f88de970-full.webp",
+      "thumbnail": "aip-official-5b363c67f88de970-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "ST06",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST06.webp",
+      "sha256": "649e59dbd3ed0a56abe30d5ad2167e0b2cb0c420688955c838d17ccf0bb8f2ef",
+      "full": "aip-official-649e59dbd3ed0a56-full.webp",
+      "thumbnail": "aip-official-649e59dbd3ed0a56-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "ST07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/ST07.webp",
+      "sha256": "01166459691a77a3941e2bfdafab63e1b13949da57da9db5a611283c771204c6",
+      "full": "aip-official-01166459691a77a3-full.webp",
+      "thumbnail": "aip-official-01166459691a77a3-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT10",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT10.webp",
+      "sha256": "663344434518f583a512bfb2acca6141497f25917887ce3e16d2952e56242699",
+      "full": "aip-official-663344434518f583-full.webp",
+      "thumbnail": "aip-official-663344434518f583-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT11",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT11.webp",
+      "sha256": "28b9a6e9122384beba68dacb29835a4bef1f2a74c51ec1e40fd987849c4fa7f9",
+      "full": "aip-official-28b9a6e9122384be-full.webp",
+      "thumbnail": "aip-official-28b9a6e9122384be-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT12",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT12.webp",
+      "sha256": "2d13959f0d3b4229960e4995b81648e9dc9a91ff4ff65a275731ee787835abf1",
+      "full": "aip-official-2d13959f0d3b4229-full.webp",
+      "thumbnail": "aip-official-2d13959f0d3b4229-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT13",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT13.webp",
+      "sha256": "0810a4eb2110b5b568fe99cd8e8929727146a1e12a20f89dd187a69a96597c0a",
+      "full": "aip-official-0810a4eb2110b5b5-full.webp",
+      "thumbnail": "aip-official-0810a4eb2110b5b5-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT14",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT14.webp",
+      "sha256": "e4891e1a5d93c8b5468b16bbf139e484359e53d476c00d3e2304fd856d5084e3",
+      "full": "aip-official-e4891e1a5d93c8b5-full.webp",
+      "thumbnail": "aip-official-e4891e1a5d93c8b5-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT15",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT15.webp",
+      "sha256": "14462bee3f2bc554491ab761facd3876d5068a8761062638e3eb3298b6fa1391",
+      "full": "aip-official-14462bee3f2bc554-full.webp",
+      "thumbnail": "aip-official-14462bee3f2bc554-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT16",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT16.webp",
+      "sha256": "37b11f268bac013b1071399300dd16b0ad65aa044b54e68942bfcf7d8ed85ada",
+      "full": "aip-official-37b11f268bac013b-full.webp",
+      "thumbnail": "aip-official-37b11f268bac013b-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT17",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT17.webp",
+      "sha256": "ddba7a2cfd31edb921b6597317d4dc96c78c3782d6f7712ea91454209902ef09",
+      "full": "aip-official-ddba7a2cfd31edb9-full.webp",
+      "thumbnail": "aip-official-ddba7a2cfd31edb9-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT18",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT18.webp",
+      "sha256": "ef9c15feb484114e2678562433791ee7749ad8e7656b0deee471230fbdeb12f5",
+      "full": "aip-official-ef9c15feb484114e-full.webp",
+      "thumbnail": "aip-official-ef9c15feb484114e-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT19",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT19.webp",
+      "sha256": "8de348d1e522368fe93ff79ae30805d401667dfb23d59da6de1e0fa331549ce3",
+      "full": "aip-official-8de348d1e522368f-full.webp",
+      "thumbnail": "aip-official-8de348d1e522368f-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT20",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT20.webp",
+      "sha256": "3dcbbf3177fbeb301fec0bc84699628517f3bf306595176115012259811a1374",
+      "full": "aip-official-3dcbbf3177fbeb30-full.webp",
+      "thumbnail": "aip-official-3dcbbf3177fbeb30-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "VT21",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/VT21.webp",
+      "sha256": "7dfcc2713f752d6d23dc50f8375d95796b6aea14344bc0ca9d03d401b7c1d044",
+      "full": "aip-official-7dfcc2713f752d6d-full.webp",
+      "thumbnail": "aip-official-7dfcc2713f752d6d-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL03",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL03.webp",
+      "sha256": "dfc7fa2f088edcea306c6213bc78bd789b39af8137fdd34b0232c4b58f686d43",
+      "full": "aip-official-dfc7fa2f088edcea-full.webp",
+      "thumbnail": "aip-official-dfc7fa2f088edcea-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL04",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL04.webp",
+      "sha256": "8392138135952132fa5b59742cacd6cdafc3838d109f5404ddfafee02a5de517",
+      "full": "aip-official-8392138135952132-full.webp",
+      "thumbnail": "aip-official-8392138135952132-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL06",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL06.webp",
+      "sha256": "2dc7d384e697ca95f3dabf7462ad2df25a5810833e7c2396edcc6aca6fd60dfa",
+      "full": "aip-official-2dc7d384e697ca95-full.webp",
+      "thumbnail": "aip-official-2dc7d384e697ca95-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL07",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL07.webp",
+      "sha256": "3ff2710dccf65cf9d434dfa19793d2d7b715f3dc9368b7d446db1d2a8fa384ed",
+      "full": "aip-official-3ff2710dccf65cf9-full.webp",
+      "thumbnail": "aip-official-3ff2710dccf65cf9-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL08",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL08.webp",
+      "sha256": "45d45db043c7f3b9eba839c7cf78b95216b9586a9d279acaade08b74a2ae90a2",
+      "full": "aip-official-45d45db043c7f3b9-full.webp",
+      "thumbnail": "aip-official-45d45db043c7f3b9-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL10",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL10.webp",
+      "sha256": "7e8caf85016b381488034ebf6a2a1be4a573535f3267e47c9964272692bafbf1",
+      "full": "aip-official-7e8caf85016b3814-full.webp",
+      "thumbnail": "aip-official-7e8caf85016b3814-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL15",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL15.webp",
+      "sha256": "63b5edccde4eac1e9e36f7f8d4130d1955de27ab146565361cc9b457cf10d66d",
+      "full": "aip-official-63b5edccde4eac1e-full.webp",
+      "thumbnail": "aip-official-63b5edccde4eac1e-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL16",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL16.webp",
+      "sha256": "5cd52053265d846204ccf05c6173c5437608027c0254d5aeb79dfdb87e2391c7",
+      "full": "aip-official-5cd52053265d8462-full.webp",
+      "thumbnail": "aip-official-5cd52053265d8462-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL17",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL17.webp",
+      "sha256": "dce740ca79b80f2c0b45f09ba7c6c3614dcdf0aaa01cbb36a57266f1553b9834",
+      "full": "aip-official-dce740ca79b80f2c-full.webp",
+      "thumbnail": "aip-official-dce740ca79b80f2c-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL19",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL19.webp",
+      "sha256": "ac8a253955329d275e27542fe14d575f67f0e3a424f204b264eaebf09795c090",
+      "full": "aip-official-ac8a253955329d27-full.webp",
+      "thumbnail": "aip-official-ac8a253955329d27-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL20",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL20.webp",
+      "sha256": "b237e9908ff713e9f2754bb7109c2b0cea1c2b724c2a3575489fba5e3cc60849",
+      "full": "aip-official-b237e9908ff713e9-full.webp",
+      "thumbnail": "aip-official-b237e9908ff713e9-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL21",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL21.webp",
+      "sha256": "e5707da4617c7d7c1da4bedcb353cc2e871f7549acf8070cf0da0083ab696898",
+      "full": "aip-official-e5707da4617c7d7c-full.webp",
+      "thumbnail": "aip-official-e5707da4617c7d7c-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL22",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL22.webp",
+      "sha256": "d40c58ba0ee7cbac7105aa87bdd318a44a62397dab7e19983767c6d3c67e2b15",
+      "full": "aip-official-d40c58ba0ee7cbac-full.webp",
+      "thumbnail": "aip-official-d40c58ba0ee7cbac-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL23",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL23.webp",
+      "sha256": "4c836f943266324e4b740b1b0ca3e2aa2fdeae50a9922f51fd0f56941c842b6c",
+      "full": "aip-official-4c836f943266324e-full.webp",
+      "thumbnail": "aip-official-4c836f943266324e-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "XL24",
+      "url": "https://aipporte.com/wp-content/uploads/2025/07/XL24.webp",
+      "sha256": "3a884a899f879ee184e160856b4545a5c827c8da4bc5429050732f604a0f88bb",
+      "full": "aip-official-3a884a899f879ee1-full.webp",
+      "thumbnail": "aip-official-3a884a899f879ee1-thumbnail.webp",
+      "width": 670,
+      "height": 1322
+    },
+    {
+      "id": "tech-alltech",
+      "url": "https://aipporte.com/wp-content/uploads/2025/02/alltech-e1739356120466.webp",
+      "sha256": "f4ca55e81eed0b50181c46f04c7f15aa88552c348a85ae9c04e2eb7773b20a55",
+      "full": "aip-official-f4ca55e81eed0b50-full.webp",
+      "thumbnail": "aip-official-f4ca55e81eed0b50-thumbnail.webp",
+      "width": 1199,
+      "height": 1388
+    },
+    {
+      "id": "tech-eitech",
+      "url": "https://aipporte.com/wp-content/uploads/2025/02/icona-eitech-e1739355337334.jpg",
+      "sha256": "3f5db62cf45480d443c33d414a317e3a9f4f26de0ffda4d8923cad5297cbe9d5",
+      "full": "aip-official-3f5db62cf45480d4-full.webp",
+      "thumbnail": "aip-official-3f5db62cf45480d4-thumbnail.webp",
+      "width": 1120,
+      "height": 728
+    },
+    {
+      "id": "visioni-canvas",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/canvas3.webp",
+      "sha256": "e5967e33d5a8840473ad28c5a2eabe0276c941a7c627e0c64b51114959886719",
+      "full": "aip-official-e5967e33d5a88404-full.webp",
+      "thumbnail": "aip-official-e5967e33d5a88404-thumbnail.webp",
+      "width": 819,
+      "height": 997
+    },
+    {
+      "id": "visioni-connection",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/connecion.webp",
+      "sha256": "c5ba6a1c1a7121ea575438bcc211ea876671c9b7209fe2b37eef9e844ea134d5",
+      "full": "aip-official-c5ba6a1c1a7121ea-full.webp",
+      "thumbnail": "aip-official-c5ba6a1c1a7121ea-thumbnail.webp",
+      "width": 819,
+      "height": 997
+    },
+    {
+      "id": "visioni-industrial",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/INDUSTRIAL.webp",
+      "sha256": "599fe83d23615ffd0c7d0cc1cac8e8c9915166d19944e07a4132d0c585968368",
+      "full": "aip-official-599fe83d23615ffd-full.webp",
+      "thumbnail": "aip-official-599fe83d23615ffd-thumbnail.webp",
+      "width": 819,
+      "height": 997
+    },
+    {
+      "id": "visioni-materici",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/materici.webp",
+      "sha256": "50ad7faf7fc802219771a7ea2204e39ebd73cc500ba172dff0c652f0f4b9c072",
+      "full": "aip-official-50ad7faf7fc80221-full.webp",
+      "thumbnail": "aip-official-50ad7faf7fc80221-thumbnail.webp",
+      "width": 819,
+      "height": 997
+    },
+    {
+      "id": "visioni-profile",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/profile.webp",
+      "sha256": "7f1af29f6f19c78801526876441ea1ded09380c1e44ced72c1a004dba33f0cdc",
+      "full": "aip-official-7f1af29f6f19c788-full.webp",
+      "thumbnail": "aip-official-7f1af29f6f19c788-thumbnail.webp",
+      "width": 819,
+      "height": 997
+    },
+    {
+      "id": "visioni-wood",
+      "url": "https://aipporte.com/wp-content/uploads/2024/07/wood.webp",
+      "sha256": "c979e8dd285372a3933d25892f7c5ac2c4c25ca0d10be447b590f99b0006654f",
+      "full": "aip-official-c979e8dd285372a3-full.webp",
+      "thumbnail": "aip-official-c979e8dd285372a3-thumbnail.webp",
+      "width": 819,
+      "height": 997
+    }
+  ],
+  "pdfs": [
+    {
+      "id": "Trix",
+      "pages": 184
+    },
+    {
+      "id": "AIP Tech",
+      "pages": 47
+    },
+    {
+      "id": "Visioni",
+      "pages": 212
+    },
+    {
+      "id": "Sololegno",
+      "pages": 247
+    },
+    {
+      "id": "Riquadra",
+      "pages": 20
+    },
+    {
+      "id": "Futura",
+      "pages": 17
+    }
+  ],
+  "errors": []
+}
