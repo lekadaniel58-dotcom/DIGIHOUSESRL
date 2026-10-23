@@ -27,7 +27,7 @@ export default function Catalog() {
   const [visibleCount, setVisibleCount] = useState(24);
   const dep = params.get('reparto') ?? '';
   const partnerId = params.get('partner') ?? '';
-  const collection = params.get('collezione') ?? '';
+  const collection = params.get('collezione') === 'portoncini' ? 'inferriate-persiane' : params.get('collezione') ?? '';
   const series = params.get('serie') ?? '';
   const material = params.get('materiale') ?? '';
   const doorView = params.get('vista') ?? '';

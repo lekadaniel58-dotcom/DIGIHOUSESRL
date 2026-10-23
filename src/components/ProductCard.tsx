@@ -19,6 +19,7 @@ export default function ProductCard({ p }: { p: Product }) {
       <div className="flex flex-1 flex-col gap-1 p-4">
         <h3 className="font-semibold leading-tight">{p.name}</h3>
         {p.smaller_formats?.length ? <p className="text-xs leading-relaxed text-navy/70">Disponibile anche nei formati più piccoli: {p.smaller_formats.join(' · ')}.</p> : null}
+        {p.image_note && <p className="text-xs leading-relaxed text-navy/60">{p.image_note}</p>}
         {p.subtitle && <p className="text-xs text-navy/60">{p.subtitle}</p>}
         {materials.length > 0 && <p className="text-xs text-navy/70">Materiali e finiture: {materials.map(item => item.name).join(' · ')}</p>}
         {code && <p className="text-xs text-navy/50">{code}</p>}
