@@ -1,3 +1,8 @@
+import CatalogSections from '../components/CatalogSections';
+import FittingsNavigation from '../components/FittingsNavigation';
+import WindowNavigation from '../components/WindowNavigation';
+import { catalogSections, getCatalogSection, getProductSection } from '../lib/catalogSections';
+import { getWindowCollection } from '../lib/windowCollections';
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { Search } from 'lucide-react';
@@ -16,7 +21,7 @@ export default function Catalog() {
   const [params, setParams] = useSearchParams();
   const queryFromUrl = params.get('q') ?? '';
   const [q, setQ] = useState(queryFromUrl);
-  useEffect(() => { setQ(queryFromUrl); }, [queryFromUrl]);
+  useEffect(() => { setQ(queryFromUrl); }, [queryFromUrl, params]);
   const [sort, setSort] = useState<Sort>('relevance');
   const [onlyPriced, setOnlyPriced] = useState(false);
   const [visibleCount, setVisibleCount] = useState(24);
@@ -26,24 +31,35 @@ export default function Catalog() {
   const series = params.get('serie') ?? '';
   const material = params.get('materiale') ?? '';
   const doorView = params.get('vista') ?? '';
+  const windowFamily = params.get('famiglia') ?? '';
+  const windowCollection = params.get('sottocategoria') ?? '';
+  const sector = getCatalogSection(dep, partnerId, params.get('settore') ?? '') || (q.trim() ? 'edilizia' : '');
+  const windowScope = dep === 'infissi' || !dep && partnerId === 'sallustio';
+  const sectorInfo = catalogSections.find(s => s.id === sector);
+  const sectorProducts = useMemo(() => products.filter(p => getProductSection(p) === sector), [products, sector]);
+  const sectionDepartments = departments.filter(d => getProductSection({ department_id: d.id }) === sector);
+  const sectionPartners = partners.filter(p => sectorProducts.some(product => product.partner_ids?.includes(p.id)));
+  const browsingFittings = sector === 'serramenti' && !dep && !partnerId && !q.trim();
+  const browsingWindows = windowScope && !windowCollection && !q.trim();
   const doorFamily = getDoorFamily(dep, partnerId);
   const doorScope = dep === 'porte' || !!doorFamily;
   const browsingDoors = doorScope && (!collection || collection === 'moderne' && !series) && !material && !q.trim();
   useEffect(() => {
-    if (doorScope) window.scrollTo({ top: 0, behavior: 'instant' });
-  }, [doorScope, doorFamily, collection, series, material, doorView]);
+    if (doorScope || windowScope || sector) window.scrollTo({ top: 0, behavior: 'instant' });
+  }, [doorScope, doorFamily, collection, series, material, doorView, windowScope, windowFamily, windowCollection, sector]);
   const partner = partners.find(p => p.id === partnerId);
   const updateFilter = (key: string, value: string) => {
     const next = new URLSearchParams(params);
     if (value) next.set(key, value); else next.delete(key);
-    if (key === 'reparto' || key === 'partner') { next.delete('serie'); next.delete('collezione'); next.delete('materiale'); next.delete('vista'); }
+    if (key === 'reparto' || key === 'partner') { next.delete('serie'); next.delete('collezione'); next.delete('materiale'); next.delete('vista'); next.delete('famiglia'); next.delete('sottocategoria'); }
+    if (sector) next.set('settore', sector);
     setParams(next);
   };
-  useEffect(() => { setVisibleCount(24); }, [q, dep, partnerId, collection, series, material, sort, onlyPriced]);
+  useEffect(() => { setVisibleCount(24); }, [q, dep, partnerId, collection, series, material, sort, onlyPriced, sector, windowFamily, windowCollection]);
   const depId = departments.find(d => d.slug === dep)?.id;
 
-  const searchIndex = useMemo(() => products.map(p => createSearchIndex(p,
-    departments.find(d => d.id === p.department_id)?.name ?? '')), [products, departments]);
+  const searchIndex = useMemo(() => sectorProducts.map(p => createSearchIndex(p,
+    departments.find(d => d.id === p.department_id)?.name ?? '')), [sectorProducts, departments]);
   const matching = useMemo(() => {
     const r = searchCatalog(searchIndex, q).map(result => result.product).filter(p =>
       (!partnerId || (partner && p.partner_ids?.includes(partnerId))) &&
@@ -59,22 +75,27 @@ export default function Catalog() {
     return [...r].sort(cmp[sort]);
   }, [searchIndex, q, depId, partnerId, partner, sort, onlyPriced, doorScope, doorFamily]);
   const list = useMemo(() => {
+    if (windowScope) return matching.filter(p =>
+      (!windowFamily || getWindowCollection(p)?.family === windowFamily) &&
+      (!windowCollection || windowCollection === 'tutte' || (windowCollection === 'altre' ? !getWindowCollection(p) : getWindowCollection(p)?.id === windowCollection)));
     if (!doorScope) return matching;
     return matching.filter(product =>
       (!collection || collection === 'tutte' || (collection === 'altre' ? !getDoorCollection(product) : getDoorCollection(product)?.id === collection)) &&
       (!series || product.door_series === series) &&
       (!material || getDoorMaterials(product).some(item => item.id === material)));
-  }, [matching, doorScope, collection, series, material]);
+  }, [matching, doorScope, collection, series, material, windowScope, windowFamily, windowCollection]);
+
+  if (!sector) return <div className="mx-auto max-w-7xl px-4 py-10"><h1 className="mb-6 font-display text-3xl">Catalogo</h1><CatalogSections /></div>;
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">
-      <h1 className="font-display text-3xl mb-6">{doorScope ? `Porte${partner ? ` · ${partner.name}` : ''}` : partner ? `Catalogo · ${partner.name}` : 'Catalogo'}</h1>
+      <CatalogSections selected={sector} />
+      <h1 className="font-display text-3xl mb-6">{doorScope ? `Porte${partner ? ` · ${partner.name}` : ''}` : partner ? `Catalogo · ${partner.name}` : windowScope ? 'Finestre e infissi' : sectorInfo?.name ?? 'Catalogo'}</h1>
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-white p-4 ring-1 ring-navy/10">
         <p className="text-sm text-navy/80">I prezzi visualizzati sono riservati ai privati. Sei un’impresa? Richiedi le condizioni dedicate.</p>
         <Link to="/imprese" className="rounded-full bg-navy px-5 py-2 text-sm font-semibold text-white hover:bg-navy/90">Iscrivi la tua impresa</Link>
       </div>
       {partner && <p className="mb-4 text-sm text-navy/70">Stai visualizzando solo i prodotti {partner.name}. <button type="button" onClick={() => updateFilter('partner', '')} className="underline">Mostra tutti i partner</button></p>}
-      {!dep && !partnerId && !q.trim() && <Link to="/catalogo?reparto=porte" className="mb-6 flex flex-wrap items-center justify-between gap-2 rounded-2xl bg-navy p-5 text-white"><span><strong>Stai cercando una porta?</strong><span className="mt-1 block text-sm text-white/70">Esplora famiglie, collezioni e modelli.</span></span><span className="font-semibold text-gold">Scopri le porte →</span></Link>}
       <div className="mb-6 flex flex-wrap items-center gap-3">
         <label className="relative w-full flex-none sm:w-auto sm:flex-1 min-w-0 sm:min-w-[220px]">
           <span className="sr-only">Cerca prodotto</span>
@@ -83,19 +104,21 @@ export default function Catalog() {
             className="w-full rounded-full bg-white py-3 pl-10 pr-4 ring-1 ring-navy/10 focus:ring-gold" />
         </label>
         <select aria-label="Reparto" value={dep} onChange={e => updateFilter('reparto', e.target.value)} className="rounded-full bg-white px-4 py-3 ring-1 ring-navy/10">
-          <option value="">Tutti i reparti</option><option value="porte">Porte · tutte le famiglie</option>{departments.map(d => <option key={d.id} value={d.slug}>{d.name}</option>)}
+          <option value="">Tutti i reparti di questo catalogo</option>{sector === 'serramenti' && <option value="porte">Porte · tutte le famiglie</option>}{sectionDepartments.map(d => <option key={d.id} value={d.slug}>{d.name}</option>)}
         </select>
         <select aria-label="Partner" value={partnerId} onChange={e => updateFilter('partner', e.target.value)} className="max-w-full rounded-full bg-white px-4 py-3 ring-1 ring-navy/10">
-          <option value="">Tutti i partner</option>{partners.map(p => <option key={p.id} value={p.id}>{p.name}</option>)}
+          <option value="">Tutti i partner</option>{sectionPartners.map(p => <option key={p.id} value={p.id}>{p.name}</option>)}
         </select>
         <select aria-label="Ordina" value={sort} onChange={e => setSort(e.target.value as Sort)} className="rounded-full bg-white px-4 py-3 ring-1 ring-navy/10">
           <option value="relevance">Più pertinenti</option><option value="name">Nome A-Z</option><option value="price-asc">Prezzo crescente</option><option value="price-desc">Prezzo decrescente</option>
         </select>
         <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={onlyPriced} onChange={e => setOnlyPriced(e.target.checked)} />Solo con prezzo</label>
       </div>
+      {!loading && !error && browsingFittings && <FittingsNavigation products={matching} />}
+      {!loading && !error && windowScope && <WindowNavigation products={matching} params={params} browsing={browsingWindows} />}
       {doorScope && !loading && !error && <DoorNavigation products={matching} family={doorFamily} collection={collection} params={params} browsing={browsingDoors} />}
       {loading ? <p>Caricamento…</p> : error ? <p role="alert" className="text-red-700">Errore: {error}</p> :
-        browsingDoors ? null : list.length === 0 ? <p>Nessun prodotto trovato. Prova a descrivere l’uso o il materiale, oppure modifica i filtri di reparto e partner.</p> :
+        browsingDoors || browsingWindows || browsingFittings ? null : list.length === 0 ? <p>Nessun prodotto trovato. Prova a descrivere l’uso o il materiale, oppure modifica i filtri di reparto e partner.</p> :
         <>
           <p role="status" className="mb-4 text-sm text-navy/60">{list.length} {list.length === 1 ? 'prodotto' : 'prodotti'} · {Math.min(visibleCount, list.length)} visualizzati</p>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">{list.slice(0, visibleCount).map(p => <ProductCard key={p.id} p={p} />)}</div>

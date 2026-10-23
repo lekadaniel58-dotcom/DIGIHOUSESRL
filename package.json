@@ -13,7 +13,8 @@
     "check:search": "node scripts/check-catalog-search.mjs",
     "check:catalog": "node scripts/check-catalog-categories.mjs",
     "check:bucket-formats": "node scripts/check-bucket-formats.mjs",
-    "check:doors": "node scripts/check-door-collections.mjs"
+    "check:doors": "node scripts/check-door-collections.mjs",
+    "check:sections": "node scripts/check-catalog-sections.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",

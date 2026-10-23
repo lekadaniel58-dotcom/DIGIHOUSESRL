@@ -1,4 +1,3 @@
-import aipCatalogs from '../data/aipCatalogs.json';
 import DoorSeriesNavigation from './DoorSeriesNavigation';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronRight, DoorClosed } from 'lucide-react';
@@ -43,7 +42,6 @@ export default function DoorNavigation({ products, family, collection, params, b
       <Link to={href(family)} aria-current="page" className="rounded-full bg-navy px-5 py-3 text-white">Per collezione</Link>
       <Link to={`/catalogo?${materialParams}`} className="rounded-full bg-white px-5 py-3 ring-1 ring-navy/10">Per materiale e finitura</Link>
     </nav>}
-    {family === 'porte-interne' && !collection && <details className="mb-6 rounded-2xl bg-white p-5 ring-1 ring-navy/10"><summary className="cursor-pointer font-semibold">Cataloghi completi AIP: tutte le finiture e le configurazioni</summary><p className="mt-3 text-sm text-navy/70">Consulta anche le collezioni Futura e Riquadra e gli aggiornamenti del catalogo Trix 2026.</p><div className="mt-4 flex flex-wrap gap-3">{aipCatalogs.map(c => <a key={c.name} href={c.url} target="_blank" rel="noopener noreferrer" className="rounded-full bg-navy px-4 py-2 text-sm text-white">{c.name} · PDF ↗</a>)}</div></details>}
     {browsing ? <>
       <div className="mb-6 flex flex-wrap items-end justify-between gap-4 rounded-3xl bg-navy p-6 text-white md:p-8">
         <div><p className="text-xs font-semibold uppercase tracking-widest text-gold">Collezioni DIGI HOUSE</p>

@@ -9,7 +9,6 @@ export const doorCollections = [
   { id: 'moderne', family: 'porte-interne', name: 'Trix · porte moderne', match: 'porte moderne', text: 'Geometrie contemporanee, superfici e dettagli di carattere.', cover: 'Grafix' },
   { id: 'legno', family: 'porte-interne', name: 'Sololegno · porte in legno', match: 'porte in legno', text: 'Venature, finiture e lavorazioni per dare personalità agli interni.', cover: 'Essenza' },
   { id: 'vetro', family: 'porte-interne', name: 'Visioni · porte in vetro', match: 'porte in vetro', text: 'Trasparenze e soluzioni che lasciano spazio alla luce.', cover: 'Athena' },
-  { id: 'aip-tech', family: 'porte-interne', name: 'AIP Tech', match: 'aip tech', text: 'Porte tecniche e soluzioni per ambienti professionali.', cover: 'AllTech' },
   { id: 'high-tech', family: 'porte-blindate', name: 'High-tech', match: 'high-tech', text: 'Le soluzioni della gamma dedicata alla sicurezza connessa.', cover: 'hibry5' },
   { id: 'prestige', family: 'porte-blindate', name: 'Prestige', match: 'prestige', text: 'La collezione di porte blindate di alta gamma.', cover: 'Sleek' },
   { id: 'compact', family: 'porte-blindate', name: 'Compact', match: 'compact', text: 'La gamma di porte blindate compatte e accessibili.', cover: 'Tablet' },

@@ -1,5 +1,9 @@
 # Importazione porte interne AIP
 
+Aggiornamento: su richiesta rimossi AIP Tech e i collegamenti esterni AIP.
+Le schede attive sono ora 92. La descrizione seguente documenta l’importazione
+originaria; per la struttura attuale vedere `catalog-sections.md`.
+
 Fonte: aipporte.com, pagine pubbliche e area download consultate il 23 ottobre 2026.
 Inventario delle 78 proposte nominate nelle pagine: `aip-model-inventory.json`.
 

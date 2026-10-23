@@ -9,13 +9,13 @@ import SafeImg from '../components/SafeImg';
 import CountUp from '../components/CountUp';
 import PromoCarousel from '../components/PromoCarousel';
 
-interface Card { slug: string; title: string; text: string; Icon: LucideIcon }
+interface Card { slug: string; family?: string; title: string; text: string; Icon: LucideIcon }
 
 const serramenti: Card[] = [
   { slug: 'porte-interne', title: 'Porte interne', text: 'Scorrevoli, battenti, rasomuro e vetrate: soluzioni per arredare gli ambienti con stile e personalità.', Icon: DoorClosed },
-  { slug: 'infissi', title: 'Finestre e infissi', text: 'Alluminio, PVC e sistemi compositi per luce naturale, isolamento e comfort abitativo.', Icon: Square },
+  { slug: 'infissi', family: 'finestre', title: 'Finestre e infissi', text: 'Alluminio, PVC e sistemi compositi per luce naturale, isolamento e comfort abitativo.', Icon: Square },
   { slug: 'porte-blindate', title: 'Porte blindate e portoncini', text: 'Sicurezza, tecnologia, isolamento e finiture personalizzabili per l’ingresso di casa.', Icon: ShieldCheck },
-  { slug: 'infissi', title: 'Persiane e scuri', text: 'Protezione solare, privacy e carattere architettonico: scegli la soluzione adatta alla facciata.', Icon: Shield },
+  { slug: 'infissi', family: 'persiane', title: 'Persiane e scuri', text: 'Protezione solare, privacy e carattere architettonico: scegli la soluzione adatta alla facciata.', Icon: Shield },
 ];
 const comfort: Card[] = [
   { slug: 'avvolgibili-e-tapparelle', title: 'Avvolgibili', text: 'Schermatura, privacy e sicurezza.', Icon: AlignJustify },
@@ -46,7 +46,7 @@ function DeptCard({ c, i, big = false }: { c: Card; i: number; big?: boolean }) 
   return (
     <div>
       <Tilt className="h-full rounded-2xl">
-        <Link to={`/catalogo?reparto=${c.slug}`} className={`group relative flex h-full flex-col overflow-hidden rounded-2xl bg-white p-6 ring-1 ring-navy/5 transition-colors duration-300 hover:bg-navy hover:text-white ${big ? 'min-h-[220px]' : 'min-h-[170px]'}`}>
+        <Link to={`/catalogo?reparto=${c.slug}${c.family ? `&famiglia=${c.family}` : ''}`} className={`group relative flex h-full flex-col overflow-hidden rounded-2xl bg-white p-6 ring-1 ring-navy/5 transition-colors duration-300 hover:bg-navy hover:text-white ${big ? 'min-h-[220px]' : 'min-h-[170px]'}`}>
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">Reparto / {String(i + 1).padStart(2, '0')}</span>
           <c.Icon className="mt-4 text-gold transition duration-300 group-hover:-rotate-6 group-hover:scale-125" size={30} />
           <h3 className="mt-3 text-xl font-semibold">{c.title}</h3>

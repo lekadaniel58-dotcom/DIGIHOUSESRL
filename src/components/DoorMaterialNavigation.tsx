@@ -30,7 +30,7 @@ export default function DoorMaterialNavigation({ products, params, browsing }: {
     {browsing ? <>
       <div className="mb-6 rounded-3xl bg-navy p-6 text-white md:p-8"><p className="text-xs font-semibold uppercase tracking-widest text-gold">Porte interne</p><h2 className="mt-2 font-display text-3xl">Scegli materiali e finiture.</h2><p className="mt-3 max-w-2xl text-sm text-white/75">Esplora il legno, le parti in vetro e le finiture laccate. Un modello può comparire in più selezioni quando combina materiali differenti.</p></div>
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        {doorMaterials.map(item => {
+        {doorMaterials.filter(item => products.some(p => getDoorMaterials(p).some(m => m.id === item.id))).map(item => {
           const models = products.filter(product => getDoorMaterials(product).some(m => m.id === item.id));
           const cover = models.find(product => product.name === item.cover) ?? models[0];
           const unverified = models.length === 0;

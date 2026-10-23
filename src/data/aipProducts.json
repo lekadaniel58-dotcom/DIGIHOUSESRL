@@ -1898,53 +1898,5 @@
     ],
     "source_url": "https://aipporte.com/porte-interne-in-vetro/",
     "source_image_url": "https://aipporte.com/wp-content/uploads/2024/07/INDUSTRIAL.webp"
-  },
-  {
-    "id": "aip-tech-eitech",
-    "sku": "",
-    "slug": "aip-tech-eitech",
-    "name": "EiTech",
-    "subtitle": "AIP · AIP Tech",
-    "description": "Porta tecnica della gamma AIP Tech. Configurazione e prestazioni antincendio da verificare in fase di preventivo.",
-    "department_id": "porte-interne",
-    "price": null,
-    "images": [
-      "aip-official-3f5db62cf45480d4-full.webp"
-    ],
-    "thumbnail": "aip-official-3f5db62cf45480d4-thumbnail.webp",
-    "partner_ids": [
-      "aip"
-    ],
-    "is_featured": false,
-    "door_collection": "aip-tech",
-    "door_series": null,
-    "door_materials": [],
-    "source_url": "https://aipporte.com/porte-rei/",
-    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/02/icona-eitech-e1739355337334.jpg"
-  },
-  {
-    "id": "aip-tech-alltech",
-    "sku": "",
-    "slug": "aip-tech-alltech",
-    "name": "AllTech",
-    "subtitle": "AIP · AIP Tech",
-    "description": "Porta tecnica con telaio in alluminio e pannello rivestito in laminato HPL.",
-    "department_id": "porte-interne",
-    "price": null,
-    "images": [
-      "aip-official-f4ca55e81eed0b50-full.webp"
-    ],
-    "thumbnail": "aip-official-f4ca55e81eed0b50-thumbnail.webp",
-    "partner_ids": [
-      "aip"
-    ],
-    "is_featured": false,
-    "door_collection": "aip-tech",
-    "door_series": null,
-    "door_materials": [
-      "laminato"
-    ],
-    "source_url": "https://aipporte.com/porte-rei/",
-    "source_image_url": "https://aipporte.com/wp-content/uploads/2025/02/alltech-e1739356120466.webp"
   }
 ]
