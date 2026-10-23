@@ -18,7 +18,7 @@ for (const partner of partners) {
   if (partner.logo && !['muratti', 'hex'].includes(partner.id)) assert(fs.existsSync(new URL(`../public${partner.logo}`, import.meta.url)));
   // The two original logos are downloaded and signature-checked before publication.
 }
-const expectedCounts = { ivc: 8, muratti: 3, hex: 5, aip: 24, dierre: 21, sallustio: 32, zanzar: 71, opera: 24, premier: 10 };
+const expectedCounts = { ivc: 14, muratti: 3, hex: 7, aip: 24, dierre: 21, sallustio: 32, zanzar: 71, opera: 24, premier: 10 };
 for (const [id, count] of Object.entries(expectedCounts)) assert.equal(products.filter(p => p.partner_ids.includes(id)).length, count, id);
 assert(!getPartnerIds('KT PLUS BIANCA', 'adesivi-e-sigillanti').includes('opera'));
 assert(!getPartnerIds('SILICONE ACETICO FISCHER', 'adesivi-e-sigillanti').includes('opera'));
@@ -40,5 +40,16 @@ for (const name of ['FERRHEX COMPONENTE A', 'FERRHEX COMPONENTE B']) {
   const product = products.find(p => p.name === name);
   assert(product, name);
   assert(product.partner_ids.includes('hex'), `${name}: presente sotto HEX`);
-  assert(product.partner_ids.includes('ivc'), `${name}: presente sotto IVC`);
+  assert(!product.partner_ids.includes('ivc'), `${name}: non duplicato sotto IVC`);
 }
+for (const product of products) {
+  assert(product.partner_ids.length <= 1, `${product.name}: più partner assegnati`);
+  if (/\b[a-z0-9]*hex\b/i.test(product.name)) assert.deepEqual(product.partner_ids, ['hex']);
+  if (product.partner_ids.includes('ivc')) assert(!/\b[a-z0-9]*hex\b/i.test(product.name));
+}
+for (const name of ['MALTHEX', 'FLEXOCOTE', 'ACRIL-SILOSSANICO']) {
+  assert.deepEqual(getPartnerIds(name, 'materiali-edili'), ['hex'], name);
+}
+assert.deepEqual(getPartnerIds('NUOVOHEX 25 KG', 'materiali-edili'), ['hex']);
+assert.deepEqual(getPartnerIds('THERMORIFLEX IR', 'pitture-e-decorazioni'), ['ivc']);
+assert.deepEqual(getPartnerIds('SILICONE ACETICO FISCHER', 'adesivi-e-sigillanti'), []);

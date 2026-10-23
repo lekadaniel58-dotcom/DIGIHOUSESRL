@@ -5,13 +5,17 @@
     "logo": "/assets/fornitori/ivc-logo.png",
     "departments": [],
     "productNames": [
-      "FERRHEX COMPONENTE A",
-      "FERRHEX COMPONENTE B",
+      "D800",
+      "D900",
       "FISSATIVO ACRILICO",
-      "FLEXOCOTE",
-      "RASHEX K8 BIANCO",
-      "RASHEX K8 GRIGIO",
-      "TRX"
+      "TRX",
+      "X-ONE",
+      "THERMORIFLEX IR",
+      "THERMOPAINT",
+      "SILOPITTURA",
+      "PRISMA",
+      "SILOGRUND",
+      "UNIFORMA"
     ]
   },
   {
@@ -35,7 +39,9 @@
       "FERRHEX COMPONENTE B",
       "RASHEX K8 BIANCO",
       "RASHEX K8 GRIGIO",
-      "FLEXOCOTE"
+      "MALTHEX",
+      "FLEXOCOTE",
+      "ACRIL-SILOSSANICO"
     ]
   },
   {
