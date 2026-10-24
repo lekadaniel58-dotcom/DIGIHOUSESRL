@@ -3,7 +3,16 @@
     "key": "catalogo-scorrevoli_2026-bc4397",
     "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
     "kind": "pdf",
-    "page_source": "page-scorrevoli-complanari-alluminio.html"
+    "page_source": "page-scorrevoli-complanari-alluminio.html",
+    "inspect_pages": [
+      11
+    ],
+    "extracts": [
+      {
+        "key": "review-ecos-tavola",
+        "page": 11
+      }
+    ]
   },
   {
     "key": "leaflet-alluminio-new_2026-2c3e86",
@@ -27,7 +36,21 @@
     "key": "catalogo-nova-thermicx_2026_-20b603",
     "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/06/Catalogo-Nova-ThermicX_2026_.pdf",
     "kind": "pdf",
-    "page_source": "page-finestre-finestre-legno.html"
+    "page_source": "page-finestre-finestre-legno.html",
+    "inspect_pages": [
+      14,
+      16
+    ],
+    "extracts": [
+      {
+        "key": "review-nova",
+        "page": 14
+      },
+      {
+        "key": "review-thermic",
+        "page": 16
+      }
+    ]
   },
   {
     "key": "catalogo-metropolis-forma_-2026-e2be15",
@@ -66,15 +89,210 @@
     "page_source": "page-cataloghi-fossati-serramenti.html"
   },
   {
-    "key": "catalogo-nova-thermicx_2026-463dbb",
-    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Nova-ThermicX_2026.pdf",
-    "kind": "pdf",
-    "page_source": "page-gf-1920-wood-philosophy.html"
-  },
-  {
     "key": "catalogo-scorrevoli_2026-8569e6",
     "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Scorrevoli_2026.pdf",
     "kind": "pdf",
     "page_source": "page-cataloghi-fossati-serramenti.html"
+  },
+  {
+    "key": "icon",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-pvc-icon-centenario-finestra-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/pvc/icon/",
+    "image_alt": "brand-pvc-icon-centenario-finestra-600x600-gallery1"
+  },
+  {
+    "key": "linea76",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-pvc-linea76-finestra-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "image_alt": "brand-pvc-linea76-finestra-600x600-gallery1"
+  },
+  {
+    "key": "vision76",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-pvc-vision76-finestra-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/pvc/vision76/",
+    "image_alt": "brand-pvc-vision76-finestra-600x600-gallery1"
+  },
+  {
+    "key": "solaris",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/09/08-Solaris_prodotto_6.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/pvc/solaris/",
+    "image_alt": "08-Solaris_prodotto_6"
+  },
+  {
+    "key": "metropolis-battente",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/Brand-ALL-Metropolis-Finestra-600x600-Gallery2.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/metropolis/",
+    "image_alt": "Brand-ALL-Metropolis-Finestra-600x600-Gallery2"
+  },
+  {
+    "key": "forma",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/12/Forma-ferromicaceo.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/forma/",
+    "image_alt": "Forma-ferromicaceo"
+  },
+  {
+    "key": "ishape",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/01_-iShape-F_Coal-Mica-scaled.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/ishape/",
+    "image_alt": "01_-iShape-F_Coal-Mica"
+  },
+  {
+    "key": "iline",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/02_-iLine-F_RAL-8019-ruvido-scaled.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/iline/",
+    "image_alt": "02_-iLine-F_RAL-8019-ruvido"
+  },
+  {
+    "key": "iframe",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/03_-iFrame-F_RAL-7035-ruvido-scaled.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/iframe/",
+    "image_alt": "03_-iFrame-F_RAL-7035-ruvido"
+  },
+  {
+    "key": "inluce",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/04_InLuce-alzante-scorrevole_RAL-7001-ruvido_OK-768x538.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/inluce/",
+    "image_alt": "04_InLuce-alzante-scorrevole_RAL-7001-ruvido_OK"
+  },
+  {
+    "key": "velis",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/05_-Velis-con-soglia-a-scomparsa_Ruggine-scuro-768x538.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/velis/",
+    "image_alt": "05_-Velis-con-soglia-a-scomparsa_Ruggine-scuro"
+  },
+  {
+    "key": "meridiana82",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": ""
+  },
+  {
+    "key": "meridiana-zero",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82Zero.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": ""
+  },
+  {
+    "key": "meridiana-zero-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82-PlusZero.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": ""
+  },
+  {
+    "key": "meridiana82-alu",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82-Alu.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": ""
+  },
+  {
+    "key": "meridiana82-alu-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82-Alu-Plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": ""
+  },
+  {
+    "key": "metropolis-alzante",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Metropolis.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_alt": ""
+  },
+  {
+    "key": "metropolis-alzante-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Metropolis-plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_alt": ""
+  },
+  {
+    "key": "metropolis-alzante-slim",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-metropolis-slim.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_alt": ""
+  },
+  {
+    "key": "metropolis-alzante-slim-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-metropolis-slim-plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_alt": ""
+  },
+  {
+    "key": "thermicx-alzante",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Thermic.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": ""
+  },
+  {
+    "key": "thermicx-alzante-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Thermic-Plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": ""
+  },
+  {
+    "key": "thermicx-alzante-zero",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Thermic-Zero.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": ""
+  },
+  {
+    "key": "thermicx-alzante-zero-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Thermic-Zero-Plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": ""
+  },
+  {
+    "key": "nova-alzante",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-legn_all-thermic-alzanti-scorr.-600x600-gallery4.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": "brand-legn_all-thermic-alzanti-scorr.-600x600-gallery4"
+  },
+  {
+    "key": "complanare-pvc",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-pvc-scorr.-compla.-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/complanari/pvc/",
+    "image_alt": "brand-pvc-scorr.-compla.-600x600-gallery1"
+  },
+  {
+    "key": "complanare-alluminio",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-all-scorr.-compla.-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/complanari/alluminio/",
+    "image_alt": "brand-all-scorr.-compla.-600x600-gallery1"
+  },
+  {
+    "key": "mediterraneo",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/08/Mediterraneo-Zenitale_RAL-7016-2025.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/leggeri/mediterraneo/",
+    "image_alt": "Mediterraneo-Zenitale_RAL-7016-2025"
+  },
+  {
+    "key": "fossati-logo",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/11/Logo-Fossati-2024-NEW_Blacktricolore.png",
+    "kind": "image"
   }
 ]
