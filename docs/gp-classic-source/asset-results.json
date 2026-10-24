@@ -3071,5 +3071,15 @@
     "height": 632,
     "full": "gp-wood-8e495a781cd5bbb3-full.webp",
     "thumbnail": "gp-wood-8e495a781cd5bbb3-thumbnail.webp"
+  },
+  {
+    "kind": "image",
+    "key": "web-253",
+    "url": "https://gp-porte.it/wp-content/uploads/2020/10/Mod_FLAT-09V_Frassino.jpg",
+    "sha256": "873bb4dcbb57df4d84a5517423c13cd857613e411153938665e7d90b806be4d0",
+    "width": 280,
+    "height": 632,
+    "full": "gp-wood-873bb4dcbb57df4d-full.webp",
+    "thumbnail": "gp-wood-873bb4dcbb57df4d-thumbnail.webp"
   }
 ]
