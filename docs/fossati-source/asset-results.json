@@ -4,9 +4,22 @@
     "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
     "kind": "pdf",
     "page_source": "page-scorrevoli-complanari-alluminio.html",
+    "inspect_pages": [
+      11
+    ],
+    "extracts": [
+      {
+        "key": "review-ecos-tavola",
+        "page": 11,
+        "sha256": "0d8854bff934f4ce9f20d1cde70689d04b38715020949a54cf7261eca8906ab7",
+        "width": 1012,
+        "height": 1432,
+        "full": "fossati-official-0d8854bff934f4ce-full.webp",
+        "thumbnail": "fossati-official-0d8854bff934f4ce-thumbnail.webp"
+      }
+    ],
     "sha256": "b13f1a12f02d08f36be238745c877d7debf865fbb4625d8d844bef3f59727ad3",
-    "pages": 32,
-    "extracts": []
+    "pages": 32
   },
   {
     "key": "leaflet-alluminio-new_2026-2c3e86",
@@ -40,9 +53,32 @@
     "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/06/Catalogo-Nova-ThermicX_2026_.pdf",
     "kind": "pdf",
     "page_source": "page-finestre-finestre-legno.html",
+    "inspect_pages": [
+      14,
+      16
+    ],
+    "extracts": [
+      {
+        "key": "review-nova",
+        "page": 14,
+        "sha256": "0f3f2408446c37b986a9af1b430b0c9d3718a7c437a09f0a3da7ff9e6d208bdb",
+        "width": 1012,
+        "height": 1432,
+        "full": "fossati-official-0f3f2408446c37b9-full.webp",
+        "thumbnail": "fossati-official-0f3f2408446c37b9-thumbnail.webp"
+      },
+      {
+        "key": "review-thermic",
+        "page": 16,
+        "sha256": "2bbee955d58de5c352b6cba08b0855009d9d88a0ede8268e1d59584e0a308a04",
+        "width": 1012,
+        "height": 1432,
+        "full": "fossati-official-2bbee955d58de5c3-full.webp",
+        "thumbnail": "fossati-official-2bbee955d58de5c3-thumbnail.webp"
+      }
+    ],
     "sha256": "8bd213e1d4d8ce67bfc5d36b58a578f772539f204da00f24c6f3fa84d5153616",
-    "pages": 24,
-    "extracts": []
+    "pages": 24
   },
   {
     "key": "catalogo-metropolis-forma_-2026-e2be15",
@@ -99,13 +135,6 @@
     "extracts": []
   },
   {
-    "key": "catalogo-nova-thermicx_2026-463dbb",
-    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Nova-ThermicX_2026.pdf",
-    "kind": "pdf",
-    "page_source": "page-gf-1920-wood-philosophy.html",
-    "error": "HTTP Error 404: Not Found"
-  },
-  {
     "key": "catalogo-scorrevoli_2026-8569e6",
     "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Scorrevoli_2026.pdf",
     "kind": "pdf",
@@ -113,5 +142,351 @@
     "sha256": "0b41828c0f22f2c21cd805573d21e05a0c7894c177f81ae2c132ee0424a172af",
     "pages": 32,
     "extracts": []
+  },
+  {
+    "key": "icon",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-pvc-icon-centenario-finestra-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/pvc/icon/",
+    "image_alt": "brand-pvc-icon-centenario-finestra-600x600-gallery1",
+    "sha256": "c5e103f20320312d11d9782c5b8d1387bab807067b96dd3dd8c422557681b963",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-c5e103f20320312d-full.webp",
+    "thumbnail": "fossati-official-c5e103f20320312d-thumbnail.webp"
+  },
+  {
+    "key": "linea76",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-pvc-linea76-finestra-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "image_alt": "brand-pvc-linea76-finestra-600x600-gallery1",
+    "sha256": "55286891f017d5035a705b90adea77f6688f531e2ad9c956b5d42aa18536a790",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-55286891f017d503-full.webp",
+    "thumbnail": "fossati-official-55286891f017d503-thumbnail.webp"
+  },
+  {
+    "key": "vision76",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-pvc-vision76-finestra-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/pvc/vision76/",
+    "image_alt": "brand-pvc-vision76-finestra-600x600-gallery1",
+    "sha256": "312c4e4f14e70263b6125364c06a5007e0f8132f2cb5cca279fde2f0b8656276",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-312c4e4f14e70263-full.webp",
+    "thumbnail": "fossati-official-312c4e4f14e70263-thumbnail.webp"
+  },
+  {
+    "key": "solaris",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/09/08-Solaris_prodotto_6.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/pvc/solaris/",
+    "image_alt": "08-Solaris_prodotto_6",
+    "sha256": "f95974a0847e3668fa5c8b1082b180d59faa0ec8e5a1f1ef9f53f4e5024781c9",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-f95974a0847e3668-full.webp",
+    "thumbnail": "fossati-official-f95974a0847e3668-thumbnail.webp"
+  },
+  {
+    "key": "metropolis-battente",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/Brand-ALL-Metropolis-Finestra-600x600-Gallery2.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/metropolis/",
+    "image_alt": "Brand-ALL-Metropolis-Finestra-600x600-Gallery2",
+    "sha256": "8e282c229a240d6a82b073c59369bbcbaeac86cf3296ff1163eb43dabfb65b48",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-8e282c229a240d6a-full.webp",
+    "thumbnail": "fossati-official-8e282c229a240d6a-thumbnail.webp"
+  },
+  {
+    "key": "forma",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/12/Forma-ferromicaceo.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/forma/",
+    "image_alt": "Forma-ferromicaceo",
+    "sha256": "e2e018665354df56f73101225afed23198968fb948b9f932b8c2c083c2645f49",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-e2e018665354df56-full.webp",
+    "thumbnail": "fossati-official-e2e018665354df56-thumbnail.webp"
+  },
+  {
+    "key": "ishape",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/01_-iShape-F_Coal-Mica-scaled.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/ishape/",
+    "image_alt": "01_-iShape-F_Coal-Mica",
+    "sha256": "899bf8f5264dfcfbb2408e4c1d453bb9d4c1fcc3d1d5257f28503eb84bf85761",
+    "width": 2560,
+    "height": 2560,
+    "full": "fossati-official-899bf8f5264dfcfb-full.webp",
+    "thumbnail": "fossati-official-899bf8f5264dfcfb-thumbnail.webp"
+  },
+  {
+    "key": "iline",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/02_-iLine-F_RAL-8019-ruvido-scaled.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/iline/",
+    "image_alt": "02_-iLine-F_RAL-8019-ruvido",
+    "sha256": "d43700ca4924ccb51aeb339f82b7e52907d7eacc1cc6c1e65bb2957481442dbe",
+    "width": 2560,
+    "height": 2560,
+    "full": "fossati-official-d43700ca4924ccb5-full.webp",
+    "thumbnail": "fossati-official-d43700ca4924ccb5-thumbnail.webp"
+  },
+  {
+    "key": "iframe",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/03_-iFrame-F_RAL-7035-ruvido-scaled.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/finestre/alluminio/iframe/",
+    "image_alt": "03_-iFrame-F_RAL-7035-ruvido",
+    "sha256": "655b1285b834c138f69b02cd2a166346a3e001ac0c3db991ba68d75c89a5f491",
+    "width": 2560,
+    "height": 2560,
+    "full": "fossati-official-655b1285b834c138-full.webp",
+    "thumbnail": "fossati-official-655b1285b834c138-thumbnail.webp"
+  },
+  {
+    "key": "inluce",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/04_InLuce-alzante-scorrevole_RAL-7001-ruvido_OK-768x538.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/inluce/",
+    "image_alt": "04_InLuce-alzante-scorrevole_RAL-7001-ruvido_OK",
+    "sha256": "c5de400a34de77e8eb98ffd475946b11dd4b490e6bd6f74339e855a6b2821cd6",
+    "width": 768,
+    "height": 538,
+    "full": "fossati-official-c5de400a34de77e8-full.webp",
+    "thumbnail": "fossati-official-c5de400a34de77e8-thumbnail.webp"
+  },
+  {
+    "key": "velis",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/11/05_-Velis-con-soglia-a-scomparsa_Ruggine-scuro-768x538.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/velis/",
+    "image_alt": "05_-Velis-con-soglia-a-scomparsa_Ruggine-scuro",
+    "sha256": "6d7dd3820246ee7a5899e6cf79b8bc06774955dc19b3619f46221b654ccfe216",
+    "width": 768,
+    "height": 538,
+    "full": "fossati-official-6d7dd3820246ee7a-full.webp",
+    "thumbnail": "fossati-official-6d7dd3820246ee7a-thumbnail.webp"
+  },
+  {
+    "key": "meridiana82",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": "",
+    "sha256": "04dcee2769c71758cd9c162bc797ad092597446c6f3f34ece7b1fd8c2f538770",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-04dcee2769c71758-full.webp",
+    "thumbnail": "fossati-official-04dcee2769c71758-thumbnail.webp"
+  },
+  {
+    "key": "meridiana-zero",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82Zero.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": "",
+    "sha256": "9e72e28560b48aa60f88b1823588a595e6866808cfd2db212f6d15bf3e8f20d4",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-9e72e28560b48aa6-full.webp",
+    "thumbnail": "fossati-official-9e72e28560b48aa6-thumbnail.webp"
+  },
+  {
+    "key": "meridiana-zero-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82-PlusZero.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": "",
+    "sha256": "9e72e28560b48aa60f88b1823588a595e6866808cfd2db212f6d15bf3e8f20d4",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-9e72e28560b48aa6-full.webp",
+    "thumbnail": "fossati-official-9e72e28560b48aa6-thumbnail.webp"
+  },
+  {
+    "key": "meridiana82-alu",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82-Alu.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": "",
+    "sha256": "04dcee2769c71758cd9c162bc797ad092597446c6f3f34ece7b1fd8c2f538770",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-04dcee2769c71758-full.webp",
+    "thumbnail": "fossati-official-04dcee2769c71758-thumbnail.webp"
+  },
+  {
+    "key": "meridiana82-alu-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Meridiana82-Alu-Plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_alt": "",
+    "sha256": "04dcee2769c71758cd9c162bc797ad092597446c6f3f34ece7b1fd8c2f538770",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-04dcee2769c71758-full.webp",
+    "thumbnail": "fossati-official-04dcee2769c71758-thumbnail.webp"
+  },
+  {
+    "key": "metropolis-alzante",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Metropolis.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_alt": "",
+    "sha256": "9faa7fa6a12499c0332de8aa5b709a39d97574081c883c76a78a776c457462a1",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-9faa7fa6a12499c0-full.webp",
+    "thumbnail": "fossati-official-9faa7fa6a12499c0-thumbnail.webp"
+  },
+  {
+    "key": "metropolis-alzante-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Metropolis-plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_alt": "",
+    "sha256": "9faa7fa6a12499c0332de8aa5b709a39d97574081c883c76a78a776c457462a1",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-9faa7fa6a12499c0-full.webp",
+    "thumbnail": "fossati-official-9faa7fa6a12499c0-thumbnail.webp"
+  },
+  {
+    "key": "metropolis-alzante-slim",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-metropolis-slim.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_alt": "",
+    "sha256": "03acace32cc58f45b465c18be94c53fac52279998154096f4520deedb4e3e2eb",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-03acace32cc58f45-full.webp",
+    "thumbnail": "fossati-official-03acace32cc58f45-thumbnail.webp"
+  },
+  {
+    "key": "metropolis-alzante-slim-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-metropolis-slim-plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_alt": "",
+    "sha256": "03acace32cc58f45b465c18be94c53fac52279998154096f4520deedb4e3e2eb",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-03acace32cc58f45-full.webp",
+    "thumbnail": "fossati-official-03acace32cc58f45-thumbnail.webp"
+  },
+  {
+    "key": "thermicx-alzante",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Thermic.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": "",
+    "sha256": "0c4db390a12641ab4dc2e1465e439c04d1fbee911b4bad359e4be2a003be521b",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-0c4db390a12641ab-full.webp",
+    "thumbnail": "fossati-official-0c4db390a12641ab-thumbnail.webp"
+  },
+  {
+    "key": "thermicx-alzante-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Thermic-Plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": "",
+    "sha256": "0c4db390a12641ab4dc2e1465e439c04d1fbee911b4bad359e4be2a003be521b",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-0c4db390a12641ab-full.webp",
+    "thumbnail": "fossati-official-0c4db390a12641ab-thumbnail.webp"
+  },
+  {
+    "key": "thermicx-alzante-zero",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Thermic-Zero.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": "",
+    "sha256": "90a32152da483a20e9bc9ddd5591bac2c88b01826d8700537ffbfeb1caf21c51",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-90a32152da483a20-full.webp",
+    "thumbnail": "fossati-official-90a32152da483a20-thumbnail.webp"
+  },
+  {
+    "key": "thermicx-alzante-zero-plus",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2023/04/Tec-Thermic-Zero-Plus.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": "",
+    "sha256": "90a32152da483a20e9bc9ddd5591bac2c88b01826d8700537ffbfeb1caf21c51",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-90a32152da483a20-full.webp",
+    "thumbnail": "fossati-official-90a32152da483a20-thumbnail.webp"
+  },
+  {
+    "key": "nova-alzante",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-legn_all-thermic-alzanti-scorr.-600x600-gallery4.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_alt": "brand-legn_all-thermic-alzanti-scorr.-600x600-gallery4",
+    "sha256": "2cd28fc47439b89b5dfe15670a228330afefa659887c507d900358c98fd3d202",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-2cd28fc47439b89b-full.webp",
+    "thumbnail": "fossati-official-2cd28fc47439b89b-thumbnail.webp"
+  },
+  {
+    "key": "complanare-pvc",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-pvc-scorr.-compla.-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/complanari/pvc/",
+    "image_alt": "brand-pvc-scorr.-compla.-600x600-gallery1",
+    "sha256": "bbb01e3245cbb4f2ed6340d47a44767f5f80a53a2c074fbfa9b58fb70f23897a",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-bbb01e3245cbb4f2-full.webp",
+    "thumbnail": "fossati-official-bbb01e3245cbb4f2-thumbnail.webp"
+  },
+  {
+    "key": "complanare-alluminio",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/brand-all-scorr.-compla.-600x600-gallery1.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/complanari/alluminio/",
+    "image_alt": "brand-all-scorr.-compla.-600x600-gallery1",
+    "sha256": "71b6de9eb38fd61cac7aa904c54d41a46fcc730dae4692f79391035c64286833",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-71b6de9eb38fd61c-full.webp",
+    "thumbnail": "fossati-official-71b6de9eb38fd61c-thumbnail.webp"
+  },
+  {
+    "key": "mediterraneo",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2025/08/Mediterraneo-Zenitale_RAL-7016-2025.jpg",
+    "kind": "image",
+    "page_source": "https://www.fossatiserramenti.it/scorrevoli/leggeri/mediterraneo/",
+    "image_alt": "Mediterraneo-Zenitale_RAL-7016-2025",
+    "sha256": "8d32d8ebfd307471aa709acb58c5eef5713d9d96e630f910e946df6aa58fc52e",
+    "width": 600,
+    "height": 600,
+    "full": "fossati-official-8d32d8ebfd307471-full.webp",
+    "thumbnail": "fossati-official-8d32d8ebfd307471-thumbnail.webp"
+  },
+  {
+    "key": "fossati-logo",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/11/Logo-Fossati-2024-NEW_Blacktricolore.png",
+    "kind": "image",
+    "sha256": "9aec09868278409c85ee151cd423321ee4c5a49eb7064ff058a857adaa009a2c",
+    "width": 3508,
+    "height": 2480,
+    "full": "fossati-official-9aec09868278409c-full.webp",
+    "thumbnail": "fossati-official-9aec09868278409c-thumbnail.webp"
   }
 ]
