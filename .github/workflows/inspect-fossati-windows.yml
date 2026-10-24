@@ -25,6 +25,7 @@ jobs:
           pip install Pillow==11.3.0 PyMuPDF==1.26.6
           python scripts/fetch-fossati-assets.py
       - name: Save sources for review
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

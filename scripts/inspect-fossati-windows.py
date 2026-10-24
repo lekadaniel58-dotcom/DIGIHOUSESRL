@@ -8,6 +8,13 @@ def fetch(url):
     with urllib.request.urlopen(req,timeout=60) as res:
         if urllib.parse.urlparse(res.url).hostname not in {'fossatiserramenti.it','www.fossatiserramenti.it'}: raise ValueError('Unexpected redirect')
         return res.read()
+# Reuse already reviewed pages when only the asset request list has changed.
+request_file=ROOT/'page-requests.json'
+result_file=ROOT/'page-results.json'
+if (ROOT/'index.json').exists() and request_file.exists() and result_file.exists():
+    wanted=json.loads(request_file.read_text());existing=json.loads(result_file.read_text())
+    if wanted == existing and all((ROOT/r['filename']).exists() for r in wanted):
+        print('Using reviewed official source pages');raise SystemExit(0)
 errors=[];urls=set(); maps=set()
 for path in ['','robots.txt','sitemap_index.xml','wp-sitemap.xml','sitemap.xml']:
     url='https://www.fossatiserramenti.it/'+path
