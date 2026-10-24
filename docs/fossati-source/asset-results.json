@@ -9,13 +9,20 @@
     ],
     "extracts": [
       {
-        "key": "review-ecos-tavola",
+        "key": "ecos-lide",
         "page": 11,
-        "sha256": "0d8854bff934f4ce9f20d1cde70689d04b38715020949a54cf7261eca8906ab7",
-        "width": 1012,
-        "height": 1432,
-        "full": "fossati-official-0d8854bff934f4ce-full.webp",
-        "thumbnail": "fossati-official-0d8854bff934f4ce-thumbnail.webp"
+        "clip": [
+          277,
+          603,
+          406,
+          741
+        ],
+        "scale": 5,
+        "sha256": "9676550462bbf255299712d589c61cd317e983e9344b60bc8f24c645eaa6fe34",
+        "width": 645,
+        "height": 690,
+        "full": "fossati-official-9676550462bbf255-full.webp",
+        "thumbnail": "fossati-official-9676550462bbf255-thumbnail.webp"
       }
     ],
     "sha256": "b13f1a12f02d08f36be238745c877d7debf865fbb4625d8d844bef3f59727ad3",
@@ -59,22 +66,24 @@
     ],
     "extracts": [
       {
-        "key": "review-nova",
+        "key": "nova-battente",
         "page": 14,
-        "sha256": "0f3f2408446c37b986a9af1b430b0c9d3718a7c437a09f0a3da7ff9e6d208bdb",
-        "width": 1012,
-        "height": 1432,
-        "full": "fossati-official-0f3f2408446c37b9-full.webp",
-        "thumbnail": "fossati-official-0f3f2408446c37b9-thumbnail.webp"
+        "xref": 182,
+        "sha256": "d8c6ae06b371c0d545793431f98f5dab68371c2bd2c4ff624d5f23476b44c681",
+        "width": 900,
+        "height": 1314,
+        "full": "fossati-official-d8c6ae06b371c0d5-full.webp",
+        "thumbnail": "fossati-official-d8c6ae06b371c0d5-thumbnail.webp"
       },
       {
-        "key": "review-thermic",
+        "key": "thermicx-battente",
         "page": 16,
-        "sha256": "2bbee955d58de5c352b6cba08b0855009d9d88a0ede8268e1d59584e0a308a04",
-        "width": 1012,
-        "height": 1432,
-        "full": "fossati-official-2bbee955d58de5c3-full.webp",
-        "thumbnail": "fossati-official-2bbee955d58de5c3-thumbnail.webp"
+        "xref": 266,
+        "sha256": "3645aaa86f218903f61abb341fd7b486efddf43bd2dc4df842fc9af92f2a2e73",
+        "width": 899,
+        "height": 1181,
+        "full": "fossati-official-3645aaa86f218903-full.webp",
+        "thumbnail": "fossati-official-3645aaa86f218903-thumbnail.webp"
       }
     ],
     "sha256": "8bd213e1d4d8ce67bfc5d36b58a578f772539f204da00f24c6f3fa84d5153616",
@@ -481,12 +490,12 @@
   },
   {
     "key": "fossati-logo",
-    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/11/Logo-Fossati-2024-NEW_Blacktricolore.png",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/12/Logo-Fossati.png",
     "kind": "image",
-    "sha256": "9aec09868278409c85ee151cd423321ee4c5a49eb7064ff058a857adaa009a2c",
-    "width": 3508,
-    "height": 2480,
-    "full": "fossati-official-9aec09868278409c-full.webp",
-    "thumbnail": "fossati-official-9aec09868278409c-thumbnail.webp"
+    "sha256": "84daaddc1a9f5fe52fdd343c38750ea7209154a26e3bf596f42535e596292a55",
+    "width": 500,
+    "height": 250,
+    "full": "fossati-official-84daaddc1a9f5fe5-full.webp",
+    "thumbnail": "fossati-official-84daaddc1a9f5fe5-thumbnail.webp"
   }
 ]
