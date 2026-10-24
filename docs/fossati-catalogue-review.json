@@ -1,0 +1,83 @@
+{
+  "catalogues": [
+    {
+      "key": "catalogo-scorrevoli_2026-bc4397",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+      "sha256": "b13f1a12f02d08f36be238745c877d7debf865fbb4625d8d844bef3f59727ad3",
+      "pages": 32
+    },
+    {
+      "key": "leaflet-alluminio-new_2026-2c3e86",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Leaflet-Alluminio-New_2026.pdf",
+      "sha256": "9727bd028a5713e27823623f0743b2d75e6a2331a7920a375d9f9808e5c94de5",
+      "pages": 2
+    },
+    {
+      "key": "leaflet-alluminio-classic_2026-d680b6",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Leaflet-Alluminio-Classic_2026.pdf",
+      "sha256": "a65839b9df2e7dd999785fbbc6d74050c6da2b90eeaa3f3bed3a8b320aeb36a5",
+      "pages": 2
+    },
+    {
+      "key": "leaflet-legno_2026-1aba8a",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Leaflet-Legno_2026.pdf",
+      "sha256": "08e501ac725e4c430522ff251c31ab83c8bae88be98a8ee9a5a087fb5675e4db",
+      "pages": 2
+    },
+    {
+      "key": "catalogo-nova-thermicx_2026_-20b603",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/06/Catalogo-Nova-ThermicX_2026_.pdf",
+      "sha256": "8bd213e1d4d8ce67bfc5d36b58a578f772539f204da00f24c6f3fa84d5153616",
+      "pages": 24
+    },
+    {
+      "key": "catalogo-metropolis-forma_-2026-e2be15",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Metropolis-Forma_-2026.pdf",
+      "sha256": "12517d533753ab2c3f0a9baa6d3fa10abfdd6959cb0a2b601521e33b10bae419",
+      "pages": 24
+    },
+    {
+      "key": "catalogo-icon_2026-3966ca",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Icon_2026.pdf",
+      "sha256": "1dae54ad70a9610fa9a8df7dea5541d3e513dac78f4468e303299e471b6a2190",
+      "pages": 28
+    },
+    {
+      "key": "catalogo-linea-76_2026-ea5223",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Linea-76_2026.pdf",
+      "sha256": "4b272cef2baf077dc91c2b783e320411a7377c5b53dd7822cc7489ac2db555dd",
+      "pages": 24
+    },
+    {
+      "key": "catalogo-vision-76_2026-f7bbde",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Vision-76_2026.pdf",
+      "sha256": "7523a4949f076ce728d700180d0fb052089c693e2b1f04c03cfa1306897e4cd0",
+      "pages": 24
+    },
+    {
+      "key": "catalogo-solaris_2026-8b1067",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Solaris_2026.pdf",
+      "sha256": "058cf94f2f9c36fb5f943a498779e0c74573ba5caf7d2f1c1c48f05c475bc7d6",
+      "pages": 24
+    },
+    {
+      "key": "leaflet-alluminio-new_2026-8649b1",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Leaflet-Alluminio-New_2026.pdf",
+      "sha256": "d6a542dfad415e70362ec31f2ea403266b4b057f3880958682468c63c33e84ec",
+      "pages": 2
+    },
+    {
+      "key": "catalogo-scorrevoli_2026-8569e6",
+      "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Scorrevoli_2026.pdf",
+      "sha256": "0b41828c0f22f2c21cd805573d21e05a0c7894c177f81ae2c132ee0424a172af",
+      "pages": 32
+    }
+  ],
+  "resolved_links": [
+    {
+      "unavailable": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Nova-ThermicX_2026.pdf",
+      "status": 404,
+      "replacement": "https://www.fossatiserramenti.it/wp-content/uploads/2026/06/Catalogo-Nova-ThermicX_2026_.pdf"
+    }
+  ]
+}

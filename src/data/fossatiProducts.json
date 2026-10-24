@@ -1,0 +1,884 @@
+[
+  {
+    "id": "fossati-icon",
+    "sku": "",
+    "slug": "fossati-icon",
+    "name": "Icon Centenario – battente",
+    "subtitle": "Fossati · PVC · Battente",
+    "description": "Profilo anta ridotto della gamma Icon Centenario, con tripla guarnizione e superficie vetrabile ampia. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-c5e103f20320312d-full.webp"
+    ],
+    "thumbnail": "fossati-official-c5e103f20320312d-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/icon/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-icon-alu",
+    "sku": "",
+    "slug": "fossati-icon-alu",
+    "name": "Icon Centenario ALU – battente",
+    "subtitle": "Fossati · PVC / alluminio · Battente",
+    "description": "Profilo anta ridotto della gamma Icon Centenario, con tripla guarnizione e superficie vetrabile ampia. La versione ALU prevede il rivestimento esterno in alluminio. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-c5e103f20320312d-full.webp"
+    ],
+    "thumbnail": "fossati-official-c5e103f20320312d-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/icon/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-linea76",
+    "sku": "",
+    "slug": "fossati-linea76",
+    "name": "Linea76 – battente",
+    "subtitle": "Fossati · PVC · Battente",
+    "description": "Sistema Linea76 in PVC con tripla guarnizione e personalizzazione delle finiture. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-55286891f017d503-full.webp"
+    ],
+    "thumbnail": "fossati-official-55286891f017d503-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-linea76-plus",
+    "sku": "",
+    "slug": "fossati-linea76-plus",
+    "name": "Linea76 Plus – battente",
+    "subtitle": "Fossati · PVC · Battente",
+    "description": "Sistema Linea76 in PVC con tripla guarnizione e personalizzazione delle finiture. Variante Plus con vetratura a due camere secondo le configurazioni del produttore. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-55286891f017d503-full.webp"
+    ],
+    "thumbnail": "fossati-official-55286891f017d503-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-linea76-alu",
+    "sku": "",
+    "slug": "fossati-linea76-alu",
+    "name": "Linea76 ALU – battente",
+    "subtitle": "Fossati · PVC / alluminio · Battente",
+    "description": "Sistema Linea76 in PVC con tripla guarnizione e personalizzazione delle finiture. La versione ALU prevede il rivestimento esterno in alluminio. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-55286891f017d503-full.webp"
+    ],
+    "thumbnail": "fossati-official-55286891f017d503-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-linea76-alu-plus",
+    "sku": "",
+    "slug": "fossati-linea76-alu-plus",
+    "name": "Linea76 ALU Plus – battente",
+    "subtitle": "Fossati · PVC / alluminio · Battente",
+    "description": "Sistema Linea76 in PVC con tripla guarnizione e personalizzazione delle finiture. La versione ALU prevede il rivestimento esterno in alluminio. Variante Plus con vetratura a due camere secondo le configurazioni del produttore. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-55286891f017d503-full.webp"
+    ],
+    "thumbnail": "fossati-official-55286891f017d503-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-vision76",
+    "sku": "",
+    "slug": "fossati-vision76",
+    "name": "Vision76 – battente",
+    "subtitle": "Fossati · PVC · Battente",
+    "description": "Sistema Vision76 in PVC, dal disegno lineare, per finestre e portefinestre. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-312c4e4f14e70263-full.webp"
+    ],
+    "thumbnail": "fossati-official-312c4e4f14e70263-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/vision76/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-vision76-plus",
+    "sku": "",
+    "slug": "fossati-vision76-plus",
+    "name": "Vision76 Plus – battente",
+    "subtitle": "Fossati · PVC · Battente",
+    "description": "Sistema Vision76 in PVC, dal disegno lineare, per finestre e portefinestre. Variante Plus con vetratura a due camere secondo le configurazioni del produttore. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-312c4e4f14e70263-full.webp"
+    ],
+    "thumbnail": "fossati-official-312c4e4f14e70263-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/vision76/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-solaris",
+    "sku": "",
+    "slug": "fossati-solaris",
+    "name": "Solaris – battente",
+    "subtitle": "Fossati · PVC · Battente",
+    "description": "Sistema Solaris in PVC dal disegno contemporaneo per finestre e portefinestre. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-f95974a0847e3668-full.webp"
+    ],
+    "thumbnail": "fossati-official-f95974a0847e3668-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/solaris/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-solaris-plus",
+    "sku": "",
+    "slug": "fossati-solaris-plus",
+    "name": "Solaris Plus – battente",
+    "subtitle": "Fossati · PVC · Battente",
+    "description": "Sistema Solaris in PVC dal disegno contemporaneo per finestre e portefinestre. Variante Plus con vetratura a due camere secondo le configurazioni del produttore. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-f95974a0847e3668-full.webp"
+    ],
+    "thumbnail": "fossati-official-f95974a0847e3668-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/solaris/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-metropolis-battente",
+    "sku": "",
+    "slug": "fossati-metropolis-battente",
+    "name": "Metropolis – battente",
+    "subtitle": "Fossati · Alluminio · Battente",
+    "description": "Serramento in alluminio a taglio termico con profili essenziali. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-8e282c229a240d6a-full.webp"
+    ],
+    "thumbnail": "fossati-official-8e282c229a240d6a-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/metropolis/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-metropolis-plus-battente",
+    "sku": "",
+    "slug": "fossati-metropolis-plus-battente",
+    "name": "Metropolis Plus – battente",
+    "subtitle": "Fossati · Alluminio · Battente",
+    "description": "Variante Plus del sistema Metropolis con vetratura a due camere. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-8e282c229a240d6a-full.webp"
+    ],
+    "thumbnail": "fossati-official-8e282c229a240d6a-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/metropolis/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-forma",
+    "sku": "",
+    "slug": "fossati-forma",
+    "name": "Forma – battente",
+    "subtitle": "Fossati · Alluminio · Battente",
+    "description": "Sistema in alluminio a taglio termico, evoluzione della linea Metropolis, con telaio di maggiore profondità. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-e2e018665354df56-full.webp"
+    ],
+    "thumbnail": "fossati-official-e2e018665354df56-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/forma/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-ishape",
+    "sku": "",
+    "slug": "fossati-ishape",
+    "name": "iShape – battente",
+    "subtitle": "Fossati · Alluminio · Battente",
+    "description": "Sistema a battente in alluminio con profilo a vista, proporzioni contenute e disegno lineare. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-899bf8f5264dfcfb-full.webp"
+    ],
+    "thumbnail": "fossati-official-899bf8f5264dfcfb-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/ishape/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-iline",
+    "sku": "",
+    "slug": "fossati-iline",
+    "name": "iLine – battente",
+    "subtitle": "Fossati · Alluminio · Battente",
+    "description": "Sistema a battente in alluminio dal profilo sottile, pensato per un disegno essenziale e luminoso. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-d43700ca4924ccb5-full.webp"
+    ],
+    "thumbnail": "fossati-official-d43700ca4924ccb5-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/iline/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-iframe",
+    "sku": "",
+    "slug": "fossati-iframe",
+    "name": "iFrame – battente",
+    "subtitle": "Fossati · Alluminio · Battente",
+    "description": "Sistema in alluminio con anta a scomparsa, per ridurre la presenza visiva del profilo. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-655b1285b834c138-full.webp"
+    ],
+    "thumbnail": "fossati-official-655b1285b834c138-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/iframe/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-nova-battente",
+    "sku": "",
+    "slug": "fossati-nova-battente",
+    "name": "Nova – battente",
+    "subtitle": "Fossati · Legno · Battente",
+    "description": "Serramento in legno lamellare con le sagome interne previste dal produttore. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-d8c6ae06b371c0d5-full.webp"
+    ],
+    "thumbnail": "fossati-official-d8c6ae06b371c0d5-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "legno",
+    "source_url": "https://www.fossatiserramenti.it/finestre/finestre-legno/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-nova-plus-battente",
+    "sku": "",
+    "slug": "fossati-nova-plus-battente",
+    "name": "Nova Plus – battente",
+    "subtitle": "Fossati · Legno · Battente",
+    "description": "Serramento in legno lamellare con le sagome interne previste dal produttore. La versione Plus prevede il triplo vetro nelle configurazioni documentate. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-d8c6ae06b371c0d5-full.webp"
+    ],
+    "thumbnail": "fossati-official-d8c6ae06b371c0d5-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "legno",
+    "source_url": "https://www.fossatiserramenti.it/finestre/finestre-legno/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-thermicx-battente",
+    "sku": "",
+    "slug": "fossati-thermicx-battente",
+    "name": "ThermicX – battente",
+    "subtitle": "Fossati · Legno / alluminio · Battente",
+    "description": "Serramento con legno lamellare sul lato interno e protezione esterna in alluminio. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-3645aaa86f218903-full.webp"
+    ],
+    "thumbnail": "fossati-official-3645aaa86f218903-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "legno-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/finestre/finestre-legno/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-thermicx-plus-battente",
+    "sku": "",
+    "slug": "fossati-thermicx-plus-battente",
+    "name": "ThermicX Plus – battente",
+    "subtitle": "Fossati · Legno / alluminio · Battente",
+    "description": "Serramento con legno lamellare sul lato interno e protezione esterna in alluminio. La versione Plus prevede il triplo vetro nelle configurazioni documentate. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-3645aaa86f218903-full.webp"
+    ],
+    "thumbnail": "fossati-official-3645aaa86f218903-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "legno-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/finestre/finestre-legno/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-meridiana82",
+    "sku": "",
+    "slug": "fossati-meridiana82",
+    "name": "HST Meridiana 82",
+    "subtitle": "Fossati · PVC · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole della gamma Meridiana in PVC. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-04dcee2769c71758-full.webp"
+    ],
+    "thumbnail": "fossati-official-04dcee2769c71758-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-meridiana82-plus",
+    "sku": "",
+    "slug": "fossati-meridiana82-plus",
+    "name": "HST Meridiana 82 Plus",
+    "subtitle": "Fossati · PVC · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole della gamma Meridiana in PVC. La configurazione Plus utilizza la vetratura prevista dal produttore per questa versione. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-04dcee2769c71758-full.webp"
+    ],
+    "thumbnail": "fossati-official-04dcee2769c71758-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-meridiana-zero",
+    "sku": "",
+    "slug": "fossati-meridiana-zero",
+    "name": "HST Meridiana Zero",
+    "subtitle": "Fossati · PVC · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole della gamma Meridiana in PVC. Versione Zero, realizzabile negli schemi di apertura specificati da Fossati. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-9e72e28560b48aa6-full.webp"
+    ],
+    "thumbnail": "fossati-official-9e72e28560b48aa6-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-meridiana-zero-plus",
+    "sku": "",
+    "slug": "fossati-meridiana-zero-plus",
+    "name": "HST Meridiana Zero Plus",
+    "subtitle": "Fossati · PVC · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole della gamma Meridiana in PVC. La configurazione Plus utilizza la vetratura prevista dal produttore per questa versione. Versione Zero, realizzabile negli schemi di apertura specificati da Fossati. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-9e72e28560b48aa6-full.webp"
+    ],
+    "thumbnail": "fossati-official-9e72e28560b48aa6-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-meridiana82-alu",
+    "sku": "",
+    "slug": "fossati-meridiana82-alu",
+    "name": "HST Meridiana 82 ALU",
+    "subtitle": "Fossati · PVC / alluminio · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole della gamma Meridiana in PVC. Rivestimento esterno in alluminio nella versione ALU. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-04dcee2769c71758-full.webp"
+    ],
+    "thumbnail": "fossati-official-04dcee2769c71758-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-meridiana82-alu-plus",
+    "sku": "",
+    "slug": "fossati-meridiana82-alu-plus",
+    "name": "HST Meridiana 82 ALU Plus",
+    "subtitle": "Fossati · PVC / alluminio · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole della gamma Meridiana in PVC. Rivestimento esterno in alluminio nella versione ALU. La configurazione Plus utilizza la vetratura prevista dal produttore per questa versione. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-04dcee2769c71758-full.webp"
+    ],
+    "thumbnail": "fossati-official-04dcee2769c71758-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-metropolis-alzante",
+    "sku": "",
+    "slug": "fossati-metropolis-alzante",
+    "name": "Metropolis – alzante scorrevole",
+    "subtitle": "Fossati · Alluminio · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole Metropolis in alluminio a taglio termico. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-9faa7fa6a12499c0-full.webp"
+    ],
+    "thumbnail": "fossati-official-9faa7fa6a12499c0-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-metropolis-alzante-plus",
+    "sku": "",
+    "slug": "fossati-metropolis-alzante-plus",
+    "name": "Metropolis Plus – alzante scorrevole",
+    "subtitle": "Fossati · Alluminio · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole Metropolis in alluminio a taglio termico. Allestimento Plus con la vetratura prevista per questa configurazione. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-9faa7fa6a12499c0-full.webp"
+    ],
+    "thumbnail": "fossati-official-9faa7fa6a12499c0-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-metropolis-alzante-slim",
+    "sku": "",
+    "slug": "fossati-metropolis-alzante-slim",
+    "name": "Metropolis Slim – alzante scorrevole",
+    "subtitle": "Fossati · Alluminio · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole Metropolis in alluminio a taglio termico. Versione Slim con nodo centrale ridotto, negli schemi ammessi dal produttore. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-03acace32cc58f45-full.webp"
+    ],
+    "thumbnail": "fossati-official-03acace32cc58f45-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-metropolis-alzante-slim-plus",
+    "sku": "",
+    "slug": "fossati-metropolis-alzante-slim-plus",
+    "name": "Metropolis Slim Plus – alzante scorrevole",
+    "subtitle": "Fossati · Alluminio · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole Metropolis in alluminio a taglio termico. Versione Slim con nodo centrale ridotto, negli schemi ammessi dal produttore. Allestimento Plus con la vetratura prevista per questa configurazione. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-03acace32cc58f45-full.webp"
+    ],
+    "thumbnail": "fossati-official-03acace32cc58f45-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-inluce",
+    "sku": "",
+    "slug": "fossati-inluce",
+    "name": "inLuce – alzante scorrevole",
+    "subtitle": "Fossati · Alluminio · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole in alluminio con profili sottili, per valorizzare le aperture vetrate. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-c5de400a34de77e8-full.webp"
+    ],
+    "thumbnail": "fossati-official-c5de400a34de77e8-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/inluce/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-velis",
+    "sku": "",
+    "slug": "fossati-velis",
+    "name": "Velis – alzante scorrevole",
+    "subtitle": "Fossati · Alluminio · Alzante scorrevole",
+    "description": "Sistema alzante scorrevole in alluminio, realizzabile con soglia a scomparsa secondo la configurazione scelta. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-6d7dd3820246ee7a-full.webp"
+    ],
+    "thumbnail": "fossati-official-6d7dd3820246ee7a-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/velis/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-thermicx-alzante",
+    "sku": "",
+    "slug": "fossati-thermicx-alzante",
+    "name": "ThermicX – alzante scorrevole",
+    "subtitle": "Fossati · Legno / alluminio · Alzante scorrevole",
+    "description": "Alzante scorrevole ThermicX con legno sul lato interno e alluminio sul lato esterno. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-0c4db390a12641ab-full.webp"
+    ],
+    "thumbnail": "fossati-official-0c4db390a12641ab-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "legno-alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-thermicx-alzante-plus",
+    "sku": "",
+    "slug": "fossati-thermicx-alzante-plus",
+    "name": "ThermicX Plus – alzante scorrevole",
+    "subtitle": "Fossati · Legno / alluminio · Alzante scorrevole",
+    "description": "Alzante scorrevole ThermicX con legno sul lato interno e alluminio sul lato esterno. Allestimento Plus secondo la vetratura e le configurazioni del produttore. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-0c4db390a12641ab-full.webp"
+    ],
+    "thumbnail": "fossati-official-0c4db390a12641ab-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "legno-alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-thermicx-alzante-zero",
+    "sku": "",
+    "slug": "fossati-thermicx-alzante-zero",
+    "name": "ThermicX Zero – alzante scorrevole",
+    "subtitle": "Fossati · Legno / alluminio · Alzante scorrevole",
+    "description": "Alzante scorrevole ThermicX con legno sul lato interno e alluminio sul lato esterno. Versione Zero negli schemi di apertura documentati da Fossati. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-90a32152da483a20-full.webp"
+    ],
+    "thumbnail": "fossati-official-90a32152da483a20-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "legno-alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-thermicx-alzante-zero-plus",
+    "sku": "",
+    "slug": "fossati-thermicx-alzante-zero-plus",
+    "name": "ThermicX Zero Plus – alzante scorrevole",
+    "subtitle": "Fossati · Legno / alluminio · Alzante scorrevole",
+    "description": "Alzante scorrevole ThermicX con legno sul lato interno e alluminio sul lato esterno. Versione Zero negli schemi di apertura documentati da Fossati. Allestimento Plus secondo la vetratura e le configurazioni del produttore. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-90a32152da483a20-full.webp"
+    ],
+    "thumbnail": "fossati-official-90a32152da483a20-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "legno-alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-nova-alzante",
+    "sku": "",
+    "slug": "fossati-nova-alzante",
+    "name": "Nova – alzante scorrevole",
+    "subtitle": "Fossati · Legno · Alzante scorrevole",
+    "description": "Alzante scorrevole in legno della linea Nova, citato nella pagina Fossati dedicata agli alzanti in legno e legno-alluminio. Configurazione e disponibilità da verificare al preventivo. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-2cd28fc47439b89b-full.webp"
+    ],
+    "thumbnail": "fossati-official-2cd28fc47439b89b-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "legno-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "image_note": "Foto della gamma di alzanti Fossati in legno e legno-alluminio. La configurazione Nova in legno è definita al preventivo."
+  },
+  {
+    "id": "fossati-complanare-pvc",
+    "sku": "",
+    "slug": "fossati-complanare-pvc",
+    "name": "Complanare in PVC",
+    "subtitle": "Fossati · PVC · Scorrevole complanare",
+    "description": "Sistema scorrevole complanare in PVC, adatto ad aperture di media ampiezza e alla gestione degli spazi interni. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-bbb01e3245cbb4f2-full.webp"
+    ],
+    "thumbnail": "fossati-official-bbb01e3245cbb4f2-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/complanari/pvc/",
+    "image_note": ""
+  },
+  {
+    "id": "fossati-ecoslide",
+    "sku": "",
+    "slug": "fossati-ecoslide",
+    "name": "Ecoslide",
+    "subtitle": "Fossati · PVC · Scorrevole",
+    "description": "Scorrevole in PVC documentato nel catalogo Fossati. Il produttore lo propone per esigenze abitative in zone a clima mite. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-9676550462bbf255-full.webp"
+    ],
+    "thumbnail": "fossati-official-9676550462bbf255-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "pvc-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/complanari/pvc/",
+    "image_note": "Disegno del sistema Ecoslide estratto dal catalogo ufficiale Fossati."
+  },
+  {
+    "id": "fossati-metropolis-complanare",
+    "sku": "",
+    "slug": "fossati-metropolis-complanare",
+    "name": "Metropolis – complanare",
+    "subtitle": "Fossati · Alluminio · Scorrevole complanare",
+    "description": "Sistema scorrevole complanare in alluminio della linea Metropolis, per aperture di media ampiezza e soluzioni vetrate. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-71b6de9eb38fd61c-full.webp"
+    ],
+    "thumbnail": "fossati-official-71b6de9eb38fd61c-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/complanari/alluminio/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-metropolis-complanare-plus",
+    "sku": "",
+    "slug": "fossati-metropolis-complanare-plus",
+    "name": "Metropolis Plus – complanare",
+    "subtitle": "Fossati · Alluminio · Scorrevole complanare",
+    "description": "Sistema scorrevole complanare in alluminio della linea Metropolis Plus, per aperture di media ampiezza e soluzioni vetrate. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-71b6de9eb38fd61c-full.webp"
+    ],
+    "thumbnail": "fossati-official-71b6de9eb38fd61c-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/complanari/alluminio/",
+    "image_note": "Immagine rappresentativa della gamma. Versione, rivestimento, vetri e finiture sono definiti al preventivo."
+  },
+  {
+    "id": "fossati-mediterraneo",
+    "sku": "",
+    "slug": "fossati-mediterraneo",
+    "name": "Mediterraneo",
+    "subtitle": "Fossati · Alluminio · Scorrevole leggero",
+    "description": "Scorrevole leggero in alluminio progettato per contesti a clima mite, con profili snelli e personalizzazione delle finiture. Misure, apertura, vetri, finiture e prestazioni della configurazione scelta sono da confermare nel preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-official-8d32d8ebfd307471-full.webp"
+    ],
+    "thumbnail": "fossati-official-8d32d8ebfd307471-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "alluminio-scorrevole",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/leggeri/mediterraneo/",
+    "image_note": ""
+  }
+]

@@ -137,5 +137,12 @@
     "logo": "/assets/fornitori/pail-logo.webp",
     "departments": [],
     "productNames": []
+  },
+  {
+    "id": "fossati",
+    "name": "Fossati Serramenti",
+    "logo": "/assets/fornitori/fossati-logo.webp",
+    "departments": [],
+    "productNames": []
   }
 ]

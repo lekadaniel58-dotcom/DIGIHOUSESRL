@@ -1,22 +1,31 @@
 import type { Product } from './types';
 
 export const windowFamilies = [
-  { id: 'finestre', name: 'Finestre e portefinestre', text: 'Scegli il materiale e il sistema di apertura.', cover: 'Infisso Evo Vision' },
+  { id: 'finestre', name: 'Finestre e portefinestre', text: 'Scegli il materiale e il sistema di apertura.', cover: 'Icon Centenario' },
   { id: 'persiane', name: 'Persiane e scuri', text: 'Oscuranti in alluminio per protezione, luce e privacy.', cover: 'Persiana Adriatica' },
   { id: 'complementi', name: 'Soluzioni complementari', text: 'Sistemi per completare l’involucro e la protezione degli ambienti.', cover: 'SKIN' },
 ] as const;
 export const windowCollections = [
-  { id: 'alluminio-battente', family: 'finestre', name: 'Alluminio · a battente', match: 'Infissi in alluminio · battente', text: 'Le finestre in alluminio con apertura a battente.' },
-  { id: 'alluminio-scorrevole', family: 'finestre', name: 'Alluminio · scorrevoli', match: 'Infissi in alluminio · scorrevoli', text: 'Sistemi scorrevoli in alluminio per aperture luminose.' },
-  { id: 'alluminio-legno', family: 'finestre', name: 'Alluminio / legno', match: 'Infissi alluminio/legno', text: 'Sistemi compositi che abbinano alluminio e legno.' },
-  { id: 'legno-alluminio', family: 'finestre', name: 'Legno / alluminio', match: 'Infissi legno/alluminio', text: 'Serramenti in legno con protezione esterna in alluminio.' },
-  { id: 'pvc', family: 'finestre', name: 'PVC', match: 'Infissi in PVC', text: 'I modelli di finestre e serramenti in PVC.' },
+  { id: 'pvc', family: 'finestre', name: 'PVC · a battente', match: 'Infissi in PVC', text: 'Sistemi Fossati in PVC, comprese le versioni con rivestimento ALU.' },
+  { id: 'pvc-scorrevole', family: 'finestre', name: 'PVC · scorrevoli', match: 'Scorrevoli in PVC', text: 'Alzanti Meridiana, complanari in PVC ed Ecoslide.' },
+  { id: 'alluminio-battente', family: 'finestre', name: 'Alluminio · a battente', match: 'Infissi in alluminio · battente', text: 'Metropolis, Forma e i nuovi sistemi iShape, iLine e iFrame.' },
+  { id: 'alluminio-scorrevole', family: 'finestre', name: 'Alluminio · scorrevoli', match: 'Infissi in alluminio · scorrevoli', text: 'Alzanti, complanari e scorrevoli leggeri in alluminio.' },
+  { id: 'legno', family: 'finestre', name: 'Legno · a battente', match: 'Finestre in legno', text: 'I sistemi Nova e Nova Plus in legno lamellare.' },
+  { id: 'legno-scorrevole', family: 'finestre', name: 'Legno · scorrevoli', match: 'Scorrevoli in legno', text: 'La proposta Nova per gli alzanti scorrevoli in legno.' },
+  { id: 'legno-alluminio', family: 'finestre', name: 'Legno / alluminio · a battente', match: 'Infissi legno/alluminio', text: 'Legno interno e protezione esterna in alluminio della linea ThermicX.' },
+  { id: 'legno-alluminio-scorrevole', family: 'finestre', name: 'Legno / alluminio · scorrevoli', match: 'Scorrevoli in legno/alluminio', text: 'La gamma di alzanti ThermicX, Plus e Zero.' },
   { id: 'persiane-alluminio', family: 'persiane', name: 'Persiane in alluminio', match: 'Persiane in alluminio', text: 'Modelli e configurazioni di persiane in alluminio.' },
   { id: 'scuri-alluminio', family: 'persiane', name: 'Scuri in alluminio', match: 'Scuri in alluminio', text: 'Soluzioni con telaio oppure a murare.' },
   { id: 'complementi', family: 'complementi', name: 'Sistemi complementari', match: 'Soluzioni complementari', text: 'Scopri i sistemi disponibili.' },
 ] as const;
-export function getWindowCollection(product: Pick<Product, 'department_id' | 'subtitle'>) {
+
+export function getWindowCollection(product: Pick<Product, 'department_id' | 'subtitle' | 'window_collection'>) {
   if (product.department_id !== 'infissi') return undefined;
+  if (product.window_collection) return windowCollections.find(c => c.id === product.window_collection);
   const subtitle = product.subtitle?.split('·').map(s => s.trim()).slice(1).join(' · ');
   return windowCollections.find(c => c.match === subtitle);
+}
+
+export function getWindowFamily(params: URLSearchParams) {
+  return params.get('famiglia') ?? (params.get('partner') === 'fossati' ? 'finestre' : '');
 }
