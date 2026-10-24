@@ -1,0 +1,36 @@
+name: Review official Fossati windows and catalogues
+on:
+  push:
+    branches: [source/fossati-windows]
+    paths:
+      - 'scripts/inspect-fossati-windows.py'
+      - 'scripts/fetch-fossati-assets.py'
+      - 'docs/fossati-source/*requests.json'
+      - '.github/workflows/inspect-dierre-photos.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - if: hashFiles('docs/fossati-source/index.json') == '' || hashFiles('docs/fossati-source/page-requests.json') != ''
+        run: python scripts/inspect-fossati-windows.py
+      - if: hashFiles('docs/fossati-source/asset-requests.json') != ''
+        run: |
+          pip install Pillow==11.3.0 PyMuPDF==1.26.6
+          python scripts/fetch-fossati-assets.py
+      - name: Save sources for review
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/fossati-source
+          if [ -d data/immagini ]; then git add 'data/immagini/fossati-official-*' 2>/dev/null || true; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Save official Fossati source material [skip ci]"
+            git push
+          fi
