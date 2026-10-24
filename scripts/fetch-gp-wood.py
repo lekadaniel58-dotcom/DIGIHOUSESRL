@@ -47,7 +47,7 @@ def asset(item):
                     page=doc[number-1];images=[]
                     for image in page.get_images(full=True):
                         images.append({'xref':image[0],'width':image[2],'height':image[3],'rects':[list(r) for r in page.get_image_rects(image[0])]})
-                    inspection.append({'page':number,'images':images})
+                    inspection.append({'page':number,'size':list(page.rect),'words':page.get_text('words'),'images':images})
                 (ROOT/('images-'+item['key']+'.json')).write_text(json.dumps(inspection,indent=2))
             return dict(item,sha256=text['sha256'],pages=len(doc),extracts=extracts)
         return dict(item,**convert(raw))
