@@ -14,7 +14,8 @@ export default function WindowNavigation({ products, params, browsing }: { produ
   const groups = family ? windowCollections.filter(c => c.family === family) : windowFamilies;
   const cards = groups.map(g => {
     const models = products.filter(p => 'family' in g ? getWindowCollection(p)?.id === g.id : getWindowCollection(p)?.family === g.id);
-    return { ...g, models, to: 'family' in g ? href(g.family, g.id) : href(g.id) };
+    const cover = ('cover' in g ? models.find(p => p.name.startsWith(g.cover)) : undefined) ?? models[0];
+    return { ...g, models, cover, to: 'family' in g ? href(g.family, g.id) : href(g.id) };
   }).filter(g => g.models.length);
   return <section className="mb-8" aria-label="Esplora finestre e infissi">
     <nav aria-label="Percorso finestre" className="mb-5 flex flex-wrap gap-2 text-sm text-navy/70">
@@ -28,7 +29,7 @@ export default function WindowNavigation({ products, params, browsing }: { produ
     </div>
     {browsing && !products.length && <p role="status" className="text-navy/70">Nessun modello con i filtri selezionati. Modifica i filtri o disattiva “Solo con prezzo”.</p>}
     {browsing && <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{cards.map(g => <Link key={g.id} to={g.to} className="overflow-hidden rounded-2xl bg-white ring-1 ring-navy/10 hover:shadow-lg">
-      <img src={g.models[0].thumbnail ?? g.models[0].images[0]} alt="" loading="lazy" decoding="async" className="h-56 w-full object-contain p-4" />
+      <img src={g.cover.thumbnail ?? g.cover.images[0]} alt="" loading="lazy" decoding="async" className="h-56 w-full object-contain p-4" />
       <div className="p-5"><p className="text-xs font-semibold text-gold-600">{g.models.length} {g.models.length === 1 ? 'modello' : 'modelli'}</p><h3 className="mt-2 font-display text-2xl">{g.name}</h3><p className="mt-3 text-sm text-navy/70">{g.text}</p><p className="mt-4 text-sm font-semibold">{family ? 'Scopri i modelli' : 'Esplora le categorie'} →</p></div>
     </Link>)}</div>}
     {browsing && products.some(p => !getWindowCollection(p)) && <Link className="mt-4 inline-block underline" to={href('', 'altre')}>Altri modelli</Link>}

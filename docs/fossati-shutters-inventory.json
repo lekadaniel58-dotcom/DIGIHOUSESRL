@@ -1,0 +1,142 @@
+{
+  "catalogue": {
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Oscuranti_2026.pdf",
+    "sha256": "23dabbbc78f00b694a73b6d7d4eb38bae3cfd2e7ffed79e60759d08c5d1bf957",
+    "pages": 26
+  },
+  "models": [
+    {
+      "key": "raffaello",
+      "name": "Raffaello",
+      "type": "Persiana a battente",
+      "collection": "persiane-alluminio",
+      "image_key": "raffaello-1",
+      "pages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "options": [
+        "Stecca aperta fissa",
+        "Stecca orientabile",
+        "Stecca storica",
+        "Doghe verticali",
+        "Doghe orizzontali"
+      ],
+      "detail": "Persiana in alluminio verniciato, realizzabile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali. Montaggio direttamente a muro con cardini oppure su telaio, secondo la configurazione scelta.",
+      "source_url": "https://www.fossatiserramenti.it/oscuranti/raffaello/",
+      "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Oscuranti_2026.pdf",
+      "catalog_sha256": "23dabbbc78f00b694a73b6d7d4eb38bae3cfd2e7ffed79e60759d08c5d1bf957",
+      "image": {
+        "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/Oscurante03_600x600px20RAFFAELLO_zenitale-esterno.jpg.jpg",
+        "source_url": "https://www.fossatiserramenti.it/oscuranti/raffaello/",
+        "image_alt": "Oscurante03_600x600px20RAFFAELLO_zenitale-esterno.jpg",
+        "sha256": "c1b86b7e5120112d4210d27e8ecd9c8ef37dcebf10a05bf3ef53d7852ff0fda7",
+        "width": 600,
+        "height": 600,
+        "full": "fossati-shutter-c1b86b7e5120112d-full.webp",
+        "thumbnail": "fossati-shutter-c1b86b7e5120112d-thumbnail.webp"
+      }
+    },
+    {
+      "key": "leonardo",
+      "name": "Leonardo",
+      "type": "Persiana scorrevole",
+      "collection": "persiane-scorrevoli",
+      "image_key": "leonardo-1",
+      "pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "options": [
+        "Stecca aperta fissa",
+        "Stecca orientabile",
+        "Stecca storica",
+        "Doghe verticali",
+        "Doghe orizzontali"
+      ],
+      "detail": "Persiana scorrevole in alluminio verniciato con anta su binario e carrelli superiori. Disponibile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali intelaiate nel profilo perimetrale.",
+      "source_url": "https://www.fossatiserramenti.it/oscuranti/leonardo/",
+      "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Oscuranti_2026.pdf",
+      "catalog_sha256": "23dabbbc78f00b694a73b6d7d4eb38bae3cfd2e7ffed79e60759d08c5d1bf957",
+      "image": {
+        "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/04_LEONARDO_600x600px20zenitale-interno.jpg.jpg",
+        "source_url": "https://www.fossatiserramenti.it/oscuranti/leonardo/",
+        "image_alt": "04_LEONARDO_600x600px20zenitale-interno.jpg",
+        "sha256": "f787d80874d5c197f7b45337dca1a0d2e03d9832b476d6a7ee42cb744ff94d22",
+        "width": 600,
+        "height": 600,
+        "full": "fossati-shutter-f787d80874d5c197-full.webp",
+        "thumbnail": "fossati-shutter-f787d80874d5c197-thumbnail.webp"
+      }
+    },
+    {
+      "key": "picasso",
+      "name": "Picasso",
+      "type": "Persiana su telaio",
+      "collection": "persiane-alluminio",
+      "image_key": "picasso-1",
+      "pages": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "options": [
+        "Stecca aperta fissa",
+        "Stecca orientabile",
+        "Stecca storica",
+        "Doghe verticali",
+        "Doghe orizzontali"
+      ],
+      "detail": "Persiana a battente in alluminio verniciato, realizzata esclusivamente su telaio. Disponibile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali intelaiate nel profilo perimetrale.",
+      "source_url": "https://www.fossatiserramenti.it/oscuranti/picasso/",
+      "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Oscuranti_2026.pdf",
+      "catalog_sha256": "23dabbbc78f00b694a73b6d7d4eb38bae3cfd2e7ffed79e60759d08c5d1bf957",
+      "image": {
+        "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/02_PICASSO_600x600px20zenitale-esterno.jpg.jpg",
+        "source_url": "https://www.fossatiserramenti.it/oscuranti/picasso/",
+        "image_alt": "02_PICASSO_600x600px20zenitale-esterno.jpg",
+        "sha256": "32af0f2cad59351445c6e15934926947f6b80470ceb4450465d6cd4d58b043e6",
+        "width": 600,
+        "height": 600,
+        "full": "fossati-shutter-32af0f2cad593514-full.webp",
+        "thumbnail": "fossati-shutter-32af0f2cad593514-thumbnail.webp"
+      }
+    },
+    {
+      "key": "giotto",
+      "name": "Giotto",
+      "type": "Antone dogato",
+      "collection": "scuri-alluminio",
+      "image_key": "giotto-1",
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "options": [
+        "Doghe verticali",
+        "Doghe orizzontali su richiesta"
+      ],
+      "detail": "Antone dogato in alluminio verniciato, con intelaiatura portante visibile dal lato interno e continuità delle doghe sul lato esterno. Doghe verticali oppure orizzontali su richiesta. Montaggio su cardini a muro oppure su telaio.",
+      "source_url": "https://www.fossatiserramenti.it/oscuranti/giotto/",
+      "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Oscuranti_2026.pdf",
+      "catalog_sha256": "23dabbbc78f00b694a73b6d7d4eb38bae3cfd2e7ffed79e60759d08c5d1bf957",
+      "image": {
+        "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/10/03GIOTTO_600x600px20zenitale-esterno.jpg.jpg",
+        "source_url": "https://www.fossatiserramenti.it/oscuranti/giotto/",
+        "image_alt": "03GIOTTO_600x600px20zenitale-esterno.jpg",
+        "sha256": "3ddcc5591aa19f828e8352c7523ee407f8cfd435777698a29f254957a1c9f93a",
+        "width": 600,
+        "height": 600,
+        "full": "fossati-shutter-3ddcc5591aa19f82-full.webp",
+        "thumbnail": "fossati-shutter-3ddcc5591aa19f82-thumbnail.webp"
+      }
+    }
+  ]
+}

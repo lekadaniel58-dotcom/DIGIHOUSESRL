@@ -46,7 +46,7 @@ for (const p of products) {
   if (fact.image_scope !== 'model') assert(p.image_note, p.name+': shared/technical image explanation');
 }
 assert.equal(getCatalogSection('', 'fossati', ''), 'serramenti');
-assert.equal(getWindowFamily(new URLSearchParams('partner=fossati')), 'finestre');
+assert.equal(getWindowFamily(new URLSearchParams('partner=fossati')), '');
 assert.equal(getWindowFamily(new URLSearchParams('partner=sallustio')), '');
 assert.equal(getWindowFamily(new URLSearchParams('partner=fossati&famiglia=persiane')), 'persiane');
 const legacy = rows.map((r,i) => ({...r,id:String(i),department_id:r.department === 'Infissi'?'infissi':'other'}));

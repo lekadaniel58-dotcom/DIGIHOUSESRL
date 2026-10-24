@@ -1,0 +1,86 @@
+[
+  {
+    "id": "fossati-shutter-raffaello",
+    "sku": "",
+    "slug": "fossati-shutter-raffaello",
+    "name": "Raffaello",
+    "subtitle": "Fossati · Persiana a battente · Alluminio",
+    "description": "Persiana in alluminio verniciato, realizzabile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali. Montaggio direttamente a muro con cardini oppure su telaio, secondo la configurazione scelta. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-c1b86b7e5120112d-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-c1b86b7e5120112d-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/raffaello/",
+    "image_note": "Immagine ufficiale del modello in una configurazione rappresentativa. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-leonardo",
+    "sku": "",
+    "slug": "fossati-shutter-leonardo",
+    "name": "Leonardo",
+    "subtitle": "Fossati · Persiana scorrevole · Alluminio",
+    "description": "Persiana scorrevole in alluminio verniciato con anta su binario e carrelli superiori. Disponibile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali intelaiate nel profilo perimetrale. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-f787d80874d5c197-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-f787d80874d5c197-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-scorrevoli",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/leonardo/",
+    "image_note": "Immagine ufficiale del modello in una configurazione rappresentativa. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-picasso",
+    "sku": "",
+    "slug": "fossati-shutter-picasso",
+    "name": "Picasso",
+    "subtitle": "Fossati · Persiana su telaio · Alluminio",
+    "description": "Persiana a battente in alluminio verniciato, realizzata esclusivamente su telaio. Disponibile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali intelaiate nel profilo perimetrale. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-32af0f2cad593514-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-32af0f2cad593514-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/picasso/",
+    "image_note": "Immagine ufficiale del modello in una configurazione rappresentativa. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-giotto",
+    "sku": "",
+    "slug": "fossati-shutter-giotto",
+    "name": "Giotto",
+    "subtitle": "Fossati · Antone dogato · Alluminio",
+    "description": "Antone dogato in alluminio verniciato, con intelaiatura portante visibile dal lato interno e continuità delle doghe sul lato esterno. Doghe verticali oppure orizzontali su richiesta. Montaggio su cardini a muro oppure su telaio. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-3ddcc5591aa19f82-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-3ddcc5591aa19f82-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "scuri-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/giotto/",
+    "image_note": "Immagine ufficiale del modello in una configurazione rappresentativa. Colore e dotazioni su preventivo."
+  }
+]
