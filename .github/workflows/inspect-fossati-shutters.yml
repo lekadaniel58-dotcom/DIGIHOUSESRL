@@ -1,0 +1,37 @@
+name: Review official Fossati shutters and catalogue
+on:
+  push:
+    branches: [source/fossati-shutters]
+    paths:
+      - 'scripts/inspect-fossati-shutters.py'
+      - 'scripts/fetch-fossati-shutters.py'
+      - 'docs/fossati-shutters-source/*requests.json'
+      - '.github/workflows/inspect-dierre-photos.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - if: hashFiles('docs/fossati-shutters-source/index.json') == '' || hashFiles('docs/fossati-shutters-source/page-requests.json') != ''
+        run: python scripts/inspect-fossati-shutters.py
+      - if: hashFiles('docs/fossati-shutters-source/asset-requests.json') != ''
+        run: |
+          pip install Pillow==11.3.0 PyMuPDF==1.26.6
+          python scripts/fetch-fossati-shutters.py
+      - name: Save sources for review
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/fossati-shutters-source
+          if [ -d data/immagini ]; then git add 'data/immagini/fossati-shutter-*' 2>/dev/null || true; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Save official Fossati source material [skip ci]"
+            git push
+          fi
