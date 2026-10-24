@@ -21,7 +21,11 @@ def convert(raw):
         image=im.copy();image.thumbnail((size,size),Image.Resampling.LANCZOS)
         filename=f'gp-wood-{sha[:16]}-{variant}.webp';image.save(OUT/filename,'WEBP',quality=quality,method=6);files[variant]=filename
     return dict(sha256=sha,width=w,height=h,**files)
+previous_file=ROOT/'asset-results.json'
+previous={r['key']:r for r in json.loads(previous_file.read_text()) if 'error' not in r} if previous_file.exists() else {}
 def asset(item):
+    cached=previous.get(item['key'])
+    if cached and all(cached.get(k)==v for k,v in item.items()) and item.get('kind')!='pdf' and all((OUT/cached[k]).exists() for k in ['full','thumbnail']):return cached
     try:
         raw=fetch(item['url'])
         if item.get('kind')=='pdf':
