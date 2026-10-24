@@ -77,4 +77,4 @@ Prove browser a 320, 768 e 1440 px: tutte le foto, ricerca, filtri, zoom, conteg
 logo Fossati e assenza di scorrimento orizzontale.
 
 
-Aggiornamento persiane Fossati: vedere [fossati-shutters.md](fossati-shutters.md). I conteggi precedenti rappresentano lo stato prima della sostituzione: ora 50 infissi e 46 schede del partner Fossati; le 42 finestre restano invariate.
+Aggiornamento persiane Fossati: vedere [fossati-shutters.md](fossati-shutters.md). I conteggi precedenti rappresentano lo stato prima della sostituzione: ora 63 infissi e 59 schede del partner Fossati (incluse le 17 tipologie di oscuranti); le 42 finestre restano invariate.

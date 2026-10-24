@@ -22,7 +22,7 @@ for (const partner of partners) {
   if (partner.logo && !['muratti', 'hex'].includes(partner.id)) assert(fs.existsSync(new URL(`../public${partner.logo}`, import.meta.url)));
   // The two original logos are downloaded and signature-checked before publication.
 }
-const expectedCounts = { ivc: 14, muratti: 3, hex: 7, aip: 92, dierre: 21, sallustio: 4, zanzar: 71, opera: 24, premier: 10, pail: 80, fossati: 46 };
+const expectedCounts = { ivc: 14, muratti: 3, hex: 7, aip: 92, dierre: 21, sallustio: 4, zanzar: 71, opera: 24, premier: 10, pail: 80, fossati: 59 };
 for (const [id, count] of Object.entries(expectedCounts)) assert.equal(products.filter(p => p.partner_ids.includes(id)).length, count, id);
 assert(!getPartnerIds('KT PLUS BIANCA', 'adesivi-e-sigillanti').includes('opera'));
 assert(!getPartnerIds('SILICONE ACETICO FISCHER', 'adesivi-e-sigillanti').includes('opera'));

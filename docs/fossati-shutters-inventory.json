@@ -37,7 +37,34 @@
         "height": 600,
         "full": "fossati-shutter-c1b86b7e5120112d-full.webp",
         "thumbnail": "fossati-shutter-c1b86b7e5120112d-thumbnail.webp"
-      }
+      },
+      "variants": [
+        {
+          "id": "fossati-shutter-raffaello-stecca-aperta-fissa",
+          "name": "Raffaello – stecca aperta fissa",
+          "type": "Stecca aperta fissa"
+        },
+        {
+          "id": "fossati-shutter-raffaello-stecca-orientabile",
+          "name": "Raffaello – stecca orientabile",
+          "type": "Stecca orientabile"
+        },
+        {
+          "id": "fossati-shutter-raffaello-stecca-storica",
+          "name": "Raffaello – stecca storica",
+          "type": "Stecca storica"
+        },
+        {
+          "id": "fossati-shutter-raffaello-doghe-verticali",
+          "name": "Raffaello – doghe verticali",
+          "type": "Doghe verticali"
+        },
+        {
+          "id": "fossati-shutter-raffaello-doghe-orizzontali",
+          "name": "Raffaello – doghe orizzontali",
+          "type": "Doghe orizzontali"
+        }
+      ]
     },
     {
       "key": "leonardo",
@@ -71,7 +98,34 @@
         "height": 600,
         "full": "fossati-shutter-f787d80874d5c197-full.webp",
         "thumbnail": "fossati-shutter-f787d80874d5c197-thumbnail.webp"
-      }
+      },
+      "variants": [
+        {
+          "id": "fossati-shutter-leonardo-stecca-aperta-fissa",
+          "name": "Leonardo – stecca aperta fissa",
+          "type": "Stecca aperta fissa"
+        },
+        {
+          "id": "fossati-shutter-leonardo-stecca-orientabile",
+          "name": "Leonardo – stecca orientabile",
+          "type": "Stecca orientabile"
+        },
+        {
+          "id": "fossati-shutter-leonardo-stecca-storica",
+          "name": "Leonardo – stecca storica",
+          "type": "Stecca storica"
+        },
+        {
+          "id": "fossati-shutter-leonardo-doghe-verticali",
+          "name": "Leonardo – doghe verticali",
+          "type": "Doghe verticali"
+        },
+        {
+          "id": "fossati-shutter-leonardo-doghe-orizzontali",
+          "name": "Leonardo – doghe orizzontali",
+          "type": "Doghe orizzontali"
+        }
+      ]
     },
     {
       "key": "picasso",
@@ -105,7 +159,34 @@
         "height": 600,
         "full": "fossati-shutter-32af0f2cad593514-full.webp",
         "thumbnail": "fossati-shutter-32af0f2cad593514-thumbnail.webp"
-      }
+      },
+      "variants": [
+        {
+          "id": "fossati-shutter-picasso-stecca-aperta-fissa",
+          "name": "Picasso – stecca aperta fissa",
+          "type": "Stecca aperta fissa"
+        },
+        {
+          "id": "fossati-shutter-picasso-stecca-orientabile",
+          "name": "Picasso – stecca orientabile",
+          "type": "Stecca orientabile"
+        },
+        {
+          "id": "fossati-shutter-picasso-stecca-storica",
+          "name": "Picasso – stecca storica",
+          "type": "Stecca storica"
+        },
+        {
+          "id": "fossati-shutter-picasso-doghe-verticali",
+          "name": "Picasso – doghe verticali",
+          "type": "Doghe verticali"
+        },
+        {
+          "id": "fossati-shutter-picasso-doghe-orizzontali",
+          "name": "Picasso – doghe orizzontali",
+          "type": "Doghe orizzontali"
+        }
+      ]
     },
     {
       "key": "giotto",
@@ -136,7 +217,19 @@
         "height": 600,
         "full": "fossati-shutter-3ddcc5591aa19f82-full.webp",
         "thumbnail": "fossati-shutter-3ddcc5591aa19f82-thumbnail.webp"
-      }
+      },
+      "variants": [
+        {
+          "id": "fossati-shutter-giotto-doghe-verticali",
+          "name": "Giotto – doghe verticali",
+          "type": "Doghe verticali"
+        },
+        {
+          "id": "fossati-shutter-giotto-doghe-orizzontali",
+          "name": "Giotto – doghe orizzontali",
+          "type": "Doghe orizzontali su richiesta"
+        }
+      ]
     }
   ]
 }

@@ -1,11 +1,11 @@
 [
   {
-    "id": "fossati-shutter-raffaello",
+    "id": "fossati-shutter-raffaello-stecca-aperta-fissa",
     "sku": "",
-    "slug": "fossati-shutter-raffaello",
-    "name": "Raffaello",
-    "subtitle": "Fossati · Persiana a battente · Alluminio",
-    "description": "Persiana in alluminio verniciato, realizzabile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali. Montaggio direttamente a muro con cardini oppure su telaio, secondo la configurazione scelta. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "slug": "fossati-shutter-raffaello-stecca-aperta-fissa",
+    "name": "Raffaello – stecca aperta fissa",
+    "subtitle": "Fossati · Persiana a battente · Alluminio · Stecca aperta fissa",
+    "description": "Persiana a battente in alluminio verniciato con stecca aperta fissa. Montaggio direttamente a muro con cardini oppure su telaio, con aletta di battuta da 50 o 65 mm, oppure da 15 mm a minimo ingombro. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
     "department_id": "infissi",
     "price": null,
     "images": [
@@ -18,15 +18,99 @@
     "is_featured": false,
     "window_collection": "persiane-alluminio",
     "source_url": "https://www.fossatiserramenti.it/oscuranti/raffaello/",
-    "image_note": "Immagine ufficiale del modello in una configurazione rappresentativa. Colore e dotazioni su preventivo."
+    "image_note": "Foto ufficiale rappresentativa della linea Raffaello; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
   },
   {
-    "id": "fossati-shutter-leonardo",
+    "id": "fossati-shutter-raffaello-stecca-orientabile",
     "sku": "",
-    "slug": "fossati-shutter-leonardo",
-    "name": "Leonardo",
-    "subtitle": "Fossati · Persiana scorrevole · Alluminio",
-    "description": "Persiana scorrevole in alluminio verniciato con anta su binario e carrelli superiori. Disponibile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali intelaiate nel profilo perimetrale. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "slug": "fossati-shutter-raffaello-stecca-orientabile",
+    "name": "Raffaello – stecca orientabile",
+    "subtitle": "Fossati · Persiana a battente · Alluminio · Stecca orientabile",
+    "description": "Persiana a battente in alluminio verniciato con stecca orientabile. Montaggio direttamente a muro con cardini oppure su telaio, con aletta di battuta da 50 o 65 mm, oppure da 15 mm a minimo ingombro. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-c1b86b7e5120112d-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-c1b86b7e5120112d-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/raffaello/",
+    "image_note": "Foto ufficiale rappresentativa della linea Raffaello; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-raffaello-stecca-storica",
+    "sku": "",
+    "slug": "fossati-shutter-raffaello-stecca-storica",
+    "name": "Raffaello – stecca storica",
+    "subtitle": "Fossati · Persiana a battente · Alluminio · Stecca storica",
+    "description": "Persiana a battente in alluminio verniciato con stecca storica. Montaggio direttamente a muro con cardini oppure su telaio, con aletta di battuta da 50 o 65 mm, oppure da 15 mm a minimo ingombro. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-c1b86b7e5120112d-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-c1b86b7e5120112d-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/raffaello/",
+    "image_note": "Foto ufficiale rappresentativa della linea Raffaello; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-raffaello-doghe-verticali",
+    "sku": "",
+    "slug": "fossati-shutter-raffaello-doghe-verticali",
+    "name": "Raffaello – doghe verticali",
+    "subtitle": "Fossati · Persiana a battente · Alluminio · Doghe verticali",
+    "description": "Persiana a battente in alluminio verniciato con doghe verticali. Montaggio direttamente a muro con cardini oppure su telaio, con aletta di battuta da 50 o 65 mm, oppure da 15 mm a minimo ingombro. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-c1b86b7e5120112d-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-c1b86b7e5120112d-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/raffaello/",
+    "image_note": "Foto ufficiale rappresentativa della linea Raffaello; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-raffaello-doghe-orizzontali",
+    "sku": "",
+    "slug": "fossati-shutter-raffaello-doghe-orizzontali",
+    "name": "Raffaello – doghe orizzontali",
+    "subtitle": "Fossati · Persiana a battente · Alluminio · Doghe orizzontali",
+    "description": "Persiana a battente in alluminio verniciato con doghe orizzontali. Montaggio direttamente a muro con cardini oppure su telaio, con aletta di battuta da 50 o 65 mm, oppure da 15 mm a minimo ingombro. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-c1b86b7e5120112d-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-c1b86b7e5120112d-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/raffaello/",
+    "image_note": "Foto ufficiale rappresentativa della linea Raffaello; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-leonardo-stecca-aperta-fissa",
+    "sku": "",
+    "slug": "fossati-shutter-leonardo-stecca-aperta-fissa",
+    "name": "Leonardo – stecca aperta fissa",
+    "subtitle": "Fossati · Persiana scorrevole · Alluminio · Stecca aperta fissa",
+    "description": "Persiana scorrevole su binario e carrelli superiori in alluminio verniciato con stecca aperta fissa. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
     "department_id": "infissi",
     "price": null,
     "images": [
@@ -39,15 +123,99 @@
     "is_featured": false,
     "window_collection": "persiane-scorrevoli",
     "source_url": "https://www.fossatiserramenti.it/oscuranti/leonardo/",
-    "image_note": "Immagine ufficiale del modello in una configurazione rappresentativa. Colore e dotazioni su preventivo."
+    "image_note": "Foto ufficiale rappresentativa della linea Leonardo; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
   },
   {
-    "id": "fossati-shutter-picasso",
+    "id": "fossati-shutter-leonardo-stecca-orientabile",
     "sku": "",
-    "slug": "fossati-shutter-picasso",
-    "name": "Picasso",
-    "subtitle": "Fossati · Persiana su telaio · Alluminio",
-    "description": "Persiana a battente in alluminio verniciato, realizzata esclusivamente su telaio. Disponibile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali intelaiate nel profilo perimetrale. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "slug": "fossati-shutter-leonardo-stecca-orientabile",
+    "name": "Leonardo – stecca orientabile",
+    "subtitle": "Fossati · Persiana scorrevole · Alluminio · Stecca orientabile",
+    "description": "Persiana scorrevole su binario e carrelli superiori in alluminio verniciato con stecca orientabile. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-f787d80874d5c197-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-f787d80874d5c197-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-scorrevoli",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/leonardo/",
+    "image_note": "Foto ufficiale rappresentativa della linea Leonardo; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-leonardo-stecca-storica",
+    "sku": "",
+    "slug": "fossati-shutter-leonardo-stecca-storica",
+    "name": "Leonardo – stecca storica",
+    "subtitle": "Fossati · Persiana scorrevole · Alluminio · Stecca storica",
+    "description": "Persiana scorrevole su binario e carrelli superiori in alluminio verniciato con stecca storica. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-f787d80874d5c197-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-f787d80874d5c197-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-scorrevoli",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/leonardo/",
+    "image_note": "Foto ufficiale rappresentativa della linea Leonardo; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-leonardo-doghe-verticali",
+    "sku": "",
+    "slug": "fossati-shutter-leonardo-doghe-verticali",
+    "name": "Leonardo – doghe verticali",
+    "subtitle": "Fossati · Persiana scorrevole · Alluminio · Doghe verticali",
+    "description": "Persiana scorrevole su binario e carrelli superiori in alluminio verniciato con doghe verticali. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-f787d80874d5c197-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-f787d80874d5c197-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-scorrevoli",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/leonardo/",
+    "image_note": "Foto ufficiale rappresentativa della linea Leonardo; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-leonardo-doghe-orizzontali",
+    "sku": "",
+    "slug": "fossati-shutter-leonardo-doghe-orizzontali",
+    "name": "Leonardo – doghe orizzontali",
+    "subtitle": "Fossati · Persiana scorrevole · Alluminio · Doghe orizzontali",
+    "description": "Persiana scorrevole su binario e carrelli superiori in alluminio verniciato con doghe orizzontali. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-f787d80874d5c197-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-f787d80874d5c197-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-scorrevoli",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/leonardo/",
+    "image_note": "Foto ufficiale rappresentativa della linea Leonardo; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-picasso-stecca-aperta-fissa",
+    "sku": "",
+    "slug": "fossati-shutter-picasso-stecca-aperta-fissa",
+    "name": "Picasso – stecca aperta fissa",
+    "subtitle": "Fossati · Persiana su telaio · Alluminio · Stecca aperta fissa",
+    "description": "Persiana a battente in alluminio verniciato con stecca aperta fissa. Realizzata esclusivamente su telaio. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
     "department_id": "infissi",
     "price": null,
     "images": [
@@ -60,15 +228,99 @@
     "is_featured": false,
     "window_collection": "persiane-alluminio",
     "source_url": "https://www.fossatiserramenti.it/oscuranti/picasso/",
-    "image_note": "Immagine ufficiale del modello in una configurazione rappresentativa. Colore e dotazioni su preventivo."
+    "image_note": "Foto ufficiale rappresentativa della linea Picasso; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
   },
   {
-    "id": "fossati-shutter-giotto",
+    "id": "fossati-shutter-picasso-stecca-orientabile",
     "sku": "",
-    "slug": "fossati-shutter-giotto",
-    "name": "Giotto",
-    "subtitle": "Fossati · Antone dogato · Alluminio",
-    "description": "Antone dogato in alluminio verniciato, con intelaiatura portante visibile dal lato interno e continuità delle doghe sul lato esterno. Doghe verticali oppure orizzontali su richiesta. Montaggio su cardini a muro oppure su telaio. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "slug": "fossati-shutter-picasso-stecca-orientabile",
+    "name": "Picasso – stecca orientabile",
+    "subtitle": "Fossati · Persiana su telaio · Alluminio · Stecca orientabile",
+    "description": "Persiana a battente in alluminio verniciato con stecca orientabile. Realizzata esclusivamente su telaio. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-32af0f2cad593514-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-32af0f2cad593514-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/picasso/",
+    "image_note": "Foto ufficiale rappresentativa della linea Picasso; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-picasso-stecca-storica",
+    "sku": "",
+    "slug": "fossati-shutter-picasso-stecca-storica",
+    "name": "Picasso – stecca storica",
+    "subtitle": "Fossati · Persiana su telaio · Alluminio · Stecca storica",
+    "description": "Persiana a battente in alluminio verniciato con stecca storica. Realizzata esclusivamente su telaio. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-32af0f2cad593514-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-32af0f2cad593514-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/picasso/",
+    "image_note": "Foto ufficiale rappresentativa della linea Picasso; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-picasso-doghe-verticali",
+    "sku": "",
+    "slug": "fossati-shutter-picasso-doghe-verticali",
+    "name": "Picasso – doghe verticali",
+    "subtitle": "Fossati · Persiana su telaio · Alluminio · Doghe verticali",
+    "description": "Persiana a battente in alluminio verniciato con doghe verticali. Realizzata esclusivamente su telaio. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-32af0f2cad593514-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-32af0f2cad593514-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/picasso/",
+    "image_note": "Foto ufficiale rappresentativa della linea Picasso; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-picasso-doghe-orizzontali",
+    "sku": "",
+    "slug": "fossati-shutter-picasso-doghe-orizzontali",
+    "name": "Picasso – doghe orizzontali",
+    "subtitle": "Fossati · Persiana su telaio · Alluminio · Doghe orizzontali",
+    "description": "Persiana a battente in alluminio verniciato con doghe orizzontali. Realizzata esclusivamente su telaio. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-32af0f2cad593514-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-32af0f2cad593514-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "persiane-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/picasso/",
+    "image_note": "Foto ufficiale rappresentativa della linea Picasso; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-giotto-doghe-verticali",
+    "sku": "",
+    "slug": "fossati-shutter-giotto-doghe-verticali",
+    "name": "Giotto – doghe verticali",
+    "subtitle": "Fossati · Antone dogato · Alluminio · Doghe verticali",
+    "description": "Antone dogato in alluminio verniciato con doghe verticali. Intelaiatura portante visibile dal lato interno e continuità delle doghe sul lato esterno. Montaggio direttamente a muro con cardini oppure su telaio, con aletta di battuta da 50 o 65 mm, oppure da 15 mm a minimo ingombro. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
     "department_id": "infissi",
     "price": null,
     "images": [
@@ -81,6 +333,27 @@
     "is_featured": false,
     "window_collection": "scuri-alluminio",
     "source_url": "https://www.fossatiserramenti.it/oscuranti/giotto/",
-    "image_note": "Immagine ufficiale del modello in una configurazione rappresentativa. Colore e dotazioni su preventivo."
+    "image_note": "Foto ufficiale rappresentativa della linea Giotto; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
+  },
+  {
+    "id": "fossati-shutter-giotto-doghe-orizzontali",
+    "sku": "",
+    "slug": "fossati-shutter-giotto-doghe-orizzontali",
+    "name": "Giotto – doghe orizzontali",
+    "subtitle": "Fossati · Antone dogato · Alluminio · Doghe orizzontali",
+    "description": "Antone dogato in alluminio verniciato con doghe orizzontali. Configurazione con doghe orizzontali disponibile su richiesta. Intelaiatura portante visibile dal lato interno e continuità delle doghe sul lato esterno. Montaggio direttamente a muro con cardini oppure su telaio, con aletta di battuta da 50 o 65 mm, oppure da 15 mm a minimo ingombro. Misure, finitura, configurazione delle ante e dotazioni da definire al preventivo.",
+    "department_id": "infissi",
+    "price": null,
+    "images": [
+      "fossati-shutter-3ddcc5591aa19f82-full.webp"
+    ],
+    "thumbnail": "fossati-shutter-3ddcc5591aa19f82-thumbnail.webp",
+    "partner_ids": [
+      "fossati"
+    ],
+    "is_featured": false,
+    "window_collection": "scuri-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/oscuranti/giotto/",
+    "image_note": "Foto ufficiale rappresentativa della linea Giotto; la tipologia di stecche o doghe mostrata può differire da quella selezionata. Colore e dotazioni su preventivo."
   }
 ]

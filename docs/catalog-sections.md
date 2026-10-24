@@ -42,4 +42,4 @@ Verifica automatica: `npm run check:sections`, inclusa nel deploy GitHub Pages,
 oltre ai controlli esistenti su porte, partner, testi, ricerca e catalogo.
 
 
-Aggiornamento persiane Fossati: vedere [fossati-shutters.md](fossati-shutters.md). I conteggi precedenti rappresentano lo stato prima della sostituzione: ora 50 infissi e 46 schede del partner Fossati; le 42 finestre restano invariate.
+Aggiornamento persiane Fossati: vedere [fossati-shutters.md](fossati-shutters.md). I conteggi precedenti rappresentano lo stato prima della sostituzione: ora 63 infissi e 59 schede del partner Fossati (incluse le 17 tipologie di oscuranti); le 42 finestre restano invariate.
