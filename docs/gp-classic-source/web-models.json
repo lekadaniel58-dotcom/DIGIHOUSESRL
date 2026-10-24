@@ -1604,10 +1604,11 @@
   },
   {
     "series": "massellata",
-    "model": "FLAT 09V",
+    "model": "FLAT 09",
     "url": "https://gp-porte.it/wp-content/uploads/2026/01/Mod_FLAT-09V_Frassino.png",
     "source_url": "https://gp-porte.it/prodotti/porte-in-legno/massellata/",
-    "filename": "legno-massellata.html"
+    "filename": "legno-massellata.html",
+    "review_note": "First FLAT 09 photo is a solid panel; filename incorrectly says 09V. Visually verified against PDF p52."
   },
   {
     "series": "massellata",
@@ -1769,5 +1770,12 @@
     "url": "https://gp-porte.it/wp-content/uploads/2026/01/BOISERIE-CONTINUUM_SUPREME.webp",
     "source_url": "https://gp-porte.it/prodotti/porte-in-legno/continuum-boiserie/",
     "filename": "legno-continuum-boiserie.html"
+  },
+  {
+    "series": "massellata",
+    "model": "FLAT 09V",
+    "url": "https://gp-porte.it/wp-content/uploads/2020/10/Mod_FLAT-09V_Frassino.jpg",
+    "source_url": "https://gp-porte.it/prodotti/porte-in-legno/massellata/",
+    "filename": "legno-massellata.html"
   }
 ]
