@@ -32,8 +32,14 @@ def asset(item):
             for request in item.get('extracts',[]):
                 page=doc[request['page']-1]
                 if request.get('xref'):
-                    image=doc.extract_image(request['xref'])['image']
-                else:image=page.get_pixmap(matrix=fitz.Matrix(1.7,1.7),alpha=False).tobytes('png')
+                    xref=request['xref'];info=next((r for r in page.get_images(full=True) if r[0]==xref),None)
+                    if info and info[1]:
+                        image=fitz.Pixmap(fitz.Pixmap(doc,xref),fitz.Pixmap(doc,info[1])).tobytes('png')
+                    else:image=doc.extract_image(xref)['image']
+                else:
+                    scale=request.get('scale',1.7)
+                    clip=fitz.Rect(request['clip']) if request.get('clip') else None
+                    image=page.get_pixmap(matrix=fitz.Matrix(scale,scale),clip=clip,alpha=False).tobytes('png')
                 extracts.append(dict(request,**convert(image)))
             if item.get('inspect_pages'):
                 inspection=[]

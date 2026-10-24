@@ -9,8 +9,15 @@
     ],
     "extracts": [
       {
-        "key": "review-ecos-tavola",
-        "page": 11
+        "key": "ecos-lide",
+        "page": 11,
+        "clip": [
+          277,
+          603,
+          406,
+          741
+        ],
+        "scale": 5
       }
     ]
   },
@@ -43,12 +50,14 @@
     ],
     "extracts": [
       {
-        "key": "review-nova",
-        "page": 14
+        "key": "nova-battente",
+        "page": 14,
+        "xref": 182
       },
       {
-        "key": "review-thermic",
-        "page": 16
+        "key": "thermicx-battente",
+        "page": 16,
+        "xref": 266
       }
     ]
   },
@@ -292,7 +301,7 @@
   },
   {
     "key": "fossati-logo",
-    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/11/Logo-Fossati-2024-NEW_Blacktricolore.png",
+    "url": "https://www.fossatiserramenti.it/wp-content/uploads/2024/12/Logo-Fossati.png",
     "kind": "image"
   }
 ]
