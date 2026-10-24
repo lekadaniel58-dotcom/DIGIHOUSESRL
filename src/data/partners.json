@@ -144,5 +144,12 @@
     "logo": "/assets/fornitori/fossati-logo.webp",
     "departments": [],
     "productNames": []
+  },
+  {
+    "id": "gp",
+    "name": "GP Porte",
+    "logo": "/assets/fornitori/gp-logo.webp",
+    "departments": [],
+    "productNames": []
   }
 ]

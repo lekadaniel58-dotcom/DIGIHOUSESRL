@@ -10,14 +10,14 @@ const rows = parse(fs.readFileSync(new URL('../data/catalogo.csv', import.meta.u
 const existingProducts = mergeAipProducts([...rows, ...read('../src/data/partnerProducts.json')].map(r => ({ ...r, department_id: slug(r.department) })), read('../src/data/aipProducts.json'));
 const { replaceWindowProducts } = await import('../src/lib/replaceWindowProducts.ts');
 const { replaceShutterProducts } = await import('../src/lib/replaceShutterProducts.ts');
-const products = replaceShutterProducts(replaceWindowProducts([...existingProducts, ...read('../src/data/pailProducts.json')], read('../src/data/fossatiProducts.json')), read('../src/data/fossatiShutterProducts.json'));
+const products = replaceShutterProducts(replaceWindowProducts([...existingProducts, ...read('../src/data/pailProducts.json'), ...read('../src/data/gpWoodProducts.json')], read('../src/data/fossatiProducts.json')), read('../src/data/fossatiShutterProducts.json'));
 const expectedFittings = ['Infissi', 'Porte interne', 'Porte blindate', 'Zanzariere', 'Avvolgibili e tapparelle'];
 for (const row of rows) assert.equal(getProductSection({ department_id: slug(row.department) }), expectedFittings.includes(row.department) ? 'serramenti' : 'edilizia', row.name);
 const sections = catalogSections.map(s => products.filter(p => getProductSection(p) === s.id));
 assert.equal(sections.flat().length, products.length);
 assert(!sections[0].some(p => sections[1].includes(p)));
 for (const p of products) assert(catalogSections.some(s => getProductSection(p) === s.id));
-for (const id of ['aip','pail','dierre','sallustio','fossati','zanzar']) assert.equal(getCatalogSection('', id, ''), 'serramenti');
+for (const id of ['gp','aip','pail','dierre','sallustio','fossati','zanzar']) assert.equal(getCatalogSection('', id, ''), 'serramenti');
 for (const id of ['muratti','hex','ivc','opera','premier']) assert.equal(getCatalogSection('', id, ''), 'edilizia');
 assert.equal(getCatalogSection('', '', ''), '');
 assert.equal(getCatalogSection('infissi', '', 'edilizia'), 'serramenti');
