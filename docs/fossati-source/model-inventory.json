@@ -1,0 +1,720 @@
+[
+  {
+    "key": "icon",
+    "name": "Icon Centenario – battente",
+    "material": "PVC",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "icon",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/icon/",
+    "catalog_key": "catalogo-icon_2026-3966ca",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Icon_2026.pdf",
+    "catalog_pages": [
+      13,
+      17,
+      19
+    ],
+    "detail": "Profilo anta ridotto della gamma Icon Centenario, con tripla guarnizione e superficie vetrabile ampia.",
+    "image_scope": "family"
+  },
+  {
+    "key": "icon-alu",
+    "name": "Icon Centenario ALU – battente",
+    "material": "PVC / alluminio",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "icon",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/icon/",
+    "catalog_key": "catalogo-icon_2026-3966ca",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Icon_2026.pdf",
+    "catalog_pages": [
+      13,
+      17,
+      19
+    ],
+    "detail": "Profilo anta ridotto della gamma Icon Centenario, con tripla guarnizione e superficie vetrabile ampia. La versione ALU prevede il rivestimento esterno in alluminio.",
+    "image_scope": "family"
+  },
+  {
+    "key": "linea76",
+    "name": "Linea76 – battente",
+    "material": "PVC",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "linea76",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "catalog_key": "catalogo-linea-76_2026-ea5223",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Linea-76_2026.pdf",
+    "catalog_pages": [
+      16,
+      17,
+      19
+    ],
+    "detail": "Sistema Linea76 in PVC con tripla guarnizione e personalizzazione delle finiture.",
+    "image_scope": "family"
+  },
+  {
+    "key": "linea76-plus",
+    "name": "Linea76 Plus – battente",
+    "material": "PVC",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "linea76",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "catalog_key": "catalogo-linea-76_2026-ea5223",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Linea-76_2026.pdf",
+    "catalog_pages": [
+      16,
+      17,
+      19
+    ],
+    "detail": "Sistema Linea76 in PVC con tripla guarnizione e personalizzazione delle finiture. Variante Plus con vetratura a due camere secondo le configurazioni del produttore.",
+    "image_scope": "family"
+  },
+  {
+    "key": "linea76-alu",
+    "name": "Linea76 ALU – battente",
+    "material": "PVC / alluminio",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "linea76",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "catalog_key": "catalogo-linea-76_2026-ea5223",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Linea-76_2026.pdf",
+    "catalog_pages": [
+      16,
+      17,
+      19
+    ],
+    "detail": "Sistema Linea76 in PVC con tripla guarnizione e personalizzazione delle finiture. La versione ALU prevede il rivestimento esterno in alluminio.",
+    "image_scope": "family"
+  },
+  {
+    "key": "linea76-alu-plus",
+    "name": "Linea76 ALU Plus – battente",
+    "material": "PVC / alluminio",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "linea76",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/linea76/",
+    "catalog_key": "catalogo-linea-76_2026-ea5223",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Linea-76_2026.pdf",
+    "catalog_pages": [
+      16,
+      17,
+      19
+    ],
+    "detail": "Sistema Linea76 in PVC con tripla guarnizione e personalizzazione delle finiture. La versione ALU prevede il rivestimento esterno in alluminio. Variante Plus con vetratura a due camere secondo le configurazioni del produttore.",
+    "image_scope": "family"
+  },
+  {
+    "key": "vision76",
+    "name": "Vision76 – battente",
+    "material": "PVC",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "vision76",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/vision76/",
+    "catalog_key": "catalogo-vision-76_2026-f7bbde",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Vision-76_2026.pdf",
+    "catalog_pages": [
+      15,
+      17
+    ],
+    "detail": "Sistema Vision76 in PVC, dal disegno lineare, per finestre e portefinestre.",
+    "image_scope": "family"
+  },
+  {
+    "key": "vision76-plus",
+    "name": "Vision76 Plus – battente",
+    "material": "PVC",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "vision76",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/vision76/",
+    "catalog_key": "catalogo-vision-76_2026-f7bbde",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Vision-76_2026.pdf",
+    "catalog_pages": [
+      15,
+      17
+    ],
+    "detail": "Sistema Vision76 in PVC, dal disegno lineare, per finestre e portefinestre. Variante Plus con vetratura a due camere secondo le configurazioni del produttore.",
+    "image_scope": "family"
+  },
+  {
+    "key": "solaris",
+    "name": "Solaris – battente",
+    "material": "PVC",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "solaris",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/solaris/",
+    "catalog_key": "catalogo-solaris_2026-8b1067",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Solaris_2026.pdf",
+    "catalog_pages": [
+      14,
+      15
+    ],
+    "detail": "Sistema Solaris in PVC dal disegno contemporaneo per finestre e portefinestre.",
+    "image_scope": "family"
+  },
+  {
+    "key": "solaris-plus",
+    "name": "Solaris Plus – battente",
+    "material": "PVC",
+    "opening": "Battente",
+    "collection": "pvc",
+    "image_key": "solaris",
+    "source_url": "https://www.fossatiserramenti.it/finestre/pvc/solaris/",
+    "catalog_key": "catalogo-solaris_2026-8b1067",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Solaris_2026.pdf",
+    "catalog_pages": [
+      14,
+      15
+    ],
+    "detail": "Sistema Solaris in PVC dal disegno contemporaneo per finestre e portefinestre. Variante Plus con vetratura a due camere secondo le configurazioni del produttore.",
+    "image_scope": "family"
+  },
+  {
+    "key": "metropolis-battente",
+    "name": "Metropolis – battente",
+    "material": "Alluminio",
+    "opening": "Battente",
+    "collection": "alluminio-battente",
+    "image_key": "metropolis-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/metropolis/",
+    "catalog_key": "catalogo-metropolis-forma_-2026-e2be15",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Metropolis-Forma_-2026.pdf",
+    "catalog_pages": [
+      12,
+      13,
+      14
+    ],
+    "detail": "Serramento in alluminio a taglio termico con profili essenziali.",
+    "image_scope": "family"
+  },
+  {
+    "key": "metropolis-plus-battente",
+    "name": "Metropolis Plus – battente",
+    "material": "Alluminio",
+    "opening": "Battente",
+    "collection": "alluminio-battente",
+    "image_key": "metropolis-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/metropolis/",
+    "catalog_key": "catalogo-metropolis-forma_-2026-e2be15",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Metropolis-Forma_-2026.pdf",
+    "catalog_pages": [
+      13,
+      15
+    ],
+    "detail": "Variante Plus del sistema Metropolis con vetratura a due camere.",
+    "image_scope": "family"
+  },
+  {
+    "key": "forma",
+    "name": "Forma – battente",
+    "material": "Alluminio",
+    "opening": "Battente",
+    "collection": "alluminio-battente",
+    "image_key": "forma",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/forma/",
+    "catalog_key": "catalogo-metropolis-forma_-2026-e2be15",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Catalogo-Metropolis-Forma_-2026.pdf",
+    "catalog_pages": [
+      7,
+      15,
+      18
+    ],
+    "detail": "Sistema in alluminio a taglio termico, evoluzione della linea Metropolis, con telaio di maggiore profondità.",
+    "image_scope": "model"
+  },
+  {
+    "key": "ishape",
+    "name": "iShape – battente",
+    "material": "Alluminio",
+    "opening": "Battente",
+    "collection": "alluminio-battente",
+    "image_key": "ishape",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/ishape/",
+    "catalog_key": "leaflet-alluminio-new_2026-2c3e86",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Leaflet-Alluminio-New_2026.pdf",
+    "catalog_pages": [
+      1,
+      2
+    ],
+    "detail": "Sistema a battente in alluminio con profilo a vista, proporzioni contenute e disegno lineare.",
+    "image_scope": "model"
+  },
+  {
+    "key": "iline",
+    "name": "iLine – battente",
+    "material": "Alluminio",
+    "opening": "Battente",
+    "collection": "alluminio-battente",
+    "image_key": "iline",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/iline/",
+    "catalog_key": "leaflet-alluminio-new_2026-2c3e86",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Leaflet-Alluminio-New_2026.pdf",
+    "catalog_pages": [
+      1,
+      2
+    ],
+    "detail": "Sistema a battente in alluminio dal profilo sottile, pensato per un disegno essenziale e luminoso.",
+    "image_scope": "model"
+  },
+  {
+    "key": "iframe",
+    "name": "iFrame – battente",
+    "material": "Alluminio",
+    "opening": "Battente",
+    "collection": "alluminio-battente",
+    "image_key": "iframe",
+    "source_url": "https://www.fossatiserramenti.it/finestre/alluminio/iframe/",
+    "catalog_key": "leaflet-alluminio-new_2026-2c3e86",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Leaflet-Alluminio-New_2026.pdf",
+    "catalog_pages": [
+      1,
+      2
+    ],
+    "detail": "Sistema in alluminio con anta a scomparsa, per ridurre la presenza visiva del profilo.",
+    "image_scope": "model"
+  },
+  {
+    "key": "nova-battente",
+    "name": "Nova – battente",
+    "material": "Legno",
+    "opening": "Battente",
+    "collection": "legno",
+    "image_key": "nova-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/finestre-legno/",
+    "catalog_key": "catalogo-nova-thermicx_2026_-20b603",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/06/Catalogo-Nova-ThermicX_2026_.pdf",
+    "catalog_pages": [
+      14,
+      15
+    ],
+    "detail": "Serramento in legno lamellare con le sagome interne previste dal produttore.",
+    "image_scope": "family"
+  },
+  {
+    "key": "nova-plus-battente",
+    "name": "Nova Plus – battente",
+    "material": "Legno",
+    "opening": "Battente",
+    "collection": "legno",
+    "image_key": "nova-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/finestre-legno/",
+    "catalog_key": "catalogo-nova-thermicx_2026_-20b603",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/06/Catalogo-Nova-ThermicX_2026_.pdf",
+    "catalog_pages": [
+      14,
+      15
+    ],
+    "detail": "Serramento in legno lamellare con le sagome interne previste dal produttore. La versione Plus prevede il triplo vetro nelle configurazioni documentate.",
+    "image_scope": "family"
+  },
+  {
+    "key": "thermicx-battente",
+    "name": "ThermicX – battente",
+    "material": "Legno / alluminio",
+    "opening": "Battente",
+    "collection": "legno-alluminio",
+    "image_key": "thermicx-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/finestre-legno/",
+    "catalog_key": "catalogo-nova-thermicx_2026_-20b603",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/06/Catalogo-Nova-ThermicX_2026_.pdf",
+    "catalog_pages": [
+      16,
+      17
+    ],
+    "detail": "Serramento con legno lamellare sul lato interno e protezione esterna in alluminio.",
+    "image_scope": "family"
+  },
+  {
+    "key": "thermicx-plus-battente",
+    "name": "ThermicX Plus – battente",
+    "material": "Legno / alluminio",
+    "opening": "Battente",
+    "collection": "legno-alluminio",
+    "image_key": "thermicx-battente",
+    "source_url": "https://www.fossatiserramenti.it/finestre/finestre-legno/",
+    "catalog_key": "catalogo-nova-thermicx_2026_-20b603",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/06/Catalogo-Nova-ThermicX_2026_.pdf",
+    "catalog_pages": [
+      16,
+      17
+    ],
+    "detail": "Serramento con legno lamellare sul lato interno e protezione esterna in alluminio. La versione Plus prevede il triplo vetro nelle configurazioni documentate.",
+    "image_scope": "family"
+  },
+  {
+    "key": "meridiana82",
+    "name": "HST Meridiana 82",
+    "material": "PVC",
+    "opening": "Alzante scorrevole",
+    "collection": "pvc-scorrevole",
+    "image_key": "meridiana82",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      7,
+      8
+    ],
+    "detail": "Sistema alzante scorrevole della gamma Meridiana in PVC.",
+    "image_scope": "family"
+  },
+  {
+    "key": "meridiana82-plus",
+    "name": "HST Meridiana 82 Plus",
+    "material": "PVC",
+    "opening": "Alzante scorrevole",
+    "collection": "pvc-scorrevole",
+    "image_key": "meridiana82",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      7,
+      8
+    ],
+    "detail": "Sistema alzante scorrevole della gamma Meridiana in PVC. La configurazione Plus utilizza la vetratura prevista dal produttore per questa versione.",
+    "image_scope": "family"
+  },
+  {
+    "key": "meridiana-zero",
+    "name": "HST Meridiana Zero",
+    "material": "PVC",
+    "opening": "Alzante scorrevole",
+    "collection": "pvc-scorrevole",
+    "image_key": "meridiana-zero",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      7,
+      8
+    ],
+    "detail": "Sistema alzante scorrevole della gamma Meridiana in PVC. Versione Zero, realizzabile negli schemi di apertura specificati da Fossati.",
+    "image_scope": "model"
+  },
+  {
+    "key": "meridiana-zero-plus",
+    "name": "HST Meridiana Zero Plus",
+    "material": "PVC",
+    "opening": "Alzante scorrevole",
+    "collection": "pvc-scorrevole",
+    "image_key": "meridiana-zero-plus",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      7,
+      8
+    ],
+    "detail": "Sistema alzante scorrevole della gamma Meridiana in PVC. La configurazione Plus utilizza la vetratura prevista dal produttore per questa versione. Versione Zero, realizzabile negli schemi di apertura specificati da Fossati.",
+    "image_scope": "model"
+  },
+  {
+    "key": "meridiana82-alu",
+    "name": "HST Meridiana 82 ALU",
+    "material": "PVC / alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "pvc-scorrevole",
+    "image_key": "meridiana82-alu",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      7,
+      8
+    ],
+    "detail": "Sistema alzante scorrevole della gamma Meridiana in PVC. Rivestimento esterno in alluminio nella versione ALU.",
+    "image_scope": "model"
+  },
+  {
+    "key": "meridiana82-alu-plus",
+    "name": "HST Meridiana 82 ALU Plus",
+    "material": "PVC / alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "pvc-scorrevole",
+    "image_key": "meridiana82-alu-plus",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/meridiana/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      7,
+      8
+    ],
+    "detail": "Sistema alzante scorrevole della gamma Meridiana in PVC. Rivestimento esterno in alluminio nella versione ALU. La configurazione Plus utilizza la vetratura prevista dal produttore per questa versione.",
+    "image_scope": "model"
+  },
+  {
+    "key": "metropolis-alzante",
+    "name": "Metropolis – alzante scorrevole",
+    "material": "Alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "alluminio-scorrevole",
+    "image_key": "metropolis-alzante",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      12,
+      13
+    ],
+    "detail": "Sistema alzante scorrevole Metropolis in alluminio a taglio termico.",
+    "image_scope": "model"
+  },
+  {
+    "key": "metropolis-alzante-plus",
+    "name": "Metropolis Plus – alzante scorrevole",
+    "material": "Alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "alluminio-scorrevole",
+    "image_key": "metropolis-alzante-plus",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      12,
+      13
+    ],
+    "detail": "Sistema alzante scorrevole Metropolis in alluminio a taglio termico. Allestimento Plus con la vetratura prevista per questa configurazione.",
+    "image_scope": "model"
+  },
+  {
+    "key": "metropolis-alzante-slim",
+    "name": "Metropolis Slim – alzante scorrevole",
+    "material": "Alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "alluminio-scorrevole",
+    "image_key": "metropolis-alzante-slim",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      12,
+      13
+    ],
+    "detail": "Sistema alzante scorrevole Metropolis in alluminio a taglio termico. Versione Slim con nodo centrale ridotto, negli schemi ammessi dal produttore.",
+    "image_scope": "model"
+  },
+  {
+    "key": "metropolis-alzante-slim-plus",
+    "name": "Metropolis Slim Plus – alzante scorrevole",
+    "material": "Alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "alluminio-scorrevole",
+    "image_key": "metropolis-alzante-slim-plus",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/metropolis/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      12,
+      13
+    ],
+    "detail": "Sistema alzante scorrevole Metropolis in alluminio a taglio termico. Versione Slim con nodo centrale ridotto, negli schemi ammessi dal produttore. Allestimento Plus con la vetratura prevista per questa configurazione.",
+    "image_scope": "model"
+  },
+  {
+    "key": "inluce",
+    "name": "inLuce – alzante scorrevole",
+    "material": "Alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "alluminio-scorrevole",
+    "image_key": "inluce",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/inluce/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      14,
+      15
+    ],
+    "detail": "Sistema alzante scorrevole in alluminio con profili sottili, per valorizzare le aperture vetrate.",
+    "image_scope": "model"
+  },
+  {
+    "key": "velis",
+    "name": "Velis – alzante scorrevole",
+    "material": "Alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "alluminio-scorrevole",
+    "image_key": "velis",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/velis/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      16,
+      17
+    ],
+    "detail": "Sistema alzante scorrevole in alluminio, realizzabile con soglia a scomparsa secondo la configurazione scelta.",
+    "image_scope": "model"
+  },
+  {
+    "key": "thermicx-alzante",
+    "name": "ThermicX – alzante scorrevole",
+    "material": "Legno / alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "legno-alluminio-scorrevole",
+    "image_key": "thermicx-alzante",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      22,
+      23
+    ],
+    "detail": "Alzante scorrevole ThermicX con legno sul lato interno e alluminio sul lato esterno.",
+    "image_scope": "model"
+  },
+  {
+    "key": "thermicx-alzante-plus",
+    "name": "ThermicX Plus – alzante scorrevole",
+    "material": "Legno / alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "legno-alluminio-scorrevole",
+    "image_key": "thermicx-alzante-plus",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      22,
+      23
+    ],
+    "detail": "Alzante scorrevole ThermicX con legno sul lato interno e alluminio sul lato esterno. Allestimento Plus secondo la vetratura e le configurazioni del produttore.",
+    "image_scope": "model"
+  },
+  {
+    "key": "thermicx-alzante-zero",
+    "name": "ThermicX Zero – alzante scorrevole",
+    "material": "Legno / alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "legno-alluminio-scorrevole",
+    "image_key": "thermicx-alzante-zero",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      22,
+      23
+    ],
+    "detail": "Alzante scorrevole ThermicX con legno sul lato interno e alluminio sul lato esterno. Versione Zero negli schemi di apertura documentati da Fossati.",
+    "image_scope": "model"
+  },
+  {
+    "key": "thermicx-alzante-zero-plus",
+    "name": "ThermicX Zero Plus – alzante scorrevole",
+    "material": "Legno / alluminio",
+    "opening": "Alzante scorrevole",
+    "collection": "legno-alluminio-scorrevole",
+    "image_key": "thermicx-alzante-zero-plus",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      22,
+      23
+    ],
+    "detail": "Alzante scorrevole ThermicX con legno sul lato interno e alluminio sul lato esterno. Versione Zero negli schemi di apertura documentati da Fossati. Allestimento Plus secondo la vetratura e le configurazioni del produttore.",
+    "image_scope": "model"
+  },
+  {
+    "key": "nova-alzante",
+    "name": "Nova – alzante scorrevole",
+    "material": "Legno",
+    "opening": "Alzante scorrevole",
+    "collection": "legno-scorrevole",
+    "image_key": "nova-alzante",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/alzanti/legno-alluminio/",
+    "catalog_key": "leaflet-legno_2026-1aba8a",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/04/Leaflet-Legno_2026.pdf",
+    "catalog_pages": [
+      2
+    ],
+    "detail": "Alzante scorrevole in legno della linea Nova, citato nella pagina Fossati dedicata agli alzanti in legno e legno-alluminio. Configurazione e disponibilità da verificare al preventivo.",
+    "image_scope": "family"
+  },
+  {
+    "key": "complanare-pvc",
+    "name": "Complanare in PVC",
+    "material": "PVC",
+    "opening": "Scorrevole complanare",
+    "collection": "pvc-scorrevole",
+    "image_key": "complanare-pvc",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/complanari/pvc/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      10,
+      11
+    ],
+    "detail": "Sistema scorrevole complanare in PVC, adatto ad aperture di media ampiezza e alla gestione degli spazi interni.",
+    "image_scope": "model"
+  },
+  {
+    "key": "ecoslide",
+    "name": "Ecoslide",
+    "material": "PVC",
+    "opening": "Scorrevole",
+    "collection": "pvc-scorrevole",
+    "image_key": "ecos-lide",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/complanari/pvc/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      11
+    ],
+    "detail": "Scorrevole in PVC documentato nel catalogo Fossati. Il produttore lo propone per esigenze abitative in zone a clima mite.",
+    "image_scope": "pdf"
+  },
+  {
+    "key": "metropolis-complanare",
+    "name": "Metropolis – complanare",
+    "material": "Alluminio",
+    "opening": "Scorrevole complanare",
+    "collection": "alluminio-scorrevole",
+    "image_key": "complanare-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/complanari/alluminio/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      19
+    ],
+    "detail": "Sistema scorrevole complanare in alluminio della linea Metropolis, per aperture di media ampiezza e soluzioni vetrate.",
+    "image_scope": "family"
+  },
+  {
+    "key": "metropolis-complanare-plus",
+    "name": "Metropolis Plus – complanare",
+    "material": "Alluminio",
+    "opening": "Scorrevole complanare",
+    "collection": "alluminio-scorrevole",
+    "image_key": "complanare-alluminio",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/complanari/alluminio/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      19
+    ],
+    "detail": "Sistema scorrevole complanare in alluminio della linea Metropolis Plus, per aperture di media ampiezza e soluzioni vetrate.",
+    "image_scope": "family"
+  },
+  {
+    "key": "mediterraneo",
+    "name": "Mediterraneo",
+    "material": "Alluminio",
+    "opening": "Scorrevole leggero",
+    "collection": "alluminio-scorrevole",
+    "image_key": "mediterraneo",
+    "source_url": "https://www.fossatiserramenti.it/scorrevoli/leggeri/mediterraneo/",
+    "catalog_key": "catalogo-scorrevoli_2026-bc4397",
+    "catalog_url": "https://www.fossatiserramenti.it/wp-content/uploads/2026/05/Catalogo-Scorrevoli_2026.pdf",
+    "catalog_pages": [
+      20,
+      21
+    ],
+    "detail": "Scorrevole leggero in alluminio progettato per contesti a clima mite, con profili snelli e personalizzazione delle finiture.",
+    "image_scope": "model"
+  }
+]
