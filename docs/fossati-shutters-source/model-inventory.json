@@ -1,0 +1,83 @@
+[
+  {
+    "key": "raffaello",
+    "name": "Raffaello",
+    "type": "Persiana a battente",
+    "collection": "persiane-alluminio",
+    "image_key": "raffaello-1",
+    "pages": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "options": [
+      "Stecca aperta fissa",
+      "Stecca orientabile",
+      "Stecca storica",
+      "Doghe verticali",
+      "Doghe orizzontali"
+    ],
+    "detail": "Persiana in alluminio verniciato, realizzabile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali. Montaggio direttamente a muro con cardini oppure su telaio, secondo la configurazione scelta."
+  },
+  {
+    "key": "leonardo",
+    "name": "Leonardo",
+    "type": "Persiana scorrevole",
+    "collection": "persiane-scorrevoli",
+    "image_key": "leonardo-1",
+    "pages": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "options": [
+      "Stecca aperta fissa",
+      "Stecca orientabile",
+      "Stecca storica",
+      "Doghe verticali",
+      "Doghe orizzontali"
+    ],
+    "detail": "Persiana scorrevole in alluminio verniciato con anta su binario e carrelli superiori. Disponibile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali intelaiate nel profilo perimetrale."
+  },
+  {
+    "key": "picasso",
+    "name": "Picasso",
+    "type": "Persiana su telaio",
+    "collection": "persiane-alluminio",
+    "image_key": "picasso-1",
+    "pages": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "options": [
+      "Stecca aperta fissa",
+      "Stecca orientabile",
+      "Stecca storica",
+      "Doghe verticali",
+      "Doghe orizzontali"
+    ],
+    "detail": "Persiana a battente in alluminio verniciato, realizzata esclusivamente su telaio. Disponibile con stecca aperta fissa, orientabile o storica, oppure con doghe verticali o orizzontali intelaiate nel profilo perimetrale."
+  },
+  {
+    "key": "giotto",
+    "name": "Giotto",
+    "type": "Antone dogato",
+    "collection": "scuri-alluminio",
+    "image_key": "giotto-1",
+    "pages": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "options": [
+      "Doghe verticali",
+      "Doghe orizzontali su richiesta"
+    ],
+    "detail": "Antone dogato in alluminio verniciato, con intelaiatura portante visibile dal lato interno e continuità delle doghe sul lato esterno. Doghe verticali oppure orizzontali su richiesta. Montaggio su cardini a muro oppure su telaio."
+  }
+]
