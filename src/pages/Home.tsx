@@ -13,7 +13,7 @@ interface Card { slug: string; family?: string; title: string; text: string; Ico
 
 const serramenti: Card[] = [
   { slug: 'porte-interne', title: 'Porte interne', text: 'Scorrevoli, battenti, rasomuro e vetrate: soluzioni per arredare gli ambienti con stile e personalità.', Icon: DoorClosed },
-  { slug: 'infissi', family: 'finestre', title: 'Finestre e infissi', text: 'Alluminio, PVC e sistemi compositi per luce naturale, isolamento e comfort abitativo.', Icon: Square },
+  { slug: 'infissi', family: 'finestre', title: 'Finestre e infissi', text: 'PVC, alluminio, legno e legno/alluminio per luce naturale, isolamento e comfort abitativo.', Icon: Square },
   { slug: 'porte-blindate', title: 'Porte blindate e portoncini', text: 'Sicurezza, tecnologia, isolamento e finiture personalizzabili per l’ingresso di casa.', Icon: ShieldCheck },
   { slug: 'infissi', family: 'persiane', title: 'Persiane e scuri', text: 'Protezione solare, privacy e carattere architettonico: scegli la soluzione adatta alla facciata.', Icon: Shield },
 ];

@@ -1,5 +1,10 @@
 # Cataloghi e navigazione finestre
 
+Aggiornamento del 24 ottobre 2026: le 19 finestre precedenti sono sostituite con
+42 configurazioni Fossati. Gli infissi attivi sono 55, in 3 famiglie e 11
+sottocategorie. Vedere `fossati-windows.md` per struttura e fonti attuali.
+La tabella seguente documenta la configurazione precedente.
+
 Il catalogo iniziale presenta due ingressi:
 - `#/catalogo?settore=serramenti`: Serramenti e comfort.
 - `#/catalogo?settore=edilizia`: Edilizia e ferramenta.

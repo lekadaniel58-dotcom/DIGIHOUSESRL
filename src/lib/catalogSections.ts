@@ -10,7 +10,7 @@ export function getProductSection(product: Pick<Product, 'department_id'>) {
 }
 export function getCatalogSection(department: string, partner: string, selected: string) {
   if (department) return department === 'porte' || fittingsDepartments.includes(department) ? 'serramenti' : 'edilizia';
-  if (['aip', 'pail', 'dierre', 'sallustio', 'zanzar'].includes(partner)) return 'serramenti';
+  if (['aip', 'pail', 'dierre', 'sallustio', 'fossati', 'zanzar'].includes(partner)) return 'serramenti';
   if (partner) return 'edilizia';
   return catalogSections.some(s => s.id === selected) ? selected : '';
 }
