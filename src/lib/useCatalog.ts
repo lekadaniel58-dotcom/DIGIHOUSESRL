@@ -1,3 +1,5 @@
+import fossatiShutterProducts from '../data/fossatiShutterProducts.json';
+import { replaceShutterProducts } from './replaceShutterProducts';
 import fossatiProducts from '../data/fossatiProducts.json';
 import { replaceWindowProducts } from './replaceWindowProducts';
 import pailProducts from '../data/pailProducts.json';
@@ -44,6 +46,11 @@ const imageUrl = (filename: string, variant: 'thumbnail' | 'full') => {
   const asset = responsive?.[variant] ?? (imageOverrides as Record<string, string>)[filename] ?? filename;
   return `${import.meta.env.BASE_URL}data/immagini/${encodeURIComponent(asset)}`;
 };
+// Imported product data stores local asset filenames, resolved once on loading.
+const localizeProducts = (products: Product[]): Product[] => products.map(p => ({
+  ...p, images: p.images.map(image => imageUrl(image, 'full')),
+  thumbnail: p.thumbnail ? imageUrl(p.thumbnail, 'thumbnail') : undefined,
+}));
 const slugify = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export function useCatalog() {
   const [state, setState] = useState<CatalogState>({ departments: [], products: [], loading: true, error: null });
@@ -71,8 +78,10 @@ export function useCatalog() {
           smaller_formats: 'smaller_formats' in r && Array.isArray(r.smaller_formats) ? r.smaller_formats : undefined,
           is_featured: i < 8,
         }));
-        const merged = mergeAipProducts(products, aipProducts.map(p => ({ ...p, images: p.images.map(image => imageUrl(image, 'full')), thumbnail: imageUrl(p.thumbnail, 'thumbnail') })));
-        return { departments, products: groupBucketFormats(replaceWindowProducts([...merged, ...pailProducts.map(p => ({ ...p, images: p.images.map(image => imageUrl(image, 'full')), thumbnail: imageUrl(p.thumbnail, 'thumbnail') }))], fossatiProducts.map(p => ({ ...p, images: p.images.map(image => imageUrl(image, 'full')), thumbnail: imageUrl(p.thumbnail, 'thumbnail') })))), loading: false, error: null };
+        const withAip = mergeAipProducts(products, localizeProducts(aipProducts));
+        const withWindows = replaceWindowProducts([...withAip, ...localizeProducts(pailProducts)], localizeProducts(fossatiProducts));
+        const complete = replaceShutterProducts(withWindows, localizeProducts(fossatiShutterProducts));
+        return { departments, products: groupBucketFormats(complete), loading: false, error: null };
       })
       .then(result => { if (alive) setState(result); })
       .catch(e => { if (alive) setState(s => ({ ...s, loading: false, error: String(e.message ?? e) })); });

@@ -75,3 +75,6 @@ sezioni verificano tutti i 55 infissi rimasti: 42 finestre, 9 persiane/scuri e 4
 complementi. Gli altri controlli proteggono porte, ricerca, descrizioni e prezzi.
 Prove browser a 320, 768 e 1440 px: tutte le foto, ricerca, filtri, zoom, conteggi,
 logo Fossati e assenza di scorrimento orizzontale.
+
+
+Aggiornamento persiane Fossati: vedere [fossati-shutters.md](fossati-shutters.md). I conteggi precedenti rappresentano lo stato prima della sostituzione: ora 50 infissi e 46 schede del partner Fossati; le 42 finestre restano invariate.

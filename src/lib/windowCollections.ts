@@ -2,7 +2,7 @@ import type { Product } from './types';
 
 export const windowFamilies = [
   { id: 'finestre', name: 'Finestre e portefinestre', text: 'Scegli il materiale e il sistema di apertura.', cover: 'Icon Centenario' },
-  { id: 'persiane', name: 'Persiane e scuri', text: 'Oscuranti in alluminio per protezione, luce e privacy.', cover: 'Persiana Adriatica' },
+  { id: 'persiane', name: 'Persiane e scuri', text: 'Persiane a battente, scorrevoli e antoni dogati Fossati in alluminio.', cover: 'Raffaello' },
   { id: 'complementi', name: 'Soluzioni complementari', text: 'Sistemi per completare l’involucro e la protezione degli ambienti.', cover: 'SKIN' },
 ] as const;
 export const windowCollections = [
@@ -14,8 +14,9 @@ export const windowCollections = [
   { id: 'legno-scorrevole', family: 'finestre', name: 'Legno · scorrevoli', match: 'Scorrevoli in legno', text: 'La proposta Nova per gli alzanti scorrevoli in legno.' },
   { id: 'legno-alluminio', family: 'finestre', name: 'Legno / alluminio · a battente', match: 'Infissi legno/alluminio', text: 'Legno interno e protezione esterna in alluminio della linea ThermicX.' },
   { id: 'legno-alluminio-scorrevole', family: 'finestre', name: 'Legno / alluminio · scorrevoli', match: 'Scorrevoli in legno/alluminio', text: 'La gamma di alzanti ThermicX, Plus e Zero.' },
-  { id: 'persiane-alluminio', family: 'persiane', name: 'Persiane in alluminio', match: 'Persiane in alluminio', text: 'Modelli e configurazioni di persiane in alluminio.' },
-  { id: 'scuri-alluminio', family: 'persiane', name: 'Scuri in alluminio', match: 'Scuri in alluminio', text: 'Soluzioni con telaio oppure a murare.' },
+  { id: 'persiane-alluminio', family: 'persiane', name: 'Persiane a battente', match: 'Persiane in alluminio', text: 'Raffaello e Picasso: montaggio e stecche secondo il modello scelto.' },
+  { id: 'persiane-scorrevoli', family: 'persiane', name: 'Persiane scorrevoli', match: 'Persiane scorrevoli', text: 'Leonardo, con anta scorrevole su binario superiore.' },
+  { id: 'scuri-alluminio', family: 'persiane', name: 'Antoni dogati', match: 'Scuri in alluminio', text: 'Giotto, con doghe continue sul lato esterno e montaggio a muro o su telaio.' },
   { id: 'complementi', family: 'complementi', name: 'Sistemi complementari', match: 'Soluzioni complementari', text: 'Scopri i sistemi disponibili.' },
 ] as const;
 
@@ -27,5 +28,5 @@ export function getWindowCollection(product: Pick<Product, 'department_id' | 'su
 }
 
 export function getWindowFamily(params: URLSearchParams) {
-  return params.get('famiglia') ?? (params.get('partner') === 'fossati' ? 'finestre' : '');
+  return params.get('famiglia') ?? '';
 }

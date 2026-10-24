@@ -29,6 +29,7 @@ jobs:
           key: original-partner-logos-v1
       - run: npm run fetch:partner-logos
       - run: npm run check:filters
+      - run: npm run check:shutters
       - run: npm run check:fossati
       - run: npm run check:sections
       - run: npm run check:dierre
