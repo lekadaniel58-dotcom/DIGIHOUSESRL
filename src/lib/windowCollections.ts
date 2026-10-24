@@ -2,11 +2,11 @@ import type { Product } from './types';
 
 export const windowFamilies = [
   { id: 'finestre', name: 'Finestre e portefinestre', text: 'Scegli il materiale e il sistema di apertura.', cover: 'Icon Centenario' },
-  { id: 'persiane', name: 'Persiane e scuri', text: 'Persiane a battente, scorrevoli e antoni dogati Fossati in alluminio.', cover: 'Raffaello' },
+  { id: 'persiane', name: 'Persiane e scuri', text: 'Persiane a battente, scorrevoli e antoni dogati in alluminio.', cover: 'Raffaello' },
   { id: 'complementi', name: 'Soluzioni complementari', text: 'Sistemi per completare l’involucro e la protezione degli ambienti.', cover: 'SKIN' },
 ] as const;
 export const windowCollections = [
-  { id: 'pvc', family: 'finestre', name: 'PVC · a battente', match: 'Infissi in PVC', text: 'Sistemi Fossati in PVC, comprese le versioni con rivestimento ALU.' },
+  { id: 'pvc', family: 'finestre', name: 'PVC · a battente', match: 'Infissi in PVC', text: 'Sistemi in PVC, comprese le versioni con rivestimento ALU.' },
   { id: 'pvc-scorrevole', family: 'finestre', name: 'PVC · scorrevoli', match: 'Scorrevoli in PVC', text: 'Alzanti Meridiana, complanari in PVC ed Ecoslide.' },
   { id: 'alluminio-battente', family: 'finestre', name: 'Alluminio · a battente', match: 'Infissi in alluminio · battente', text: 'Metropolis, Forma e i nuovi sistemi iShape, iLine e iFrame.' },
   { id: 'alluminio-scorrevole', family: 'finestre', name: 'Alluminio · scorrevoli', match: 'Infissi in alluminio · scorrevoli', text: 'Alzanti, complanari e scorrevoli leggeri in alluminio.' },

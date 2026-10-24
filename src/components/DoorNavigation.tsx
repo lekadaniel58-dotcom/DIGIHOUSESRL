@@ -1,3 +1,4 @@
+import { catalogDisplayText } from '../lib/catalogDisplayText';
 import DoorSeriesNavigation from './DoorSeriesNavigation';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronRight, DoorClosed } from 'lucide-react';
@@ -53,7 +54,7 @@ export default function DoorNavigation({ products, family, collection, params, b
       <div className={`grid gap-5 ${family ? 'sm:grid-cols-2 lg:grid-cols-3' : 'md:grid-cols-2'}`}>
         {cards.map(item => <Link key={item.id} to={item.to} className="group flex min-w-0 flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-navy/10 transition-shadow hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold">
           <div className="aspect-[4/3] overflow-hidden bg-white">
-            {item.cover && <img src={item.cover.thumbnail ?? item.cover.images[0]} alt={item.cover.name} loading="lazy" decoding="async" className="h-full w-full object-contain p-3 transition-transform duration-200 motion-safe:group-hover:scale-105" />}
+            {item.cover && <img src={item.cover.thumbnail ?? item.cover.images[0]} alt={catalogDisplayText(item.cover.name)} loading="lazy" decoding="async" className="h-full w-full object-contain p-3 transition-transform duration-200 motion-safe:group-hover:scale-105" />}
           </div>
           <div className="flex flex-1 flex-col p-5"><p className="text-xs font-semibold uppercase tracking-wider text-gold-600">{item.models.length} {item.id.startsWith('pail-') ? 'configurazioni' : 'modelli'}</p><h3 className="mt-2 font-display text-2xl">{item.name}</h3><p className="mt-3 flex-1 text-sm text-navy/70">{item.text}</p><span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold">{family ? 'Scopri i modelli' : 'Esplora le collezioni'}<ArrowRight size={16} aria-hidden="true" /></span></div>
         </Link>)}

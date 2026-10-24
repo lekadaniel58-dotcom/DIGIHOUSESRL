@@ -1,3 +1,4 @@
+import { catalogDisplayText } from '../lib/catalogDisplayText';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronRight, Layers } from 'lucide-react';
 import type { Product } from '../lib/types';
@@ -35,7 +36,7 @@ export default function DoorMaterialNavigation({ products, params, browsing }: {
           const cover = models.find(product => product.name === item.cover) ?? models[0];
           const unverified = models.length === 0;
           const content = <>
-            <div className="grid aspect-[4/3] place-items-center overflow-hidden bg-white">{cover ? <img src={cover.thumbnail ?? cover.images[0]} alt={cover.name} loading="lazy" decoding="async" className="h-full w-full object-contain p-3 transition-transform duration-200 motion-safe:group-hover:scale-105" /> : <Layers size={52} className="text-gold" aria-hidden="true" />}</div>
+            <div className="grid aspect-[4/3] place-items-center overflow-hidden bg-white">{cover ? <img src={cover.thumbnail ?? cover.images[0]} alt={catalogDisplayText(cover.name)} loading="lazy" decoding="async" className="h-full w-full object-contain p-3 transition-transform duration-200 motion-safe:group-hover:scale-105" /> : <Layers size={52} className="text-gold" aria-hidden="true" />}</div>
             <div className="flex flex-1 flex-col p-5"><p className="text-xs font-semibold uppercase tracking-wider text-gold-600">{unverified ? 'Modelli da confermare' : `${models.length} ${models.length === 1 ? 'modello' : 'modelli'}`}</p><h3 className="mt-2 font-display text-2xl">{item.name}</h3><p className="mt-3 flex-1 text-sm text-navy/70">{item.text}</p><span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold">{unverified ? 'Chiedi informazioni' : 'Scopri i modelli'}<ArrowRight size={16} aria-hidden="true" /></span></div>
           </>;
           const className = 'group flex min-w-0 flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-navy/10 transition-shadow hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold';
