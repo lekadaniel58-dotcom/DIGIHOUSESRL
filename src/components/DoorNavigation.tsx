@@ -8,7 +8,7 @@ import { doorCollections, doorFamilies, getDoorCollection, getDoorCollections } 
 type Props = { products: Product[]; family: string; collection: string; params: URLSearchParams; browsing: boolean };
 
 export default function DoorNavigation({ products, family, collection, params, browsing }: Props) {
-  if (['moderne', 'pail-rapido', 'pail-super-rapido'].includes(collection) && browsing) return <DoorSeriesNavigation products={products} params={params} collection={collection} />;
+  if (['moderne', 'pail-rapido', 'pail-super-rapido', 'gp-legno'].includes(collection) && browsing) return <DoorSeriesNavigation products={products} params={params} collection={collection} />;
   const materialView = family === 'porte-interne' && (params.get('vista') === 'materiali' || !!params.get('materiale'));
   if (materialView) return <DoorMaterialNavigation products={products} params={params} browsing={browsing} />;
   const materialParams = new URLSearchParams(params);

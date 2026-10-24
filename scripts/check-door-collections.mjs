@@ -16,7 +16,7 @@ const expected = {
   'inferriate-persiane': ['Greta', 'Anthos', 'Anthea'],
 };
 assert.equal(products.length, 45);
-assert.equal(doorCollections.length, 10);
+assert.equal(doorCollections.length, 11);
 for (const [id, names] of Object.entries(expected)) {
   const assigned = products.filter(product => getDoorCollection(product)?.id === id).map(product => product.name);
   assert.deepEqual(new Set(assigned), new Set(names), id);
@@ -27,7 +27,7 @@ assert.equal(getDoorFamily('', 'dierre'), 'porte-blindate');
 assert.equal(getDoorFamily('', 'hex'), '');
 assert.equal(getDoorCollection({ department_id: 'infissi', subtitle: 'Porte interne · porte moderne' }), undefined);
 assert.equal(getDoorCollection({ department_id: 'porte-interne', subtitle: 'Nuova collezione' }), undefined);
-console.log('Porte verificate: 45 schede originarie preservate, 2 famiglie, 10 collezioni; nessun modello mancante o duplicato.');
+console.log('Porte verificate: 45 schede originarie preservate, 2 famiglie, 11 collezioni; nessun modello mancante o duplicato.');
 
 const materialCounts = { laminato: 0, legno: 11, vetro: 12, laccato: 1 };
 for (const [id, count] of Object.entries(materialCounts)) assert.equal(products.filter(product => getDoorMaterials(product).some(material => material.id === id)).length, count, id);

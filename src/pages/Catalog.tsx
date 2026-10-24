@@ -44,7 +44,7 @@ export default function Catalog() {
   const browsingWindows = windowScope && !windowCollection && !q.trim();
   const doorFamily = getDoorFamily(dep, partnerId);
   const doorScope = dep === 'porte' || !!doorFamily;
-  const browsingDoors = doorScope && (!collection || ['moderne', 'pail-rapido', 'pail-super-rapido'].includes(collection) && !series) && !material && !q.trim();
+  const browsingDoors = doorScope && (!collection || ['moderne', 'pail-rapido', 'pail-super-rapido', 'gp-legno'].includes(collection) && !series) && !material && !q.trim();
   useEffect(() => {
     if (doorScope || windowScope || sector) window.scrollTo({ top: 0, behavior: 'instant' });
   }, [doorScope, doorFamily, collection, series, material, doorView, windowScope, windowFamily, windowCollection, sector]);

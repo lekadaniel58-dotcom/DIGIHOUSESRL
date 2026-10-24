@@ -80,8 +80,9 @@ export function useCatalog() {
         }));
         const withAip = mergeAipProducts(products, localizeProducts(aipProducts));
         const withWindows = replaceWindowProducts([...withAip, ...localizeProducts(pailProducts)], localizeProducts(fossatiProducts));
+        const { default: gpWoodProducts } = await import('../data/gpWoodProducts.json');
         const complete = replaceShutterProducts(withWindows, localizeProducts(fossatiShutterProducts));
-        return { departments, products: groupBucketFormats(complete), loading: false, error: null };
+        return { departments, products: groupBucketFormats([...complete, ...localizeProducts(gpWoodProducts)]), loading: false, error: null };
       })
       .then(result => { if (alive) setState(result); })
       .catch(e => { if (alive) setState(s => ({ ...s, loading: false, error: String(e.message ?? e) })); });

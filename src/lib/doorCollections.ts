@@ -8,6 +8,7 @@ export const doorFamilies = [
 export const doorCollections = [
   { id: 'moderne', family: 'porte-interne', name: 'Trix · porte moderne', match: 'porte moderne', text: 'Geometrie contemporanee, superfici e dettagli di carattere.', cover: 'Grafix' },
   { id: 'legno', family: 'porte-interne', name: 'Sololegno · porte in legno', match: 'porte in legno', text: 'Venature, finiture e lavorazioni per dare personalità agli interni.', cover: 'Essenza' },
+  { id: 'gp-legno', family: 'porte-interne', name: 'GP Porte · Legno', match: 'gp legno', text: 'Tutte le linee del catalogo legno GP Porte, suddivise per serie e singolo modello.', cover: 'Classic 01' },
   { id: 'vetro', family: 'porte-interne', name: 'Visioni · porte in vetro', match: 'porte in vetro', text: 'Trasparenze e soluzioni che lasciano spazio alla luce.', cover: 'Athena' },
   { id: 'pail-rapido', family: 'porte-interne', name: 'Rapido Pail', match: 'rapido pail', text: 'Porte Pail delle serie Riga, Luna, Linea, Marsia e Mimetica. Finiture e configurazioni da concordare.', cover: 'Riga Milano' },
   { id: 'pail-super-rapido', family: 'porte-interne', name: 'Super Rapido Pail', match: 'super rapido pail', text: 'La selezione Super Rapido delle serie Linea e Marsia. Disponibilità e tempi da confermare al preventivo.', cover: 'Linea Cieca' },
@@ -31,7 +32,7 @@ export function getDoorCollection(product: Product) {
 
 export function getDoorFamily(department: string, partner: string) {
   if (doorFamilies.some(family => family.id === department)) return department;
-  if (!department && ['aip', 'pail'].includes(partner)) return 'porte-interne';
+  if (!department && ['aip', 'pail', 'gp'].includes(partner)) return 'porte-interne';
   if (!department && partner === 'dierre') return 'porte-blindate';
   return '';
 }

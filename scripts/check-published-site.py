@@ -1,5 +1,5 @@
 """Read-only smoke check of the public Pages deployment. Never submits any form."""
-import csv, io, json, pathlib, sys, time, urllib.parse, urllib.request
+import csv, io, json, pathlib, re, sys, time, urllib.parse, urllib.request
 from html.parser import HTMLParser
 BASE = sys.argv[1] if len(sys.argv) > 1 else 'https://lekadaniel58-dotcom.github.io/DIGIHOUSESRL/'
 if not BASE.endswith('/'): BASE += '/'
@@ -24,9 +24,16 @@ def check():
     assert any(kind == 'script' for _, kind in parser.urls), 'Missing application script'
     assert any(kind == 'stylesheet' for _, kind in parser.urls), 'Missing styles'
     assert any(kind == 'icon' for _, kind in parser.urls), 'Missing favicon'
+    checked_gp_module = False
     for url, kind in parser.urls:
         body, mime = fetch(url)
         assert body and mime != 'text/html', f'{kind} resolved to an HTML fallback'
+        if kind == 'script':
+            for chunk in set(re.findall(r'gpWoodProducts-[A-Za-z0-9_-]+\.js', body.decode('utf-8'))):
+                module, module_mime = fetch(urllib.parse.urljoin(url, chunk))
+                assert module and module_mime != 'text/html', 'GP catalogue module unavailable'
+                checked_gp_module = True
+    assert checked_gp_module, 'Published application does not include the GP catalogue'
     body, _ = fetch('data/catalogo.csv')
     products = list(csv.DictReader(io.StringIO(body.decode('utf-8-sig'))))
     assert products and all(row.get('name') for row in products), 'Catalog unavailable'
@@ -37,9 +44,15 @@ def check():
     for logo in logos:
         body, mime = fetch(logo.lstrip('/'))
         assert body and mime.startswith('image/'), f'Partner logo unavailable: {logo}'
+    gp = json.loads((pathlib.Path(__file__).resolve().parent.parent / 'src/data/gpWoodProducts.json').read_text())
+    samples = {p['door_series']:p for p in gp}
+    for product in samples.values():
+        for asset in [product['images'][0], product['thumbnail']]:
+            body, mime = fetch('data/immagini/'+asset)
+            assert body[8:12] == b'WEBP' and mime.startswith('image/'), 'GP image unavailable: '+product['name']
     body, _ = fetch('candidatura-inviata.html')
     assert b'digi-careers-receipt' in body, 'Application receipt unavailable'
-    print(f'Published site OK: homepage, JS, CSS, favicon, {len(products)} CSV records, {len(cities)} municipalities, {len(logos)} partner logos and application receipt. No forms submitted.')
+    print(f'Published site OK: homepage, JS, CSS, favicon, {len(products)} CSV records, {len(cities)} municipalities, {len(logos)} partner logos, GP catalogue module and images across 12 series, and application receipt. No forms submitted.')
 for attempt in range(4):
     try:
         check(); break
